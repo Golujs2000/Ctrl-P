@@ -122,51 +122,6 @@ export default function Hero({ onOpenQuote }) {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
-        {/* Top 3 Pillar Carousel Tabs */}
-        <div className="flex items-center justify-between gap-4 mb-8 pb-3 border-b border-zinc-100">
-          <div className="flex items-center gap-2 sm:gap-3 overflow-x-auto scrollbar-none py-1">
-            {slides.map((s, idx) => {
-              const Icon = s.icon;
-              const isActive = idx === current;
-              return (
-                <button
-                  key={s.id}
-                  onClick={() => setCurrent(idx)}
-                  className={`flex items-center gap-2 px-4 sm:px-5 py-2 rounded-full text-xs sm:text-sm font-extrabold tracking-wide transition-all duration-300 whitespace-nowrap cursor-pointer ${
-                    isActive
-                      ? 'bg-[#E31B23] text-white shadow-md shadow-red-500/20 scale-102'
-                      : 'bg-zinc-100 hover:bg-zinc-200 text-zinc-700'
-                  }`}
-                >
-                  <Icon className={`w-4 h-4 ${isActive ? 'text-white' : 'text-[#E31B23]'}`} />
-                  <span>{s.pill}</span>
-                  {isActive && (
-                    <span className="w-1.5 h-1.5 rounded-full bg-white ml-0.5 animate-pulse" />
-                  )}
-                </button>
-              );
-            })}
-          </div>
-
-          {/* Carousel Prev/Next Buttons */}
-          <div className="hidden sm:flex items-center gap-2">
-            <button
-              onClick={prevSlide}
-              aria-label="Previous Slide"
-              className="w-9 h-9 rounded-full bg-white hover:bg-zinc-100 border border-zinc-200 shadow-xs flex items-center justify-center text-zinc-700 hover:text-black transition-all"
-            >
-              <ChevronLeft className="w-5 h-5" />
-            </button>
-            <button
-              onClick={nextSlide}
-              aria-label="Next Slide"
-              className="w-9 h-9 rounded-full bg-white hover:bg-zinc-100 border border-zinc-200 shadow-xs flex items-center justify-center text-zinc-700 hover:text-black transition-all"
-            >
-              <ChevronRight className="w-5 h-5" />
-            </button>
-          </div>
-        </div>
-
         {/* Dynamic Slide Content Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-8 items-center min-h-[480px]">
           
@@ -308,22 +263,40 @@ export default function Hero({ onOpenQuote }) {
 
         </div>
 
-        {/* Bottom Carousel Progress & Dot Indicators */}
-        <div className="flex items-center justify-center gap-3 pt-8">
-          {slides.map((s, idx) => (
-            <button
-              key={s.id}
-              onClick={() => setCurrent(idx)}
-              aria-label={`Go to slide ${s.pill}`}
-              className="group py-2 px-1 cursor-pointer"
-            >
-              <div className={`h-2 rounded-full transition-all duration-300 ${
-                idx === current 
-                  ? 'w-10 bg-[#E31B23]' 
-                  : 'w-2 bg-zinc-300 group-hover:bg-zinc-400'
-              }`} />
-            </button>
-          ))}
+        {/* Bottom Carousel Progress & Navigation Controls */}
+        <div className="flex items-center justify-center gap-4 pt-10">
+          <button
+            onClick={prevSlide}
+            aria-label="Previous Slide"
+            className="w-9 h-9 rounded-full bg-zinc-100 hover:bg-zinc-200 border border-zinc-200/80 flex items-center justify-center text-zinc-700 hover:text-black transition-all cursor-pointer shadow-xs"
+          >
+            <ChevronLeft className="w-4 h-4" />
+          </button>
+
+          <div className="flex items-center gap-2">
+            {slides.map((s, idx) => (
+              <button
+                key={s.id}
+                onClick={() => setCurrent(idx)}
+                aria-label={`Go to slide ${s.pill}`}
+                className="group py-2 px-1 cursor-pointer"
+              >
+                <div className={`h-2 rounded-full transition-all duration-300 ${
+                  idx === current 
+                    ? 'w-9 bg-[#E31B23]' 
+                    : 'w-2 bg-zinc-300 group-hover:bg-zinc-400'
+                }`} />
+              </button>
+            ))}
+          </div>
+
+          <button
+            onClick={nextSlide}
+            aria-label="Next Slide"
+            className="w-9 h-9 rounded-full bg-zinc-100 hover:bg-zinc-200 border border-zinc-200/80 flex items-center justify-center text-zinc-700 hover:text-black transition-all cursor-pointer shadow-xs"
+          >
+            <ChevronRight className="w-4 h-4" />
+          </button>
         </div>
 
       </div>
