@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Phone, Mail, MapPin } from 'lucide-react';
+import Logo from './Logo';
 
 export default function Footer({ onOpenQuote }) {
   return (
@@ -10,16 +11,9 @@ export default function Footer({ onOpenQuote }) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="flex flex-col md:flex-row items-center justify-between gap-8 pb-8 border-b border-zinc-100">
           
-          {/* Brand Logo & Tagline */}
+          {/* Brand Logo with Emblem and Berlin Sans Typography */}
           <div className="flex flex-col items-center md:items-start text-center md:text-left">
-            <Link to="/" className="flex items-baseline">
-              <span className="text-4xl font-black tracking-tight text-black">Ctrl</span>
-              <span className="text-4xl font-black tracking-tight text-[#E31B23]">P</span>
-              <span className="text-xs font-bold text-zinc-400 ml-0.5">®</span>
-            </Link>
-            <span className="text-xs font-bold tracking-wider text-zinc-500 uppercase mt-0.5">
-               Printing • Advertising • Event
-            </span>
+            <Logo size="large" />
           </div>
 
           {/* Navigation Links */}

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Eye, CheckCircle2, ArrowRight } from 'lucide-react';
+import { Eye, CheckCircle2, ArrowRight, X } from 'lucide-react';
 
 const portfolioItems = [
   {
@@ -172,31 +172,55 @@ export default function Portfolio({ onOpenQuote }) {
       </div>
 
       {/* Lightbox Preview Modal */}
+      {/* Lightbox / Image Preview Modal */}
       {previewItem && (
         <div 
           onClick={() => setPreviewItem(null)}
-          className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-xs animate-in fade-in duration-200"
+          className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-6 bg-black/80 backdrop-blur-sm animate-in fade-in duration-200 overflow-y-auto"
         >
           <div 
             onClick={(e) => e.stopPropagation()}
-            className="relative max-w-2xl w-full bg-white rounded-3xl overflow-hidden shadow-2xl border border-zinc-100 p-6 space-y-4"
+            className="relative max-w-2xl w-full max-h-[90vh] flex flex-col bg-white rounded-2xl sm:rounded-3xl overflow-hidden shadow-2xl border border-zinc-100 my-auto"
           >
-            <div className="aspect-[16/11] rounded-2xl overflow-hidden bg-zinc-100 border border-zinc-200">
-              <img
-                src={previewItem.image}
-                alt={previewItem.title}
-                className="w-full h-full object-contain"
-              />
-            </div>
+            {/* Top Close Floating Button */}
+            <button
+              onClick={() => setPreviewItem(null)}
+              aria-label="Close modal"
+              className="absolute top-4 right-4 z-20 w-9 h-9 rounded-full bg-black/60 hover:bg-black text-white flex items-center justify-center transition-colors shadow-md"
+            >
+              <X className="w-5 h-5" />
+            </button>
 
-            <div className="flex items-center justify-between">
-              <div>
-                <span className="text-xs font-extrabold text-[#E31B23] uppercase">
+            {/* Scrollable Body */}
+            <div className="flex-1 overflow-y-auto p-5 sm:p-6 space-y-4">
+              <div className="w-full max-h-64 sm:max-h-80 rounded-xl sm:rounded-2xl overflow-hidden bg-zinc-100 border border-zinc-200 flex items-center justify-center p-2">
+                <img
+                  src={previewItem.image}
+                  alt={previewItem.title}
+                  className="max-h-60 sm:max-h-76 w-full object-contain rounded-lg"
+                  onError={(e) => {
+                    e.target.src = '/assets/brand-favicon.png';
+                  }}
+                />
+              </div>
+
+              <div className="space-y-1 text-left">
+                <span className="text-xs font-black text-[#E31B23] uppercase tracking-wider">
                   {previewItem.category}
                 </span>
-                <h3 className="text-xl font-black text-black">{previewItem.title}</h3>
-                <p className="text-xs text-zinc-500 font-medium">Production by Ctrl P • {previewItem.client}</p>
+                <h3 className="text-xl sm:text-2xl font-black text-black leading-snug">{previewItem.title}</h3>
+                <p className="text-xs sm:text-sm text-zinc-500 font-medium">Production by Ctrl P • {previewItem.client}</p>
               </div>
+            </div>
+
+            {/* Bottom Actions */}
+            <div className="p-4 sm:p-5 border-t border-zinc-100 bg-zinc-50/80 flex items-center justify-between gap-4 shrink-0">
+              <button
+                onClick={() => setPreviewItem(null)}
+                className="px-4 py-2.5 rounded-xl border border-zinc-200 text-xs font-bold text-zinc-600 hover:text-black hover:bg-zinc-100 transition-colors"
+              >
+                Close
+              </button>
 
               <button
                 onClick={() => {
@@ -204,9 +228,9 @@ export default function Portfolio({ onOpenQuote }) {
                   setPreviewItem(null);
                   onOpenQuote(item.category);
                 }}
-                className="px-5 py-2.5 rounded-xl bg-[#E31B23] hover:bg-[#C7141B] text-white text-xs font-black uppercase tracking-wider shadow-sm transition-all"
+                className="px-6 py-2.5 rounded-xl bg-[#E31B23] hover:bg-[#C7141B] text-white text-xs font-black uppercase tracking-wider shadow-sm transition-all transform hover:-translate-y-0.5"
               >
-                Order This
+                Order Similar Job
               </button>
             </div>
           </div>

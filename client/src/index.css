@@ -1,5 +1,31 @@
 @import "tailwindcss";
 
+/* 1. Official Berlin Sans FB Font Faces */
+@font-face {
+  font-family: 'Berlin Sans FB';
+  src: url('/fonts/BRLNSB.TTF') format('truetype');
+  font-weight: 700 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Berlin Sans FB';
+  src: url('/fonts/BRLNSDB.TTF') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Berlin Sans FB';
+  src: url('/fonts/BRLNSR.TTF') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 2. Brand Design Tokens */
 @theme {
   --color-brand-red: #E31B23;
   --color-brand-red-dark: #C7141B;
@@ -7,25 +33,34 @@
   --color-brand-yellow: #F5B014;
   --color-brand-gray-light: #F8F9FA;
   
-  --font-heading: "Berlin Sans FB", "Outfit", system-ui, -apple-system, sans-serif;
-  --font-body: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --font-berlin: "Berlin Sans FB", system-ui, -apple-system, sans-serif;
+  --font-heading: "Berlin Sans FB", system-ui, -apple-system, sans-serif;
+  --font-body: "Inter", "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --font-sans: "Inter", "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
 }
 
+/* 3. Base Styles */
 @layer base {
   body {
     font-family: var(--font-body);
     color: #111111;
     background-color: #FFFFFF;
     overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
 
-  h1, h2, h3, h4, h5, h6 {
+  h1, h2, h3, h4 {
     font-family: var(--font-heading);
-    letter-spacing: -0.02em;
+    letter-spacing: -0.015em;
   }
 }
 
-/* Custom Utilities */
+/* 4. Utility Classes */
+.font-berlin {
+  font-family: var(--font-berlin);
+}
+
 .text-brand-red {
   color: #E31B23;
 }
