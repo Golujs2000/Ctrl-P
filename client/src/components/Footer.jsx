@@ -35,7 +35,7 @@ export default function Footer({ onOpenQuote }) {
           <div className="flex items-center gap-3">
             {/* Facebook */}
             <a
-              href="https://facebook.com"
+              href="https://www.facebook.com/CtrlPpatna/"
               target="_blank"
               rel="noreferrer"
               aria-label="Facebook"
