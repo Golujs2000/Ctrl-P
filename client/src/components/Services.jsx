@@ -1,154 +1,16 @@
 import React, { useState } from 'react';
-import { ArrowRight, Lightbulb, Check } from 'lucide-react';
+import { Link } from 'react-router-dom';
+import { ArrowRight, Lightbulb, ExternalLink } from 'lucide-react';
+import { servicesList } from '../data/servicesData';
 
-const servicesData = [
-  {
-    id: 'business-card',
-    title: 'Business Card Printing',
-    image: '/assets/sample-business-card-intekhab-1.jpeg',
-    category: 'Stationery',
-    badge: 'Popular'
-  },
-  {
-    id: 'brochure',
-    title: 'Brochure Printing',
-    image: '/assets/sample-brochure-aquacity-patna.jpeg',
-    category: 'Marketing',
-    badge: 'High Res'
-  },
-  {
-    id: 'flyer',
-    title: 'Flyer Printing',
-    image: '/assets/sample-visiting-card-flyer-unique.jpg',
-    category: 'Marketing',
-  },
-  {
-    id: 'poster',
-    title: 'Poster Printing',
-    image: '/assets/creative-festival-cricket-diwali.jpeg',
-    category: 'Marketing',
-  },
-  {
-    id: 'banner',
-    title: 'Banner Printing',
-    image: '/assets/sample-standee-rahul-electric.jpg',
-    category: 'Signage',
-    badge: 'Eco-Flex'
-  },
-  {
-    id: 'pamphlet',
-    title: 'Pamphlet Printing',
-    image: '/assets/creative-poster-2022-03-11.png',
-    category: 'Marketing',
-  },
-  {
-    id: 'wedding-card',
-    title: 'Wedding Card Printing',
-    image: '/assets/sample-invitation-card-birthday.jpg',
-    category: 'Events',
-    badge: 'Premium'
-  },
-  {
-    id: 'invitation-card',
-    title: 'Invitation Card Printing',
-    image: '/assets/sample-invitation-card-birthday.jpg',
-    category: 'Events',
-  },
-  {
-    id: 'offset',
-    title: 'Offset Printing',
-    image: '/assets/machine-eco-flex-laminator-room.jpeg',
-    category: 'Bulk Press',
-    badge: 'Factory'
-  },
-  {
-    id: 'digital',
-    title: 'Digital Printing',
-    image: '/assets/creative-poster-2022-03-08.png',
-    category: 'Stationery',
-    badge: 'Fast'
-  },
-  {
-    id: 't-shirt',
-    title: 'T-Shirt Printing',
-    image: '/assets/portfolio-branded-carry-bag.jpeg',
-    category: 'Apparel',
-  },
-  {
-    id: 'custom-mug',
-    title: 'Custom Mug Printing',
-    image: '/assets/office-consultation-desk-1.jpeg',
-    category: 'Gifting',
-    badge: 'Gift'
-  },
-  {
-    id: 'id-card',
-    title: 'ID Card Printing',
-    image: '/assets/sample-business-card-streax.jpg',
-    category: 'Stationery',
-  },
-  {
-    id: 'booklet',
-    title: 'Booklet Printing',
-    image: '/assets/sample-book-mission-amu-jmi.jpeg',
-    category: 'Publishing',
-    badge: 'Bulk'
-  },
-  {
-    id: 'sticker',
-    title: 'Sticker Printing',
-    image: '/assets/brand-favicon.png',
-    category: 'Marketing',
-    badge: 'Die-Cut'
-  },
-  {
-    id: 'calendar',
-    title: 'Calendar Printing',
-    image: '/assets/creative-festival-dhanteras.jpeg',
-    category: 'Stationery',
-  },
-  {
-    id: 'corporate-gift',
-    title: 'Corporate Gift Printing',
-    image: '/assets/portfolio-branded-carry-bag.jpeg',
-    category: 'Gifting',
-  },
-  {
-    id: 'large-format',
-    title: 'Large Format Printing',
-    image: '/assets/machine-gethray-eco-flex-large.jpeg',
-    category: 'Signage',
-    badge: 'Up to 10ft'
-  },
-  {
-    id: 'flex',
-    title: 'Flex Printing',
-    image: '/assets/storefront-board-front-view.jpeg',
-    category: 'Signage',
-    badge: 'Star Flex'
-  },
-  {
-    id: 'signage-branding',
-    title: 'Signage & Branding',
-    image: '/assets/brand-signage-gstin.jpeg',
-    category: 'Signage',
-  },
-  {
-    id: 'event',
-    title: 'Event Printing',
-    image: '/assets/storefront-entrance-celebration.jpeg',
-    category: 'Events',
-  }
-];
-
-export default function Services({ onOpenQuote, onSelectService }) {
+export default function Services({ onOpenQuote }) {
   const [filter, setFilter] = useState('All');
 
   const categories = ['All', 'Stationery', 'Marketing', 'Signage', 'Events', 'Gifting'];
 
   const filteredServices = filter === 'All' 
-    ? servicesData 
-    : servicesData.filter(s => s.category === filter);
+    ? servicesList 
+    : servicesList.filter(s => s.category === filter);
 
   return (
     <section id="services" className="py-16 lg:py-24 bg-[#FAFAFA] border-b border-zinc-100">
@@ -165,13 +27,13 @@ export default function Services({ onOpenQuote, onSelectService }) {
             </h2>
           </div>
 
-          <button
-            onClick={() => onOpenQuote()}
+          <Link
+            to="/services"
             className="inline-flex items-center gap-1.5 text-sm font-bold text-[#E31B23] hover:text-[#C7141B] transition-colors group self-start md:self-auto"
           >
-            <span>View All Services</span>
+            <span>View All 21+ Services</span>
             <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-          </button>
+          </Link>
         </div>
 
         {/* Category Pills Filter */}
@@ -194,15 +56,15 @@ export default function Services({ onOpenQuote, onSelectService }) {
         {/* 21+ Services Grid matching design */}
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-4 gap-4 sm:gap-6">
           {filteredServices.map((service) => (
-            <div
-              key={service.id}
-              onClick={() => onSelectService(service.title)}
-              className="bg-white rounded-2xl p-4 sm:p-5 border border-zinc-200/80 shadow-sm hover:shadow-md hover:border-[#E31B23]/40 transition-all duration-300 flex flex-col items-center text-center cursor-pointer group transform hover:-translate-y-1"
+            <Link
+              key={service.slug}
+              to={`/services/${service.slug}`}
+              className="bg-white rounded-2xl p-4 sm:p-5 border border-zinc-200/80 shadow-sm hover:shadow-lg hover:border-[#E31B23]/50 transition-all duration-300 flex flex-col items-center text-center group transform hover:-translate-y-1 block"
             >
               {/* Image Preview Thumbnail */}
               <div className="w-full aspect-[4/3] rounded-xl overflow-hidden bg-zinc-50 mb-3 flex items-center justify-center p-2 relative">
                 <img
-                  src={service.image}
+                  src={service.heroImage}
                   alt={service.title}
                   className="w-full h-full object-cover rounded-lg group-hover:scale-105 transition-transform duration-500"
                   onError={(e) => {
@@ -221,10 +83,11 @@ export default function Services({ onOpenQuote, onSelectService }) {
                 {service.title}
               </h3>
               
-              <span className="text-[11px] font-medium text-zinc-500 mt-1">
-                Custom quotes available
-              </span>
-            </div>
+              <div className="mt-2 flex items-center gap-1 text-[11px] font-bold text-[#E31B23] group-hover:underline">
+                <span>View Details & Specs</span>
+                <ArrowRight className="w-3 h-3 group-hover:translate-x-0.5 transition-transform" />
+              </div>
+            </Link>
           ))}
 
           {/* Custom Printing Solutions Banner Card matching mockup */}

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Phone, Mail, MapPin } from 'lucide-react';
 
 export default function Footer({ onOpenQuote }) {
@@ -11,24 +12,24 @@ export default function Footer({ onOpenQuote }) {
           
           {/* Brand Logo & Tagline */}
           <div className="flex flex-col items-center md:items-start text-center md:text-left">
-            <a href="#home" className="flex items-baseline">
+            <Link to="/" className="flex items-baseline">
               <span className="text-4xl font-black tracking-tight text-black">Ctrl</span>
               <span className="text-4xl font-black tracking-tight text-[#E31B23]">P</span>
               <span className="text-xs font-bold text-zinc-400 ml-0.5">®</span>
-            </a>
+            </Link>
             <span className="text-xs font-bold tracking-wider text-zinc-500 uppercase mt-0.5">
-              Printing • Advertising • Event
+               Printing • Advertising • Event
             </span>
           </div>
 
           {/* Navigation Links */}
           <nav className="flex flex-wrap items-center justify-center gap-6 sm:gap-8 text-sm font-bold text-zinc-700">
-            <a href="#home" className="hover:text-[#E31B23] transition-colors">Home</a>
-            <a href="#about" className="hover:text-[#E31B23] transition-colors">About</a>
-            <a href="#services" className="hover:text-[#E31B23] transition-colors">Services</a>
-            <a href="#machines" className="hover:text-[#E31B23] transition-colors">Machines</a>
-            <a href="#why-us" className="hover:text-[#E31B23] transition-colors">Our Work</a>
-            <a href="#contact" className="hover:text-[#E31B23] transition-colors">Contact</a>
+            <Link to="/" className="hover:text-[#E31B23] transition-colors">Home</Link>
+            <Link to="/about" className="hover:text-[#E31B23] transition-colors">About</Link>
+            <Link to="/services" className="hover:text-[#E31B23] transition-colors">Services</Link>
+            <Link to="/machines" className="hover:text-[#E31B23] transition-colors">Machines</Link>
+            <Link to="/our-work" className="hover:text-[#E31B23] transition-colors">Our Work</Link>
+            <Link to="/contact" className="hover:text-[#E31B23] transition-colors">Contact</Link>
           </nav>
 
           {/* Social Media Buttons matching mockup */}
