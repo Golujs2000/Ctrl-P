@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "ctrl-p-d5a8e",
     "public": "client/dist",
     "ignore": [
       "firebase.json",
