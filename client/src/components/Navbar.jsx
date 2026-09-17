@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { NavLink, Link } from 'react-router-dom';
-import { Phone, Menu, X } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import Logo from './Logo';
 
 export default function Navbar({ onOpenQuote }) {
@@ -31,8 +31,8 @@ export default function Navbar({ onOpenQuote }) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           
-          {/* Brand Logo with Emblem and Berlin Sans Typography */}
-          <Logo />
+          {/* Brand Logo without icon as requested */}
+          <Logo showIcon={false} />
 
           {/* Desktop Navigation Links */}
           <nav className="hidden md:flex items-center space-x-7">
@@ -63,9 +63,8 @@ export default function Navbar({ onOpenQuote }) {
             </button>
             <a
               href="tel:9304085366"
-              className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-[#E31B23] hover:bg-[#C7141B] text-white text-sm font-bold shadow-md hover:shadow-lg transition-all duration-200 transform hover:-translate-y-0.5"
+              className="inline-flex items-center justify-center px-5 py-2.5 rounded-full bg-[#E31B23] hover:bg-[#C7141B] text-white text-sm font-extrabold shadow-md hover:shadow-lg transition-all duration-200 transform hover:-translate-y-0.5"
             >
-              <Phone className="w-4 h-4 fill-white" />
               <span>9304085366</span>
             </a>
           </div>
@@ -74,10 +73,10 @@ export default function Navbar({ onOpenQuote }) {
           <div className="flex sm:hidden items-center gap-2">
             <a
               href="tel:9304085366"
-              className="p-2 rounded-full bg-[#E31B23] text-white"
+              className="px-3 py-1.5 rounded-full bg-[#E31B23] text-white text-xs font-extrabold"
               aria-label="Call"
             >
-              <Phone className="w-4 h-4" />
+              Call
             </a>
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
