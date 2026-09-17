@@ -25,7 +25,29 @@
   font-display: swap;
 }
 
-/* 2. Brand Design Tokens */
+/* 2. Official CMYK Print-Press Color System */
+:root {
+  /* Ctrl P Brand Red: M100 Y90 (C:0% M:100% Y:90% K:0%) */
+  --color-cmyk-red: #E31B23;
+  --cmyk-red-ink: device-cmyk(0 1 0.9 0);
+
+  /* Process Cyan: C:100% M:0% Y:0% K:0% */
+  --color-cmyk-cyan: #00A3E0;
+  --cmyk-cyan-ink: device-cmyk(1 0 0 0);
+
+  /* Process Magenta: C:0% M:100% Y:0% K:0% */
+  --color-cmyk-magenta: #EC008C;
+  --cmyk-magenta-ink: device-cmyk(0 1 0 0);
+
+  /* Process Yellow: C:0% M:0% Y:100% K:0% */
+  --color-cmyk-yellow: #FFED00;
+  --cmyk-yellow-ink: device-cmyk(0 0 1 0);
+
+  /* Process Key / Black: C:0% M:0% Y:0% K:100% */
+  --color-cmyk-black: #111111;
+  --cmyk-black-ink: device-cmyk(0 0 0 1);
+}
+
 @theme {
   --color-brand-red: #E31B23;
   --color-brand-red-dark: #C7141B;
@@ -33,6 +55,12 @@
   --color-brand-yellow: #F5B014;
   --color-brand-gray-light: #F8F9FA;
   
+  /* CMYK Process Palette */
+  --color-cmyk-cyan: #00A3E0;
+  --color-cmyk-magenta: #EC008C;
+  --color-cmyk-yellow: #FFED00;
+  --color-cmyk-black: #111111;
+
   --font-berlin: "Berlin Sans FB", system-ui, -apple-system, sans-serif;
   --font-heading: "Berlin Sans FB", system-ui, -apple-system, sans-serif;
   --font-body: "Inter", "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;

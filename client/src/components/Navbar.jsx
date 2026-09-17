@@ -17,6 +17,17 @@ export default function Navbar({ onOpenQuote }) {
 
   return (
     <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-zinc-100 transition-all">
+      {/* Official CMYK Process Inks Top Bar */}
+      <div 
+        className="w-full h-1 flex" 
+        title="Ctrl P Process Inks: Cyan (C:100%), Magenta (M:100%), Yellow (Y:100%), Black (K:100%) • Red (M:100% Y:90%)"
+      >
+        <div className="flex-1 bg-[#00A3E0]" />
+        <div className="flex-1 bg-[#EC008C]" />
+        <div className="flex-1 bg-[#FFED00]" />
+        <div className="flex-1 bg-[#111111]" />
+      </div>
+
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           

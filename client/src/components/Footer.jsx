@@ -84,7 +84,16 @@ export default function Footer({ onOpenQuote }) {
         </div>
 
         {/* Bottom Copyright Strip matching mockup */}
-        <div className="pt-8 text-center text-xs font-semibold text-zinc-500 space-y-1">
+        <div className="pt-8 text-center text-xs font-semibold text-zinc-500 space-y-2">
+          <div className="flex items-center justify-center gap-3">
+            <span className="text-[10px] font-extrabold uppercase tracking-widest text-zinc-400">CMYK In-House Press</span>
+            <div className="flex items-center gap-1.5 text-[10px] font-black">
+              <span className="inline-flex items-center gap-1 text-zinc-600"><span className="w-2.5 h-2.5 rounded-full bg-[#00A3E0] shadow-xs" />C</span>
+              <span className="inline-flex items-center gap-1 text-zinc-600"><span className="w-2.5 h-2.5 rounded-full bg-[#EC008C] shadow-xs" />M</span>
+              <span className="inline-flex items-center gap-1 text-zinc-600"><span className="w-2.5 h-2.5 rounded-full bg-[#FFED00] shadow-xs border border-zinc-200" />Y</span>
+              <span className="inline-flex items-center gap-1 text-zinc-600"><span className="w-2.5 h-2.5 rounded-full bg-[#111111] shadow-xs" />K</span>
+            </div>
+          </div>
           <p>
             © {new Date().getFullYear()} Ctrl P. All rights reserved. | Printing • Advertising • Event | Patna, Bihar
           </p>
