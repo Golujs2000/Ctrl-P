@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { NavLink, Link } from 'react-router-dom';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, Phone } from 'lucide-react';
 import Logo from './Logo';
 
 export default function Navbar({ onOpenQuote }) {
@@ -63,8 +63,9 @@ export default function Navbar({ onOpenQuote }) {
             </button>
             <a
               href="tel:9304085366"
-              className="inline-flex items-center justify-center px-5 py-2.5 rounded-full bg-[#E31B23] hover:bg-[#C7141B] text-white text-sm font-extrabold shadow-md hover:shadow-lg transition-all duration-200 transform hover:-translate-y-0.5"
+              className="inline-flex items-center justify-center gap-2 px-5 py-2.5 rounded-full bg-[#E31B23] hover:bg-[#C7141B] text-white text-sm font-extrabold shadow-md hover:shadow-lg transition-all duration-200 transform hover:-translate-y-0.5"
             >
+              <Phone className="w-4 h-4 fill-white shrink-0" />
               <span>9304085366</span>
             </a>
           </div>
@@ -73,10 +74,11 @@ export default function Navbar({ onOpenQuote }) {
           <div className="flex sm:hidden items-center gap-2">
             <a
               href="tel:9304085366"
-              className="px-3 py-1.5 rounded-full bg-[#E31B23] text-white text-xs font-extrabold"
-              aria-label="Call"
+              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-[#E31B23] text-white text-xs font-extrabold shadow-xs"
+              aria-label="Call 9304085366"
             >
-              Call
+              <Phone className="w-3.5 h-3.5 fill-white shrink-0" />
+              <span>9304085366</span>
             </a>
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
