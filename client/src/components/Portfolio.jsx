@@ -12,19 +12,19 @@ const portfolioItems = [
   },
   {
     id: 2,
-    title: 'Aqua City Patna Luxury Brochure',
+    title: 'Corporate Tri-Fold Marketing Brochure',
     category: 'Brochures',
-    client: 'Saakaar Constructions Patna',
-    image: '/assets/sample-brochure-aquacity-patna.jpeg',
-    tags: ['300 GSM Art Paper', 'Velvet Lamination']
+    client: 'Uru Marketing Pvt. Ltd., Patna',
+    image: '/assets/sample-print-work-03.jpg',
+    tags: ['300 GSM Art Paper', 'Tri-Fold Lamination']
   },
   {
     id: 3,
-    title: 'Mission AMU / JMI Entrance Question Bank',
+    title: 'Digital Photo Book & Album Booklet',
     category: 'Booklets',
-    client: 'Education Adda Publication',
-    image: '/assets/sample-book-mission-amu-jmi.jpeg',
-    tags: ['Perfect Binding', 'Offset Book Press']
+    client: 'Sanjeet Raj Creative Studio, Patna',
+    image: '/assets/sample-print-work-15.jpg',
+    tags: ['Glossy Photo Pages', 'Saddle-Stitched']
   },
   {
     id: 4,
@@ -52,11 +52,11 @@ const portfolioItems = [
   },
   {
     id: 7,
-    title: 'Abhigyan High School Annual Magazine',
-    category: 'Booklets',
-    client: 'Dargahiganj High School Bihar',
-    image: '/assets/sample-booklet-school-abhigyan.jpeg',
-    tags: ['Center Pinning', 'Gloss Cover']
+    title: 'Sidhi Complex & Banquet Luxury Cards',
+    category: 'Business Cards',
+    client: 'Sidhi Banquet Hall, Patna',
+    image: '/assets/sample-print-work-02.jpg',
+    tags: ['Double-Sided Print', 'Yellow & Black 350 GSM']
   },
   {
     id: 8,

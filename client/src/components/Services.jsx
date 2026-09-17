@@ -72,7 +72,7 @@ export default function Services({ onOpenQuote }) {
                   }}
                 />
                 {service.badge && (
-                  <span className="absolute top-3 right-3 bg-white/90 backdrop-blur-sm text-[10px] font-extrabold text-[#E31B23] px-2 py-0.5 rounded-md shadow-xs border border-zinc-200">
+                  <span className="absolute top-3 right-3 bg-[#FFED00] text-black text-[10px] font-black px-2.5 py-0.5 rounded-md shadow-xs border border-amber-300">
                     {service.badge}
                   </span>
                 )}

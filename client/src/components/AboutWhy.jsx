@@ -5,35 +5,43 @@ export default function AboutWhy({ onOpenQuote }) {
   const whyPoints = [
     {
       title: 'High-quality printing',
-      icon: Award
+      icon: Award,
+      isYellow: false
     },
     {
       title: 'Custom printing solutions',
-      icon: Palette
+      icon: Palette,
+      isYellow: true
     },
     {
       title: 'Offset & eco-flex printing',
-      icon: Layers
+      icon: Layers,
+      isYellow: false
     },
     {
-      title: 'Affordable pricing',
-      icon: IndianRupee
+      title: 'Affordable direct pricing',
+      icon: IndianRupee,
+      isYellow: true
     },
     {
       title: 'Professional finishing',
-      icon: Sparkles
+      icon: Sparkles,
+      isYellow: false
     },
     {
       title: 'Fast local service in Patna',
-      icon: MapPin
+      icon: MapPin,
+      isYellow: true
     },
     {
       title: 'Business & event printing',
-      icon: Building
+      icon: Building,
+      isYellow: false
     },
     {
       title: 'Dedicated customer support',
-      icon: Headphones
+      icon: Headphones,
+      isYellow: false
     }
   ];
 
@@ -94,16 +102,20 @@ export default function AboutWhy({ onOpenQuote }) {
               </h2>
             </div>
 
-            {/* 2-Column Checklist with red round icon badges */}
+            {/* 2-Column Checklist with red & yellow round icon badges */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
               {whyPoints.map((item, idx) => {
                 const IconComp = item.icon;
                 return (
                   <div
                     key={idx}
-                    className="flex items-center gap-3 p-3.5 rounded-xl bg-zinc-50/80 border border-zinc-200/70 hover:border-[#E31B23]/30 hover:bg-red-50/30 transition-all duration-200"
+                    className="flex items-center gap-3 p-3.5 rounded-xl bg-zinc-50/80 border border-zinc-200/70 hover:border-zinc-300 transition-all duration-200"
                   >
-                    <div className="w-8 h-8 rounded-full bg-red-100/70 text-[#E31B23] flex items-center justify-center shrink-0">
+                    <div className={`w-8 h-8 rounded-full flex items-center justify-center shrink-0 ${
+                      item.isYellow 
+                        ? 'bg-[#FFED00] text-black border border-amber-300 shadow-2xs' 
+                        : 'bg-red-100/70 text-[#E31B23]'
+                    }`}>
                       <IconComp className="w-4 h-4" />
                     </div>
                     <span className="text-xs sm:text-sm font-bold text-zinc-800">
@@ -114,16 +126,21 @@ export default function AboutWhy({ onOpenQuote }) {
               })}
             </div>
 
-            {/* Bottom Quick Callout */}
-            <div className="p-4 rounded-xl border border-dashed border-red-200 bg-red-50/40 flex items-center justify-between text-xs">
-              <span className="font-bold text-zinc-800">
-                Need advice on paper GSM, flex material or finishing?
-              </span>
+            {/* Bottom Quick Callout with Yellow styling */}
+            <div className="p-4 rounded-xl border border-amber-300 bg-gradient-to-r from-amber-50 to-yellow-50/70 flex items-center justify-between text-xs shadow-xs">
+              <div className="flex items-center gap-2">
+                <span className="px-2 py-0.5 rounded-md bg-[#FFED00] text-black font-black text-[10px] border border-amber-300 shrink-0">
+                  Direct Expert
+                </span>
+                <span className="font-bold text-zinc-900">
+                  Need advice on paper GSM, flex material or finishes?
+                </span>
+              </div>
               <button
                 onClick={onOpenQuote}
-                className="font-extrabold text-[#E31B23] hover:underline shrink-0 ml-2"
+                className="font-extrabold text-black bg-[#FFED00] hover:bg-[#F5B014] px-3.5 py-1.5 rounded-lg border border-amber-300 shadow-xs transition-colors shrink-0 ml-2"
               >
-                Talk to Expert →
+                Talk to Press →
               </button>
             </div>
 

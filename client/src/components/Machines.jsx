@@ -70,7 +70,15 @@ export default function Machines({ onOpenQuote }) {
           {/* Card 3: Professional Machines Statement Card matching mockup */}
           <div className="bg-white rounded-2xl p-8 border-2 border-zinc-100 shadow-sm flex flex-col justify-center space-y-6">
             <div className="space-y-4">
-              <div className="w-12 h-1.5 bg-[#E31B23] rounded-full"></div>
+              <div className="flex items-center justify-between">
+                <div className="flex items-center gap-1.5">
+                  <div className="w-10 h-1.5 bg-[#E31B23] rounded-full"></div>
+                  <div className="w-6 h-1.5 bg-[#FFED00] rounded-full border border-amber-300"></div>
+                </div>
+                <span className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-[#FFED00] text-black font-black text-[10px] border border-amber-300 shadow-xs">
+                  ⚡ In-House Patna Setup
+                </span>
+              </div>
               
               <h3 className="text-3xl sm:text-4xl font-black text-black tracking-tight leading-tight">
                 Professional Machines.<br />
@@ -92,7 +100,9 @@ export default function Machines({ onOpenQuote }) {
                 <span>Zero color fading with UV-resistant inks</span>
               </div>
               <div className="flex items-center gap-2.5 text-xs font-bold text-zinc-800">
-                <Zap className="w-4 h-4 text-[#E31B23] shrink-0" />
+                <div className="w-4 h-4 rounded-full bg-[#FFED00] text-black border border-amber-300 flex items-center justify-center shrink-0">
+                  <Zap className="w-2.5 h-2.5" />
+                </div>
                 <span>Same-day priority turnaround available</span>
               </div>
               <div className="flex items-center gap-2.5 text-xs font-bold text-zinc-800">

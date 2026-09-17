@@ -67,19 +67,21 @@ export default function ServiceDetailPage({ onOpenQuote }) {
                 {service.category}
               </span>
               {service.badge && (
-                <span className="absolute top-5 right-5 bg-[#E31B23] text-white text-[11px] font-extrabold px-3 py-1 rounded-full shadow-sm">
+                <span className="absolute top-5 right-5 bg-[#FFED00] text-black text-[11px] font-black px-3.5 py-1 rounded-full shadow-sm border border-amber-300">
                   {service.badge}
                 </span>
               )}
             </div>
 
-            {/* In-House Production Guarantee Strip */}
-            <div className="p-4 rounded-2xl bg-zinc-50 border border-zinc-200 flex items-center justify-between text-xs">
-              <div className="flex items-center gap-2 font-bold text-zinc-800">
-                <ShieldCheck className="w-4 h-4 text-emerald-600" />
-                <span>100% In-House Factory Production in Patna</span>
+            {/* Direct Factory Guarantee Strip with Yellow Accent */}
+            <div className="p-3.5 rounded-2xl bg-gradient-to-r from-amber-50/80 via-white to-zinc-50 border border-amber-200/80 flex items-center justify-between text-xs shadow-xs">
+              <div className="flex items-center gap-2 font-bold text-zinc-900">
+                <span className="w-2.5 h-2.5 rounded-full bg-[#FFED00] border border-amber-400" />
+                <span>Direct Factory Rate • No Middlemen</span>
               </div>
-              <span className="text-zinc-500 font-medium">Langar Toli Studio</span>
+              <span className="text-amber-900 font-extrabold text-[11px] bg-[#FFED00]/60 border border-amber-300/80 px-2.5 py-0.5 rounded-md">
+                Langar Toli Studio
+              </span>
             </div>
           </div>
 
@@ -110,12 +112,14 @@ export default function ServiceDetailPage({ onOpenQuote }) {
                 </div>
               </div>
 
-              <div className="p-3.5 rounded-xl bg-zinc-50 border border-zinc-200/80">
-                <div className="flex items-center gap-2 text-zinc-500 text-xs font-bold mb-1">
-                  <IndianRupee className="w-3.5 h-3.5 text-[#E31B23]" />
-                  <span>Estimated Pricing</span>
+              <div className="p-3.5 rounded-xl bg-gradient-to-br from-[#FFFBEB] to-[#FEF3C7]/70 border-2 border-[#F5B014]/60 shadow-xs">
+                <div className="flex items-center gap-2 text-amber-900 text-xs font-bold mb-1">
+                  <div className="w-5 h-5 rounded-full bg-[#FFED00] text-black border border-amber-300 flex items-center justify-center shrink-0">
+                    <IndianRupee className="w-3 h-3" />
+                  </div>
+                  <span className="uppercase tracking-wider text-[10px] font-black text-amber-900">Estimated Pricing</span>
                 </div>
-                <div className="text-xs sm:text-sm font-extrabold text-black">
+                <div className="text-xs sm:text-sm font-black text-zinc-950">
                   {service.pricing}
                 </div>
               </div>

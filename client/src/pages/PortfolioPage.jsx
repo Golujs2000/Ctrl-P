@@ -6,12 +6,12 @@ import CtaBanner from '../components/CtaBanner';
 const detailedWorks = [
   {
     id: 1,
-    title: 'Aqua City Patna Luxury Real Estate Brochure',
+    title: 'Uru Marketing Corporate Tri-Fold Brochure',
     category: 'Brochures',
-    client: 'Saakaar Constructions, Veer Chand Patel Marg, Patna',
-    image: '/assets/sample-brochure-aquacity-patna.jpeg',
-    specs: '300 GSM Imported Art Card, Soft Velvet Lamination, Gold Foil Embossed Logo',
-    description: 'A multi-panel premium brochure designed and printed for high-end residential apartments in Patna.'
+    client: 'Uru Marketing Pvt. Ltd., Subhash Complex, Patna',
+    image: '/assets/sample-print-work-03.jpg',
+    specs: '300 GSM Imported Art Card, Soft Silk Lamination, Vibrant Yellow & Magenta Pantone Ink',
+    description: 'A multi-panel commercial marketing brochure designed and printed for corporate promotions.'
   },
   {
     id: 2,
@@ -24,12 +24,12 @@ const detailedWorks = [
   },
   {
     id: 3,
-    title: 'Mission AMU / JMI 12-Year Question Bank',
+    title: 'Digital Photo Book & Album Catalog',
     category: 'Booklets',
-    client: 'Education Adda Publication, Bihar',
-    image: '/assets/sample-book-mission-amu-jmi.jpeg',
-    specs: '320 Pages, 70 GSM Maplitho interior, 300 GSM UV Gloss Cover, Perfect Hot Glue Bound',
-    description: 'High-speed bulk publication of entrance examination books distributed across Bihar.'
+    client: 'Sanjeet Raj Creative Studio, Patna',
+    image: '/assets/sample-print-work-15.jpg',
+    specs: 'Gloss Photo Pages, 250 GSM Hard Cover with Gold Foil Embossed Lettering',
+    description: 'High-definition digital photo book printing with lay-flat stitched binding.'
   },
   {
     id: 4,
@@ -60,21 +60,21 @@ const detailedWorks = [
   },
   {
     id: 7,
-    title: 'Abhigyan High School Annual Magazine',
-    category: 'Booklets',
-    client: 'Dargahiganj High School, Araria, Bihar',
-    image: '/assets/sample-booklet-school-abhigyan.jpeg',
-    specs: '80 Pages, Full color photo pages, 130 GSM Gloss Art, Saddle-stitched center pin',
-    description: 'Annual educational souvenir magazine featuring student achievements and faculty honors.'
+    title: 'Sidhi Complex & Banquet Luxury Cards',
+    category: 'Business Cards',
+    client: 'Sidhi Complex & Marriage Hall, Patna',
+    image: '/assets/sample-print-work-02.jpg',
+    specs: '350 GSM Yellow & Black Cardstock, High Contrast Map Guide on Back',
+    description: 'Double-sided prestige business cards with location landmark map printing.'
   },
   {
     id: 8,
-    title: 'Riconex Lifecare Corporate Profile & Document',
+    title: 'Commercial Print Catalog & Brochure Layout',
     category: 'Brochures',
-    client: 'Riconex Lifecare Pvt. Ltd.',
-    image: '/assets/sample-brochure-riconex-lifecare.jpeg',
-    specs: 'A4 Bi-Fold, 250 GSM Matte Card, Spot UV on Certificate Accents',
-    description: 'ISO-certified pharma and herbal product opportunity document for statewide distribution.'
+    client: 'Commercial Publishing Patna',
+    image: '/assets/sample-print-work-18.jpg',
+    specs: 'A4 Multi-Panel, CMYK Process Quality Inspection, Silk Matte Finish',
+    description: 'Full CMYK color process catalogue showcasing print specifications and finishes.'
   },
   {
     id: 9,

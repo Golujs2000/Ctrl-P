@@ -57,7 +57,7 @@ export default function Navbar({ onOpenQuote }) {
           <div className="hidden sm:flex items-center gap-3">
             <button
               onClick={() => onOpenQuote()}
-              className="px-4 py-2 text-xs font-bold text-zinc-700 hover:text-[#E31B23] border border-zinc-200 rounded-full hover:border-[#E31B23] transition-colors"
+              className="px-4 py-2 text-xs font-extrabold text-black bg-[#FFED00] hover:bg-[#F5B014] border border-amber-300 rounded-full shadow-xs transition-all duration-200 transform hover:scale-105"
             >
               Get Quote
             </button>

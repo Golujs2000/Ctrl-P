@@ -19,6 +19,12 @@ export default function Hero({ onOpenQuote }) {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
             <div className="max-w-[44%] lg:max-w-[42%] xl:max-w-[40%] space-y-4 lg:space-y-6 text-left">
               
+              {/* Top Yellow Announcement Pill */}
+              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#FFED00] text-black font-black text-[11px] lg:text-xs shadow-xs border border-amber-300">
+                <span className="w-2 h-2 rounded-full bg-[#E31B23]" />
+                <span>Patna's Direct Offset & Digital Press • No Middlemen</span>
+              </div>
+
               {/* Main Headline in Berlin Sans FB Bold */}
               <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-black text-black tracking-tight leading-[1.08]">
                 Print It.<br />
@@ -47,11 +53,11 @@ export default function Hero({ onOpenQuote }) {
                   <span className="text-[11px] lg:text-xs font-bold text-zinc-800">Fast Turnaround</span>
                 </div>
 
-                <div className="flex items-center gap-2 bg-white/80 backdrop-blur-xs p-1.5 rounded-lg border border-zinc-100 shadow-xs">
-                  <div className="w-6 h-6 rounded-full bg-red-50 text-[#E31B23] flex items-center justify-center shrink-0">
+                <div className="flex items-center gap-2 bg-white/80 backdrop-blur-xs p-1.5 rounded-lg border border-amber-200/80 shadow-xs">
+                  <div className="w-6 h-6 rounded-full bg-[#FFED00] text-black flex items-center justify-center shrink-0 border border-amber-300">
                     <IndianRupee className="w-3.5 h-3.5" />
                   </div>
-                  <span className="text-[11px] lg:text-xs font-bold text-zinc-800">Direct Factory Rate</span>
+                  <span className="text-[11px] lg:text-xs font-bold text-zinc-900">Direct Factory Rate</span>
                 </div>
 
                 <div className="flex items-center gap-2 bg-white/80 backdrop-blur-xs p-1.5 rounded-lg border border-zinc-100 shadow-xs">
@@ -88,8 +94,13 @@ export default function Hero({ onOpenQuote }) {
       {/* Mobile View (< md): Stacked Layout so both the Full Picture and Text are 100% visible */}
       <div className="md:hidden px-4 pt-8 pb-10 space-y-6 text-left">
         
-        {/* Mobile Headline */}
-        <div className="space-y-2">
+        {/* Mobile Headline with Yellow Pill */}
+        <div className="space-y-3">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#FFED00] text-black font-black text-xs shadow-xs border border-amber-300">
+            <span className="w-2 h-2 rounded-full bg-[#E31B23]" />
+            <span>Patna's Direct Offset & Digital Press</span>
+          </div>
+
           <h1 className="text-4xl font-black text-black tracking-tight leading-[1.08]">
             Print It.<br />
             Brand It.<br />

@@ -4,7 +4,7 @@ export const servicesList = [
     title: 'Business Card Printing',
     category: 'Stationery',
     shortDesc: 'Premium visiting cards that create memorable first impressions for your business.',
-    heroImage: '/assets/sample-business-card-intekhab-1.jpeg',
+    heroImage: '/assets/sample-business-card-streax.jpg',
     badge: 'Most Popular',
     overview: 'Make an unforgettable impression with high-grade visiting cards printed at Ctrl P in Patna. We offer a full spectrum of materials ranging from 300 GSM art board to premium velvet touch, matte lamination, metallic spot UV, and gold foil stamping.',
     materials: [
@@ -34,8 +34,8 @@ export const servicesList = [
       }
     ],
     gallery: [
-      '/assets/sample-business-card-intekhab-1.jpeg',
       '/assets/sample-business-card-streax.jpg',
+      '/assets/sample-print-work-02.jpg',
       '/assets/sample-business-card-rym-solutions.jpg',
       '/assets/sample-business-card-pnb-ratni.jpg'
     ]
@@ -45,7 +45,7 @@ export const servicesList = [
     title: 'Brochure Printing',
     category: 'Marketing',
     shortDesc: 'Multi-fold brochures and corporate profiles printed with vivid color fidelity.',
-    heroImage: '/assets/sample-brochure-aquacity-patna.jpeg',
+    heroImage: '/assets/sample-print-work-03.jpg',
     badge: 'High Impact',
     overview: 'Elevate your marketing campaigns with high-impact corporate brochures. Ideal for real estate developments, educational institutes, medical diagnostics, and B2B corporate profiles across Bihar.',
     materials: [
@@ -69,9 +69,10 @@ export const servicesList = [
       }
     ],
     gallery: [
-      '/assets/sample-brochure-aquacity-patna.jpeg',
-      '/assets/sample-brochure-riconex-lifecare.jpeg',
-      '/assets/sample-visiting-card-flyer-unique.jpg'
+      '/assets/sample-print-work-03.jpg',
+      '/assets/sample-visiting-card-flyer-unique.jpg',
+      '/assets/sample-print-work-18.jpg',
+      '/assets/sample-print-work-15.jpg'
     ]
   },
   {
@@ -187,7 +188,7 @@ export const servicesList = [
     ],
     gallery: [
       '/assets/sample-invitation-card-birthday.jpg',
-      '/assets/sample-business-card-intekhab-2.jpeg'
+      '/assets/sample-print-work-15.jpg'
     ]
   },
   {
@@ -322,7 +323,7 @@ export const servicesList = [
     ],
     gallery: [
       '/assets/sample-business-card-streax.jpg',
-      '/assets/sample-booklet-school-abhigyan.jpeg'
+      '/assets/sample-print-work-08.jpg'
     ]
   },
   {
@@ -330,7 +331,7 @@ export const servicesList = [
     title: 'Booklet Printing',
     category: 'Publishing',
     shortDesc: 'School magazines, competitive exam guides, manuals, and stitched product booklets.',
-    heroImage: '/assets/sample-book-mission-amu-jmi.jpeg',
+    heroImage: '/assets/sample-print-work-15.jpg',
     badge: 'Educational',
     overview: 'Comprehensive book and booklet manufacturing. We handle printing, saddle-stitching, perfect binding, and hard-cover finishing for educational institutions, government tenders, and authors in Patna.',
     materials: ['Inner pages: 70-100 GSM Maplitho/Art Paper', 'Cover: 250-300 GSM Art Board with Gloss/Matte Film'],
@@ -344,8 +345,10 @@ export const servicesList = [
       }
     ],
     gallery: [
-      '/assets/sample-book-mission-amu-jmi.jpeg',
-      '/assets/sample-booklet-school-abhigyan.jpeg'
+      '/assets/sample-print-work-15.jpg',
+      '/assets/sample-print-work-18.jpg',
+      '/assets/sample-visiting-card-flyer-unique.jpg',
+      '/assets/sample-print-work-03.jpg'
     ]
   },
   {
