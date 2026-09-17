@@ -25,41 +25,41 @@
   font-display: swap;
 }
 
-/* 2. Official CMYK Print-Press Color System */
+/* 2. Official CMYK Print-Press Color System (CSS Color Module Level 4) */
 :root {
   /* Ctrl P Brand Red: M100 Y90 (C:0% M:100% Y:90% K:0%) */
-  --color-cmyk-red: #E31B23;
-  --cmyk-red-ink: device-cmyk(0 1 0.9 0);
+  --color-brand-red: device-cmyk(0% 100% 90% 0%);
+  --color-brand-red-dark: device-cmyk(0% 100% 90% 15%);
+  --color-brand-dark: device-cmyk(0% 0% 0% 100%);
+  --color-brand-yellow: device-cmyk(0% 28% 92% 4%);
+  --color-brand-gray-light: device-cmyk(0% 0% 0% 3%);
 
   /* Process Cyan: C:100% M:0% Y:0% K:0% */
-  --color-cmyk-cyan: #00A3E0;
-  --cmyk-cyan-ink: device-cmyk(1 0 0 0);
+  --color-cmyk-cyan: device-cmyk(100% 0% 0% 0%);
 
   /* Process Magenta: C:0% M:100% Y:0% K:0% */
-  --color-cmyk-magenta: #EC008C;
-  --cmyk-magenta-ink: device-cmyk(0 1 0 0);
+  --color-cmyk-magenta: device-cmyk(0% 100% 0% 0%);
 
   /* Process Yellow: C:0% M:0% Y:100% K:0% */
-  --color-cmyk-yellow: #FFED00;
-  --cmyk-yellow-ink: device-cmyk(0 0 1 0);
+  --color-cmyk-yellow: device-cmyk(0% 0% 100% 0%);
 
   /* Process Key / Black: C:0% M:0% Y:0% K:100% */
-  --color-cmyk-black: #111111;
-  --cmyk-black-ink: device-cmyk(0 0 0 1);
+  --color-cmyk-black: device-cmyk(0% 0% 0% 100%);
 }
 
 @theme {
-  --color-brand-red: #E31B23;
-  --color-brand-red-dark: #C7141B;
-  --color-brand-dark: #111111;
-  --color-brand-yellow: #F5B014;
-  --color-brand-gray-light: #F8F9FA;
+  /* Brand Colors defined via device-cmyk */
+  --color-brand-red: device-cmyk(0% 100% 90% 0%);
+  --color-brand-red-dark: device-cmyk(0% 100% 90% 15%);
+  --color-brand-dark: device-cmyk(0% 0% 0% 100%);
+  --color-brand-yellow: device-cmyk(0% 28% 92% 4%);
+  --color-brand-gray-light: device-cmyk(0% 0% 0% 3%);
   
   /* CMYK Process Palette */
-  --color-cmyk-cyan: #00A3E0;
-  --color-cmyk-magenta: #EC008C;
-  --color-cmyk-yellow: #FFED00;
-  --color-cmyk-black: #111111;
+  --color-cmyk-cyan: device-cmyk(100% 0% 0% 0%);
+  --color-cmyk-magenta: device-cmyk(0% 100% 0% 0%);
+  --color-cmyk-yellow: device-cmyk(0% 0% 100% 0%);
+  --color-cmyk-black: device-cmyk(0% 0% 0% 100%);
 
   --font-berlin: "Berlin Sans FB", system-ui, -apple-system, sans-serif;
   --font-heading: "Berlin Sans FB", system-ui, -apple-system, sans-serif;
@@ -84,21 +84,64 @@
   }
 }
 
-/* 4. Utility Classes */
+/* 4. Utility Classes with CMYK Syntax */
 .font-berlin {
   font-family: var(--font-berlin);
 }
 
 .text-brand-red {
   color: #E31B23;
+  color: device-cmyk(0% 100% 90% 0%);
 }
 
 .bg-brand-red {
   background-color: #E31B23;
+  background-color: device-cmyk(0% 100% 90% 0%);
 }
 
 .border-brand-red {
   border-color: #E31B23;
+  border-color: device-cmyk(0% 100% 90% 0%);
+}
+
+.text-cmyk-cyan {
+  color: #00A3E0;
+  color: device-cmyk(100% 0% 0% 0%);
+}
+
+.bg-cmyk-cyan {
+  background-color: #00A3E0;
+  background-color: device-cmyk(100% 0% 0% 0%);
+}
+
+.text-cmyk-magenta {
+  color: #EC008C;
+  color: device-cmyk(0% 100% 0% 0%);
+}
+
+.bg-cmyk-magenta {
+  background-color: #EC008C;
+  background-color: device-cmyk(0% 100% 0% 0%);
+}
+
+.text-cmyk-yellow {
+  color: #FFED00;
+  color: device-cmyk(0% 0% 100% 0%);
+}
+
+.bg-cmyk-yellow {
+  background-color: #FFED00;
+  background-color: device-cmyk(0% 0% 100% 0%);
+}
+
+.text-cmyk-black {
+  color: #111111;
+  color: device-cmyk(0% 0% 0% 100%);
+}
+
+.bg-cmyk-black {
+  background-color: #111111;
+  background-color: device-cmyk(0% 0% 0% 100%);
 }
 
 .shadow-card {
