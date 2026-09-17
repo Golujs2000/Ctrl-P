@@ -1,0 +1,217 @@
+import React, { useState } from 'react';
+import { Eye, CheckCircle2, ArrowRight } from 'lucide-react';
+
+const portfolioItems = [
+  {
+    id: 1,
+    title: 'Ctrl P Branded Non-Woven Bags',
+    category: 'Corporate Gifts',
+    client: 'Ctrl P Official Production',
+    image: '/assets/portfolio-branded-carry-bag.jpeg',
+    tags: ['Eco Bag', 'Multi-color Screen Print']
+  },
+  {
+    id: 2,
+    title: 'Aqua City Patna Luxury Brochure',
+    category: 'Brochures',
+    client: 'Saakaar Constructions Patna',
+    image: '/assets/sample-brochure-aquacity-patna.jpeg',
+    tags: ['300 GSM Art Paper', 'Velvet Lamination']
+  },
+  {
+    id: 3,
+    title: 'Mission AMU / JMI Entrance Question Bank',
+    category: 'Booklets',
+    client: 'Education Adda Publication',
+    image: '/assets/sample-book-mission-amu-jmi.jpeg',
+    tags: ['Perfect Binding', 'Offset Book Press']
+  },
+  {
+    id: 4,
+    title: 'Streax & Beardhood Executive Cards',
+    category: 'Business Cards',
+    client: 'Hygienic Research Institute',
+    image: '/assets/sample-business-card-streax.jpg',
+    tags: ['Matte Black + Gold Foil', 'QR Code']
+  },
+  {
+    id: 5,
+    title: 'Vikram Vicky Confectionery Packaging',
+    category: 'Packaging',
+    client: 'Vikram Candy & Food Products',
+    image: '/assets/packaging-label-vikram-orange-candy.jpg',
+    tags: ['Food Grade Roll', 'Vibrant Rotogravure']
+  },
+  {
+    id: 6,
+    title: 'Rahul Electric Roll-up Standee',
+    category: 'Banners',
+    client: 'Rahul Electric Patna',
+    image: '/assets/sample-standee-rahul-electric.jpg',
+    tags: ['Star Flex', 'Aluminium Rollup Standee']
+  },
+  {
+    id: 7,
+    title: 'Abhigyan High School Annual Magazine',
+    category: 'Booklets',
+    client: 'Dargahiganj High School Bihar',
+    image: '/assets/sample-booklet-school-abhigyan.jpeg',
+    tags: ['Center Pinning', 'Gloss Cover']
+  },
+  {
+    id: 8,
+    title: 'Ganga Motor Driving School Cards',
+    category: 'Business Cards',
+    client: 'Ganga Motors Patna',
+    image: '/assets/sample-business-card-ganga-motor.jpg',
+    tags: ['UV Spot', '350 GSM Cardstock']
+  }
+];
+
+export default function Portfolio({ onOpenQuote }) {
+  const [activeCategory, setActiveCategory] = useState('All');
+  const [previewItem, setPreviewItem] = useState(null);
+
+  const categories = ['All', 'Business Cards', 'Brochures', 'Booklets', 'Packaging', 'Banners', 'Corporate Gifts'];
+
+  const filtered = activeCategory === 'All' 
+    ? portfolioItems 
+    : portfolioItems.filter(item => item.category === activeCategory);
+
+  return (
+    <section id="our-work" className="py-16 lg:py-24 bg-white border-b border-zinc-100">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        
+        {/* Header */}
+        <div className="flex flex-col md:flex-row md:items-end justify-between mb-8 gap-4">
+          <div>
+            <span className="text-xs sm:text-sm font-extrabold uppercase tracking-wider text-[#E31B23]">
+              Real Samples & Production
+            </span>
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-black tracking-tight mt-1">
+              Printed Right Here in <span className="text-[#E31B23]">Patna</span>
+            </h2>
+          </div>
+
+          <button
+            onClick={() => onOpenQuote()}
+            className="inline-flex items-center gap-2 text-xs sm:text-sm font-bold text-[#E31B23] hover:text-[#C7141B] transition-colors"
+          >
+            <span>Have a Similar Project? Get Quote</span>
+            <ArrowRight className="w-4 h-4" />
+          </button>
+        </div>
+
+        {/* Filter Pills */}
+        <div className="flex items-center gap-2 overflow-x-auto pb-4 mb-8 scrollbar-none">
+          {categories.map((cat) => (
+            <button
+              key={cat}
+              onClick={() => setActiveCategory(cat)}
+              className={`px-4 py-2 rounded-full text-xs font-bold transition-all whitespace-nowrap ${
+                activeCategory === cat
+                  ? 'bg-black text-white shadow-sm'
+                  : 'bg-zinc-100 text-zinc-700 hover:bg-zinc-200'
+              }`}
+            >
+              {cat}
+            </button>
+          ))}
+        </div>
+
+        {/* Portfolio Grid */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          {filtered.map((item) => (
+            <div
+              key={item.id}
+              onClick={() => setPreviewItem(item)}
+              className="group bg-zinc-50 rounded-2xl overflow-hidden border border-zinc-200/80 hover:border-[#E31B23]/40 shadow-xs hover:shadow-lg transition-all duration-300 flex flex-col cursor-pointer"
+            >
+              <div className="relative aspect-[4/3] bg-zinc-100 overflow-hidden">
+                <img
+                  src={item.image}
+                  alt={item.title}
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  onError={(e) => {
+                    e.target.src = '/assets/brand-favicon.png';
+                  }}
+                />
+                <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                  <span className="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-full bg-white text-black text-xs font-bold shadow-lg">
+                    <Eye className="w-4 h-4 text-[#E31B23]" />
+                    <span>View Sample</span>
+                  </span>
+                </div>
+                <span className="absolute top-3 left-3 text-[10px] font-extrabold uppercase tracking-wider bg-white/95 backdrop-blur-xs text-black px-2.5 py-1 rounded-md shadow-xs border border-zinc-200">
+                  {item.category}
+                </span>
+              </div>
+
+              <div className="p-4 flex-1 flex flex-col justify-between space-y-2">
+                <div>
+                  <h4 className="text-sm font-extrabold text-black group-hover:text-[#E31B23] transition-colors line-clamp-1">
+                    {item.title}
+                  </h4>
+                  <p className="text-xs text-zinc-500 font-medium line-clamp-1 mt-0.5">
+                    Client: {item.client}
+                  </p>
+                </div>
+
+                <div className="flex flex-wrap gap-1.5 pt-1">
+                  {item.tags.map((tag, i) => (
+                    <span key={i} className="text-[10px] font-semibold text-zinc-600 bg-white px-2 py-0.5 rounded border border-zinc-200">
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+
+      </div>
+
+      {/* Lightbox Preview Modal */}
+      {previewItem && (
+        <div 
+          onClick={() => setPreviewItem(null)}
+          className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-xs animate-in fade-in duration-200"
+        >
+          <div 
+            onClick={(e) => e.stopPropagation()}
+            className="relative max-w-2xl w-full bg-white rounded-3xl overflow-hidden shadow-2xl border border-zinc-100 p-6 space-y-4"
+          >
+            <div className="aspect-[16/11] rounded-2xl overflow-hidden bg-zinc-100 border border-zinc-200">
+              <img
+                src={previewItem.image}
+                alt={previewItem.title}
+                className="w-full h-full object-contain"
+              />
+            </div>
+
+            <div className="flex items-center justify-between">
+              <div>
+                <span className="text-xs font-extrabold text-[#E31B23] uppercase">
+                  {previewItem.category}
+                </span>
+                <h3 className="text-xl font-black text-black">{previewItem.title}</h3>
+                <p className="text-xs text-zinc-500 font-medium">Production by Ctrl P • {previewItem.client}</p>
+              </div>
+
+              <button
+                onClick={() => {
+                  const item = previewItem;
+                  setPreviewItem(null);
+                  onOpenQuote(item.category);
+                }}
+                className="px-5 py-2.5 rounded-xl bg-[#E31B23] hover:bg-[#C7141B] text-white text-xs font-black uppercase tracking-wider shadow-sm transition-all"
+              >
+                Order This
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+    </section>
+  );
+}
