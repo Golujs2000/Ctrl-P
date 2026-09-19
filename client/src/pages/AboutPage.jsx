@@ -2,10 +2,36 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { CheckCircle2, ShieldCheck, Award, MapPin, Phone, Users, Clock, Printer } from 'lucide-react';
 import CtaBanner from '../components/CtaBanner';
+import SEOHead from '../components/SEOHead';
 
 export default function AboutPage({ onOpenQuote }) {
+  const aboutSchema = [
+    {
+      "@context": "https://schema.org",
+      "@type": "AboutPage",
+      "name": "About Ctrl P | Commercial Printing & Design Studio in Patna",
+      "description": "Learn about Ctrl P: Located in Kalyani Complex, Langar Toli Chauraha, Patna. Equipped with offset and digital presses serving over 2,500+ businesses across Bihar.",
+      "url": "https://ctrlppatna.in/about"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://ctrlppatna.in/" },
+        { "@type": "ListItem", "position": 2, "name": "About Us", "item": "https://ctrlppatna.in/about" }
+      ]
+    }
+  ];
+
   return (
     <div className="bg-white min-h-screen">
+      <SEOHead
+        title="About Ctrl P | Leading Printing Press in Patna, Bihar"
+        description="Discover Ctrl P in Kalyani Complex, Langar Toli, Patna. Our in-house Heidelberg offset and digital press facility delivers commercial printing, books, banners, and doctor stationery."
+        keywords="about Ctrl P Patna, printing company Patna, printing shop Langar Toli, best printer in Bihar, Ctrl P Kalyani Complex"
+        canonicalPath="/about"
+        schema={aboutSchema}
+      />
       
       {/* Breadcrumbs */}
       <div className="border-b border-zinc-100 bg-zinc-50/60 py-3.5">

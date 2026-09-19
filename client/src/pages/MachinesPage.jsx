@@ -2,10 +2,36 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { CheckCircle2, ShieldCheck, Zap, Gauge, Cpu, ArrowRight } from 'lucide-react';
 import CtaBanner from '../components/CtaBanner';
+import SEOHead from '../components/SEOHead';
 
 export default function MachinesPage({ onOpenQuote }) {
+  const machinesSchema = [
+    {
+      "@context": "https://schema.org",
+      "@type": "AboutPage",
+      "name": "Printing Machinery & Technology in Patna | Ctrl P",
+      "description": "Tour our in-house commercial press equipment: Heidelberg offset press, Gethray 10.5ft eco-solvent flex printer, Konica Minolta bizhub digital press, and perfect book binding.",
+      "url": "https://ctrlppatna.in/machines"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://ctrlppatna.in/" },
+        { "@type": "ListItem", "position": 2, "name": "Machines", "item": "https://ctrlppatna.in/machines" }
+      ]
+    }
+  ];
+
   return (
     <div className="bg-white min-h-screen">
+      <SEOHead
+        title="Printing Press Machinery & Production Technology in Patna | Ctrl P"
+        description="Explore our in-house industrial printing press machinery: Heidelberg offset, Gethray 10.5ft flex printer, Konica Minolta digital press, and automated book binding in Patna."
+        keywords="printing machine Patna, Heidelberg offset press Bihar, eco flex printer Gethray, digital printing machine Konica Minolta, book binding machine Patna"
+        canonicalPath="/machines"
+        schema={machinesSchema}
+      />
       
       {/* Breadcrumbs */}
       <div className="border-b border-zinc-100 bg-zinc-50/60 py-3.5">

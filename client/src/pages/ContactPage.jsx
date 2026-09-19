@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { MapPin, Phone, Mail, Clock, Send, MessageSquare, ExternalLink, Navigation, CheckCircle2 } from 'lucide-react';
+import SEOHead from '../components/SEOHead';
 
 export default function ContactPage() {
   const [name, setName] = useState('');
@@ -28,8 +29,52 @@ export default function ContactPage() {
     }
   };
 
+  const contactSchema = [
+    {
+      "@context": "https://schema.org",
+      "@type": "ContactPage",
+      "name": "Contact Ctrl P | Printing Press in Langar Toli, Patna",
+      "description": "Contact Ctrl P in Kalyani Complex, Langar Toli Chauraha, Patna. Phone: +91 9304085366, +91 9304323888. Open Monday to Saturday 10:00 AM - 9:00 PM.",
+      "url": "https://ctrlppatna.in/contact",
+      "mainEntity": {
+        "@type": "LocalBusiness",
+        "name": "Ctrl P — A Design & Print Shop",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Shop No. 1 & 2, Kalyani Complex, Bari Path, Langar Toli Chauraha",
+          "addressLocality": "Patna",
+          "addressRegion": "Bihar",
+          "postalCode": "800004",
+          "addressCountry": "IN"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 25.6162456,
+          "longitude": 85.158286
+        },
+        "telephone": ["+919304085366", "+919304323888"],
+        "hasMap": "https://maps.google.com/?q=25.6162456,85.158286"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://ctrlppatna.in/" },
+        { "@type": "ListItem", "position": 2, "name": "Contact", "item": "https://ctrlppatna.in/contact" }
+      ]
+    }
+  ];
+
   return (
     <div className="bg-white min-h-screen">
+      <SEOHead
+        title="Contact Ctrl P | Langar Toli Chauraha, Kalyani Complex, Patna"
+        description="Visit Ctrl P in Kalyani Complex, Langar Toli, Patna for all commercial printing inquiries. Call +91 9304085366. Google Maps directions, store hours, and instant WhatsApp quote."
+        keywords="contact Ctrl P Patna, printing shop address Patna, Kalyani Complex Langar Toli, printing press phone number Bihar"
+        canonicalPath="/contact"
+        schema={contactSchema}
+      />
       
       {/* Breadcrumbs */}
       <div className="border-b border-zinc-100 bg-zinc-50/60 py-3.5">
