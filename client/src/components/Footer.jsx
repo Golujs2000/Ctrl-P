@@ -80,7 +80,58 @@ export default function Footer({ onOpenQuote }) {
               </svg>
             </a>
           </div>
+        </div>
 
+        {/* Specialized Services Directory Grid */}
+        <div className="py-8 border-b border-zinc-100 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-6 text-left text-xs">
+          <div>
+            <h4 className="font-black text-black uppercase tracking-wider mb-2.5 text-[11px]">Healthcare</h4>
+            <ul className="space-y-1.5 text-zinc-600 font-semibold">
+              <li><Link to="/services/doctor-healthcare-printing" className="hover:text-[#E31B23]">Doctor Patient Files</Link></li>
+              <li><Link to="/services/letterhead-letterpad-printing" className="hover:text-[#E31B23]">Prescription Letterpads</Link></li>
+              <li><Link to="/services/id-card-printing" className="hover:text-[#E31B23]">Clinic Staff ID Cards</Link></li>
+            </ul>
+          </div>
+          <div>
+            <h4 className="font-black text-black uppercase tracking-wider mb-2.5 text-[11px]">Publishing</h4>
+            <ul className="space-y-1.5 text-zinc-600 font-semibold">
+              <li><Link to="/services/book-printing-publishing" className="hover:text-[#E31B23]">Book Printing</Link></li>
+              <li><Link to="/services/urdu-design-calligraphy-print" className="hover:text-[#E31B23]">Urdu Literature</Link></li>
+              <li><Link to="/services/spiral-staple-binding" className="hover:text-[#E31B23]">Spiral & Glue Binding</Link></li>
+            </ul>
+          </div>
+          <div>
+            <h4 className="font-black text-black uppercase tracking-wider mb-2.5 text-[11px]">Outdoor & Banners</h4>
+            <ul className="space-y-1.5 text-zinc-600 font-semibold">
+              <li><Link to="/services/standee-rollup-display-printing" className="hover:text-[#E31B23]">Roll-Up Standees</Link></li>
+              <li><Link to="/services/canopy-tent-promotional-outdoor" className="hover:text-[#E31B23]">Promotional Canopies</Link></li>
+              <li><Link to="/services/promotional-umbrella-sunshade" className="hover:text-[#E31B23]">Sunshade Umbrellas</Link></li>
+            </ul>
+          </div>
+          <div>
+            <h4 className="font-black text-black uppercase tracking-wider mb-2.5 text-[11px]">Packaging</h4>
+            <ul className="space-y-1.5 text-zinc-600 font-semibold">
+              <li><Link to="/services/packaging-box-dieline-printing" className="hover:text-[#E31B23]">Mono Carton Boxes</Link></li>
+              <li><Link to="/services/packaging-box-dieline-printing" className="hover:text-[#E31B23]">CAD Dieline Design</Link></li>
+              <li><Link to="/services/custom-mug-printing" className="hover:text-[#E31B23]">Mug & Gift Printing</Link></li>
+            </ul>
+          </div>
+          <div>
+            <h4 className="font-black text-black uppercase tracking-wider mb-2.5 text-[11px]">Corporate</h4>
+            <ul className="space-y-1.5 text-zinc-600 font-semibold">
+              <li><Link to="/services/logo-design-services" className="hover:text-[#E31B23]">Logo & Brand Identity</Link></li>
+              <li><Link to="/services/certificate-award-printing" className="hover:text-[#E31B23]">Awards & Certificates</Link></li>
+              <li><Link to="/services/business-card-printing" className="hover:text-[#E31B23]">Prestige Business Cards</Link></li>
+            </ul>
+          </div>
+          <div>
+            <h4 className="font-black text-black uppercase tracking-wider mb-2.5 text-[11px]">Global Reach</h4>
+            <ul className="space-y-1.5 text-zinc-600 font-semibold">
+              <li><Link to="/services/international-printing-orders" className="text-[#E31B23] font-black hover:underline">🌍 Worldwide Shipping</Link></li>
+              <li><Link to="/machines" className="hover:text-[#E31B23]">In-House Press Tour</Link></li>
+              <li><button onClick={() => onOpenQuote()} className="text-zinc-800 font-bold hover:text-[#E31B23] cursor-pointer">Instant Price Quote</button></li>
+            </ul>
+          </div>
         </div>
 
         {/* Bottom Copyright Strip matching mockup */}

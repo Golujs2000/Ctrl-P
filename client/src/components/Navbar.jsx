@@ -17,6 +17,28 @@ export default function Navbar({ onOpenQuote }) {
 
   return (
     <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-zinc-100 transition-all">
+      {/* International Shipping & Local Announcement Strip */}
+      <div className="bg-zinc-900 text-white text-[11px] font-bold py-1.5 px-4 tracking-wide flex items-center justify-between">
+        <div className="hidden sm:flex items-center gap-2 text-zinc-400">
+          <span>📍 Kalyani Complex, Langar Toli, Patna</span>
+        </div>
+        <div className="flex items-center justify-center gap-2 mx-auto sm:mx-0">
+          <span className="text-amber-400 font-extrabold">🌍 Worldwide Shipping:</span>
+          <span>We Accept International Orders</span>
+          <button 
+            onClick={() => onOpenQuote('International Order (Worldwide Shipping)')}
+            className="underline text-white hover:text-amber-300 ml-1 cursor-pointer font-extrabold"
+          >
+            Get Global Quote
+          </button>
+        </div>
+        <div className="hidden md:flex items-center gap-3 text-zinc-300 font-semibold">
+          <a href="tel:+919304085366" className="hover:text-white flex items-center gap-1">
+            <Phone className="w-3 h-3 text-[#E31B23]" /> +91 9304085366
+          </a>
+        </div>
+      </div>
+
       {/* Official CMYK Process Inks Top Bar */}
       <div 
         className="w-full h-1 flex" 

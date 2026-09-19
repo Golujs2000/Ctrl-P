@@ -89,19 +89,19 @@ export default function AboutPage({ onOpenQuote }) {
           <div className="lg:col-span-6 grid grid-cols-2 gap-4">
             <div className="space-y-4">
               <div className="aspect-[4/5] rounded-2xl overflow-hidden bg-zinc-100 border border-zinc-200 shadow-sm">
-                <img src="/assets/storefront-kalyani-complex-plaza.jpeg" alt="Ctrl P Storefront Patna" className="w-full h-full object-cover" />
+                <img src="/assets/ctrlp-storefront-kalyani-complex-plaza-view.jpg" alt="Ctrl P Storefront Patna" className="w-full h-full object-cover" />
               </div>
               <div className="aspect-square rounded-2xl overflow-hidden bg-zinc-100 border border-zinc-200 shadow-sm">
-                <img src="/assets/office-consultation-desk-1.jpeg" alt="Ctrl P Consultation Desk" className="w-full h-full object-cover" />
+                <img src="/assets/ctrlp-office-customer-consultation-desk-front.jpg" alt="Ctrl P Consultation Desk" className="w-full h-full object-cover" />
               </div>
             </div>
 
             <div className="space-y-4 pt-8">
               <div className="aspect-square rounded-2xl overflow-hidden bg-zinc-100 border border-zinc-200 shadow-sm">
-                <img src="/assets/storefront-entrance-celebration.jpeg" alt="Ctrl P Workshop Entrance" className="w-full h-full object-cover" />
+                <img src="/assets/ctrlp-storefront-grand-opening-celebration.jpg" alt="Ctrl P Workshop Entrance" className="w-full h-full object-cover" />
               </div>
               <div className="aspect-[4/5] rounded-2xl overflow-hidden bg-zinc-100 border border-zinc-200 shadow-sm">
-                <img src="/assets/machine-eco-flex-laminator-room.jpeg" alt="Ctrl P Printing Equipment" className="w-full h-full object-cover" />
+                <img src="/assets/machine-eco-solvent-flex-laminator-room.jpg" alt="Ctrl P Printing Equipment" className="w-full h-full object-cover" />
               </div>
             </div>
           </div>

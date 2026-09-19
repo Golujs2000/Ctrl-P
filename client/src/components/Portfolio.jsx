@@ -4,67 +4,67 @@ import { Eye, CheckCircle2, ArrowRight, X } from 'lucide-react';
 const portfolioItems = [
   {
     id: 1,
-    title: 'Ctrl P Branded Non-Woven Bags',
-    category: 'Corporate Gifts',
-    client: 'Ctrl P Official Production',
-    image: '/assets/portfolio-branded-carry-bag.jpeg',
-    tags: ['Eco Bag', 'Multi-color Screen Print']
+    title: 'Tarapur Children Healthcare Patient File',
+    category: 'Healthcare',
+    client: 'Dr. Rakif Raza, Tarapur Children Healthcare',
+    image: '/assets/mockup-doctor-patient-file-folder-tarapur-healthcare.png',
+    tags: ['Patient Record Folder', 'Laminated Dual Pocket']
   },
   {
     id: 2,
-    title: 'Corporate Tri-Fold Marketing Brochure',
-    category: 'Brochures',
-    client: 'Uru Marketing Pvt. Ltd., Patna',
-    image: '/assets/sample-print-work-03.jpg',
-    tags: ['300 GSM Art Paper', 'Tri-Fold Lamination']
+    title: 'SLC Partners & Associates Advocate Card',
+    category: 'Business Cards',
+    client: 'Basheer Advocate, Patna High Court',
+    image: '/assets/mockup-visiting-card-slc-partners-advocate-patna.png',
+    tags: ['Prestige Cardstock', 'Gold Foil Embossed']
   },
   {
     id: 3,
-    title: 'Digital Photo Book & Album Booklet',
-    category: 'Booklets',
-    client: 'Sanjeet Raj Creative Studio, Patna',
-    image: '/assets/sample-print-work-15.jpg',
-    tags: ['Glossy Photo Pages', 'Saddle-Stitched']
+    title: 'Vedantu Learning Centre Patna Roll-Up Standee',
+    category: 'Banners',
+    client: 'Vedantu Patna Learning Centre',
+    image: '/assets/mockup-rollup-standee-vedantu-patna.png',
+    tags: ['Non-Tearable PET', 'Aluminium Rollup Mechanism']
   },
   {
     id: 4,
-    title: 'Streax & Beardhood Executive Cards',
-    category: 'Business Cards',
-    client: 'Hygienic Research Institute',
-    image: '/assets/sample-business-card-streax.jpg',
-    tags: ['Matte Black + Gold Foil', 'QR Code']
+    title: 'Mild Care Zizz Guard Packaging Box',
+    category: 'Packaging',
+    client: 'Mild Care Healthcare Products',
+    image: '/assets/mockup-packaging-box-zizz-guard-foot-pads.png',
+    tags: ['Mono Carton', 'Custom CAD Dieline']
   },
   {
     id: 5,
-    title: 'Vikram Vicky Confectionery Packaging',
-    category: 'Packaging',
-    client: 'Vikram Candy & Food Products',
-    image: '/assets/packaging-label-vikram-orange-candy.jpg',
-    tags: ['Food Grade Roll', 'Vibrant Rotogravure']
+    title: 'Darbhanga Disaster Management 2026 Manual',
+    category: 'Booklets',
+    client: 'Samaharnalay Darbhanga, Govt. of Bihar',
+    image: '/assets/book-cover-darbhanga-disaster-management-2026.jpg',
+    tags: ['Perfect Glue Bound', 'Heidelberg Offset']
   },
   {
     id: 6,
-    title: 'Rahul Electric Roll-up Standee',
-    category: 'Banners',
-    client: 'Rahul Electric Patna',
-    image: '/assets/sample-standee-rahul-electric.jpg',
-    tags: ['Star Flex', 'Aluminium Rollup Standee']
+    title: 'PUCA Higher Education Summit Certificate',
+    category: 'Certificates',
+    client: 'Punjab Unaided Colleges Association, Patna',
+    image: '/assets/certificate-of-appreciation-puca-bihar-summit.jpg',
+    tags: ['Gold Foil Seal', 'Parchment Textured Board']
   },
   {
     id: 7,
-    title: 'Sidhi Complex & Banquet Luxury Cards',
-    category: 'Business Cards',
-    client: 'Sidhi Banquet Hall, Patna',
-    image: '/assets/sample-print-work-02.jpg',
-    tags: ['Double-Sided Print', 'Yellow & Black 350 GSM']
+    title: 'Firstcry Intellitots Sunshade Umbrella',
+    category: 'Outdoor',
+    client: 'Firstcry Intellitots Preschool & Daycare',
+    image: '/assets/promotional-sunshade-umbrella-firstcry-daycare.jpg',
+    tags: ['Waterproof Fabric', 'Heavy Duty Base']
   },
   {
     id: 8,
-    title: 'Ganga Motor Driving School Cards',
-    category: 'Business Cards',
-    client: 'Ganga Motors Patna',
-    image: '/assets/sample-business-card-ganga-motor.jpg',
-    tags: ['UV Spot', '350 GSM Cardstock']
+    title: 'Jeevan Deep Public School Admission Prospectus',
+    category: 'Brochures',
+    client: 'Jeevan Deep Public School, Nawada',
+    image: '/assets/school-admission-prospectus-jeevan-deep-nawada.jpg',
+    tags: ['Multi-Page Saddle Stitched', 'Silk Matte Art Card']
   }
 ];
 
@@ -72,7 +72,7 @@ export default function Portfolio({ onOpenQuote }) {
   const [activeCategory, setActiveCategory] = useState('All');
   const [previewItem, setPreviewItem] = useState(null);
 
-  const categories = ['All', 'Business Cards', 'Brochures', 'Booklets', 'Packaging', 'Banners', 'Corporate Gifts'];
+  const categories = ['All', 'Healthcare', 'Business Cards', 'Banners', 'Packaging', 'Booklets', 'Certificates', 'Outdoor', 'Brochures'];
 
   const filtered = activeCategory === 'All' 
     ? portfolioItems 

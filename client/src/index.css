@@ -1,26 +1,10 @@
 @import "tailwindcss";
 
-/* 1. Official Berlin Sans FB Font Faces */
-@font-face {
-  font-family: 'Berlin Sans FB';
-  src: url('/fonts/BRLNSB.TTF') format('truetype');
-  font-weight: 700 900;
-  font-style: normal;
-  font-display: swap;
-}
-
+/* 1. Official Berlin Sans FB Font (Semi Bold / Demi Bold) */
 @font-face {
   font-family: 'Berlin Sans FB';
   src: url('/fonts/BRLNSDB.TTF') format('truetype');
-  font-weight: 600;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Berlin Sans FB';
-  src: url('/fonts/BRLNSR.TTF') format('truetype');
-  font-weight: 400;
+  font-weight: 100 900;
   font-style: normal;
   font-display: swap;
 }

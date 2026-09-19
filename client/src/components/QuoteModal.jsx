@@ -2,31 +2,37 @@ import React, { useState } from 'react';
 import { X, Send, Phone, MessageSquare, CheckCircle2, Sparkles, Loader2 } from 'lucide-react';
 
 const serviceOptions = [
+  'Doctor & Healthcare Printing (Files, Prescription Pads)',
+  'Logo Design & Brand Identity',
+  'International Order (Worldwide Shipping)',
+  'Staple, Spiral & Wire-O Binding',
+  'Book Printing & Publishing',
+  'Urdu Design & Calligraphy Work',
+  'Letter Pad & Letterhead Printing',
+  'Roll-Up Standee & Display Banners',
+  'Promotional Canopy Tents',
+  'Promotional Sunshade Umbrellas',
+  'Packaging Box Design & Dielines',
+  'Certificate & Award Printing',
   'Business Card Printing',
-  'Brochure Printing',
-  'Flyer Printing',
+  'Brochure & Prospectus Printing',
+  'Flyer & Leaflet Printing',
   'Poster Printing',
-  'Banner Printing',
-  'Pamphlet Printing',
-  'Wedding Card Printing',
-  'Invitation Card Printing',
-  'Offset Printing',
-  'Digital Printing',
-  'T-Shirt Printing',
-  'Custom Mug Printing',
-  'ID Card Printing',
-  'Booklet Printing',
-  'Sticker Printing',
-  'Calendar Printing',
-  'Corporate Gift Printing',
-  'Large Format Printing',
-  'Flex Printing',
-  'Signage & Branding',
-  'Event Printing'
+  'Banner & Flex Printing',
+  'Calendar Printing (Wall & Desk)',
+  'PVC ID Card & Lanyard Printing',
+  'Custom Ceramic Mug Printing',
+  'T-Shirt & Apparel Heat Press',
+  'High-Volume Offset Printing',
+  'High-Speed Digital Printing',
+  'Signage & Storefront Branding',
+  'Event Printing Package'
 ];
 
 export default function QuoteModal({ isOpen, onClose, initialService }) {
-  const [service, setService] = useState(initialService || 'Business Card Printing');
+  const [service, setService] = useState(initialService || 'Doctor & Healthcare Printing (Files, Prescription Pads)');
+  const [isInternational, setIsInternational] = useState(false);
+  const [country, setCountry] = useState('');
   const [name, setName] = useState('');
   const [phone, setPhone] = useState('');
   const [quantity, setQuantity] = useState('500');
@@ -48,7 +54,9 @@ export default function QuoteModal({ isOpen, onClose, initialService }) {
         phone,
         service,
         quantity,
-        requirements: notes
+        isInternational,
+        country: isInternational ? country : 'India',
+        requirements: isInternational ? `[INTERNATIONAL ORDER - DESTINATION: ${country || 'Overseas'}] ${notes}` : notes
       };
 
       // Call Express API endpoint
@@ -60,8 +68,9 @@ export default function QuoteModal({ isOpen, onClose, initialService }) {
 
       const data = await res.json();
       
+      const destText = isInternational ? `\n• Destination Country: ${country || 'Overseas'}` : '';
       const fallbackWaText = encodeURIComponent(
-        `Hello Ctrl P! I need a quote for:\n• Service: ${service}\n• Quantity: ${quantity}\n• Name: ${name}\n• Phone: ${phone}\n• Notes: ${notes}`
+        `Hello Ctrl P! I need a quote for:\n• Service: ${service}\n• Quantity: ${quantity}${destText}\n• Name: ${name}\n• Phone: ${phone}\n• Notes: ${notes}`
       );
       const link = data?.whatsappUrl || `https://wa.me/919304085366?text=${fallbackWaText}`;
       
@@ -70,8 +79,9 @@ export default function QuoteModal({ isOpen, onClose, initialService }) {
     } catch (err) {
       console.error('Quote submit error:', err);
       // Fallback directly to WhatsApp
+      const destText = isInternational ? `\n• Destination Country: ${country || 'Overseas'}` : '';
       const fallbackWaText = encodeURIComponent(
-        `Hello Ctrl P! I need a quote for:\n• Service: ${service}\n• Quantity: ${quantity}\n• Name: ${name}\n• Phone: ${phone}\n• Notes: ${notes}`
+        `Hello Ctrl P! I need a quote for:\n• Service: ${service}\n• Quantity: ${quantity}${destText}\n• Name: ${name}\n• Phone: ${phone}\n• Notes: ${notes}`
       );
       setWhatsappLink(`https://wa.me/919304085366?text=${fallbackWaText}`);
       setSubmitted(true);
@@ -98,28 +108,28 @@ export default function QuoteModal({ isOpen, onClose, initialService }) {
             {/* Header */}
             <div className="space-y-1 mb-6">
               <span className="text-xs font-black uppercase tracking-wider text-[#E31B23]">
-                Instant Estimate
+                Instant Commercial Quote
               </span>
-              <h3 className="text-2xl sm:text-3xl font-black text-black tracking-tight">
-                Get a Quote from Ctrl P
+              <h3 className="text-2xl font-black text-black">
+                Tell Us What You Need Printed
               </h3>
               <p className="text-xs text-zinc-500 font-medium">
-                Best rates in Patna • Direct factory pricing • Fast response
+                Get factory-direct pricing with fast response from our team in Patna.
               </p>
             </div>
 
             {/* Form */}
-            <form onSubmit={handleSubmit} className="space-y-4">
+            <form onSubmit={handleSubmit} className="space-y-4 text-left">
               
               {/* Service Selection */}
               <div>
                 <label className="block text-xs font-extrabold uppercase tracking-wider text-zinc-700 mb-1.5">
-                  Select Printing Service
+                  Select Service *
                 </label>
                 <select
                   value={service}
                   onChange={(e) => setService(e.target.value)}
-                  className="w-full px-4 py-3 rounded-xl bg-zinc-50 border border-zinc-200 text-sm font-bold text-black focus:outline-none focus:ring-2 focus:ring-[#E31B23] focus:bg-white transition-all"
+                  className="w-full px-4 py-3 rounded-xl bg-zinc-50 border border-zinc-200 text-sm font-semibold text-black focus:outline-none focus:ring-2 focus:ring-[#E31B23] focus:bg-white transition-all"
                 >
                   {serviceOptions.map((opt) => (
                     <option key={opt} value={opt}>
@@ -128,6 +138,43 @@ export default function QuoteModal({ isOpen, onClose, initialService }) {
                   ))}
                 </select>
               </div>
+
+              {/* International Shipping Toggle */}
+              <div className="flex items-center justify-between p-3 bg-zinc-50 rounded-xl border border-zinc-200">
+                <div className="flex items-center gap-2">
+                  <span className="text-lg">🌍</span>
+                  <div>
+                    <div className="text-xs font-extrabold text-black">International Order?</div>
+                    <div className="text-[11px] text-zinc-500">Worldwide air freight via DHL / FedEx</div>
+                  </div>
+                </div>
+                <label className="relative inline-flex items-center cursor-pointer">
+                  <input
+                    type="checkbox"
+                    checked={isInternational}
+                    onChange={(e) => setIsInternational(e.target.checked)}
+                    className="sr-only peer"
+                  />
+                  <div className="w-10 h-5 bg-zinc-300 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-zinc-300 after:border after:rounded-full after:h-4 after:w-4 after:transition-all peer-checked:bg-[#E31B23]"></div>
+                </label>
+              </div>
+
+              {/* International Destination Field */}
+              {isInternational && (
+                <div className="animate-in fade-in slide-in-from-top-2 duration-200">
+                  <label className="block text-xs font-extrabold uppercase tracking-wider text-zinc-700 mb-1.5">
+                    Destination Country & City *
+                  </label>
+                  <input
+                    type="text"
+                    required={isInternational}
+                    placeholder="e.g. United States (California), UAE (Dubai)"
+                    value={country}
+                    onChange={(e) => setCountry(e.target.value)}
+                    className="w-full px-4 py-3 rounded-xl bg-amber-50/50 border border-amber-300 text-sm font-semibold text-black focus:outline-none focus:ring-2 focus:ring-[#E31B23] transition-all"
+                  />
+                </div>
+              )}
 
               {/* Name & Phone */}
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">

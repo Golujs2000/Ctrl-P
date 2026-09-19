@@ -1,10 +1,450 @@
+// Full Services Master Catalog - Ctrl P Patna
+// Real asset paths reflecting exact image contents
+
 export const servicesList = [
+  // 1. DOCTOR & HEALTHCARE PRINTING (Todo #1)
+  {
+    slug: 'doctor-healthcare-printing',
+    title: 'Doctor & Healthcare Printing',
+    category: 'Healthcare',
+    shortDesc: 'Patient file folders, medical record files, clinic prescription boards, and doctor letter pads.',
+    heroImage: '/assets/mockup-doctor-patient-file-folder-tarapur-healthcare.png',
+    badge: 'Specialized Medical',
+    overview: 'Complete printing and fabrication solutions for hospitals, clinics, diagnostic centers, and private practitioners across Bihar. We produce high-durability laminated patient file folders with inner pockets, prescription letter pads with anti-smudge paper, clinic acrylic prescription boards, and medical staff ID cards.',
+    materials: [
+      '350 GSM & 400 GSM Rigid Laminated Cardstock for Patient Folders',
+      'Dual Inner File Pockets with Document Clips & Spine Creasing',
+      '80-100 GSM Superfine Prescription Bond Paper',
+      '3mm - 5mm Frosted / Clear Acrylic for Doctor Prescription Boards',
+      'Thermal Laminated Prescription Slips with Serial Numbering'
+    ],
+    sizes: [
+      'Standard Doctor File: 9.5 x 12.5 inch (Fits A4 & Legal records)',
+      'Clinic Prescription Pad: A4 (8.27 x 11.69 in) & A5 (5.83 x 8.27 in)',
+      'Prescription Board: 10 x 14 inch with brass clips',
+      'OPD Slip Books: 5 x 8 inch (Duplicate / Triplicate with NCR paper)'
+    ],
+    pricing: 'Patient files from ₹14/pc in bulk | Prescription pads from ₹60/pad',
+    turnaround: '24-48 hours for prescription pads | 3-5 days for custom die-cut file folders',
+    faqs: [
+      {
+        q: 'Can patient files include custom inner pockets for X-rays and reports?',
+        a: 'Yes! We customize pocket depths, CD/DVD sleeves, business card slits, and metal spring or plastic clip fasteners.'
+      },
+      {
+        q: 'Can doctor prescription pads have NCR carbonless duplicate copies?',
+        a: 'Yes, we supply 1+1 and 1+2 NCR carbonless paper pads with perforated tear-off sheets and consecutive serial numbering.'
+      }
+    ],
+    gallery: [
+      '/assets/mockup-doctor-patient-file-folder-tarapur-healthcare.png',
+      '/assets/doctor-patient-medical-record-file-tarapur-healthcare.jpg',
+      '/assets/doctor-prescription-letterpad-aruj-clinic-kankarbagh.jpg',
+      '/assets/doctor-clinic-id-card-lanyard-ejaz-clinic.jpg'
+    ]
+  },
+
+  // 2. LOGO DESIGN & VECTOR IDENTITY (Todo #2)
+  {
+    slug: 'logo-design-services',
+    title: 'Logo Design & Brand Identity',
+    category: 'Design Studio',
+    shortDesc: 'Custom vector logo creation, corporate brand identity guidelines, and vectorization services.',
+    heroImage: '/assets/logo-vector-india-meteorological-department-imd.jpg',
+    badge: 'Creative Studio',
+    overview: 'Our senior in-house graphic design studio at Kalyani Complex creates distinctive, memorable visual identities. From corporate emblem redraws to modern minimalist startup logos, complete brand guideline kits, stationery design, and high-resolution vector assets (AI, EPS, SVG, PDF, PNG).',
+    materials: [
+      'Original Vector Illustrations (.AI, .EPS, .SVG, .PDF)',
+      'Ultra High-Resolution CMYK & RGB Transparent PNGs',
+      'Brand Style Guideline Manual (Color Palettes, Typography, Sizing)',
+      'Favicons, Social Media Display Avatars & Banner Kits'
+    ],
+    sizes: [
+      'Scalable Vector (Infinitely scalable from 16px favicon to 50ft billboard)'
+    ],
+    pricing: 'Logo design packages starting from ₹1,499 with 3 initial concepts',
+    turnaround: '2-4 business days for first round concept presentation',
+    faqs: [
+      {
+        q: 'Will I receive full vector source files and commercial copyright?',
+        a: 'Yes, full commercial ownership and raw source files (Illustrator AI, CorelDraw CDR, EPS, PDF, high-res PNG) are delivered.'
+      },
+      {
+        q: 'Can you digitize or modernize our old hand-drawn or low-res logo?',
+        a: 'Yes! We specialize in vector recreation, cleaning up pixelated scans, and modernizing heritage emblems.'
+      }
+    ],
+    gallery: [
+      '/assets/logo-vector-india-meteorological-department-imd.jpg',
+      '/assets/ctrlp-brand-identity-guidelines.png',
+      '/assets/ctrlp-official-brand-logo.png'
+    ]
+  },
+
+  // 3. INTERNATIONAL ORDERS & WORLDWIDE SHIPPING (Todo #3)
+  {
+    slug: 'international-printing-orders',
+    title: 'International Orders & Global Shipping',
+    category: 'Corporate',
+    shortDesc: 'Worldwide door delivery for overseas alumni, NRIs, international corporations, and exhibitions.',
+    heroImage: '/assets/corporate-envelope-letterhead-aakash-institute-bihar.jpg',
+    badge: 'Worldwide Delivery',
+    overview: 'Ctrl P delivers premium commercial printing to international clients worldwide. Whether you need books, anniversary souvenirs, corporate stationery, school alumni magazines, or packaging exported, we handle multi-currency payments, international customs documentation, and expedited air courier via DHL, FedEx, and Aramex.',
+    materials: [
+      'Moisture-Proof Triple-Wall Export Corrugated Packaging',
+      'Silica Gel Moisture Absorbers & Bubble Cushioning',
+      'Airway Bill Tracking & Customs Commercial Invoices',
+      'Full Range of Certified Archival & FSC Certified Papers'
+    ],
+    sizes: [
+      'Worldwide freight from 0.5 kg documents to 500+ kg bulk pallets'
+    ],
+    pricing: 'Factory printing cost + transparent international air/sea freight rates',
+    turnaround: 'Production in 2-5 days + 4-7 business days global air delivery',
+    faqs: [
+      {
+        q: 'Which countries do you ship to?',
+        a: 'We ship to USA, UK, Canada, UAE, Saudi Arabia, Australia, Singapore, Europe, and over 120 countries worldwide.'
+      },
+      {
+        q: 'How do international customers pay for their orders?',
+        a: 'We accept international credit/debit cards, Wire Transfer (SWIFT), PayPal, and Razorpay international gateway.'
+      }
+    ],
+    gallery: [
+      '/assets/corporate-envelope-letterhead-aakash-institute-bihar.jpg',
+      '/assets/mockup-envelope-letterhead-aakash-institute.png',
+      '/assets/mockup-visiting-card-slc-partners-advocate-patna.png'
+    ]
+  },
+
+  // 4. STAPLE & SPIRAL BINDING (Todo #4)
+  {
+    slug: 'spiral-staple-binding',
+    title: 'Staple, Spiral & Wire-O Binding',
+    category: 'Binding & Finishing',
+    shortDesc: 'Center staple saddle stitch, twin-loop Wire-O, plastic spiral coil, and thermal perfect glue binding.',
+    heroImage: '/assets/machine-perfect-glue-book-binding.jpg',
+    badge: 'Precision Finishing',
+    overview: 'State-of-the-art document binding services for school magazines, training manuals, annual reports, calendars, project reports, and legal dossiers. We operate heavy-duty multi-head saddle stitchers, automatic spiral punchers, double-loop Wire-O closers, and automated hot-melt EVA perfect book binders.',
+    materials: [
+      'Metallic Twin-Loop Wire-O (Black, White, Silver, Gold)',
+      'Heavy-Duty PVC Spiral Coil (Unbreakable & Child-Safe)',
+      'Galvanized Center Staples (Saddle Stitching with Square-Fold Spine)',
+      'Polypropylene Frosted / Clear Protective Cover Sheets',
+      '300 GSM Laminated Backboard for structural stiffness'
+    ],
+    sizes: [
+      'A4 (8.27 x 11.69 in), A5, B5, Executive, and custom landscape sizes',
+      'Capacities from 10 pages up to 500+ pages'
+    ],
+    pricing: 'Spiral/Wiro from ₹15/book | Saddle stitch from ₹3/booklet | Volume discounts',
+    turnaround: 'Same-day express binding available for urgent submissions',
+    faqs: [
+      {
+        q: 'What is the difference between spiral binding and Wire-O binding?',
+        a: 'Spiral binding uses a continuous plastic coil that wraps through round holes, while Wire-O uses twin-loop metallic rings for an ultra-premium executive lay-flat presentation.'
+      }
+    ],
+    gallery: [
+      '/assets/machine-perfect-glue-book-binding.jpg',
+      '/assets/school-magazine-navodaya-darpan-jnv-gaya.jpg',
+      '/assets/book-cover-darbhanga-disaster-management-2026.jpg'
+    ]
+  },
+
+  // 5. BOOK PRINTING & PUBLISHING (Todo #6)
+  {
+    slug: 'book-printing-publishing',
+    title: 'Book Printing & Publication',
+    category: 'Publishing',
+    shortDesc: 'Hardcover & paperback book production, school magazines, literature, and government disaster manuals.',
+    heroImage: '/assets/book-cover-darbhanga-disaster-management-2026.jpg',
+    badge: 'Full Production',
+    overview: 'Ctrl P is one of Bihar leading book production printers. From district disaster management manuals (like Darbhanga Samaharnalay 2026) to Jawahar Navodaya Vidyalaya school magazines and private author poetry/novels, we offer complete prepress, CTP plate output, Heidelberg offset presswork, and automated perfect glue binding.',
+    materials: [
+      'Inner Text: 70-80 GSM High-Bulk Book Paper / 90-130 GSM Art Paper',
+      'Cover: 300-350 GSM Art Card with Thermal Matte/Gloss Lamination',
+      'Hardcover: 2.5mm - 3.5mm Imported Kappa Board with Gold Foil Stamping',
+      'Section-Sewn / Thread-Stitched Book Blocks for indestructible spines'
+    ],
+    sizes: [
+      'Standard Crown Octavo: 5.5 x 8.5 inch',
+      'Demy Octavo: 5.5 x 8.5 inch / Royal Octavo: 6.25 x 9.5 inch',
+      'A4 Magazine Size: 8.27 x 11.69 inch',
+      'Custom square and landscape art-book dimensions'
+    ],
+    pricing: 'Custom quote based on page count, run size, and binding style',
+    turnaround: 'Short runs (50-500): 3-5 days | Long runs (1000-50,000+): 7-10 days',
+    faqs: [
+      {
+        q: 'Can you help with ISBN registration and book cover formatting?',
+        a: 'Yes, our prepress team verifies spine calculations, barcode generation, bleed margins, and proof approvals before printing.'
+      }
+    ],
+    gallery: [
+      '/assets/book-cover-darbhanga-disaster-management-2026.jpg',
+      '/assets/mockup-school-magazine-navodaya-darpan-jnv-gaya.png',
+      '/assets/school-magazine-navodaya-darpan-jnv-gaya.jpg',
+      '/assets/school-admission-prospectus-jeevan-deep-nawada.jpg',
+      '/assets/machine-perfect-glue-book-binding.jpg'
+    ]
+  },
+
+  // 6. URDU DESIGN WORK & CALLIGRAPHY (Todo #8)
+  {
+    slug: 'urdu-design-calligraphy-print',
+    title: 'Urdu Design & Calligraphy Work',
+    category: 'Specialty Publishing',
+    shortDesc: 'Authentic Nastaliq typesetting, Islamic literature, Fatawa books, Madarsa publications, and poetic Divans.',
+    heroImage: '/assets/mockup-urdu-book-fatawa-sharia-idara-sharia-patna.png',
+    badge: 'Master Calligraphy',
+    overview: 'Specialized Urdu, Arabic, and Persian typesetting and book publishing studio in Patna. Featuring works like Idara Sharia Sultanganj Patna "Aaina Fatawa Sharia", we provide authentic Noori Nastaliq typography, intricate Quranic border borders, Nikahnama certificates, Madarsa curriculum books, and Mushaira posters.',
+    materials: [
+      'Deluxe Quranic Cream Smooth Paper & Archival Maplitho',
+      'Hardbound Leatherette & Rexine Binding with Embossed Gold Gilt',
+      'Green, Burgundy & Black Velvet Covers with Foil Inlay',
+      'Fine 70 GSM & 80 GSM Book Paper for high opacity and zero ink bleed'
+    ],
+    sizes: [
+      'Royal Book Size: 6.5 x 9.5 inch',
+      'Demy Crown: 7 x 9 inch / Pocket Size Fatawa booklets',
+      'A4 / B4 Madarsa syllabus & examination sheets',
+      'Custom oversized poster dimensions for Milad & literary summits'
+    ],
+    pricing: 'Calligraphy & typesetting from ₹40/page | Complete book publication packages',
+    turnaround: 'Typesetting in 2-4 days | Printing & hardcover binding in 5-8 days',
+    faqs: [
+      {
+        q: 'Do you support authentic Nastaliq fonts and Arabic I`rab (diacritics)?',
+        a: 'Yes! Our native Urdu typographers have decades of expertise in InPage, Illustrator Urdu typography, diacritics, and Quranic calligraphy styles.'
+      }
+    ],
+    gallery: [
+      '/assets/mockup-urdu-book-fatawa-sharia-idara-sharia-patna.png',
+      '/assets/book-cover-fatawa-sharia-idara-sharia-patna.jpg'
+    ]
+  },
+
+  // 7. LETTERHEAD & LETTER PAD PRINTING (Todo #9)
+  {
+    slug: 'letterhead-letterpad-printing',
+    title: 'Letter Pad & Corporate Letterheads',
+    category: 'Stationery',
+    shortDesc: 'Executive letter pads, doctor prescription pads, corporate stationery, and bond paper letterheads.',
+    heroImage: '/assets/doctor-prescription-letterpad-aruj-clinic-kankarbagh.jpg',
+    badge: 'Corporate Essential',
+    overview: 'Make every official communication authoritative with crisp letterheads and padded stationery. We serve prominent doctors (e.g. Aruj Clinic Kankarbagh Patna), corporate institutes (like Aakash Institute), advocate chambers, and government suppliers with watermark bond papers, foil logos, and glue-padded sheets.',
+    materials: [
+      '100 GSM Super Sunshine / Alabaster Executive Paper',
+      '85-100 GSM Executive Watermark Bond Paper (DO Paper)',
+      '120 GSM Imported Linen & Textured Laid Paper',
+      'Single / Multi-Color Offset & Digital Letterpress Printing',
+      'Foil Stamping (Gold/Silver/Copper) & Blind Embossing'
+    ],
+    sizes: [
+      'A4 Standard: 210 x 297 mm (8.27 x 11.69 in)',
+      'A5 Compact: 148 x 210 mm (5.83 x 8.27 in)',
+      'Legal Executive: 8.5 x 14 in',
+      'Padded in sets of 50 or 100 sheets with sturdy cardboard backing'
+    ],
+    pricing: 'Starts at ₹450 for 500 sheets (Offset) / ₹1.50 per sheet digital',
+    turnaround: 'Same day for digital / 2-3 business days for premium bond paper',
+    faqs: [
+      {
+        q: 'Can these letterheads run smoothly through office inkjet and laser printers?',
+        a: 'Yes, all our letterhead papers are guaranteed 100% laser printer and inkjet compatible with zero feed jams.'
+      }
+    ],
+    gallery: [
+      '/assets/doctor-prescription-letterpad-aruj-clinic-kankarbagh.jpg',
+      '/assets/corporate-envelope-letterhead-aakash-institute-bihar.jpg',
+      '/assets/mockup-envelope-letterhead-aakash-institute.png'
+    ]
+  },
+
+  // 8. STANDEE & ROLL-UP DISPLAYS (Todo #10)
+  {
+    slug: 'standee-rollup-display-printing',
+    title: 'Roll-Up Standee & Display Banners',
+    category: 'Signage',
+    shortDesc: 'Portable aluminum roll-up standees, luxury broad-base stands, and non-tearable matte satin display prints.',
+    heroImage: '/assets/mockup-rollup-standee-vedantu-patna.png',
+    badge: 'Events & Expos',
+    overview: 'High-visibility portable roll-up standees trusted by top educational brands like Vedantu Patna and corporate expos. Printed on anti-glare, non-tearable PVC vinyl or satin canvas and mounted on rugged aluminum rollup cassettes with carrying bags for effortless transport and instant setup.',
+    materials: [
+      '320 GSM Non-Tearable Matte PET Film (Zero Curl Edges)',
+      'High-Density Satin Fabric Canvas (Vivid Color Saturation)',
+      'Heavy-Duty Anodized Aluminum Standee Base with Twin Feet',
+      'Luxury Teardrop Broad Base Standees (Executive Grade)',
+      'Protective Canvas Carrying Bag with Shoulder Strap included'
+    ],
+    sizes: [
+      'Standard Rollup: 2 x 5 feet (24 x 60 inch)',
+      'Most Popular: 2.5 x 6 feet (30 x 72 inch)',
+      'Grand Exhibition: 3 x 6 feet (36 x 72 inch)',
+      'Giant Conference: 4 x 7 feet'
+    ],
+    pricing: 'Standard 2.5x6 ft standee complete with aluminum mechanism starts at ₹850',
+    turnaround: 'Same-day turnaround (under 3 hours) for ready-to-print artwork',
+    faqs: [
+      {
+        q: 'Can I replace the printed graphic in the standee mechanism later?',
+        a: 'Yes, our aluminum cassettes are reusable. You can bring your standee to our shop to swap out graphics anytime.'
+      }
+    ],
+    gallery: [
+      '/assets/mockup-rollup-standee-vedantu-patna.png',
+      '/assets/machine-gethray-large-format-eco-solvent-printer.jpg'
+    ]
+  },
+
+  // 9. PROMOTIONAL CANOPY TENTS (Todo #11)
+  {
+    slug: 'canopy-tent-promotional-outdoor',
+    title: 'Promotional Canopy Tents',
+    category: 'Outdoor Advertising',
+    shortDesc: 'Custom printed pop-up canopy tents, outdoor marketing kiosks, and exhibition promotion booths.',
+    heroImage: '/assets/promotional-canopy-tent-outdoor-display.jpg',
+    badge: 'Field Marketing',
+    overview: 'Drive unstoppable brand visibility in public plazas, rural outreach camps, roadshows, and trade fairs. Our heavy-duty collapsible pop-up canopies feature full-color waterproof roof canopies, side walls, backdrops, and reinforced rust-proof steel or aluminum hexagonal frames that assemble in 60 seconds.',
+    materials: [
+      'Waterproof & UV-Resistant 600D / 900D Oxford Polyester Fabric',
+      'Heavy-Duty Powder-Coated Steel / Hexagonal Aluminum Alloy Frame',
+      'Dual-Sided Sublimation & Solvent Ink Printing with No Sun-Fade',
+      'Reinforced Corner Webbing, Ground Stakes & Guy Ropes',
+      'Heavy-Duty Wheeled Transit Bag included'
+    ],
+    sizes: [
+      'Compact Promotional: 6 x 6 x 7 feet',
+      'Standard Street Canopy: 8 x 8 x 7 feet',
+      'Corporate Campaign: 10 x 10 x 7 feet'
+    ],
+    pricing: 'Complete frame + printed tent top packages from ₹3,200',
+    turnaround: '2-4 business days including printing, stitching, and assembly check',
+    faqs: [
+      {
+        q: 'Are these canopies waterproof and wind-resistant?',
+        a: 'Yes, all our outdoor canopies use industrial waterproof PU-coated canvas and sturdy cross-truss frames built for tough weather.'
+      }
+    ],
+    gallery: [
+      '/assets/promotional-canopy-tent-outdoor-display.jpg',
+      '/assets/ctrlp-marketing-banner-all-printing-solutions.jpg'
+    ]
+  },
+
+  // 10. PROMOTIONAL SUNSHADE UMBRELLAS (Todo #12)
+  {
+    slug: 'promotional-umbrella-sunshade',
+    title: 'Promotional Sunshade Umbrellas',
+    category: 'Outdoor Advertising',
+    shortDesc: 'Branded garden sunshade umbrellas for vendor kiosks, preschools, retail stores, and rural marketing.',
+    heroImage: '/assets/promotional-sunshade-umbrella-firstcry-daycare.jpg',
+    badge: 'High Visibility',
+    overview: 'High-impact outdoor branding for street retailers, authorized dealers, school promotions (like Firstcry Intellitots), and apparel brands (such as 1st Lady Begusarai). We manufacture 6-foot to 8-foot round sunshade umbrellas with 8-rib powder-coated metal frames and heavy-duty water-fillable bases.',
+    materials: [
+      'Heavy-Duty Oxford Waterproof Polyester Fabric',
+      '8 Sturdy Steel Ribs with Powder-Coated Central Pole',
+      'Weather-Resistant Multi-Color Screen & Digital Heat Transfer Printing',
+      'Heavy-Duty 15L Water/Sand Fillable Base or Cast Iron Weight Plate'
+    ],
+    sizes: [
+      'Standard Vendor: 6 Feet Diameter (72 inch)',
+      'Large Commercial: 7 Feet Diameter (84 inch)',
+      'Grand Executive: 8 Feet Diameter (96 inch)'
+    ],
+    pricing: 'Custom printed umbrella + base from ₹1,250 in bulk orders',
+    turnaround: '3-5 business days for branded production runs',
+    faqs: [
+      {
+        q: 'What base is included with the umbrella for stability on windy days?',
+        a: 'We supply heavy-duty 15-20 kg water/sand-fillable HDPE bases that ensure complete stability on footpaths and roads.'
+      }
+    ],
+    gallery: [
+      '/assets/promotional-sunshade-umbrella-firstcry-daycare.jpg',
+      '/assets/promotional-sunshade-umbrella-1st-lady-begusarai.jpg'
+    ]
+  },
+
+  // 11. PACKAGING BOXES & DIELINE DESIGN (Todo #13)
+  {
+    slug: 'packaging-box-dieline-printing',
+    title: 'Packaging Box Design & Dielines',
+    category: 'Packaging',
+    shortDesc: 'Custom mono-cartons, tea packaging boxes, herbal cosmetic boxes, and confectionery packaging.',
+    heroImage: '/assets/mockup-packaging-box-zizz-guard-foot-pads.png',
+    badge: 'Custom Dieline',
+    overview: 'Transform retail products with professional packaging engineered to sell. Proven through designs like Mild Care Zizz Guard Foot Pads and L.R.C. Bahubali Special Tea, we handle vector dieline creation, structural packaging prototyping, CMYK offset printing, food-grade coatings, gold foiling, and precision die-cutting.',
+    materials: [
+      '300 GSM to 450 GSM Cyber XL / ITC Food-Grade Duplex Board',
+      'Folding Box Board (FBB) & White-Back Virgin Paperboard',
+      'Matte / Gloss Thermal Lamination + Drip-Off Gloss Effect',
+      'Metallic Foil Stamping (Gold/Silver/Rose Gold) & Embossing',
+      'Automatic Folder-Gluer Bottom Locking & Crash-Lock Bases'
+    ],
+    sizes: [
+      'Custom fabricated to fit your bottles, pouches, cosmetics, or confections perfectly'
+    ],
+    pricing: 'Direct manufacturer pricing with steep quantity discounts',
+    turnaround: '3D digital mockup in 24 hrs | Production in 4-7 business days',
+    faqs: [
+      {
+        q: 'Can you design the packaging dieline if I only give you the product bottle size?',
+        a: 'Yes! Send us your product dimensions or a sample bottle, and our packaging engineers will generate the perfect CAD dieline.'
+      }
+    ],
+    gallery: [
+      '/assets/mockup-packaging-box-zizz-guard-foot-pads.png',
+      '/assets/packaging-box-dieline-zizz-guard-foot-pads.jpg',
+      '/assets/packaging-box-artwork-lrc-bahubali-tea.jpg',
+      '/assets/packaging-box-confectionery-pk-sweets-candy.jpg'
+    ]
+  },
+
+  // 12. CERTIFICATES & AWARD PRINTING (Todo #14)
+  {
+    slug: 'certificate-award-printing',
+    title: 'Certificate & Award Printing',
+    category: 'Corporate',
+    shortDesc: 'Gold foil certificates of appreciation, university diplomas, summit recognitions, and school awards.',
+    heroImage: '/assets/certificate-of-appreciation-puca-bihar-summit.jpg',
+    badge: 'Prestige Grade',
+    overview: 'Celebrate milestones with award-winning certificates that recipients cherish for a lifetime. As demonstrated in the PUCA (Punjab Unaided Colleges Association) Education Summit at Hotel Gargee Grand Patna, we print on imported parchment cardstock with metallic gold foil borders, security anti-counterfeiting guilloche lines, and variable data personalization.',
+    materials: [
+      '280 GSM - 350 GSM Textured Natural Parchment & Linen Cardstock',
+      'Metallic Hot-Foil Stamping (Mirror Gold, Silver, Holographic)',
+      'Raised Thermal Thermography & Embossed Seals',
+      'Security Microtext, Void Pantograph & Serialized QR Codes',
+      'Velvet Presentation Folders & Hardbound Certificate Holders'
+    ],
+    sizes: [
+      'A4 Certificate: 210 x 297 mm (8.27 x 11.69 in)',
+      'Executive Imperial: 9 x 12 inch',
+      'A3 Grand Diploma: 297 x 420 mm'
+    ],
+    pricing: 'Starts at ₹18/certificate (Bulk student rates available)',
+    turnaround: 'Same day for emergency batches / 24-48 hrs with gold foil stamping',
+    faqs: [
+      {
+        q: 'Can you print individual student/attendee names and photos dynamically from an Excel file?',
+        a: 'Yes, we provide seamless Variable Data Printing (VDP) to merge names, ranks, and QR codes directly from your spreadsheet.'
+      }
+    ],
+    gallery: [
+      '/assets/certificate-of-appreciation-puca-bihar-summit.jpg',
+      '/assets/visiting-card-aryabhatta-knowledge-university-patna.jpg'
+    ]
+  },
+
+  // 13. BUSINESS CARD PRINTING
   {
     slug: 'business-card-printing',
     title: 'Business Card Printing',
     category: 'Stationery',
     shortDesc: 'Premium visiting cards that create memorable first impressions for your business.',
-    heroImage: '/assets/sample-business-card-streax.jpg',
+    heroImage: '/assets/mockup-visiting-card-slc-partners-advocate-patna.png',
     badge: 'Most Popular',
     overview: 'Make an unforgettable impression with high-grade visiting cards printed at Ctrl P in Patna. We offer a full spectrum of materials ranging from 300 GSM art board to premium velvet touch, matte lamination, metallic spot UV, and gold foil stamping.',
     materials: [
@@ -27,27 +467,25 @@ export const servicesList = [
       {
         q: 'Can you print double-sided cards with QR codes?',
         a: 'Yes! We print ultra-sharp high-contrast QR codes and double-sided designs with zero bleeding.'
-      },
-      {
-        q: 'Do you offer design assistance if I do not have ready artwork?',
-        a: 'Our in-house design studio at Kalyani Complex can design your card from scratch or refine your existing logo.'
       }
     ],
     gallery: [
-      '/assets/sample-business-card-streax.jpg',
-      '/assets/sample-print-work-02.jpg',
-      '/assets/sample-business-card-rym-solutions.jpg',
-      '/assets/sample-business-card-pnb-ratni.jpg'
+      '/assets/mockup-visiting-card-slc-partners-advocate-patna.png',
+      '/assets/visiting-card-laxmi-diagnostic-centre-patna.jpg',
+      '/assets/business-card-punjab-national-bank-ratni.jpg',
+      '/assets/visiting-card-aryabhatta-knowledge-university-patna.jpg'
     ]
   },
+
+  // 14. BROCHURE & PROSPECTUS PRINTING
   {
     slug: 'brochure-printing',
-    title: 'Brochure Printing',
+    title: 'Brochure & Prospectus Printing',
     category: 'Marketing',
-    shortDesc: 'Multi-fold brochures and corporate profiles printed with vivid color fidelity.',
-    heroImage: '/assets/sample-print-work-03.jpg',
+    shortDesc: 'Multi-fold brochures and school admission prospectuses printed with vivid color fidelity.',
+    heroImage: '/assets/school-admission-prospectus-jeevan-deep-nawada.jpg',
     badge: 'High Impact',
-    overview: 'Elevate your marketing campaigns with high-impact corporate brochures. Ideal for real estate developments, educational institutes, medical diagnostics, and B2B corporate profiles across Bihar.',
+    overview: 'Elevate your marketing campaigns with high-impact corporate brochures and educational prospectuses (such as Jeevan Deep Public School Nawada). Ideal for real estate developments, educational institutes, medical diagnostics, and corporate profiles across Bihar.',
     materials: [
       '130 GSM to 300 GSM Imported Art Paper',
       'Gloss or Silk Matte Coating',
@@ -58,31 +496,32 @@ export const servicesList = [
       'Bi-Fold (4 Pages): A4 folded to A5',
       'Tri-Fold (6 Panels): A4 folded to DL size',
       'Gate-Fold & Z-Fold Custom Sizes',
-      'Multi-Page Stapled Brochures (8 to 32 pages)'
+      'Multi-Page Stapled Prospectus (8 to 32 pages)'
     ],
     pricing: 'Volume-based pricing with steep bulk discounts',
     turnaround: '1-3 business days depending on quantity',
     faqs: [
       {
-        q: 'What paper GSM is best for real estate brochures?',
+        q: 'What paper GSM is best for school prospectuses?',
         a: 'We recommend 250-300 GSM for the cover with velvet/matte lamination, and 170 GSM art paper for inside pages.'
       }
     ],
     gallery: [
-      '/assets/sample-print-work-03.jpg',
-      '/assets/sample-visiting-card-flyer-unique.jpg',
-      '/assets/sample-print-work-18.jpg',
-      '/assets/sample-print-work-15.jpg'
+      '/assets/school-admission-prospectus-jeevan-deep-nawada.jpg',
+      '/assets/tri-fold-marketing-brochure-uru-marketing.jpg',
+      '/assets/poster-admission-nazareth-academy-gaya.png'
     ]
   },
+
+  // 15. FLYER & PAMPHLET PRINTING
   {
     slug: 'flyer-printing',
-    title: 'Flyer Printing',
+    title: 'Flyer & Leaflet Printing',
     category: 'Marketing',
     shortDesc: 'Cost-effective leaflets for mass distribution, promotional events, and retail sales.',
-    heroImage: '/assets/sample-visiting-card-flyer-unique.jpg',
+    heroImage: '/assets/healthcare-academy-admission-poster-gd-goenka-patna.jpg',
     badge: 'Value Pack',
-    overview: 'High-speed, high-volume flyer printing engineered for maximum reach across Patna. Perfect for showroom launches, coaching institutes, food delivery menus, and festival sales promotions.',
+    overview: 'High-speed, high-volume flyer printing engineered for maximum reach across Patna. Perfect for coaching institutes, showroom launches, food delivery menus, and festival sales promotions.',
     materials: ['90 GSM Maplitho Paper', '130 GSM Gloss Art Paper', '170 GSM Premium Art Paper'],
     sizes: ['A4 (8.27 x 11.69 in)', 'A5 (5.83 x 8.27 in)', 'A6 Postcard Size', 'DL Pamphlet Size'],
     pricing: 'Economical rates starting from ₹0.40 per flyer in bulk lots',
@@ -94,389 +533,225 @@ export const servicesList = [
       }
     ],
     gallery: [
-      '/assets/sample-visiting-card-flyer-unique.jpg',
-      '/assets/creative-poster-2022-03-11.png'
+      '/assets/healthcare-academy-admission-poster-gd-goenka-patna.jpg',
+      '/assets/poster-business-mandapam-banquet-marriage-hall.png',
+      '/assets/poster-coaching-heritage-educare-ashiana-nagar-patna.jpg'
     ]
   },
+
+  // 16. POSTER PRINTING & FESTIVAL CREATIVES
   {
     slug: 'poster-printing',
-    title: 'Poster Printing',
+    title: 'Poster & Creative Festival Printing',
     category: 'Marketing',
-    shortDesc: 'Vibrant indoor and outdoor posters with punchy contrast and true-to-life colors.',
-    heroImage: '/assets/creative-festival-cricket-diwali.jpeg',
+    shortDesc: 'Vibrant promotional posters, festival greetings, and exhibition prints with rich color saturation.',
+    heroImage: '/assets/poster-creative-cricket-world-cup-diwali.jpg',
     badge: 'Vivid Colors',
-    overview: 'Transform walls, event halls, and commercial spaces with striking posters. Printed on our modern digital and eco-solvent machines for rich color depth and longevity.',
-    materials: ['220 GSM Photo Gloss Paper', '250 GSM Matte Art Card', 'Self-Adhesive Vinyl Poster', 'Sunpack Board Mounted'],
-    sizes: ['A3 (11.7 x 16.5 in)', 'A2 (16.5 x 23.4 in)', 'A1 (23.4 x 33.1 in)', 'Custom Large Poster Sizes'],
-    pricing: 'Starts at ₹40 per poster for single prints',
-    turnaround: 'Same day service in Langar Toli, Patna',
+    overview: 'Capture attention instantly with high-definition posters. Whether you need educational posters, festival creatives (Diwali, Dussehra, Eid, Chhath Puja), or event notices, our Konica Minolta digital presses deliver razor-sharp clarity and deep color depth.',
+    materials: ['170 GSM Gloss Art Paper', '250 GSM Matte Art Card', '300 GSM Heavy Poster Board', 'Synthetic Non-Tearable Media'],
+    sizes: ['A3 (11.7 x 16.5 in)', 'A2 (16.5 x 23.4 in)', '12 x 18 inch Digital Poster', '13 x 19 inch Super B'],
+    pricing: 'Starting at ₹25 per A3 print; bulk rates available',
+    turnaround: 'Same day printing (within 2-4 hours)',
     faqs: [
       {
-        q: 'Can posters be laminated for waterproofing?',
-        a: 'Yes, we provide hot and cold thermal lamination to protect posters against dust, water, and sun damage.'
+        q: 'Can you laminate posters for extended durability?',
+        a: 'Yes, we provide gloss, matte, and thermal lamination to protect against sun fading and moisture.'
       }
     ],
     gallery: [
-      '/assets/creative-festival-cricket-diwali.jpeg',
-      '/assets/creative-festival-dhanteras.jpeg',
-      '/assets/creative-poster-2022-03-08.png'
+      '/assets/poster-creative-cricket-world-cup-diwali.jpg',
+      '/assets/poster-festival-dhanteras-shubh-labh.jpg',
+      '/assets/poster-celebration-bihar-diwas-pride-of-bihar.png',
+      '/assets/poster-festival-happy-holi-colors-of-joy.png'
     ]
   },
+
+  // 17. BANNER & FLEX PRINTING
   {
     slug: 'banner-printing',
-    title: 'Banner Printing',
-    category: 'Signage',
-    shortDesc: 'Durable flex and vinyl banners for shops, political rallies, expos, and events.',
-    heroImage: '/assets/sample-standee-rahul-electric.jpg',
+    title: 'Banner & Flex Printing',
+    category: 'Outdoor Advertising',
+    shortDesc: 'Heavy-duty flex banners, star flex, backlits, and hoardings with weather-resistant solvent inks.',
+    heroImage: '/assets/machine-gethray-large-format-eco-solvent-printer.jpg',
     badge: 'Weatherproof',
-    overview: 'Heavy-duty indoor and outdoor banners manufactured using high-speed industrial printing presses. Weatherproof, UV-resistant, and reinforced with eyelets for secure installation.',
-    materials: ['Frontlit Standard Flex', 'Star Flex (Heavy Density)', 'Blackout Back Flex', 'Retractable Standee Banner Rollup'],
-    sizes: ['Rollup Standee: 6 x 2.5 ft / 6 x 3 ft', 'Stage Backdrops: 10 x 20 ft', 'Hoardings & Facades: Custom any size'],
-    pricing: 'Charged per sq. ft. with lowest factory pricing in Patna',
-    turnaround: '1-3 hours for emergency orders',
+    overview: 'Dominate the streetscape with industrial-grade flex banners printed on our Gethray 10-foot eco-solvent flex press in Kalyani Complex. We print regular flex, blackback star flex, and translucent backlit flex for shop boards and political rallies.',
+    materials: ['260 GSM Standard Flex', '340 GSM Heavy Normal Flex', 'Star Black-Back Flex (Zero Ghosting)', 'Backlit Vinyl Flex for Glow Signs'],
+    sizes: ['Any size up to 10 feet seamless width x 100+ feet length'],
+    pricing: 'Starting at ₹7/sq.ft for normal flex; ₹12/sq.ft for star flex',
+    turnaround: 'Under 2 hours for express orders',
     faqs: [
       {
-        q: 'Do you provide aluminium standee stands?',
-        a: 'Yes, our rollup standees come complete with heavy aluminium base and carry case.'
+        q: 'Do you provide eyelets and border folding for banners?',
+        a: 'Yes, heavy-duty metallic eyelets and border reinforcement are included with every banner.'
       }
     ],
     gallery: [
-      '/assets/sample-standee-rahul-electric.jpg',
-      '/assets/machine-gethray-eco-flex-large.jpeg'
+      '/assets/machine-gethray-large-format-eco-solvent-printer.jpg',
+      '/assets/machine-eco-solvent-flex-laminator-room.jpg',
+      '/assets/ctrlp-marketing-banner-all-printing-solutions.jpg'
     ]
   },
-  {
-    slug: 'pamphlet-printing',
-    title: 'Pamphlet Printing',
-    category: 'Marketing',
-    shortDesc: 'Informative single and multi-page pamphlets for direct-to-consumer outreach.',
-    heroImage: '/assets/creative-poster-2022-03-11.png',
-    badge: 'Mass Reach',
-    overview: 'Get your educational courses, medical services, or real estate opportunities directly into customer hands with crisp, easy-to-read pamphlets printed at high volumes.',
-    materials: ['70 GSM - 100 GSM Bond Paper', '130 GSM Art Paper'],
-    sizes: ['A5 Double Sided', 'A4 Bi-Fold Pamphlet'],
-    pricing: 'Affordable bulk press rates',
-    turnaround: '24 hours in Patna',
-    faqs: [
-      {
-        q: 'Can you bundle pamphlets by 100s for newspaper distribution?',
-        a: 'Yes, we bundle and pack in moisture-proof packs ready for newspaper insertion.'
-      }
-    ],
-    gallery: [
-      '/assets/creative-poster-2022-03-11.png',
-      '/assets/sample-visiting-card-flyer-unique.jpg'
-    ]
-  },
-  {
-    slug: 'wedding-card-printing',
-    title: 'Wedding Card Printing',
-    category: 'Events',
-    shortDesc: 'Royal and contemporary wedding invitations crafted with intricate printing techniques.',
-    heroImage: '/assets/sample-invitation-card-birthday.jpg',
-    badge: 'Luxury',
-    overview: 'Celebrate life’s most precious moments with breathtaking wedding stationery. From traditional Indian motifs and gold foil borders to minimalist modern pastel cards with matching custom envelopes and boxed invites.',
-    materials: ['Handmade Shahi Paper', 'Metallic Textured Board', 'Laser-Cut MDF Inserts', 'Acrylic Transparent Wedding Cards'],
-    sizes: ['Traditional Envelopes: 8 x 10 in', 'Tri-fold Wedding Scroll', 'Boxed Suite with Sweet Box'],
-    pricing: 'Customized packages according to design complexity',
-    turnaround: '3-7 days including proofing and dummy inspection',
-    faqs: [
-      {
-        q: 'Can we print in Hindi and Urdu calligraphy?',
-        a: 'Yes, we have specialized typography and calligraphy typesetting for Hindi, English, and Urdu invitations.'
-      }
-    ],
-    gallery: [
-      '/assets/sample-invitation-card-birthday.jpg',
-      '/assets/sample-print-work-15.jpg'
-    ]
-  },
-  {
-    slug: 'invitation-card-printing',
-    title: 'Invitation Card Printing',
-    category: 'Events',
-    shortDesc: 'Custom invites for birthdays, anniversaries, corporate inaugurations, and ceremonies.',
-    heroImage: '/assets/sample-invitation-card-birthday.jpg',
-    badge: 'Celebrations',
-    overview: 'Personalized invitations for inaugurations, milestone birthdays, retirements, and annual corporate meetings. Printed on thick cardstock with vibrant colors and luxury envelope seals.',
-    materials: ['350 GSM Pearl Metallic Card', 'Velvet Touch Artboard', 'Textured Linen Card'],
-    sizes: ['5 x 7 inches', '4 x 6 inches', '6 x 8 inches Custom Envelope'],
-    pricing: 'Starting at ₹15 per card with envelope',
-    turnaround: '1-2 business days',
-    faqs: [
-      {
-        q: 'Can I include personalized guest names on each invite?',
-        a: 'Yes, our digital press supports Variable Data Printing (VDP) to personalize each invitation.'
-      }
-    ],
-    gallery: [
-      '/assets/sample-invitation-card-birthday.jpg'
-    ]
-  },
-  {
-    slug: 'offset-printing',
-    title: 'Offset Printing',
-    category: 'Bulk Press',
-    shortDesc: 'Industrial multi-color offset press for commercial bulk runs with lowest per-unit cost.',
-    heroImage: '/assets/machine-eco-flex-laminator-room.jpeg',
-    badge: 'Bulk Press',
-    overview: 'Our multi-color offset presses deliver unmatched cost-efficiency and chromatic consistency for commercial runs of 1,000 to 100,000+ units. Perfect for publishing, corporate packaging, annual reports, and mass collateral.',
-    materials: ['60 GSM - 400 GSM Paper, Board, and Duplex Board'],
-    sizes: ['Sheet sizes up to 28 x 40 inches (Full Demy)'],
-    pricing: 'Lowest per-unit wholesale cost in Bihar',
-    turnaround: '2-4 days for large bulk production',
-    faqs: [
-      {
-        q: 'Why choose offset over digital?',
-        a: 'For quantities over 1,000 units, offset printing drops per-unit cost significantly while ensuring exact Pantone/CMYK consistency.'
-      }
-    ],
-    gallery: [
-      '/assets/machine-eco-flex-laminator-room.jpeg',
-      '/assets/machine-gethray-eco-flex-large.jpeg'
-    ]
-  },
-  {
-    slug: 'digital-printing',
-    title: 'Digital Printing',
-    category: 'Stationery',
-    shortDesc: 'On-demand, instant digital printing with zero plate-making delay for quick turnarounds.',
-    heroImage: '/assets/creative-poster-2022-03-08.png',
-    badge: 'Super Fast',
-    overview: 'State-of-the-art digital color production printers delivering razor-sharp text, photographic clarity, and instant turnaround. Ideal for short runs, prototypes, and same-day delivery.',
-    materials: ['100 GSM to 350 GSM Coated & Uncoated Paper', 'Sticker Sheets', 'Synthetic Tearproof Sheets'],
-    sizes: ['12 x 18 inches (A3+)', '13 x 19 inches (Super A3)'],
-    pricing: 'Starting from ₹5 per full-color digital sheet',
-    turnaround: 'While you wait / Within 1 hour',
-    faqs: [
-      {
-        q: 'Is there a minimum quantity for digital print?',
-        a: 'No minimum order! You can print even a single copy.'
-      }
-    ],
-    gallery: [
-      '/assets/creative-poster-2022-03-08.png',
-      '/assets/office-consultation-desk-1.jpeg'
-    ]
-  },
-  {
-    slug: 't-shirt-printing',
-    title: 'T-Shirt Printing',
-    category: 'Apparel',
-    shortDesc: 'Custom corporate, event, and promotional t-shirts with durable wash-proof prints.',
-    heroImage: '/assets/portfolio-branded-carry-bag.jpeg',
-    badge: 'Custom Apparel',
-    overview: 'Dress your team or event attendees in customized brand apparel. We utilize DTF (Direct to Film), screen printing, and sublimation techniques to create bright, wash-durable apparel.',
-    materials: ['100% Bio-Washed Cotton (180-220 GSM)', 'Dry-Fit Breathable Sports Fabric', 'Polo Collar & Round Neck'],
-    sizes: ['Sizes S, M, L, XL, XXL, 3XL'],
-    pricing: 'Starting at ₹180 per t-shirt for event quantities',
-    turnaround: '2-4 days',
-    faqs: [
-      {
-        q: 'Does the print crack after washing?',
-        a: 'Our high-density DTF and cured screen inks withstand 50+ washes without peeling or cracking.'
-      }
-    ],
-    gallery: [
-      '/assets/portfolio-branded-carry-bag.jpeg'
-    ]
-  },
-  {
-    slug: 'custom-mug-printing',
-    title: 'Custom Mug Printing',
-    category: 'Gifting',
-    shortDesc: 'Sublimation ceramic coffee mugs customized with company logos and personal memories.',
-    heroImage: '/assets/office-consultation-desk-1.jpeg',
-    badge: 'Popular Gift',
-    overview: 'High-gloss ceramic mugs printed with photographic dye-sublimation. Perfect for employee welcome kits, corporate gifting, promotional merchandise, or personalized birthday presents.',
-    materials: ['Grade-A 11oz Ceramic Mug', 'Magic Color-Changing Heat Mug', 'Inner Color Accent Mugs'],
-    sizes: ['11oz (325 ml) Standard Capacity'],
-    pricing: 'Starting at ₹120 per mug with custom box packaging',
-    turnaround: 'Same day for single mugs / 24-48 hrs for bulk orders',
-    faqs: [
-      {
-        q: 'Is the mug microwave and dishwasher safe?',
-        a: 'Yes, our polymer-coated grade-A mugs are microwave-safe with vibrant color retention.'
-      }
-    ],
-    gallery: [
-      '/assets/office-consultation-desk-1.jpeg'
-    ]
-  },
-  {
-    slug: 'id-card-printing',
-    title: 'ID Card Printing',
-    category: 'Stationery',
-    shortDesc: 'PVC identity cards and branded lanyards for schools, colleges, and corporations.',
-    heroImage: '/assets/sample-business-card-streax.jpg',
-    badge: 'School & Corporate',
-    overview: 'Complete identification solutions including durable PVC cards, multi-color satin printed lanyards, RFID/smart cards, and badge holders for institutions across Bihar.',
-    materials: ['Durable PVC Plastic Board', 'Thermal Ribbon Print', 'Sublimation Satin Ribbon Lanyards'],
-    sizes: ['CR80 Standard (85.6 x 54 mm) - Credit Card Size'],
-    pricing: 'Full kit (Card + Lanyard + Holder) starting at ₹35 for bulk schools',
-    turnaround: '1-3 days',
-    faqs: [
-      {
-        q: 'Can you print barcode or QR code on ID cards?',
-        a: 'Yes, we integrate barcodes, QR codes, and RFID chips for school and office attendance systems.'
-      }
-    ],
-    gallery: [
-      '/assets/sample-business-card-streax.jpg',
-      '/assets/sample-print-work-08.jpg'
-    ]
-  },
-  {
-    slug: 'booklet-printing',
-    title: 'Booklet Printing',
-    category: 'Publishing',
-    shortDesc: 'School magazines, competitive exam guides, manuals, and stitched product booklets.',
-    heroImage: '/assets/sample-print-work-15.jpg',
-    badge: 'Educational',
-    overview: 'Comprehensive book and booklet manufacturing. We handle printing, saddle-stitching, perfect binding, and hard-cover finishing for educational institutions, government tenders, and authors in Patna.',
-    materials: ['Inner pages: 70-100 GSM Maplitho/Art Paper', 'Cover: 250-300 GSM Art Board with Gloss/Matte Film'],
-    sizes: ['A4, A5, Crown Size, Custom Manual Dimensions'],
-    pricing: 'Custom quotation based on page count and binding style',
-    turnaround: '3-5 business days',
-    faqs: [
-      {
-        q: 'What binding options are available?',
-        a: 'Center staple (saddle-stitch), perfect hot-glue binding, spiral wire-o, and hard-bound library binding.'
-      }
-    ],
-    gallery: [
-      '/assets/sample-print-work-15.jpg',
-      '/assets/sample-print-work-18.jpg',
-      '/assets/sample-visiting-card-flyer-unique.jpg',
-      '/assets/sample-print-work-03.jpg'
-    ]
-  },
-  {
-    slug: 'sticker-printing',
-    title: 'Sticker Printing',
-    category: 'Marketing',
-    shortDesc: 'Custom die-cut stickers, packaging labels, barcode rolls, and waterproof decals.',
-    heroImage: '/assets/brand-favicon.png',
-    badge: 'Die-Cut',
-    overview: 'High-adhesion product label and sticker printing. From custom die-cut vinyl decals to food packaging labels, transparent bottle stickers, and warranty security seals.',
-    materials: ['Vinyl Gloss/Matte Sticker', 'Transparent PVC Clear Film', 'Paper Sticker with Hot Melt Gumming', 'Gold/Silver Metallic Foil Sticker'],
-    sizes: ['Custom kiss-cut shape / Any size from 1 inch to large sheets'],
-    pricing: 'Sheet and roll pricing available',
-    turnaround: 'Same day to 24 hours',
-    faqs: [
-      {
-        q: 'Are the stickers waterproof for refrigerated food bottles?',
-        a: 'Yes, our vinyl and PP stickers are 100% waterproof and freeze-resistant.'
-      }
-    ],
-    gallery: [
-      '/assets/brand-favicon.png',
-      '/assets/packaging-label-vikram-orange-candy.jpg',
-      '/assets/packaging-label-vikram-chatpati.jpg'
-    ]
-  },
+
+  // 18. CALENDAR PRINTING (WALL & DESK)
   {
     slug: 'calendar-printing',
-    title: 'Calendar Printing',
+    title: 'Wall & Desk Calendar Printing',
     category: 'Stationery',
-    shortDesc: 'Personalized desk calendars and wall calendars for corporate brand reminders all year.',
-    heroImage: '/assets/creative-festival-dhanteras.jpeg',
-    badge: 'Year-Round Branding',
-    overview: 'Keep your brand visible on your clients’ desks 365 days a year. We produce custom 12-leaf desk tent calendars and high-quality tin-mounted wall calendars for corporate new year gifting.',
-    materials: ['250 GSM Art Board with Wire-O Binding', 'Heavy Hardboard Tent Stand'],
-    sizes: ['Desk: 8.5 x 6 inches', 'Wall: 12 x 18 in or 15 x 20 in'],
-    pricing: 'Special pre-season corporate rates starting at ₹45',
-    turnaround: '3-6 days',
+    shortDesc: 'Custom wall calendars, school academic calendars, and corporate executive desk planners.',
+    heroImage: '/assets/wall-calendar-nyaaya-legal-awareness-april-2026.jpg',
+    badge: 'Year-Round Impact',
+    overview: 'Keep your brand visible on clients walls 365 days a year. As seen in the Nyaaya Legal Awareness 2026 calendar and Holy Kids International Chapra school calendar, we produce custom multi-leaf wall calendars with tin mounting and Wire-O desk planners.',
+    materials: ['130-170 GSM Gloss Art Paper for Leaves', 'Tin Metal Rimming Top & Bottom', 'Twin-Loop Wire-O with Wall Hangers', 'Rigid Kappa Board Triangular Stands for Desk Calendars'],
+    sizes: ['15 x 20 inch Wall Calendar', '18 x 28 inch Poster Calendar', '8.5 x 6 inch Desk Planner', '6-Sheet & 12-Sheet Formats'],
+    pricing: 'Starting from ₹18/calendar for bulk orders',
+    turnaround: '3-7 days during peak festive season',
     faqs: [
       {
-        q: 'Can each month feature different product photos?',
-        a: 'Yes, every month can be customized with your company’s specific services and dates.'
+        q: 'Can we include custom school holiday dates and festival lists?',
+        a: 'Yes, we fully customize all monthly leaves with your institution exam schedules, holidays, and founder photos.'
       }
     ],
     gallery: [
-      '/assets/creative-festival-dhanteras.jpeg',
-      '/assets/creative-festival-cricket-diwali.jpeg'
+      '/assets/wall-calendar-nyaaya-legal-awareness-april-2026.jpg',
+      '/assets/mockup-wall-calendar-nyaaya-legal-2026.png',
+      '/assets/school-calendar-holy-kids-international-chapra-2024.jpg',
+      '/assets/school-calendar-new-st-johns-madhepura-2025.jpg'
     ]
   },
+
+  // 19. ID CARDS & LANYARDS
   {
-    slug: 'corporate-gift-printing',
-    title: 'Corporate Gift Printing',
-    category: 'Gifting',
-    shortDesc: 'Branded executive diaries, pens, custom bags, water bottles, and gift sets.',
-    heroImage: '/assets/portfolio-branded-carry-bag.jpeg',
-    badge: 'Corporate Kits',
-    overview: 'Strengthen client relationships with customized executive corporate gifts. From premium non-woven carry bags to leather diaries, temperature bottles, and engraved metal pens with your logo.',
-    materials: ['Non-Woven Fabric Bags', 'Stainless Steel Insulated Flasks', 'Hardbound PU Leather Diaries'],
-    sizes: ['Custom gift combinations and curated hampers'],
-    pricing: 'Tailored to budget from ₹50 to luxury ₹2,500+ hampers',
-    turnaround: '3-7 days',
+    slug: 'id-card-printing',
+    title: 'PVC ID Card & Lanyard Printing',
+    category: 'Corporate',
+    shortDesc: 'High-gloss PVC identity cards, RFID smart cards, custom satin printed lanyards, and card holders.',
+    heroImage: '/assets/doctor-clinic-id-card-lanyard-ejaz-clinic.jpg',
+    badge: 'High Security',
+    overview: 'Complete employee and student identification systems for schools, universities (like North St. Williams Academy), hospitals (Dr. Ejaz Clinic), and corporate offices. Printed using high-resolution thermal re-transfer technology that will never peel or fade.',
+    materials: ['Cr-80 30 Mil (0.76mm) Pure PVC Card', 'Satin Smooth Neck Lanyards with Breakaway Clips', 'Transparent Hard Acrylic & Silicone Card Holders', 'RFID & Mifare Proximity Smart Cards'],
+    sizes: ['Standard CR-80: 85.6 x 54 mm (3.375 x 2.125 inch)'],
+    pricing: 'Starts at ₹35/card with custom printed lanyard',
+    turnaround: 'Same day for batches up to 200 cards',
     faqs: [
       {
-        q: 'Can you provide samples before mass production?',
-        a: 'Yes, we provide physical proofs and digital mockups for management approval.'
+        q: 'Can you print barcode and QR codes for gate access control?',
+        a: 'Yes, we encode dynamic QR codes, Code-128 barcodes, and magnetic stripes mapped to your database.'
       }
     ],
     gallery: [
-      '/assets/portfolio-branded-carry-bag.jpeg',
-      '/assets/office-consultation-desk-1.jpeg'
+      '/assets/doctor-clinic-id-card-lanyard-ejaz-clinic.jpg',
+      '/assets/student-pvc-id-card-north-st-williams-academy.jpg',
+      '/assets/corporate-id-card-lanyard-holder-etscab.jpg'
     ]
   },
+
+  // 20. CUSTOM MUG & GIFT PRINTING
   {
-    slug: 'large-format-printing',
-    title: 'Large Format Printing',
-    category: 'Signage',
-    shortDesc: 'Up to 10ft seamless wide printing for architectural facades, hoardings, and exhibitions.',
-    heroImage: '/assets/machine-gethray-eco-flex-large.jpeg',
-    badge: 'Industrial Scale',
-    overview: 'Powered by our in-house Gethray industrial print engine, we deliver super-wide prints up to 10 feet seamless width. Rich chromatic vibrancy with Japanese printheads, perfect for major outdoor visibility in Patna.',
-    materials: ['Heavy Star Flex', 'Backlit Signboard Fabric', 'One-Way Vision Glass Film', 'Canvas Fine Art Fabric'],
-    sizes: ['Widths up to 10.5 ft seamless / Length unlimited'],
-    pricing: 'Charged per sq. ft. at direct production rates',
-    turnaround: 'Same day printing and finishing',
+    slug: 'custom-mug-printing',
+    title: 'Custom Ceramic Mug & Gift Printing',
+    category: 'Promotional Gifts',
+    shortDesc: 'Sublimation ceramic coffee mugs, personalized magic mugs, and corporate promotional drinkware.',
+    heroImage: '/assets/custom-printed-ceramic-mug-love-life.jpg',
+    badge: 'Personalized Gifts',
+    overview: 'Turn high-grade ceramic drinkware into treasured personalized gifts and corporate brand ambassadors. Utilizing dye-sublimation heat transfer, we produce full-wrap photographic prints on 11oz mugs with dishwasher-safe durability.',
+    materials: ['Grade AAA Ceramic 11oz & 15oz Mugs', 'Heat-Activated Color Changing Magic Mugs', 'Dual-Tone Inside-Color Coffee Mugs', 'Individual White Window Gift Packaging'],
+    sizes: ['11oz Standard Mug (325 ml)', '15oz Jumbo Mug (450 ml)'],
+    pricing: 'Starts at ₹120 for single piece; down to ₹65 in corporate bulk quantities',
+    turnaround: 'While you wait (30 minutes) at our shop for single items',
     faqs: [
       {
-        q: 'Do you offer installation service across Patna?',
-        a: 'Yes, our on-ground installation team installs hoardings, shop boards, and event backdrops across Patna and nearby districts.'
+        q: 'Is the print dishwasher and microwave safe?',
+        a: 'Yes, our AAA sublimation coatings bake colors deep into the ceramic glaze for permanent resistance to heat and detergent.'
       }
     ],
     gallery: [
-      '/assets/machine-gethray-eco-flex-large.jpeg',
-      '/assets/machine-eco-flex-laminator-room.jpeg',
-      '/assets/storefront-kalyani-complex-plaza.jpeg'
+      '/assets/custom-printed-ceramic-mug-love-life.jpg'
     ]
   },
+
+  // 21. T-SHIRT & APPAREL HEAT PRESS
   {
-    slug: 'flex-printing',
-    title: 'Flex Printing',
-    category: 'Signage',
-    shortDesc: 'Quick and affordable flex printing for road signage, shop boards, and promotional banners.',
-    heroImage: '/assets/storefront-board-front-view.jpeg',
-    badge: 'Patna Favourite',
-    overview: 'The most popular outdoor advertising medium in Bihar. Printed using durable solvent and eco-solvent inks that resist rainwater, heavy sunlight, and atmospheric dust.',
-    materials: ['Regular Frontlit Flex', 'Heavy Star Flex', 'Reflective Night-Glow Flex', 'Blackout Double-Side Flex'],
-    sizes: ['Custom dimensions cut to exact frame specifications'],
-    pricing: 'Starting at ultra-competitive rates per sq. ft.',
-    turnaround: '1-2 hours urgent turnaround in Langar Toli',
+    slug: 't-shirt-printing',
+    title: 'Custom T-Shirt Printing',
+    category: 'Corporate Gifts',
+    shortDesc: 'Direct-to-Film (DTF) and screen-printed corporate polo shirts, event tees, and sports jerseys.',
+    heroImage: '/assets/machine-dtf-tshirt-heat-press.jpg',
+    badge: 'Apparel Press',
+    overview: 'Outfitting corporate teams, college festival committees, and delivery fleets across Patna. Equipped with modern DTF (Direct-to-Film) printers and industrial pneumatic heat presses, we produce vibrant, stretch-resistant apparel prints.',
+    materials: ['100% Combed Cotton Bio-Washed 180-220 GSM', 'Dry-Fit Breathable Sports Polyester', 'Matty Cotton Polo Collared T-Shirts', 'High-Elasticity DTF Polyurethane Inks'],
+    sizes: ['XS, S, M, L, XL, XXL, 3XL, 4XL and custom children sizes'],
+    pricing: 'Custom printed tees starting at ₹180 in bulk lots',
+    turnaround: '2-4 business days for bulk apparel',
     faqs: [
       {
-        q: 'What is the difference between Normal Flex and Star Flex?',
-        a: 'Star flex has higher tensile strength, smoother surface texture, and richer color depth that lasts 2-3x longer.'
+        q: 'How many washes does the DTF print last?',
+        a: 'Our DTF prints withstand 50+ wash cycles without cracking, peeling, or color fading.'
       }
     ],
     gallery: [
-      '/assets/storefront-board-front-view.jpeg',
-      '/assets/storefront-outdoor-signage-day.jpeg',
-      '/assets/machine-gethray-eco-flex-large.jpeg'
+      '/assets/machine-dtf-tshirt-heat-press.jpg'
     ]
   },
+
+  // 22. OFFSET PRINTING PRESS
+  {
+    slug: 'offset-printing',
+    title: 'High-Volume Offset Printing',
+    category: 'Commercial Printing',
+    shortDesc: 'Multi-color Heidelberg offset presswork for large-scale book runs, bill books, and packaging.',
+    heroImage: '/assets/machine-heidelberg-speedmaster-offset-press.jpg',
+    badge: 'Maximum Economy',
+    overview: 'When quantities scale into thousands and tens of thousands, nothing matches the cost-efficiency and chromatic perfection of Heidelberg offset printing. We run automated 4-color press lines with CTP laser plate imaging for flawless registration.',
+    materials: ['54 GSM to 400 GSM Paper and Paperboards', 'Soy-Based Eco-Friendly Process Inks', 'In-line Aqueous Varnish Coating'],
+    sizes: ['Sheet sizes up to 28 x 40 inches'],
+    pricing: 'Lowest per-unit cost for quantities over 1,000 units',
+    turnaround: '3-6 business days depending on finishing',
+    faqs: [
+      {
+        q: 'When should I choose offset over digital printing?',
+        a: 'Choose offset printing when printing 1,000+ units, as setup costs amortize to deliver dramatic per-unit savings compared to digital.'
+      }
+    ],
+    gallery: [
+      '/assets/machine-heidelberg-speedmaster-offset-press.jpg',
+      '/assets/bill-book-envelope-manoj-mobile-communication-patna.jpg'
+    ]
+  },
+
+  // 23. DIGITAL COLOR PRESS PRINTING
+  {
+    slug: 'digital-printing',
+    title: 'High-Speed Digital Color Press',
+    category: 'Commercial Printing',
+    shortDesc: 'Production digital color printing on Konica Minolta bizhub press with same-day delivery.',
+    heroImage: '/assets/machine-konica-minolta-bizhub-c251i-digital-press.jpg',
+    badge: 'Same Day Express',
+    overview: 'Need 50 brochures or 200 certificates in an hour? Our Konica Minolta bizhub C251i digital press lines deliver instantaneous turnaround with offset-matching 2400 x 1200 DPI resolution, true CMYK color profiles, and automated duplex registration.',
+    materials: ['75 GSM Bond to 350 GSM Heavy Art Card', 'Synthetic Non-Tearable Polyester Films', 'Self-Adhesive Sticker Sheets (Gloss/Matte)'],
+    sizes: ['A4, A3, 12 x 18 inch, 13 x 19 inch (Super B)'],
+    pricing: 'No plate charges; economical for short runs from 1 to 500 copies',
+    turnaround: 'Instant / Same day (often ready in under 60 minutes)',
+    faqs: [
+      {
+        q: 'Can I get a physical proof before running the complete quantity?',
+        a: 'Yes, we can print a physical hardcopy proof in 5 minutes at our Kalyani Complex counter for your immediate sign-off.'
+      }
+    ],
+    gallery: [
+      '/assets/machine-konica-minolta-bizhub-c251i-digital-press.jpg',
+      '/assets/ctrlp-storefront-board-front-view.jpg'
+    ]
+  },
+
+  // 24. SIGNAGE & STOREFRONT BRANDING
   {
     slug: 'signage-branding',
-    title: 'Signage & Branding',
+    title: 'Signage & Storefront 3D Branding',
     category: 'Signage',
     shortDesc: 'ACP 3D LED glow sign boards, acrylic letters, neon signs, and commercial shop front displays.',
-    heroImage: '/assets/brand-signage-gstin.jpeg',
+    heroImage: '/assets/ctrlp-storefront-signage-with-gstin.jpg',
     badge: 'Storefronts',
-    overview: 'Transform your storefront into an illuminated landmark. We engineer ACP (Aluminium Composite Panel) router-cut signboards, 3D acrylic LED channel letters, neon flex, and showroom vinyl branding.',
+    overview: 'Transform your storefront into an illuminated landmark. We engineer ACP (Aluminium Composite Panel) router-cut signboards, 3D acrylic LED channel letters, neon flex, and showroom vinyl branding with licensed electrical safety.',
     materials: ['Aluminium Composite Panels (ACP)', 'Cast Acrylic Sheets (3mm - 12mm)', 'High-Lumen Samsung LED Modules', 'Flexible Silicon Neon Lights'],
     sizes: ['Custom designed to fit your commercial facade exactly'],
     pricing: 'Free site measurement & quotation in Patna',
@@ -488,33 +763,10 @@ export const servicesList = [
       }
     ],
     gallery: [
-      '/assets/brand-signage-gstin.jpeg',
-      '/assets/storefront-entrance-celebration.jpeg',
-      '/assets/storefront-outdoor-signage-day.jpeg'
-    ]
-  },
-  {
-    slug: 'event-printing',
-    title: 'Event Printing',
-    category: 'Events',
-    shortDesc: 'Complete printing packages for corporate summits, medical conferences, and grand weddings.',
-    heroImage: '/assets/storefront-entrance-celebration.jpeg',
-    badge: 'Complete Event Kit',
-    overview: 'One-stop printing partner for high-profile events in Patna. We deliver stage backdrops, entrance arches, delegate badges, lanyard cards, event certificates, podium branding, and standees with punctuality guaranteed.',
-    materials: ['Wrinkle-Free Fabric Backdrops', 'High-Gloss Photo Boards', 'Satin Delegate Badges', 'Directional Foam-Board Signages'],
-    sizes: ['Complete venue branding packages'],
-    pricing: 'Customized event packages with emergency on-site support',
-    turnaround: 'Priority overnight production for event organizers',
-    faqs: [
-      {
-        q: 'Can you deliver directly to event hotels like Maurya or Lemon Tree in Patna?',
-        a: 'Yes, we provide direct door delivery and venue installation across all hotels and convention centers in Patna.'
-      }
-    ],
-    gallery: [
-      '/assets/storefront-entrance-celebration.jpeg',
-      '/assets/sample-standee-rahul-electric.jpg',
-      '/assets/portfolio-branded-carry-bag.jpeg'
+      '/assets/ctrlp-storefront-signage-with-gstin.jpg',
+      '/assets/ctrlp-storefront-grand-opening-celebration.jpg',
+      '/assets/ctrlp-storefront-outdoor-signage-daytime.jpg',
+      '/assets/mockup-outdoor-signage-gurukul-coaching-patna.png'
     ]
   }
 ];

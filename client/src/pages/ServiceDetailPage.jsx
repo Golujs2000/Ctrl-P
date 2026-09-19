@@ -3,6 +3,7 @@ import { useParams, Link } from 'react-router-dom';
 import { getServiceBySlug, servicesList } from '../data/servicesData';
 import { ArrowLeft, ArrowRight, CheckCircle2, MessageSquare, Phone, Clock, Layers, Maximize2, IndianRupee, HelpCircle, ShieldCheck } from 'lucide-react';
 import CtaBanner from '../components/CtaBanner';
+import SEOHead from '../components/SEOHead';
 
 export default function ServiceDetailPage({ onOpenQuote }) {
   const { slug } = useParams();
@@ -34,8 +35,89 @@ export default function ServiceDetailPage({ onOpenQuote }) {
   );
   const whatsappUrl = `https://wa.me/919304085366?text=${whatsappMessage}`;
 
+  const serviceSchema = [
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": `${service.title} in Patna`,
+      "serviceType": service.title,
+      "category": service.category,
+      "description": service.overview,
+      "provider": {
+        "@type": "LocalBusiness",
+        "name": "Ctrl P — A Design & Print Shop",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Kalyani Complex, Langar Toli Chauraha",
+          "addressLocality": "Patna",
+          "addressRegion": "Bihar",
+          "postalCode": "800004",
+          "addressCountry": "IN"
+        },
+        "telephone": "+919304085366"
+      },
+      "areaServed": [
+        { "@type": "City", "name": "Patna" },
+        { "@type": "State", "name": "Bihar" },
+        { "@type": "Country", "name": "India" }
+      ],
+      "offers": {
+        "@type": "Offer",
+        "priceSpecification": {
+          "@type": "PriceSpecification",
+          "priceCurrency": "INR",
+          "description": service.pricing
+        }
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://ctrlppatna.in/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Services",
+          "item": "https://ctrlppatna.in/services"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": service.title,
+          "item": `https://ctrlppatna.in/services/${service.slug}`
+        }
+      ]
+    },
+    ...(service.faqs && service.faqs.length > 0 ? [{
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": service.faqs.map((faq) => ({
+        "@type": "Question",
+        "name": faq.q,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": faq.a
+        }
+      }))
+    }] : [])
+  ];
+
   return (
     <div className="bg-white min-h-screen">
+      <SEOHead
+        title={`${service.title} in Patna | Best Rates & Turnaround - Ctrl P`}
+        description={`${service.shortDesc} In-house offset & digital printing at Kalyani Complex, Langar Toli, Patna. ${service.pricing}. Fast delivery across Bihar.`}
+        keywords={`${service.title} Patna, ${service.title} printing Bihar, ${service.category} printing Patna, printing shop Langar Toli`}
+        canonicalPath={`/services/${service.slug}`}
+        ogImage={service.heroImage}
+        schema={serviceSchema}
+      />
       
       {/* Breadcrumbs Navigation */}
       <div className="border-b border-zinc-100 bg-zinc-50/60 py-3.5">

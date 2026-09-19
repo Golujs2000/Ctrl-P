@@ -2,97 +2,116 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Eye, ArrowRight, CheckCircle2, X } from 'lucide-react';
 import CtaBanner from '../components/CtaBanner';
+import SEOHead from '../components/SEOHead';
 
 const detailedWorks = [
   {
     id: 1,
-    title: 'Uru Marketing Corporate Tri-Fold Brochure',
-    category: 'Brochures',
-    client: 'Uru Marketing Pvt. Ltd., Subhash Complex, Patna',
-    image: '/assets/sample-print-work-03.jpg',
-    specs: '300 GSM Imported Art Card, Soft Silk Lamination, Vibrant Yellow & Magenta Pantone Ink',
-    description: 'A multi-panel commercial marketing brochure designed and printed for corporate promotions.'
+    title: 'Tarapur Children Healthcare Doctor Patient File',
+    category: 'Healthcare',
+    client: 'Dr. Rakif Raza, Tarapur Children Healthcare',
+    image: '/assets/mockup-doctor-patient-file-folder-tarapur-healthcare.png',
+    specs: '350 GSM Laminated Cardstock, Dual Inside Medical Report Pockets, Clinic Creased Spine',
+    description: 'Specialized heavy-duty medical case record file folder custom fabricated for pediatric clinics.'
   },
   {
     id: 2,
-    title: 'Ctrl P Branded Non-Woven Carry Bags',
-    category: 'Corporate Gifts',
-    client: 'Official Ctrl P In-House Merchandise',
-    image: '/assets/portfolio-branded-carry-bag.jpeg',
-    specs: '100 GSM Eco-friendly Non-Woven fabric with precision screen printing and heat seal handles',
-    description: 'Heavy duty promotional shopping bags produced for retail and corporate exhibition distribution.'
+    title: 'SLC Partners & Associates Advocate Business Card',
+    category: 'Business Cards',
+    client: 'Basheer Advocate, Patna High Court, Fraser Road',
+    image: '/assets/mockup-visiting-card-slc-partners-advocate-patna.png',
+    specs: '350 GSM Royal Matte Board, Gold Metallic Foiling, Double-Sided High Density Print',
+    description: 'Luxury advocate visiting cards designed and printed for prestigious legal chambers in Patna.'
   },
   {
     id: 3,
-    title: 'Digital Photo Book & Album Catalog',
-    category: 'Booklets',
-    client: 'Sanjeet Raj Creative Studio, Patna',
-    image: '/assets/sample-print-work-15.jpg',
-    specs: 'Gloss Photo Pages, 250 GSM Hard Cover with Gold Foil Embossed Lettering',
-    description: 'High-definition digital photo book printing with lay-flat stitched binding.'
+    title: 'Vedantu Patna Learning Centre Roll-Up Standee',
+    category: 'Banners',
+    client: 'Vedantu Learning Centre, Anand Prakash Sir',
+    image: '/assets/mockup-rollup-standee-vedantu-patna.png',
+    specs: '2.5 x 6 ft Non-Tearable Matte PET Film, Anodized Aluminum Mechanism with Transit Bag',
+    description: 'High-visibility roll-up standee printed with vivid educational graphics for center reception.'
   },
   {
     id: 4,
-    title: 'Streax Professional & Beardhood Executive Cards',
-    category: 'Business Cards',
-    client: 'Hygienic Research Institute Ltd.',
-    image: '/assets/sample-business-card-streax.jpg',
-    specs: '350 GSM Royal Matte Board, Gold Metallic Foiling, Double-Sided Sharp QR Codes',
-    description: 'Luxury executive visiting cards for regional business leaders and sales teams.'
+    title: 'Mild Care Zizz Guard Packaging Box & Dieline',
+    category: 'Packaging',
+    client: 'Mild Care Natural Health Products',
+    image: '/assets/mockup-packaging-box-zizz-guard-foot-pads.png',
+    specs: '350 GSM ITC Food-Grade Duplex Board, Matte Thermal Lamination, Precision Die-Cut Folding',
+    description: 'Full packaging solution including structural CAD dieline, 3D mockup, and offset mono-carton production.'
   },
   {
     id: 5,
-    title: 'Vikram Vicky Confectionery Packaging Wrappers',
-    category: 'Packaging',
-    client: 'Vikram Food Products',
-    image: '/assets/packaging-label-vikram-orange-candy.jpg',
-    specs: 'Food-grade moisture-barrier roll film with micro-engraved rotogravure fidelity',
-    description: 'Vibrant orange candy and confectionery packaging labels maintaining freshness and shelf appeal.'
+    title: 'Darbhanga Disaster Management 2026 Manual',
+    category: 'Booklets',
+    client: 'Samaharnalay Darbhanga, Govt. of Bihar',
+    image: '/assets/book-cover-darbhanga-disaster-management-2026.jpg',
+    specs: 'A4 Multi-Page Book, 300 GSM Laminated Cover, Automated Hot-Melt Perfect Glue Binding',
+    description: 'Official district administrative disaster management resource manual printed in high volume.'
   },
   {
     id: 6,
-    title: 'Rahul Electric Roll-Up Display Standee',
-    category: 'Banners',
-    client: 'Rahul Electric, Jagdeo Path, Patna',
-    image: '/assets/sample-standee-rahul-electric.jpg',
-    specs: 'Star Flex, 6x3 ft, Tear-resistant, Heavy-gauge aluminium rollup cassette',
-    description: 'High-visibility retail promotion standee for showroom display.'
+    title: 'Idara Sharia Patna Aaina Fatawa Sharia Hardcover',
+    category: 'Urdu Publishing',
+    client: 'Idara Sharia Sultanganj, Patna',
+    image: '/assets/mockup-urdu-book-fatawa-sharia-idara-sharia-patna.png',
+    specs: 'Noori Nastaliq Typography, Hardbound Kappa Board with Embossed Gold Foil Spine',
+    description: 'Master Islamic legal reference literature typeset in authentic Urdu Nastaliq and hardcover bound.'
   },
   {
     id: 7,
-    title: 'Sidhi Complex & Banquet Luxury Cards',
-    category: 'Business Cards',
-    client: 'Sidhi Complex & Marriage Hall, Patna',
-    image: '/assets/sample-print-work-02.jpg',
-    specs: '350 GSM Yellow & Black Cardstock, High Contrast Map Guide on Back',
-    description: 'Double-sided prestige business cards with location landmark map printing.'
+    title: 'PUCA Education Summit Certificate of Appreciation',
+    category: 'Certificates',
+    client: 'Punjab Unaided Colleges Association (Hotel Gargee Grand)',
+    image: '/assets/certificate-of-appreciation-puca-bihar-summit.jpg',
+    specs: '300 GSM Natural Parchment Paper, Metallic Mirror Gold Foil Stamping, Anti-Counterfeit Border',
+    description: 'Prestige recognition certificates presented to distinguished educationists across Bihar.'
   },
   {
     id: 8,
-    title: 'Commercial Print Catalog & Brochure Layout',
-    category: 'Brochures',
-    client: 'Commercial Publishing Patna',
-    image: '/assets/sample-print-work-18.jpg',
-    specs: 'A4 Multi-Panel, CMYK Process Quality Inspection, Silk Matte Finish',
-    description: 'Full CMYK color process catalogue showcasing print specifications and finishes.'
+    title: 'Firstcry Intellitots Round Sunshade Umbrella',
+    category: 'Outdoor Displays',
+    client: 'Firstcry Intellitots Preschool & Daycare',
+    image: '/assets/promotional-sunshade-umbrella-firstcry-daycare.jpg',
+    specs: '6 Ft Diameter, 8-Rib Powder Coated Steel Frame, Waterproof PU-Coated Oxford Canvas',
+    description: 'Branded promotional garden sunshade umbrella with heavy water-fillable base for retail visibility.'
   },
   {
     id: 9,
-    title: 'Punjab National Bank (PNB) Branch Visiting Cards',
-    category: 'Business Cards',
-    client: 'Punjab National Bank, Ratni Branch',
-    image: '/assets/sample-business-card-pnb-ratni.jpg',
-    specs: 'Corporate Red and Yellow Pantone Match, 300 GSM Cardstock, Matte Lamination',
-    description: 'Official corporate stationery adhering strictly to national banking brand guidelines.'
+    title: 'Commercial Outdoor Promotional Canopy Tent',
+    category: 'Outdoor Displays',
+    client: 'Ctrl P Field Marketing Division',
+    image: '/assets/promotional-canopy-tent-outdoor-display.jpg',
+    specs: '6x6 ft Pop-up Tent, Weatherproof 600D Canvas, Collapsible Hexagonal Steel Truss',
+    description: 'Instant pop-up promotional canopy for brand activations, registration desks, and outdoor expos.'
   },
   {
     id: 10,
-    title: 'Happy Diwali & Festival Creative Campaigns',
-    category: 'Social & Posters',
-    client: 'Ctrl P Brand Studio Production',
-    image: '/assets/creative-festival-cricket-diwali.jpeg',
-    specs: 'Super A3 High Gloss Photographic Quality, Vector Art Precision',
-    description: 'Artistic festive posters celebrating national occasions with striking visual depth.'
+    title: 'Jeevan Deep Public School Admission Prospectus',
+    category: 'Brochures',
+    client: 'Jeevan Deep Public School, Nawada',
+    image: '/assets/school-admission-prospectus-jeevan-deep-nawada.jpg',
+    specs: '250 GSM Silk Matte Cover, 130 GSM Inner Art Paper, Multi-Page Saddle Stitched',
+    description: 'Comprehensive academic prospectus designed to showcase campus amenities and school curriculum.'
+  },
+  {
+    id: 11,
+    title: 'Nyaaya Legal Awareness April 2026 Wall Calendar',
+    category: 'Calendars',
+    client: 'Nyaaya Legal Initiative',
+    image: '/assets/wall-calendar-nyaaya-legal-awareness-april-2026.jpg',
+    specs: '15 x 20 inch, 170 GSM Gloss Art Paper, Tin Metal Rimming Top & Bottom with Wire Hanger',
+    description: 'Legal rights educational calendar with full monthly date matrix and civic awareness guides.'
+  },
+  {
+    id: 12,
+    title: 'Uru Marketing Corporate Tri-Fold Brochure',
+    category: 'Brochures',
+    client: 'Uru Marketing Pvt. Ltd., Patna',
+    image: '/assets/tri-fold-marketing-brochure-uru-marketing.jpg',
+    specs: '300 GSM Imported Art Card, Soft Silk Lamination, Vibrant Process CMYK Color',
+    description: 'Tri-fold marketing collateral for commercial agency client outreach and product showcases.'
   }
 ];
 
@@ -100,14 +119,39 @@ export default function PortfolioPage({ onOpenQuote }) {
   const [activeTab, setActiveTab] = useState('All');
   const [selectedItem, setSelectedItem] = useState(null);
 
-  const categories = ['All', 'Brochures', 'Business Cards', 'Booklets', 'Packaging', 'Banners', 'Corporate Gifts', 'Social & Posters'];
+  const categories = ['All', 'Healthcare', 'Business Cards', 'Banners', 'Packaging', 'Booklets', 'Urdu Publishing', 'Certificates', 'Outdoor Displays', 'Brochures', 'Calendars'];
 
   const filtered = activeTab === 'All'
     ? detailedWorks
     : detailedWorks.filter((item) => item.category === activeTab);
 
+  const portfolioSchema = [
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": "Print Work Portfolio & Client Samples in Patna | Ctrl P",
+      "description": "Real production samples printed in Kalyani Complex, Patna: Doctor patient files, packaging boxes, Vedantu standees, books, and certificates.",
+      "url": "https://ctrlppatna.in/our-work"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://ctrlppatna.in/" },
+        { "@type": "ListItem", "position": 2, "name": "Our Work", "item": "https://ctrlppatna.in/our-work" }
+      ]
+    }
+  ];
+
   return (
     <div className="bg-white min-h-screen">
+      <SEOHead
+        title="Print Work Portfolio & Client Samples in Patna | Ctrl P"
+        description="Browse real client print work manufactured at our Patna press: Doctor patient files, Vedantu standees, Darbhanga book manuals, packaging boxes, and awards."
+        keywords="print portfolio Patna, printing samples Bihar, real printing work Patna, doctor file sample, standee photo, packaging box sample"
+        canonicalPath="/our-work"
+        schema={portfolioSchema}
+      />
       
       {/* Breadcrumbs */}
       <div className="border-b border-zinc-100 bg-zinc-50/60 py-3.5">

@@ -38,7 +38,7 @@ export default function MachinesPage({ onOpenQuote }) {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-center">
           <div className="lg:col-span-6 rounded-3xl overflow-hidden bg-zinc-100 border-2 border-zinc-200 shadow-xl aspect-[4/3]">
             <img
-              src="/assets/machine-gethray-eco-flex-large.jpeg"
+              src="/assets/machine-gethray-large-format-eco-solvent-printer.jpg"
               alt="Gethray Eco Flex Machine Ctrl P"
               className="w-full h-full object-cover"
             />
@@ -90,7 +90,7 @@ export default function MachinesPage({ onOpenQuote }) {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-center">
           <div className="lg:col-span-6 lg:order-2 rounded-3xl overflow-hidden bg-zinc-100 border-2 border-zinc-200 shadow-xl aspect-[4/3]">
             <img
-              src="/assets/machine-eco-flex-laminator-room.jpeg"
+              src="/assets/machine-heidelberg-speedmaster-offset-press.jpg"
               alt="Offset Printing Machine Room"
               className="w-full h-full object-cover"
             />
@@ -142,7 +142,7 @@ export default function MachinesPage({ onOpenQuote }) {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-center">
           <div className="lg:col-span-6 rounded-3xl overflow-hidden bg-zinc-100 border-2 border-zinc-200 shadow-xl aspect-[4/3]">
             <img
-              src="/assets/machine-large-format-laminator.jpeg"
+              src="/assets/machine-industrial-large-format-cold-laminator.jpg"
               alt="Large Format Laminator Machine"
               className="w-full h-full object-cover"
             />
@@ -187,7 +187,7 @@ export default function MachinesPage({ onOpenQuote }) {
                 <video
                   controls
                   className="w-full h-full object-cover"
-                  src="/assets/video-printing-machine-demo-1.mp4"
+                  src="/assets/video-gethray-large-format-flex-printing.mp4"
                 />
               </div>
               <div className="p-2">
@@ -201,7 +201,7 @@ export default function MachinesPage({ onOpenQuote }) {
                 <video
                   controls
                   className="w-full h-full object-cover"
-                  src="/assets/video-printing-machine-demo-2.mp4"
+                  src="/assets/video-continuous-high-speed-roll-printing.mp4"
                 />
               </div>
               <div className="p-2">

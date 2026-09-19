@@ -3,22 +3,74 @@ import { Link } from 'react-router-dom';
 import { servicesList } from '../data/servicesData';
 import { Search, ArrowRight, ShieldCheck, Zap, Award, Sparkles } from 'lucide-react';
 import CtaBanner from '../components/CtaBanner';
+import SEOHead from '../components/SEOHead';
 
 export default function ServicesPage({ onOpenQuote }) {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('All');
 
-  const categories = ['All', 'Stationery', 'Marketing', 'Signage', 'Events', 'Gifting', 'Bulk Press', 'Apparel', 'Publishing'];
+  const categories = [
+    'All',
+    'Healthcare',
+    'Design Studio',
+    'Publishing',
+    'Specialty Publishing',
+    'Binding & Finishing',
+    'Outdoor Advertising',
+    'Packaging',
+    'Stationery',
+    'Marketing',
+    'Signage',
+    'Corporate',
+    'Promotional Gifts',
+    'Commercial Printing'
+  ];
 
   const filtered = servicesList.filter((service) => {
     const matchesCategory = selectedCategory === 'All' || service.category === selectedCategory;
     const matchesSearch = service.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-                          service.shortDesc.toLowerCase().includes(searchTerm.toLowerCase());
+                          service.shortDesc.toLowerCase().includes(searchTerm.toLowerCase()) ||
+                          service.category.toLowerCase().includes(searchTerm.toLowerCase());
     return matchesCategory && matchesSearch;
   });
 
+  const servicesCatalogSchema = [
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": "Commercial Printing Services in Patna | Ctrl P",
+      "description": "Explore 24+ professional printing services including Doctor patient files, book publishing, Urdu calligraphy, packaging boxes, standees, and canopies in Patna.",
+      "url": "https://ctrlppatna.in/services"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "itemListElement": servicesList.map((s, idx) => ({
+        "@type": "ListItem",
+        "position": idx + 1,
+        "name": s.title,
+        "url": `https://ctrlppatna.in/services/${s.slug}`
+      }))
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://ctrlppatna.in/" },
+        { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://ctrlppatna.in/services" }
+      ]
+    }
+  ];
+
   return (
     <div className="bg-white min-h-screen">
+      <SEOHead
+        title="Commercial Printing Services in Patna | 24+ In-House Solutions - Ctrl P"
+        description="Comprehensive commercial printing in Patna: Doctor patient files, prescription letterpads, book printing, Urdu design, standees, canopies, umbrellas, packaging boxes & worldwide delivery."
+        keywords="printing services Patna, offset printing press Bihar, doctor file printing, book printing Patna, standee printing, canopy printing Patna, packaging boxes"
+        canonicalPath="/services"
+        schema={servicesCatalogSchema}
+      />
       
       {/* Services Header */}
       <section className="bg-zinc-50 border-b border-zinc-200/80 py-14 sm:py-20 relative overflow-hidden">
