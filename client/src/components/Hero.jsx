@@ -8,8 +8,8 @@ export default function Hero({ onOpenQuote }) {
       {/* Desktop / Tablet View (md and above): Full 1983x793 Image Fitted 100% with Overlay Text */}
       <div className="hidden md:block relative w-full aspect-[1983/793] max-w-[2100px] mx-auto">
         {/* Full Hero Pic - 100% Complete & Uncropped */}
-        <img
-          src="/assets/hero-background.png"
+        <img decoding="async" loading="lazy"
+          src="/assets/hero-background.webp"
           alt="Ctrl P Printing Press Patna"
           className="w-full h-full object-contain object-right pointer-events-none select-none"
         />
@@ -113,8 +113,8 @@ export default function Hero({ onOpenQuote }) {
 
         {/* Full Hero Picture for Mobile (100% Fitted, Uncropped) */}
         <div className="w-full rounded-2xl overflow-hidden border border-zinc-200 shadow-md bg-zinc-50">
-          <img
-            src="/assets/hero-background.png"
+          <img decoding="async" loading="lazy"
+            src="/assets/hero-background.webp"
             alt="Ctrl P Printing Press Patna Full Showcase"
             className="w-full h-auto object-contain block"
           />

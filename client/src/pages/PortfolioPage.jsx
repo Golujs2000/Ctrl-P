@@ -10,7 +10,7 @@ const detailedWorks = [
     title: 'Tarapur Children Healthcare Doctor Patient File',
     category: 'Healthcare',
     client: 'Dr. Rakif Raza, Tarapur Children Healthcare',
-    image: '/assets/mockup-doctor-patient-file-folder-tarapur-healthcare.png',
+    image: '/assets/mockup-doctor-patient-file-folder-tarapur-healthcare.webp',
     specs: '350 GSM Laminated Cardstock, Dual Inside Medical Report Pockets, Clinic Creased Spine',
     description: 'Specialized heavy-duty medical case record file folder custom fabricated for pediatric clinics.'
   },
@@ -19,7 +19,7 @@ const detailedWorks = [
     title: 'SLC Partners & Associates Advocate Business Card',
     category: 'Business Cards',
     client: 'Basheer Advocate, Patna High Court, Fraser Road',
-    image: '/assets/mockup-visiting-card-slc-partners-advocate-patna.png',
+    image: '/assets/mockup-visiting-card-slc-partners-advocate-patna.webp',
     specs: '350 GSM Royal Matte Board, Gold Metallic Foiling, Double-Sided High Density Print',
     description: 'Luxury advocate visiting cards designed and printed for prestigious legal chambers in Patna.'
   },
@@ -28,7 +28,7 @@ const detailedWorks = [
     title: 'Vedantu Patna Learning Centre Roll-Up Standee',
     category: 'Banners',
     client: 'Vedantu Learning Centre, Anand Prakash Sir',
-    image: '/assets/mockup-rollup-standee-vedantu-patna.png',
+    image: '/assets/mockup-rollup-standee-vedantu-patna.webp',
     specs: '2.5 x 6 ft Non-Tearable Matte PET Film, Anodized Aluminum Mechanism with Transit Bag',
     description: 'High-visibility roll-up standee printed with vivid educational graphics for center reception.'
   },
@@ -37,25 +37,25 @@ const detailedWorks = [
     title: 'Mild Care Zizz Guard Packaging Box & Dieline',
     category: 'Packaging',
     client: 'Mild Care Natural Health Products',
-    image: '/assets/mockup-packaging-box-zizz-guard-foot-pads.png',
+    image: '/assets/mockup-packaging-box-zizz-guard-foot-pads.webp',
     specs: '350 GSM ITC Food-Grade Duplex Board, Matte Thermal Lamination, Precision Die-Cut Folding',
     description: 'Full packaging solution including structural CAD dieline, 3D mockup, and offset mono-carton production.'
   },
   {
     id: 5,
-    title: 'Darbhanga Disaster Management 2026 Manual',
+    title: 'Full Production Book & Publication Printing',
     category: 'Booklets',
-    client: 'Samaharnalay Darbhanga, Govt. of Bihar',
-    image: '/assets/book-cover-darbhanga-disaster-management-2026.jpg',
+    client: 'Samaharnalay Darbhanga & Academic Publishers',
+    image: '/assets/service-book-printing-publishing.jpg',
     specs: 'A4 Multi-Page Book, 300 GSM Laminated Cover, Automated Hot-Melt Perfect Glue Binding',
-    description: 'Official district administrative disaster management resource manual printed in high volume.'
+    description: 'Official district administrative disaster management resource manual and high-volume literature printing.'
   },
   {
     id: 6,
     title: 'Idara Sharia Patna Aaina Fatawa Sharia Hardcover',
     category: 'Urdu Publishing',
     client: 'Idara Sharia Sultanganj, Patna',
-    image: '/assets/mockup-urdu-book-fatawa-sharia-idara-sharia-patna.png',
+    image: '/assets/mockup-urdu-book-fatawa-sharia-idara-sharia-patna.webp',
     specs: 'Noori Nastaliq Typography, Hardbound Kappa Board with Embossed Gold Foil Spine',
     description: 'Master Islamic legal reference literature typeset in authentic Urdu Nastaliq and hardcover bound.'
   },
@@ -64,7 +64,7 @@ const detailedWorks = [
     title: 'PUCA Education Summit Certificate of Appreciation',
     category: 'Certificates',
     client: 'Punjab Unaided Colleges Association (Hotel Gargee Grand)',
-    image: '/assets/certificate-of-appreciation-puca-bihar-summit.jpg',
+    image: '/assets/certificate-of-appreciation-puca-bihar-summit.webp',
     specs: '300 GSM Natural Parchment Paper, Metallic Mirror Gold Foil Stamping, Anti-Counterfeit Border',
     description: 'Prestige recognition certificates presented to distinguished educationists across Bihar.'
   },
@@ -73,7 +73,7 @@ const detailedWorks = [
     title: 'Firstcry Intellitots Round Sunshade Umbrella',
     category: 'Outdoor Displays',
     client: 'Firstcry Intellitots Preschool & Daycare',
-    image: '/assets/promotional-sunshade-umbrella-firstcry-daycare.jpg',
+    image: '/assets/promotional-sunshade-umbrella-firstcry-daycare.webp',
     specs: '6 Ft Diameter, 8-Rib Powder Coated Steel Frame, Waterproof PU-Coated Oxford Canvas',
     description: 'Branded promotional garden sunshade umbrella with heavy water-fillable base for retail visibility.'
   },
@@ -82,7 +82,7 @@ const detailedWorks = [
     title: 'Commercial Outdoor Promotional Canopy Tent',
     category: 'Outdoor Displays',
     client: 'Ctrl P Field Marketing Division',
-    image: '/assets/promotional-canopy-tent-outdoor-display.jpg',
+    image: '/assets/promotional-canopy-tent-outdoor-display.webp',
     specs: '6x6 ft Pop-up Tent, Weatherproof 600D Canvas, Collapsible Hexagonal Steel Truss',
     description: 'Instant pop-up promotional canopy for brand activations, registration desks, and outdoor expos.'
   },
@@ -91,7 +91,7 @@ const detailedWorks = [
     title: 'Jeevan Deep Public School Admission Prospectus',
     category: 'Brochures',
     client: 'Jeevan Deep Public School, Nawada',
-    image: '/assets/school-admission-prospectus-jeevan-deep-nawada.jpg',
+    image: '/assets/school-admission-prospectus-jeevan-deep-nawada.webp',
     specs: '250 GSM Silk Matte Cover, 130 GSM Inner Art Paper, Multi-Page Saddle Stitched',
     description: 'Comprehensive academic prospectus designed to showcase campus amenities and school curriculum.'
   },
@@ -100,7 +100,7 @@ const detailedWorks = [
     title: 'Nyaaya Legal Awareness April 2026 Wall Calendar',
     category: 'Calendars',
     client: 'Nyaaya Legal Initiative',
-    image: '/assets/wall-calendar-nyaaya-legal-awareness-april-2026.jpg',
+    image: '/assets/wall-calendar-nyaaya-legal-awareness-april-2026.webp',
     specs: '15 x 20 inch, 170 GSM Gloss Art Paper, Tin Metal Rimming Top & Bottom with Wire Hanger',
     description: 'Legal rights educational calendar with full monthly date matrix and civic awareness guides.'
   },
@@ -109,9 +109,54 @@ const detailedWorks = [
     title: 'Uru Marketing Corporate Tri-Fold Brochure',
     category: 'Brochures',
     client: 'Uru Marketing Pvt. Ltd., Patna',
-    image: '/assets/tri-fold-marketing-brochure-uru-marketing.jpg',
+    image: '/assets/tri-fold-marketing-brochure-uru-marketing.webp',
     specs: '300 GSM Imported Art Card, Soft Silk Lamination, Vibrant Process CMYK Color',
     description: 'Tri-fold marketing collateral for commercial agency client outreach and product showcases.'
+  },
+  {
+    id: 13,
+    title: 'Turnkey Commercial Storefront 3D Branding',
+    category: 'Outdoor Displays',
+    client: 'Retail Showroom & Commercial Complex Patna',
+    image: '/assets/service-commercial-branding-fabrication.jpeg',
+    specs: 'Router-Cut ACP Panel, 3D Acrylic Letters with Samsung Warm White LED Modules',
+    description: 'Complete architectural storefront elevation design, lighting installation, and structural fabrication.'
+  },
+  {
+    id: 14,
+    title: 'Stainless Steel Architectural Outdoor Signboard',
+    category: 'Outdoor Displays',
+    client: 'Corporate Head Office & Commercial Plaza',
+    image: '/assets/service-stainless-steel-sign-board.jpeg',
+    specs: '304 Grade Heavy Gauge Stainless Steel, Acid-Etched Enamel Infill, Mirror Finish',
+    description: 'Weatherproof prestige outdoor metal sign board designed for corporate entrances.'
+  },
+  {
+    id: 15,
+    title: 'Corporate Premium Ceramic Coffee Mugs',
+    category: 'Corporate Gifts',
+    client: 'Tech Innovators & Corporate Welcome Kits',
+    image: '/assets/service-corporate-coffee-mug.jpg',
+    specs: 'Grade AAA 11oz Ceramic Mug, High-Definition Sublimation Heat Transfer',
+    description: 'Custom branded coffee mugs supplied for employee welcome packs and brand promotions.'
+  },
+  {
+    id: 16,
+    title: 'Custom DTF Bio-Washed Cotton T-Shirts',
+    category: 'Corporate Gifts',
+    client: 'Annual Sports Meet & Brand Field Teams',
+    image: '/assets/service-custom-t-shirt-printing.jpg',
+    specs: '210 GSM 100% Bio-Washed Combed Cotton, Stretch-Resistant DTF Full Color Print',
+    description: 'Corporate team t-shirts and promotional apparel printed with fade-resistant inks.'
+  },
+  {
+    id: 17,
+    title: 'Frontlit & Backlit Commercial Flex Banners',
+    category: 'Banners',
+    client: 'Retail Festival Campaign Patna',
+    image: '/assets/service-banner-flex-printing.jpg',
+    specs: '340 GSM Star Flex, Solvent High Chromatic Inks, Border Eyelets Reinforcement',
+    description: 'High-visibility outdoor hoardings and promotional flex banners for city campaigns.'
   }
 ];
 
@@ -119,7 +164,7 @@ export default function PortfolioPage({ onOpenQuote }) {
   const [activeTab, setActiveTab] = useState('All');
   const [selectedItem, setSelectedItem] = useState(null);
 
-  const categories = ['All', 'Healthcare', 'Business Cards', 'Banners', 'Packaging', 'Booklets', 'Urdu Publishing', 'Certificates', 'Outdoor Displays', 'Brochures', 'Calendars'];
+  const categories = ['All', 'Healthcare', 'Business Cards', 'Banners', 'Packaging', 'Booklets', 'Urdu Publishing', 'Certificates', 'Outdoor Displays', 'Brochures', 'Calendars', 'Corporate Gifts'];
 
   const filtered = activeTab === 'All'
     ? detailedWorks
@@ -206,12 +251,12 @@ export default function PortfolioPage({ onOpenQuote }) {
               className="bg-white rounded-3xl border border-zinc-200/90 overflow-hidden shadow-sm hover:shadow-xl hover:border-[#E31B23]/40 transition-all duration-300 flex flex-col cursor-pointer group"
             >
               <div className="relative aspect-[4/3] bg-zinc-100 overflow-hidden">
-                <img
+                <img decoding="async" loading="lazy"
                   src={item.image}
                   alt={item.title}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   onError={(e) => {
-                    e.target.src = '/assets/brand-favicon.png';
+                    e.target.src = '/assets/brand-favicon.webp';
                   }}
                 />
                 <span className="absolute top-4 left-4 bg-white/95 backdrop-blur-xs text-[10px] font-black uppercase tracking-wider text-black px-3 py-1 rounded-md shadow-xs border border-zinc-200">
@@ -271,12 +316,12 @@ export default function PortfolioPage({ onOpenQuote }) {
             <div className="flex-1 overflow-y-auto p-5 sm:p-7 space-y-4">
               {/* Media Preview Box */}
               <div className="w-full max-h-64 sm:max-h-80 rounded-xl sm:rounded-2xl overflow-hidden bg-zinc-100 border border-zinc-200 flex items-center justify-center p-2">
-                <img
+                <img decoding="async" loading="lazy"
                   src={selectedItem.image}
                   alt={selectedItem.title}
                   className="max-h-60 sm:max-h-76 w-full object-contain rounded-lg"
                   onError={(e) => {
-                    e.target.src = '/assets/brand-favicon.png';
+                    e.target.src = '/assets/brand-favicon.webp';
                   }}
                 />
               </div>

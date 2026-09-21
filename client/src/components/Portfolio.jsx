@@ -7,7 +7,7 @@ const portfolioItems = [
     title: 'Tarapur Children Healthcare Patient File',
     category: 'Healthcare',
     client: 'Dr. Rakif Raza, Tarapur Children Healthcare',
-    image: '/assets/mockup-doctor-patient-file-folder-tarapur-healthcare.png',
+    image: '/assets/mockup-doctor-patient-file-folder-tarapur-healthcare.webp',
     tags: ['Patient Record Folder', 'Laminated Dual Pocket']
   },
   {
@@ -15,7 +15,7 @@ const portfolioItems = [
     title: 'SLC Partners & Associates Advocate Card',
     category: 'Business Cards',
     client: 'Basheer Advocate, Patna High Court',
-    image: '/assets/mockup-visiting-card-slc-partners-advocate-patna.png',
+    image: '/assets/mockup-visiting-card-slc-partners-advocate-patna.webp',
     tags: ['Prestige Cardstock', 'Gold Foil Embossed']
   },
   {
@@ -23,7 +23,7 @@ const portfolioItems = [
     title: 'Vedantu Learning Centre Patna Roll-Up Standee',
     category: 'Banners',
     client: 'Vedantu Patna Learning Centre',
-    image: '/assets/mockup-rollup-standee-vedantu-patna.png',
+    image: '/assets/mockup-rollup-standee-vedantu-patna.webp',
     tags: ['Non-Tearable PET', 'Aluminium Rollup Mechanism']
   },
   {
@@ -31,15 +31,15 @@ const portfolioItems = [
     title: 'Mild Care Zizz Guard Packaging Box',
     category: 'Packaging',
     client: 'Mild Care Healthcare Products',
-    image: '/assets/mockup-packaging-box-zizz-guard-foot-pads.png',
+    image: '/assets/mockup-packaging-box-zizz-guard-foot-pads.webp',
     tags: ['Mono Carton', 'Custom CAD Dieline']
   },
   {
     id: 5,
-    title: 'Darbhanga Disaster Management 2026 Manual',
+    title: 'Full Production Book & Publication Printing',
     category: 'Booklets',
-    client: 'Samaharnalay Darbhanga, Govt. of Bihar',
-    image: '/assets/book-cover-darbhanga-disaster-management-2026.jpg',
+    client: 'Samaharnalay Darbhanga & Academic Publishers',
+    image: '/assets/service-book-printing-publishing.jpg',
     tags: ['Perfect Glue Bound', 'Heidelberg Offset']
   },
   {
@@ -47,23 +47,23 @@ const portfolioItems = [
     title: 'PUCA Higher Education Summit Certificate',
     category: 'Certificates',
     client: 'Punjab Unaided Colleges Association, Patna',
-    image: '/assets/certificate-of-appreciation-puca-bihar-summit.jpg',
+    image: '/assets/certificate-of-appreciation-puca-bihar-summit.webp',
     tags: ['Gold Foil Seal', 'Parchment Textured Board']
   },
   {
     id: 7,
-    title: 'Firstcry Intellitots Sunshade Umbrella',
+    title: 'Turnkey Commercial Storefront 3D Branding',
     category: 'Outdoor',
-    client: 'Firstcry Intellitots Preschool & Daycare',
-    image: '/assets/promotional-sunshade-umbrella-firstcry-daycare.jpg',
-    tags: ['Waterproof Fabric', 'Heavy Duty Base']
+    client: 'Retail Showroom & Commercial Complex Patna',
+    image: '/assets/service-commercial-branding-fabrication.jpeg',
+    tags: ['ACP 3D Letters', 'High-Lumen LED Glow']
   },
   {
     id: 8,
     title: 'Jeevan Deep Public School Admission Prospectus',
     category: 'Brochures',
     client: 'Jeevan Deep Public School, Nawada',
-    image: '/assets/school-admission-prospectus-jeevan-deep-nawada.jpg',
+    image: '/assets/school-admission-prospectus-jeevan-deep-nawada.webp',
     tags: ['Multi-Page Saddle Stitched', 'Silk Matte Art Card']
   }
 ];
@@ -128,12 +128,12 @@ export default function Portfolio({ onOpenQuote }) {
               className="group bg-zinc-50 rounded-2xl overflow-hidden border border-zinc-200/80 hover:border-[#E31B23]/40 shadow-xs hover:shadow-lg transition-all duration-300 flex flex-col cursor-pointer"
             >
               <div className="relative aspect-[4/3] bg-zinc-100 overflow-hidden">
-                <img
+                <img decoding="async" loading="lazy"
                   src={item.image}
                   alt={item.title}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   onError={(e) => {
-                    e.target.src = '/assets/brand-favicon.png';
+                    e.target.src = '/assets/brand-favicon.webp';
                   }}
                 />
                 <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
@@ -194,12 +194,12 @@ export default function Portfolio({ onOpenQuote }) {
             {/* Scrollable Body */}
             <div className="flex-1 overflow-y-auto p-5 sm:p-6 space-y-4">
               <div className="w-full max-h-64 sm:max-h-80 rounded-xl sm:rounded-2xl overflow-hidden bg-zinc-100 border border-zinc-200 flex items-center justify-center p-2">
-                <img
+                <img decoding="async" loading="lazy"
                   src={previewItem.image}
                   alt={previewItem.title}
                   className="max-h-60 sm:max-h-76 w-full object-contain rounded-lg"
                   onError={(e) => {
-                    e.target.src = '/assets/brand-favicon.png';
+                    e.target.src = '/assets/brand-favicon.webp';
                   }}
                 />
               </div>

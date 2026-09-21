@@ -20,7 +20,7 @@ export default function Logo({ variant = 'light', size = 'default', showIcon = t
             ? 'bg-zinc-900 border border-zinc-700' 
             : 'bg-white border border-zinc-200'
         }`}>
-          <img
+          <img decoding="async" loading="lazy"
             src="/assets/brand-favicon.png"
             alt="Ctrl P Logo Emblem"
             className="w-full h-full object-cover"

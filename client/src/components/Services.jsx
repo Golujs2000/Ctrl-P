@@ -63,7 +63,7 @@ export default function Services({ onOpenQuote }) {
             >
               {/* Image Preview Thumbnail */}
               <div className="w-full aspect-[4/3] rounded-xl overflow-hidden bg-zinc-50 mb-3 flex items-center justify-center p-2 relative">
-                <img
+                <img decoding="async" loading="lazy"
                   src={service.heroImage}
                   alt={service.title}
                   className="w-full h-full object-cover rounded-lg group-hover:scale-105 transition-transform duration-500"

@@ -21,3 +21,16 @@
 - [x] Synced and optimized assets in `client/public/assets`.
 - [x] Zero broken links; clean production build tested and verified.
 
+## Image Corrections & `E:\Print shop assets` Integration
+- [x] **Offset Machine Image**: Replaced mismatched laminator room photo in `Machines.jsx` with actual Heidelberg Speedmaster Offset press (`/assets/machine-heidelberg-speedmaster-offset-press.webp`).
+- [x] **Eco Flex Machine Image**: Fixed Gethray Eco Flex machine image in `Machines.jsx` to `/assets/machine-gethray-large-format-eco-solvent-printer.webp`.
+- [x] **Logo Design & Identity**: Integrated dedicated `service-logo-design-brand-identity.jpg` from `E:\Print shop assets\Logo Design & Brand Identity.jfif`.
+- [x] **Staple & Spiral Binding**: Replaced machine photo with real spiral/wire-o sample `service-staple-spiral-wire-o-binding.jpg` from `E:\Print shop assets\Precision Finishing Staple, Spiral & Wire-O Binding.jpg`.
+- [x] **Book Printing**: Upgraded book production service with `service-book-printing-publishing.jpg` from `E:\Print shop assets\Full Production Book Printing & Publication.jpg`.
+- [x] **Banner & Flex Printing**: Replaced printer machine photo with real banner photo `service-banner-flex-printing.jpg` from `E:\Print shop assets\Frontlit & Backlit Flex Banner.jpg`.
+- [x] **T-Shirt & Apparel**: Replaced heat press machine photo with real custom apparel `service-custom-t-shirt-printing.jpg` and polo/hoodie galleries.
+- [x] **Flyers & Leaflets**: Replaced school admission poster with real promotional flyers `service-flyers-leaflets-printing.jpg`.
+- [x] **Corporate Mugs & Gifts**: Upgraded with corporate coffee mugs and personalized mugs from `E:\Print shop assets`.
+- [x] **Signage & Storefront Branding**: Enriched with commercial 3D storefront fabrication, outdoor stainless steel signboards, and 3D acrylic LED letters.
+- [x] **Machines Page & Video Suite**: Expanded with Konica Minolta bizhub digital press, automated hot-melt book binder, and 4 in-house production video walkthroughs.
+

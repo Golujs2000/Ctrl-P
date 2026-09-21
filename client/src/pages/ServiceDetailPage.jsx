@@ -137,12 +137,12 @@ export default function ServiceDetailPage({ onOpenQuote }) {
           {/* Left Column: Image Showcase */}
           <div className="lg:col-span-6 space-y-4">
             <div className="relative aspect-[4/3] rounded-3xl overflow-hidden bg-zinc-50 border-2 border-zinc-200/80 shadow-lg p-2 flex items-center justify-center">
-              <img
+              <img decoding="async" loading="lazy"
                 src={service.heroImage}
                 alt={service.title}
                 className="w-full h-full object-cover rounded-2xl"
                 onError={(e) => {
-                  e.target.src = '/assets/brand-favicon.png';
+                  e.target.src = '/assets/brand-favicon.webp';
                 }}
               />
               <span className="absolute top-5 left-5 bg-black/85 backdrop-blur-sm text-white text-[11px] font-extrabold px-3 py-1 rounded-full uppercase tracking-wider">
@@ -300,12 +300,12 @@ export default function ServiceDetailPage({ onOpenQuote }) {
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
               {service.gallery.map((imgSrc, i) => (
                 <div key={i} className="aspect-[4/3] rounded-2xl overflow-hidden bg-zinc-100 border border-zinc-200/80 shadow-xs hover:shadow-md transition-shadow group">
-                  <img
+                  <img decoding="async" loading="lazy"
                     src={imgSrc}
                     alt={`${service.title} sample ${i + 1}`}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                     onError={(e) => {
-                      e.target.src = '/assets/brand-favicon.png';
+                      e.target.src = '/assets/brand-favicon.webp';
                     }}
                   />
                 </div>
@@ -362,7 +362,7 @@ export default function ServiceDetailPage({ onOpenQuote }) {
                 className="p-4 rounded-xl bg-white border border-zinc-200 shadow-xs hover:border-[#E31B23] hover:shadow-md transition-all group"
               >
                 <div className="aspect-[4/3] rounded-lg overflow-hidden bg-zinc-100 mb-2">
-                  <img src={rel.heroImage} alt={rel.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform" />
+                  <img decoding="async" loading="lazy" src={rel.heroImage} alt={rel.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform" />
                 </div>
                 <div className="text-xs font-black text-black group-hover:text-[#E31B23] transition-colors line-clamp-1">
                   {rel.title}

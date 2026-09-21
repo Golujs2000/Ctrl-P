@@ -275,10 +275,10 @@ export default function ContactPage() {
             {/* Storefront Photo Strip */}
             <div className="grid grid-cols-2 gap-4">
               <div className="aspect-[4/3] rounded-2xl overflow-hidden border border-zinc-200 shadow-sm bg-zinc-100">
-                <img src="/assets/ctrlp-storefront-kalyani-complex-plaza-view.jpg" alt="Kalyani Complex Plaza View" className="w-full h-full object-cover" />
+                <img decoding="async" loading="lazy" src="/assets/ctrlp-storefront-kalyani-complex-plaza-view.webp" alt="Kalyani Complex Plaza View" className="w-full h-full object-cover" />
               </div>
               <div className="aspect-[4/3] rounded-2xl overflow-hidden border border-zinc-200 shadow-sm bg-zinc-100">
-                <img src="/assets/ctrlp-office-design-workstations-pc-setup.jpg" alt="Design PC Workstations" className="w-full h-full object-cover" />
+                <img decoding="async" loading="lazy" src="/assets/ctrlp-office-design-workstations-pc-setup.webp" alt="Design PC Workstations" className="w-full h-full object-cover" />
               </div>
             </div>
           </div>

@@ -130,12 +130,12 @@ export default function ServicesPage({ onOpenQuote }) {
             >
               {/* Image Preview */}
               <div className="relative aspect-[4/3] bg-zinc-50 overflow-hidden p-3 flex items-center justify-center">
-                <img
+                <img decoding="async" loading="lazy"
                   src={service.heroImage}
                   alt={service.title}
                   className="w-full h-full object-cover rounded-xl group-hover:scale-105 transition-transform duration-500"
                   onError={(e) => {
-                    e.target.src = '/assets/brand-favicon.png';
+                    e.target.src = '/assets/brand-favicon.webp';
                   }}
                 />
                 {service.badge && (

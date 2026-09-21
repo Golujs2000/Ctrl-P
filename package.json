@@ -7,7 +7,8 @@
     "server": "npm --prefix server start",
     "client": "npm --prefix client run dev",
     "build": "npm --prefix client run build",
-    "deploy:firebase": "npm run build && firebase deploy"
+    "deploy": "npm run build && npx firebase-tools deploy --only hosting",
+    "deploy:firebase": "npm run build && npx firebase-tools deploy --only hosting"
   },
   "devDependencies": {
     "concurrently": "^9.1.2"

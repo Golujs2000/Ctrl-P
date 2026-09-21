@@ -25,9 +25,9 @@ export default function Machines({ onOpenQuote }) {
             </div>
 
             <div className="aspect-[4/3] rounded-xl overflow-hidden bg-white border border-zinc-200/60 p-2 flex items-center justify-center">
-              <img
-                src="/assets/machine-eco-flex-laminator-room.jpeg"
-                alt="Ctrl P Offset Commercial Machine"
+              <img decoding="async" loading="lazy"
+                src="/assets/machine-heidelberg-speedmaster-offset-press.webp"
+                alt="Heidelberg Offset Printing Press Ctrl P"
                 className="w-full h-full object-cover rounded-lg group-hover:scale-105 transition-transform duration-500"
               />
             </div>
@@ -54,8 +54,8 @@ export default function Machines({ onOpenQuote }) {
             </div>
 
             <div className="aspect-[4/3] rounded-xl overflow-hidden bg-white border border-zinc-200/60 p-2 flex items-center justify-center">
-              <img
-                src="/assets/machine-gethray-eco-flex-large.jpeg"
+              <img decoding="async" loading="lazy"
+                src="/assets/machine-gethray-large-format-eco-solvent-printer.webp"
                 alt="Gethray Eco Flex Machine Ctrl P"
                 className="w-full h-full object-cover rounded-lg group-hover:scale-105 transition-transform duration-500"
               />
