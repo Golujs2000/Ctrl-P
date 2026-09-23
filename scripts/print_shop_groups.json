@@ -1,0 +1,1645 @@
+{
+  "visiting_cards": [
+    {
+      "original": "3d_uv_visiting_card (1).jfif",
+      "cleanPath": "/assets/3d-uv-visiting-card-1.jpg",
+      "filename": "3d-uv-visiting-card-1.jpg",
+      "size": 25201,
+      "ext": ".jpg"
+    },
+    {
+      "original": "atm_visiting_card (1).jfif",
+      "cleanPath": "/assets/atm-visiting-card-1.jpg",
+      "filename": "atm-visiting-card-1.jpg",
+      "size": 16811,
+      "ext": ".jpg"
+    },
+    {
+      "original": "business card print.jfif",
+      "cleanPath": "/assets/business-card-print.jpg",
+      "filename": "business-card-print.jpg",
+      "size": 12978,
+      "ext": ".jpg"
+    },
+    {
+      "original": "cheap_visiting_card (1).jfif",
+      "cleanPath": "/assets/cheap-visiting-card-1.jpg",
+      "filename": "cheap-visiting-card-1.jpg",
+      "size": 21981,
+      "ext": ".jpg"
+    },
+    {
+      "original": "circle_visiting_card (1).jfif",
+      "cleanPath": "/assets/circle-visiting-card-1.jpg",
+      "filename": "circle-visiting-card-1.jpg",
+      "size": 17412,
+      "ext": ".jpg"
+    },
+    {
+      "original": "die_cut_visiting_card.jfif",
+      "cleanPath": "/assets/die-cut-visiting-card.jpg",
+      "filename": "die-cut-visiting-card.jpg",
+      "size": 27225,
+      "ext": ".jpg"
+    },
+    {
+      "original": "digital_visiting_card.jfif",
+      "cleanPath": "/assets/digital-visiting-card.jpg",
+      "filename": "digital-visiting-card.jpg",
+      "size": 17799,
+      "ext": ".jpg"
+    },
+    {
+      "original": "economic_vsisiting_card.jfif",
+      "cleanPath": "/assets/economic-vsisiting-card.jpg",
+      "filename": "economic-vsisiting-card.jpg",
+      "size": 23497,
+      "ext": ".jpg"
+    },
+    {
+      "original": "emboss_visiting_card.jfif",
+      "cleanPath": "/assets/emboss-visiting-card.jpg",
+      "filename": "emboss-visiting-card.jpg",
+      "size": 21677,
+      "ext": ".jpg"
+    },
+    {
+      "original": "foil_visiting_card.jfif",
+      "cleanPath": "/assets/foil-visiting-card.jpg",
+      "filename": "foil-visiting-card.jpg",
+      "size": 19833,
+      "ext": ".jpg"
+    },
+    {
+      "original": "gloss_visiting_card.jfif",
+      "cleanPath": "/assets/gloss-visiting-card.jpg",
+      "filename": "gloss-visiting-card.jpg",
+      "size": 60889,
+      "ext": ".jpg"
+    },
+    {
+      "original": "hospital_thankyou_card.jfif",
+      "cleanPath": "/assets/hospital-thankyou-card.jpg",
+      "filename": "hospital-thankyou-card.jpg",
+      "size": 13244,
+      "ext": ".jpg"
+    },
+    {
+      "original": "IN_Standard-Visiting-Cards_Hero-image_01.png",
+      "cleanPath": "/assets/in-standard-visiting-cards-hero-image-01.png",
+      "filename": "in-standard-visiting-cards-hero-image-01.png",
+      "size": 249474,
+      "ext": ".png"
+    },
+    {
+      "original": "kraft_visiting_card.jfif",
+      "cleanPath": "/assets/kraft-visiting-card.jpg",
+      "filename": "kraft-visiting-card.jpg",
+      "size": 18670,
+      "ext": ".jpg"
+    },
+    {
+      "original": "lawyers_card.jfif",
+      "cleanPath": "/assets/lawyers-card.jpg",
+      "filename": "lawyers-card.jpg",
+      "size": 73726,
+      "ext": ".jpg"
+    },
+    {
+      "original": "menu_card_printing.jfif",
+      "cleanPath": "/assets/menu-card-printing.jpg",
+      "filename": "menu-card-printing.jpg",
+      "size": 40811,
+      "ext": ".jpg"
+    },
+    {
+      "original": "non_tearable_visiting_card.jfif",
+      "cleanPath": "/assets/non-tearable-visiting-card.jpg",
+      "filename": "non-tearable-visiting-card.jpg",
+      "size": 15236,
+      "ext": ".jpg"
+    },
+    {
+      "original": "normal_visiting_card.jfif",
+      "cleanPath": "/assets/normal-visiting-card.jpg",
+      "filename": "normal-visiting-card.jpg",
+      "size": 20588,
+      "ext": ".jpg"
+    },
+    {
+      "original": "note_card_printing.jfif",
+      "cleanPath": "/assets/note-card-printing.jpg",
+      "filename": "note-card-printing.jpg",
+      "size": 35517,
+      "ext": ".jpg"
+    },
+    {
+      "original": "oval_visiting_card.jfif",
+      "cleanPath": "/assets/oval-visiting-card.jpg",
+      "filename": "oval-visiting-card.jpg",
+      "size": 24363,
+      "ext": ".jpg"
+    },
+    {
+      "original": "square_visiting_card.jfif",
+      "cleanPath": "/assets/square-visiting-card.jpg",
+      "filename": "square-visiting-card.jpg",
+      "size": 17355,
+      "ext": ".jpg"
+    },
+    {
+      "original": "standard_visiting_card.jfif",
+      "cleanPath": "/assets/standard-visiting-card.jpg",
+      "filename": "standard-visiting-card.jpg",
+      "size": 18922,
+      "ext": ".jpg"
+    },
+    {
+      "original": "synthetic_visiting_card.jfif",
+      "cleanPath": "/assets/synthetic-visiting-card.jpg",
+      "filename": "synthetic-visiting-card.jpg",
+      "size": 23860,
+      "ext": ".jpg"
+    },
+    {
+      "original": "textured_visiting_card.jfif",
+      "cleanPath": "/assets/textured-visiting-card.jpg",
+      "filename": "textured-visiting-card.jpg",
+      "size": 22535,
+      "ext": ".jpg"
+    },
+    {
+      "original": "thankyou_card.jfif",
+      "cleanPath": "/assets/thankyou-card.jpg",
+      "filename": "thankyou-card.jpg",
+      "size": 13581,
+      "ext": ".jpg"
+    },
+    {
+      "original": "transaparent_visiting_card.jfif",
+      "cleanPath": "/assets/transaparent-visiting-card.jpg",
+      "filename": "transaparent-visiting-card.jpg",
+      "size": 33347,
+      "ext": ".jpg"
+    },
+    {
+      "original": "velvet_visiting_card.jfif",
+      "cleanPath": "/assets/velvet-visiting-card.jpg",
+      "filename": "velvet-visiting-card.jpg",
+      "size": 23714,
+      "ext": ".jpg"
+    },
+    {
+      "original": "visiting-cards.jfif",
+      "cleanPath": "/assets/visiting-cards.jpg",
+      "filename": "visiting-cards.jpg",
+      "size": 167735,
+      "ext": ".jpg"
+    },
+    {
+      "original": "visiting_cards_banner.jpg",
+      "cleanPath": "/assets/visiting-cards-banner.jpg",
+      "filename": "visiting-cards-banner.jpg",
+      "size": 70867,
+      "ext": ".jpg"
+    }
+  ],
+  "stickers_and_labels": [
+    {
+      "original": "adress_label.jfif",
+      "cleanPath": "/assets/adress-label.jpg",
+      "filename": "adress-label.jpg",
+      "size": 47380,
+      "ext": ".jpg"
+    },
+    {
+      "original": "bakery_stickers.jfif",
+      "cleanPath": "/assets/bakery-stickers.jpg",
+      "filename": "bakery-stickers.jpg",
+      "size": 26763,
+      "ext": ".jpg"
+    },
+    {
+      "original": "bath_fit_jar_label.jfif",
+      "cleanPath": "/assets/bath-fit-jar-label.jpg",
+      "filename": "bath-fit-jar-label.jpg",
+      "size": 81988,
+      "ext": ".jpg"
+    },
+    {
+      "original": "box_sticker.jfif",
+      "cleanPath": "/assets/box-sticker.jpg",
+      "filename": "box-sticker.jpg",
+      "size": 44457,
+      "ext": ".jpg"
+    },
+    {
+      "original": "clear_transparent_sticker.jfif",
+      "cleanPath": "/assets/clear-transparent-sticker.jpg",
+      "filename": "clear-transparent-sticker.jpg",
+      "size": 22113,
+      "ext": ".jpg"
+    },
+    {
+      "original": "cloth_labels.jfif",
+      "cleanPath": "/assets/cloth-labels.jpg",
+      "filename": "cloth-labels.jpg",
+      "size": 48735,
+      "ext": ".jpg"
+    },
+    {
+      "original": "cloth_tags.jfif",
+      "cleanPath": "/assets/cloth-tags.jpg",
+      "filename": "cloth-tags.jpg",
+      "size": 18365,
+      "ext": ".jpg"
+    },
+    {
+      "original": "costematic_label.jfif",
+      "cleanPath": "/assets/costematic-label.jpg",
+      "filename": "costematic-label.jpg",
+      "size": 23086,
+      "ext": ".jpg"
+    },
+    {
+      "original": "customized_wall_stickers.jfif",
+      "cleanPath": "/assets/customized-wall-stickers.jpg",
+      "filename": "customized-wall-stickers.jpg",
+      "size": 42275,
+      "ext": ".jpg"
+    },
+    {
+      "original": "custom_cloth_jewellery_hang_tags_guide.jpg",
+      "cleanPath": "/assets/custom-cloth-jewellery-hang-tags-guide.jpg",
+      "filename": "custom-cloth-jewellery-hang-tags-guide.jpg",
+      "size": 273519,
+      "ext": ".jpg"
+    },
+    {
+      "original": "custom_sticker_label_printing_guide.jpg",
+      "cleanPath": "/assets/custom-sticker-label-printing-guide.jpg",
+      "filename": "custom-sticker-label-printing-guide.jpg",
+      "size": 160078,
+      "ext": ".jpg"
+    },
+    {
+      "original": "electronic_label.jfif",
+      "cleanPath": "/assets/electronic-label.jpg",
+      "filename": "electronic-label.jpg",
+      "size": 67095,
+      "ext": ".jpg"
+    },
+    {
+      "original": "e_commerce_stickers.jfif",
+      "cleanPath": "/assets/e-commerce-stickers.jpg",
+      "filename": "e-commerce-stickers.jpg",
+      "size": 42330,
+      "ext": ".jpg"
+    },
+    {
+      "original": "fmcg_jar_label.jfif",
+      "cleanPath": "/assets/fmcg-jar-label.jpg",
+      "filename": "fmcg-jar-label.jpg",
+      "size": 37462,
+      "ext": ".jpg"
+    },
+    {
+      "original": "fmcg_stickers.jfif",
+      "cleanPath": "/assets/fmcg-stickers.jpg",
+      "filename": "fmcg-stickers.jpg",
+      "size": 28100,
+      "ext": ".jpg"
+    },
+    {
+      "original": "food_pacakging_sticker.jfif",
+      "cleanPath": "/assets/food-pacakging-sticker.jpg",
+      "filename": "food-pacakging-sticker.jpg",
+      "size": 45320,
+      "ext": ".jpg"
+    },
+    {
+      "original": "holographic_stickers.jfif",
+      "cleanPath": "/assets/holographic-stickers.jpg",
+      "filename": "holographic-stickers.jpg",
+      "size": 20383,
+      "ext": ".jpg"
+    },
+    {
+      "original": "jwellery_tag.jfif",
+      "cleanPath": "/assets/jwellery-tag.jpg",
+      "filename": "jwellery-tag.jpg",
+      "size": 15147,
+      "ext": ".jpg"
+    },
+    {
+      "original": "machine_barcode_label.jfif",
+      "cleanPath": "/assets/machine-barcode-label.jpg",
+      "filename": "machine-barcode-label.jpg",
+      "size": 31207,
+      "ext": ".jpg"
+    },
+    {
+      "original": "manufacturer_label.jfif",
+      "cleanPath": "/assets/manufacturer-label.jpg",
+      "filename": "manufacturer-label.jpg",
+      "size": 32351,
+      "ext": ".jpg"
+    },
+    {
+      "original": "manufacturer_stickers.jfif",
+      "cleanPath": "/assets/manufacturer-stickers.jpg",
+      "filename": "manufacturer-stickers.jpg",
+      "size": 47270,
+      "ext": ".jpg"
+    },
+    {
+      "original": "packaging_label.jfif",
+      "cleanPath": "/assets/packaging-label.jpg",
+      "filename": "packaging-label.jpg",
+      "size": 29541,
+      "ext": ".jpg"
+    },
+    {
+      "original": "pharmacy_label.jfif",
+      "cleanPath": "/assets/pharmacy-label.jpg",
+      "filename": "pharmacy-label.jpg",
+      "size": 26179,
+      "ext": ".jpg"
+    },
+    {
+      "original": "price_tag.jfif",
+      "cleanPath": "/assets/price-tag.jpg",
+      "filename": "price-tag.jpg",
+      "size": 26192,
+      "ext": ".jpg"
+    },
+    {
+      "original": "product_label.jfif",
+      "cleanPath": "/assets/product-label.jpg",
+      "filename": "product-label.jpg",
+      "size": 25652,
+      "ext": ".jpg"
+    },
+    {
+      "original": "scratch_coupon_sticker.jfif",
+      "cleanPath": "/assets/scratch-coupon-sticker.jpg",
+      "filename": "scratch-coupon-sticker.jpg",
+      "size": 16617,
+      "ext": ".jpg"
+    },
+    {
+      "original": "sticker.jfif",
+      "cleanPath": "/assets/sticker.jpg",
+      "filename": "sticker.jpg",
+      "size": 23840,
+      "ext": ".jpg"
+    },
+    {
+      "original": "transport_barcode_label.jfif",
+      "cleanPath": "/assets/transport-barcode-label.jpg",
+      "filename": "transport-barcode-label.jpg",
+      "size": 129631,
+      "ext": ".jpg"
+    },
+    {
+      "original": "vinayl_sticker.jfif",
+      "cleanPath": "/assets/vinayl-sticker.jpg",
+      "filename": "vinayl-sticker.jpg",
+      "size": 50929,
+      "ext": ".jpg"
+    },
+    {
+      "original": "warning_label.jfif",
+      "cleanPath": "/assets/warning-label.jpg",
+      "filename": "warning-label.jpg",
+      "size": 34562,
+      "ext": ".jpg"
+    },
+    {
+      "original": "waterproof_sticker.jfif",
+      "cleanPath": "/assets/waterproof-sticker.jpg",
+      "filename": "waterproof-sticker.jpg",
+      "size": 19567,
+      "ext": ".jpg"
+    },
+    {
+      "original": "water_bottle_label.jfif",
+      "cleanPath": "/assets/water-bottle-label.jpg",
+      "filename": "water-bottle-label.jpg",
+      "size": 32619,
+      "ext": ".jpg"
+    }
+  ],
+  "packaging_boxes": [
+    {
+      "original": "automobiles_pacakging (1).jfif",
+      "cleanPath": "/assets/automobiles-pacakging-1.jpg",
+      "filename": "automobiles-pacakging-1.jpg",
+      "size": 36691,
+      "ext": ".jpg"
+    },
+    {
+      "original": "automobiles_pacakging.jfif",
+      "cleanPath": "/assets/automobiles-pacakging.jpg",
+      "filename": "automobiles-pacakging.jpg",
+      "size": 36691,
+      "ext": ".jpg"
+    },
+    {
+      "original": "bakery_box_printing.jfif",
+      "cleanPath": "/assets/bakery-box-printing.jpg",
+      "filename": "bakery-box-printing.jpg",
+      "size": 53562,
+      "ext": ".jpg"
+    },
+    {
+      "original": "cosmatic_pacakging.jfif",
+      "cleanPath": "/assets/cosmatic-pacakging.jpg",
+      "filename": "cosmatic-pacakging.jpg",
+      "size": 27315,
+      "ext": ".jpg"
+    },
+    {
+      "original": "dry_fruit_box.jfif",
+      "cleanPath": "/assets/dry-fruit-box.jpg",
+      "filename": "dry-fruit-box.jpg",
+      "size": 20416,
+      "ext": ".jpg"
+    },
+    {
+      "original": "dry_fruit_pacakging.jfif",
+      "cleanPath": "/assets/dry-fruit-pacakging.jpg",
+      "filename": "dry-fruit-pacakging.jpg",
+      "size": 39620,
+      "ext": ".jpg"
+    },
+    {
+      "original": "e_commerce_box.jfif",
+      "cleanPath": "/assets/e-commerce-box.jpg",
+      "filename": "e-commerce-box.jpg",
+      "size": 27529,
+      "ext": ".jpg"
+    },
+    {
+      "original": "e_commerce_pacakging.jfif",
+      "cleanPath": "/assets/e-commerce-pacakging.jpg",
+      "filename": "e-commerce-pacakging.jpg",
+      "size": 19332,
+      "ext": ".jpg"
+    },
+    {
+      "original": "food_box.jfif",
+      "cleanPath": "/assets/food-box.jpg",
+      "filename": "food-box.jpg",
+      "size": 32967,
+      "ext": ".jpg"
+    },
+    {
+      "original": "footwear_pacakging.jfif",
+      "cleanPath": "/assets/footwear-pacakging.jpg",
+      "filename": "footwear-pacakging.jpg",
+      "size": 25018,
+      "ext": ".jpg"
+    },
+    {
+      "original": "jwellery_box.jfif",
+      "cleanPath": "/assets/jwellery-box.jpg",
+      "filename": "jwellery-box.jpg",
+      "size": 21916,
+      "ext": ".jpg"
+    },
+    {
+      "original": "jwellery_pacakging.jfif",
+      "cleanPath": "/assets/jwellery-pacakging.jpg",
+      "filename": "jwellery-pacakging.jpg",
+      "size": 76256,
+      "ext": ".jpg"
+    },
+    {
+      "original": "LED Glow Sign Board & Box.avif",
+      "cleanPath": "/assets/led-glow-sign-board-box.avif",
+      "filename": "led-glow-sign-board-box.avif",
+      "size": 33631,
+      "ext": ".avif"
+    },
+    {
+      "original": "LED Slim Light Box Poster Panels.jfif",
+      "cleanPath": "/assets/led-slim-light-box-poster-panels.jpg",
+      "filename": "led-slim-light-box-poster-panels.jpg",
+      "size": 41132,
+      "ext": ".jpg"
+    },
+    {
+      "original": "machien_box_printing.jfif",
+      "cleanPath": "/assets/machien-box-printing.jpg",
+      "filename": "machien-box-printing.jpg",
+      "size": 80238,
+      "ext": ".jpg"
+    },
+    {
+      "original": "mailer_box.jfif",
+      "cleanPath": "/assets/mailer-box.jpg",
+      "filename": "mailer-box.jpg",
+      "size": 17542,
+      "ext": ".jpg"
+    },
+    {
+      "original": "packaging_banner.jpg",
+      "cleanPath": "/assets/packaging-banner.jpg",
+      "filename": "packaging-banner.jpg",
+      "size": 56544,
+      "ext": ".jpg"
+    },
+    {
+      "original": "pickle_pacakging.jfif",
+      "cleanPath": "/assets/pickle-pacakging.jpg",
+      "filename": "pickle-pacakging.jpg",
+      "size": 117923,
+      "ext": ".jpg"
+    },
+    {
+      "original": "product_box.jfif",
+      "cleanPath": "/assets/product-box.jpg",
+      "filename": "product-box.jpg",
+      "size": 26327,
+      "ext": ".jpg"
+    },
+    {
+      "original": "seeds_box_pacakging.jfif",
+      "cleanPath": "/assets/seeds-box-pacakging.jpg",
+      "filename": "seeds-box-pacakging.jpg",
+      "size": 67383,
+      "ext": ".jpg"
+    },
+    {
+      "original": "spice_pacakging.jfif",
+      "cleanPath": "/assets/spice-pacakging.jpg",
+      "filename": "spice-pacakging.jpg",
+      "size": 40221,
+      "ext": ".jpg"
+    },
+    {
+      "original": "toys_pacakging.jfif",
+      "cleanPath": "/assets/toys-pacakging.jpg",
+      "filename": "toys-pacakging.jpg",
+      "size": 70093,
+      "ext": ".jpg"
+    },
+    {
+      "original": "toy_box.jfif",
+      "cleanPath": "/assets/toy-box.jpg",
+      "filename": "toy-box.jpg",
+      "size": 75286,
+      "ext": ".jpg"
+    },
+    {
+      "original": "wedding_box.jfif",
+      "cleanPath": "/assets/wedding-box.jpg",
+      "filename": "wedding-box.jpg",
+      "size": 141180,
+      "ext": ".jpg"
+    }
+  ],
+  "standees_and_banners": [
+    {
+      "original": "amplifier_banner.jfif",
+      "cleanPath": "/assets/amplifier-banner.jpg",
+      "filename": "amplifier-banner.jpg",
+      "size": 80173,
+      "ext": ".jpg"
+    },
+    {
+      "original": "backlit banner.jfif",
+      "cleanPath": "/assets/backlit-banner.jpg",
+      "filename": "backlit-banner.jpg",
+      "size": 15856,
+      "ext": ".jpg"
+    },
+    {
+      "original": "banners (1).jfif",
+      "cleanPath": "/assets/banners-1.jpg",
+      "filename": "banners-1.jpg",
+      "size": 54243,
+      "ext": ".jpg"
+    },
+    {
+      "original": "banners.jfif",
+      "cleanPath": "/assets/banners.jpg",
+      "filename": "banners.jpg",
+      "size": 54243,
+      "ext": ".jpg"
+    },
+    {
+      "original": "Canopy Tent.jfif",
+      "cleanPath": "/assets/canopy-tent.jpg",
+      "filename": "canopy-tent.jpg",
+      "size": 39157,
+      "ext": ".jpg"
+    },
+    {
+      "original": "collge_banners.jfif",
+      "cleanPath": "/assets/collge-banners.jpg",
+      "filename": "collge-banners.jpg",
+      "size": 34749,
+      "ext": ".jpg"
+    },
+    {
+      "original": "corporate_gifting_banner.jpg",
+      "cleanPath": "/assets/corporate-gifting-banner.jpg",
+      "filename": "corporate-gifting-banner.jpg",
+      "size": 73534,
+      "ext": ".jpg"
+    },
+    {
+      "original": "customized_umbrella.jfif",
+      "cleanPath": "/assets/customized-umbrella.jpg",
+      "filename": "customized-umbrella.jpg",
+      "size": 22152,
+      "ext": ".jpg"
+    },
+    {
+      "original": "Digital Cloth & Satin Fabric Banner.jfif",
+      "cleanPath": "/assets/digital-cloth-satin-fabric-banner.jpg",
+      "filename": "digital-cloth-satin-fabric-banner.jpg",
+      "size": 20238,
+      "ext": ".jpg"
+    },
+    {
+      "original": "exibition_roll_up_standees.jfif",
+      "cleanPath": "/assets/exibition-roll-up-standees.jpg",
+      "filename": "exibition-roll-up-standees.jpg",
+      "size": 21264,
+      "ext": ".jpg"
+    },
+    {
+      "original": "exibition_standees.jfif",
+      "cleanPath": "/assets/exibition-standees.jpg",
+      "filename": "exibition-standees.jpg",
+      "size": 67006,
+      "ext": ".jpg"
+    },
+    {
+      "original": "Flex Banner with MS Iron Frame.jpg",
+      "cleanPath": "/assets/flex-banner-with-ms-iron-frame.jpg",
+      "filename": "flex-banner-with-ms-iron-frame.jpg",
+      "size": 70971,
+      "ext": ".jpg"
+    },
+    {
+      "original": "Frontlit & Backlit Flex Banner.jpg",
+      "cleanPath": "/assets/frontlit-backlit-flex-banner.jpg",
+      "filename": "frontlit-backlit-flex-banner.jpg",
+      "size": 280079,
+      "ext": ".jpg"
+    },
+    {
+      "original": "gifts_banner.jpg",
+      "cleanPath": "/assets/gifts-banner.jpg",
+      "filename": "gifts-banner.jpg",
+      "size": 120997,
+      "ext": ".jpg"
+    },
+    {
+      "original": "homepage_premium_banner.jpg",
+      "cleanPath": "/assets/homepage-premium-banner.jpg",
+      "filename": "homepage-premium-banner.jpg",
+      "size": 72399,
+      "ext": ".jpg"
+    },
+    {
+      "original": "hotel_standees.jfif",
+      "cleanPath": "/assets/hotel-standees.jpg",
+      "filename": "hotel-standees.jpg",
+      "size": 121683,
+      "ext": ".jpg"
+    },
+    {
+      "original": "marketing_banner.jpg",
+      "cleanPath": "/assets/marketing-banner.jpg",
+      "filename": "marketing-banner.jpg",
+      "size": 94355,
+      "ext": ".jpg"
+    },
+    {
+      "original": "pooja_banners.jfif",
+      "cleanPath": "/assets/pooja-banners.jpg",
+      "filename": "pooja-banners.jpg",
+      "size": 90963,
+      "ext": ".jpg"
+    },
+    {
+      "original": "promotional_banner.jpg",
+      "cleanPath": "/assets/promotional-banner.jpg",
+      "filename": "promotional-banner.jpg",
+      "size": 128657,
+      "ext": ".jpg"
+    },
+    {
+      "original": "promotional_flags.jfif",
+      "cleanPath": "/assets/promotional-flags.jpg",
+      "filename": "promotional-flags.jpg",
+      "size": 35774,
+      "ext": ".jpg"
+    },
+    {
+      "original": "standees.jfif",
+      "cleanPath": "/assets/standees.jpg",
+      "filename": "standees.jpg",
+      "size": 36418,
+      "ext": ".jpg"
+    },
+    {
+      "original": "standing_banner (1).jfif",
+      "cleanPath": "/assets/standing-banner-1.jpg",
+      "filename": "standing-banner-1.jpg",
+      "size": 25502,
+      "ext": ".jpg"
+    },
+    {
+      "original": "standing_banner.jfif",
+      "cleanPath": "/assets/standing-banner.jpg",
+      "filename": "standing-banner.jpg",
+      "size": 25502,
+      "ext": ".jpg"
+    },
+    {
+      "original": "stationery_banner.jpg",
+      "cleanPath": "/assets/stationery-banner.jpg",
+      "filename": "stationery-banner.jpg",
+      "size": 92995,
+      "ext": ".jpg"
+    },
+    {
+      "original": "suplement_banners.jfif",
+      "cleanPath": "/assets/suplement-banners.jpg",
+      "filename": "suplement-banners.jpg",
+      "size": 97247,
+      "ext": ".jpg"
+    },
+    {
+      "original": "welding_banner.jfif",
+      "cleanPath": "/assets/welding-banner.jpg",
+      "filename": "welding-banner.jpg",
+      "size": 59862,
+      "ext": ".jpg"
+    }
+  ],
+  "brochures_flyers_posters": [
+    {
+      "original": "booklet_printing.jfif",
+      "cleanPath": "/assets/booklet-printing.jpg",
+      "filename": "booklet-printing.jpg",
+      "size": 34522,
+      "ext": ".jpg"
+    },
+    {
+      "original": "bulk_posters.jfif",
+      "cleanPath": "/assets/bulk-posters.jpg",
+      "filename": "bulk-posters.jpg",
+      "size": 27875,
+      "ext": ".jpg"
+    },
+    {
+      "original": "customized_brochure (1).jfif",
+      "cleanPath": "/assets/customized-brochure-1.jpg",
+      "filename": "customized-brochure-1.jpg",
+      "size": 47114,
+      "ext": ".jpg"
+    },
+    {
+      "original": "customized_brochure.jfif",
+      "cleanPath": "/assets/customized-brochure.jpg",
+      "filename": "customized-brochure.jpg",
+      "size": 32914,
+      "ext": ".jpg"
+    },
+    {
+      "original": "doctors_catalogue.jfif",
+      "cleanPath": "/assets/doctors-catalogue.jpg",
+      "filename": "doctors-catalogue.jpg",
+      "size": 25174,
+      "ext": ".jpg"
+    },
+    {
+      "original": "event_flyers.jfif",
+      "cleanPath": "/assets/event-flyers.jpg",
+      "filename": "event-flyers.jpg",
+      "size": 32979,
+      "ext": ".jpg"
+    },
+    {
+      "original": "event_posters.jfif",
+      "cleanPath": "/assets/event-posters.jpg",
+      "filename": "event-posters.jpg",
+      "size": 84870,
+      "ext": ".jpg"
+    },
+    {
+      "original": "flyers.jfif",
+      "cleanPath": "/assets/flyers.jpg",
+      "filename": "flyers.jpg",
+      "size": 39465,
+      "ext": ".jpg"
+    },
+    {
+      "original": "institute_poster.jfif",
+      "cleanPath": "/assets/institute-poster.jpg",
+      "filename": "institute-poster.jpg",
+      "size": 149110,
+      "ext": ".jpg"
+    },
+    {
+      "original": "marketing_booklets.jfif",
+      "cleanPath": "/assets/marketing-booklets.jpg",
+      "filename": "marketing-booklets.jpg",
+      "size": 34213,
+      "ext": ".jpg"
+    },
+    {
+      "original": "orthocares_posters.jfif",
+      "cleanPath": "/assets/orthocares-posters.jpg",
+      "filename": "orthocares-posters.jpg",
+      "size": 102311,
+      "ext": ".jpg"
+    },
+    {
+      "original": "pharmacy_catalogue.jfif",
+      "cleanPath": "/assets/pharmacy-catalogue.jpg",
+      "filename": "pharmacy-catalogue.jpg",
+      "size": 92251,
+      "ext": ".jpg"
+    },
+    {
+      "original": "real_estate_flyer.jfif",
+      "cleanPath": "/assets/real-estate-flyer.jpg",
+      "filename": "real-estate-flyer.jpg",
+      "size": 90427,
+      "ext": ".jpg"
+    },
+    {
+      "original": "resort_flyers.jfif",
+      "cleanPath": "/assets/resort-flyers.jpg",
+      "filename": "resort-flyers.jpg",
+      "size": 89584,
+      "ext": ".jpg"
+    },
+    {
+      "original": "startup_flyers.jfif",
+      "cleanPath": "/assets/startup-flyers.jpg",
+      "filename": "startup-flyers.jpg",
+      "size": 65471,
+      "ext": ".jpg"
+    }
+  ],
+  "stationery_and_letterheads": [
+    {
+      "original": "cash_voucher.jfif",
+      "cleanPath": "/assets/cash-voucher.jpg",
+      "filename": "cash-voucher.jpg",
+      "size": 15108,
+      "ext": ".jpg"
+    },
+    {
+      "original": "chemical_folder.jfif",
+      "cleanPath": "/assets/chemical-folder.jpg",
+      "filename": "chemical-folder.jpg",
+      "size": 51726,
+      "ext": ".jpg"
+    },
+    {
+      "original": "custom_bill_books_invoice_printing (1).jpg",
+      "cleanPath": "/assets/custom-bill-books-invoice-printing-1.jpg",
+      "filename": "custom-bill-books-invoice-printing-1.jpg",
+      "size": 22151,
+      "ext": ".jpg"
+    },
+    {
+      "original": "custom_envelopes.jfif",
+      "cleanPath": "/assets/custom-envelopes.jpg",
+      "filename": "custom-envelopes.jpg",
+      "size": 9906,
+      "ext": ".jpg"
+    },
+    {
+      "original": "eco-friendly_stationery_kit.jfif",
+      "cleanPath": "/assets/eco-friendly-stationery-kit.jpg",
+      "filename": "eco-friendly-stationery-kit.jpg",
+      "size": 23916,
+      "ext": ".jpg"
+    },
+    {
+      "original": "hospital_folder.jfif",
+      "cleanPath": "/assets/hospital-folder.jpg",
+      "filename": "hospital-folder.jpg",
+      "size": 74447,
+      "ext": ".jpg"
+    },
+    {
+      "original": "lamination_envelope.jfif",
+      "cleanPath": "/assets/lamination-envelope.jpg",
+      "filename": "lamination-envelope.jpg",
+      "size": 18279,
+      "ext": ".jpg"
+    },
+    {
+      "original": "letterheads.jpg",
+      "cleanPath": "/assets/letterheads.jpg",
+      "filename": "letterheads.jpg",
+      "size": 17059,
+      "ext": ".jpg"
+    },
+    {
+      "original": "note_cards.jfif",
+      "cleanPath": "/assets/note-cards.jpg",
+      "filename": "note-cards.jpg",
+      "size": 24806,
+      "ext": ".jpg"
+    },
+    {
+      "original": "presentation_folder.jfif",
+      "cleanPath": "/assets/presentation-folder.jpg",
+      "filename": "presentation-folder.jpg",
+      "size": 24354,
+      "ext": ".jpg"
+    },
+    {
+      "original": "presentation_folders.jfif",
+      "cleanPath": "/assets/presentation-folders.jpg",
+      "filename": "presentation-folders.jpg",
+      "size": 14927,
+      "ext": ".jpg"
+    },
+    {
+      "original": "school_folders.jfif",
+      "cleanPath": "/assets/school-folders.jpg",
+      "filename": "school-folders.jpg",
+      "size": 59384,
+      "ext": ".jpg"
+    }
+  ],
+  "paper_bags": [
+    {
+      "original": "custom_printed_paper_bags_guide (1).jpg",
+      "cleanPath": "/assets/custom-printed-paper-bags-guide-1.jpg",
+      "filename": "custom-printed-paper-bags-guide-1.jpg",
+      "size": 11023,
+      "ext": ".jpg"
+    },
+    {
+      "original": "custom_printed_paper_bags_guide.jpg",
+      "cleanPath": "/assets/custom-printed-paper-bags-guide.jpg",
+      "filename": "custom-printed-paper-bags-guide.jpg",
+      "size": 11023,
+      "ext": ".jpg"
+    },
+    {
+      "original": "full_color_printing_bag.jfif",
+      "cleanPath": "/assets/full-color-printing-bag.jpg",
+      "filename": "full-color-printing-bag.jpg",
+      "size": 33010,
+      "ext": ".jpg"
+    },
+    {
+      "original": "paper_kraft_bag.jfif",
+      "cleanPath": "/assets/paper-kraft-bag.jpg",
+      "filename": "paper-kraft-bag.jpg",
+      "size": 25750,
+      "ext": ".jpg"
+    },
+    {
+      "original": "promotional_bags.jfif",
+      "cleanPath": "/assets/promotional-bags.jpg",
+      "filename": "promotional-bags.jpg",
+      "size": 16309,
+      "ext": ".jpg"
+    },
+    {
+      "original": "ribbon_handle_bag.jfif",
+      "cleanPath": "/assets/ribbon-handle-bag.jpg",
+      "filename": "ribbon-handle-bag.jpg",
+      "size": 19405,
+      "ext": ".jpg"
+    }
+  ],
+  "mugs_and_bottles": [
+    {
+      "original": "cello_lacus_mugs.jfif",
+      "cleanPath": "/assets/cello-lacus-mugs.jpg",
+      "filename": "cello-lacus-mugs.jpg",
+      "size": 15585,
+      "ext": ".jpg"
+    },
+    {
+      "original": "corporate_coffee_mug.jfif",
+      "cleanPath": "/assets/corporate-coffee-mug.jpg",
+      "filename": "corporate-coffee-mug.jpg",
+      "size": 22109,
+      "ext": ".jpg"
+    },
+    {
+      "original": "customized_birthady_mug.jfif",
+      "cleanPath": "/assets/customized-birthady-mug.jpg",
+      "filename": "customized-birthady-mug.jpg",
+      "size": 30040,
+      "ext": ".jpg"
+    },
+    {
+      "original": "custom_black_mugs.jfif",
+      "cleanPath": "/assets/custom-black-mugs.jpg",
+      "filename": "custom-black-mugs.jpg",
+      "size": 15041,
+      "ext": ".jpg"
+    },
+    {
+      "original": "frosted_beer_mugs.jfif",
+      "cleanPath": "/assets/frosted-beer-mugs.jpg",
+      "filename": "frosted-beer-mugs.jpg",
+      "size": 20984,
+      "ext": ".jpg"
+    },
+    {
+      "original": "matka_coffee_mugs.jfif",
+      "cleanPath": "/assets/matka-coffee-mugs.jpg",
+      "filename": "matka-coffee-mugs.jpg",
+      "size": 11254,
+      "ext": ".jpg"
+    },
+    {
+      "original": "personalised_heart_mugs.jfif",
+      "cleanPath": "/assets/personalised-heart-mugs.jpg",
+      "filename": "personalised-heart-mugs.jpg",
+      "size": 14503,
+      "ext": ".jpg"
+    }
+  ],
+  "tshirts_and_apparel": [
+    {
+      "original": "customize_hoodie.jfif",
+      "cleanPath": "/assets/customize-hoodie.jpg",
+      "filename": "customize-hoodie.jpg",
+      "size": 23040,
+      "ext": ".jpg"
+    },
+    {
+      "original": "custom_polo_t_shirt.jfif",
+      "cleanPath": "/assets/custom-polo-t-shirt.jpg",
+      "filename": "custom-polo-t-shirt.jpg",
+      "size": 19684,
+      "ext": ".jpg"
+    },
+    {
+      "original": "custom_t_shirt.jfif",
+      "cleanPath": "/assets/custom-t-shirt.jpg",
+      "filename": "custom-t-shirt.jpg",
+      "size": 34515,
+      "ext": ".jpg"
+    },
+    {
+      "original": "kids_t-shirts.jfif",
+      "cleanPath": "/assets/kids-t-shirts.jpg",
+      "filename": "kids-t-shirts.jpg",
+      "size": 20801,
+      "ext": ".jpg"
+    },
+    {
+      "original": "women_custom_t-shirts.jfif",
+      "cleanPath": "/assets/women-custom-t-shirts.jpg",
+      "filename": "women-custom-t-shirts.jpg",
+      "size": 16365,
+      "ext": ".jpg"
+    }
+  ],
+  "corporate_gifts_and_hampers": [
+    {
+      "original": "badges_and_pin.jfif",
+      "cleanPath": "/assets/badges-and-pin.jpg",
+      "filename": "badges-and-pin.jpg",
+      "size": 19207,
+      "ext": ".jpg"
+    },
+    {
+      "original": "corporate_hampers (1).jfif",
+      "cleanPath": "/assets/corporate-hampers-1.jpg",
+      "filename": "corporate-hampers-1.jpg",
+      "size": 35835,
+      "ext": ".jpg"
+    },
+    {
+      "original": "corporate_hampers.jfif",
+      "cleanPath": "/assets/corporate-hampers.jpg",
+      "filename": "corporate-hampers.jpg",
+      "size": 35835,
+      "ext": ".jpg"
+    },
+    {
+      "original": "customised_pens.jfif",
+      "cleanPath": "/assets/customised-pens.jpg",
+      "filename": "customised-pens.jpg",
+      "size": 19374,
+      "ext": ".jpg"
+    },
+    {
+      "original": "customized_lanyards.jfif",
+      "cleanPath": "/assets/customized-lanyards.jpg",
+      "filename": "customized-lanyards.jpg",
+      "size": 27008,
+      "ext": ".jpg"
+    },
+    {
+      "original": "custom_lanyards.jfif",
+      "cleanPath": "/assets/custom-lanyards.jpg",
+      "filename": "custom-lanyards.jpg",
+      "size": 22703,
+      "ext": ".jpg"
+    },
+    {
+      "original": "custom_mouse_pads (1).jfif",
+      "cleanPath": "/assets/custom-mouse-pads-1.jpg",
+      "filename": "custom-mouse-pads-1.jpg",
+      "size": 24492,
+      "ext": ".jpg"
+    },
+    {
+      "original": "cutomized_plastic_pens.jfif",
+      "cleanPath": "/assets/cutomized-plastic-pens.jpg",
+      "filename": "cutomized-plastic-pens.jpg",
+      "size": 16712,
+      "ext": ".jpg"
+    },
+    {
+      "original": "diary_with_pen_holder.jpg",
+      "cleanPath": "/assets/diary-with-pen-holder.jpg",
+      "filename": "diary-with-pen-holder.jpg",
+      "size": 77849,
+      "ext": ".jpg"
+    },
+    {
+      "original": "hidden_name_bar_pendant.jpg",
+      "cleanPath": "/assets/hidden-name-bar-pendant.jpg",
+      "filename": "hidden-name-bar-pendant.jpg",
+      "size": 8659,
+      "ext": ".jpg"
+    },
+    {
+      "original": "perosnalised_pens.jfif",
+      "cleanPath": "/assets/perosnalised-pens.jpg",
+      "filename": "perosnalised-pens.jpg",
+      "size": 20845,
+      "ext": ".jpg"
+    },
+    {
+      "original": "personalised_golden_ball_pens.jfif",
+      "cleanPath": "/assets/personalised-golden-ball-pens.jpg",
+      "filename": "personalised-golden-ball-pens.jpg",
+      "size": 3473,
+      "ext": ".jpg"
+    },
+    {
+      "original": "Promotional Merchandise & Keychains.jfif",
+      "cleanPath": "/assets/promotional-merchandise-keychains.jpg",
+      "filename": "promotional-merchandise-keychains.jpg",
+      "size": 9021,
+      "ext": ".jpg"
+    },
+    {
+      "original": "promotional_keychains.jfif",
+      "cleanPath": "/assets/promotional-keychains.jpg",
+      "filename": "promotional-keychains.jpg",
+      "size": 22210,
+      "ext": ".jpg"
+    },
+    {
+      "original": "promotional_pens.jfif",
+      "cleanPath": "/assets/promotional-pens.jpg",
+      "filename": "promotional-pens.jpg",
+      "size": 26529,
+      "ext": ".jpg"
+    },
+    {
+      "original": "rubber_stamp.jpg",
+      "cleanPath": "/assets/rubber-stamp.jpg",
+      "filename": "rubber-stamp.jpg",
+      "size": 22310,
+      "ext": ".jpg"
+    },
+    {
+      "original": "stamps.jpg",
+      "cleanPath": "/assets/stamps.jpg",
+      "filename": "stamps.jpg",
+      "size": 17736,
+      "ext": ".jpg"
+    },
+    {
+      "original": "start_up_hampers.jfif",
+      "cleanPath": "/assets/start-up-hampers.jpg",
+      "filename": "start-up-hampers.jpg",
+      "size": 27019,
+      "ext": ".jpg"
+    }
+  ],
+  "signage_and_outdoor": [
+    {
+      "original": "3D Wallpaper Printing for Interiors.avif",
+      "cleanPath": "/assets/3d-wallpaper-printing-for-interiors.avif",
+      "filename": "3d-wallpaper-printing-for-interiors.avif",
+      "size": 170099,
+      "ext": ".avif"
+    },
+    {
+      "original": "ACP Sign Board & Cladding.jfif",
+      "cleanPath": "/assets/acp-sign-board-cladding.jpg",
+      "filename": "acp-sign-board-cladding.jpg",
+      "size": 29113,
+      "ext": ".jpg"
+    },
+    {
+      "original": "boarding_signs.jfif",
+      "cleanPath": "/assets/boarding-signs.jpg",
+      "filename": "boarding-signs.jpg",
+      "size": 25669,
+      "ext": ".jpg"
+    },
+    {
+      "original": "engraved_photo_wallet.jfif",
+      "cleanPath": "/assets/engraved-photo-wallet.jpg",
+      "filename": "engraved-photo-wallet.jpg",
+      "size": 63921,
+      "ext": ".jpg"
+    },
+    {
+      "original": "Glossy LED Acrylic 3D Letters.jfif",
+      "cleanPath": "/assets/glossy-led-acrylic-3d-letters.jpg",
+      "filename": "glossy-led-acrylic-3d-letters.jpg",
+      "size": 24990,
+      "ext": ".jpg"
+    },
+    {
+      "original": "glowing_led_heart_collage_cutout_frame.jfif",
+      "cleanPath": "/assets/glowing-led-heart-collage-cutout-frame.jpg",
+      "filename": "glowing-led-heart-collage-cutout-frame.jpg",
+      "size": 17128,
+      "ext": ".jpg"
+    },
+    {
+      "original": "High-Tack Vinyl Wall Wraps & Media Fabrication.jpg",
+      "cleanPath": "/assets/high-tack-vinyl-wall-wraps-media-fabrication.jpg",
+      "filename": "high-tack-vinyl-wall-wraps-media-fabrication.jpg",
+      "size": 181814,
+      "ext": ".jpg"
+    },
+    {
+      "original": "Logo Design & Brand Identity.jfif",
+      "cleanPath": "/assets/logo-design-brand-identity.jpg",
+      "filename": "logo-design-brand-identity.jpg",
+      "size": 39357,
+      "ext": ".jpg"
+    },
+    {
+      "original": "love_acrylic_cutout.jpg",
+      "cleanPath": "/assets/love-acrylic-cutout.jpg",
+      "filename": "love-acrylic-cutout.jpg",
+      "size": 34292,
+      "ext": ".jpg"
+    },
+    {
+      "original": "magical_flip_effect_acrylic_photo_clock.jpg",
+      "cleanPath": "/assets/magical-flip-effect-acrylic-photo-clock.jpg",
+      "filename": "magical-flip-effect-acrylic-photo-clock.jpg",
+      "size": 23343,
+      "ext": ".jpg"
+    },
+    {
+      "original": "mdf_glowing_designer_photo_frame.jpg",
+      "cleanPath": "/assets/mdf-glowing-designer-photo-frame.jpg",
+      "filename": "mdf-glowing-designer-photo-frame.jpg",
+      "size": 24544,
+      "ext": ".jpg"
+    },
+    {
+      "original": "One-Way Vision & Frosted Glass Film.jpg",
+      "cleanPath": "/assets/one-way-vision-frosted-glass-film.jpg",
+      "filename": "one-way-vision-frosted-glass-film.jpg",
+      "size": 84207,
+      "ext": ".jpg"
+    },
+    {
+      "original": "Outdoor Digital Wall Painting & Stencil Signage.avif",
+      "cleanPath": "/assets/outdoor-digital-wall-painting-stencil-signage.avif",
+      "filename": "outdoor-digital-wall-painting-stencil-signage.avif",
+      "size": 194013,
+      "ext": ".avif"
+    },
+    {
+      "original": "Outdoor Flex Hoardings & Billboards (OOH).jfif",
+      "cleanPath": "/assets/outdoor-flex-hoardings-billboards-ooh.jpg",
+      "filename": "outdoor-flex-hoardings-billboards-ooh.jpg",
+      "size": 19576,
+      "ext": ".jpg"
+    },
+    {
+      "original": "Stainless Steel Sign Board (Outdoor).jpeg",
+      "cleanPath": "/assets/stainless-steel-sign-board-outdoor.jpg",
+      "filename": "stainless-steel-sign-board-outdoor.jpg",
+      "size": 3043131,
+      "ext": ".jpg"
+    },
+    {
+      "original": "sunboard_printing.jfif",
+      "cleanPath": "/assets/sunboard-printing.jpg",
+      "filename": "sunboard-printing.jpg",
+      "size": 35633,
+      "ext": ".jpg"
+    },
+    {
+      "original": "Turnkey Commercial Branding Fabrication.jfif",
+      "cleanPath": "/assets/turnkey-commercial-branding-fabrication.jpg",
+      "filename": "turnkey-commercial-branding-fabrication.jpg",
+      "size": 37159,
+      "ext": ".jpg"
+    },
+    {
+      "original": "Turnkey Commercial Branding Fabrication.jpeg",
+      "cleanPath": "/assets/turnkey-commercial-branding-fabrication.jpg",
+      "filename": "turnkey-commercial-branding-fabrication.jpg",
+      "size": 120108,
+      "ext": ".jpg"
+    },
+    {
+      "original": "Wall & Desk Calendar Printing.png",
+      "cleanPath": "/assets/wall-desk-calendar-printing.png",
+      "filename": "wall-desk-calendar-printing.png",
+      "size": 90871,
+      "ext": ".png"
+    },
+    {
+      "original": "Wall & Desk Calendar Printing.webp",
+      "cleanPath": "/assets/wall-desk-calendar-printing.webp",
+      "filename": "wall-desk-calendar-printing.webp",
+      "size": 80898,
+      "ext": ".webp"
+    },
+    {
+      "original": "wall_decals.jfif",
+      "cleanPath": "/assets/wall-decals.jpg",
+      "filename": "wall-decals.jpg",
+      "size": 37038,
+      "ext": ".jpg"
+    }
+  ],
+  "photo_frames_and_engraving": [
+    {
+      "original": "3d_glowing_crystal_ball (1).jpg",
+      "cleanPath": "/assets/3d-glowing-crystal-ball-1.jpg",
+      "filename": "3d-glowing-crystal-ball-1.jpg",
+      "size": 25833,
+      "ext": ".jpg"
+    },
+    {
+      "original": "book_rotating_frame.jfif",
+      "cleanPath": "/assets/book-rotating-frame.jpg",
+      "filename": "book-rotating-frame.jpg",
+      "size": 14645,
+      "ext": ".jpg"
+    },
+    {
+      "original": "butterfly_collage_frame.jpg",
+      "cleanPath": "/assets/butterfly-collage-frame.jpg",
+      "filename": "butterfly-collage-frame.jpg",
+      "size": 21235,
+      "ext": ".jpg"
+    },
+    {
+      "original": "customized_name_engraving_bracelet.jpg",
+      "cleanPath": "/assets/customized-name-engraving-bracelet.jpg",
+      "filename": "customized-name-engraving-bracelet.jpg",
+      "size": 12282,
+      "ext": ".jpg"
+    },
+    {
+      "original": "customized_name_engraving_bracelet.webp",
+      "cleanPath": "/assets/customized-name-engraving-bracelet.webp",
+      "filename": "customized-name-engraving-bracelet.webp",
+      "size": 7006,
+      "ext": ".webp"
+    },
+    {
+      "original": "dual_name_engraving_ring.jfif",
+      "cleanPath": "/assets/dual-name-engraving-ring.jpg",
+      "filename": "dual-name-engraving-ring.jpg",
+      "size": 12127,
+      "ext": ".jpg"
+    },
+    {
+      "original": "embossing_effect_collage_photo_frame.jfif",
+      "cleanPath": "/assets/embossing-effect-collage-photo-frame.jpg",
+      "filename": "embossing-effect-collage-photo-frame.jpg",
+      "size": 20162,
+      "ext": ".jpg"
+    },
+    {
+      "original": "heart_shape_3d_engraved_crystal_with.jfif",
+      "cleanPath": "/assets/heart-shape-3d-engraved-crystal-with.jpg",
+      "filename": "heart-shape-3d-engraved-crystal-with.jpg",
+      "size": 16317,
+      "ext": ".jpg"
+    },
+    {
+      "original": "lighting_photo_frame__.jfif",
+      "cleanPath": "/assets/lighting-photo-frame.jpg",
+      "filename": "lighting-photo-frame.jpg",
+      "size": 12970,
+      "ext": ".jpg"
+    },
+    {
+      "original": "magic_mirror.jpg",
+      "cleanPath": "/assets/magic-mirror.jpg",
+      "filename": "magic-mirror.jpg",
+      "size": 17464,
+      "ext": ".jpg"
+    },
+    {
+      "original": "memory_bloom_resin_art_frame__.jpg",
+      "cleanPath": "/assets/memory-bloom-resin-art-frame.jpg",
+      "filename": "memory-bloom-resin-art-frame.jpg",
+      "size": 17671,
+      "ext": ".jpg"
+    },
+    {
+      "original": "mini_photo_frame_.jfif",
+      "cleanPath": "/assets/mini-photo-frame.jpg",
+      "filename": "mini-photo-frame.jpg",
+      "size": 36980,
+      "ext": ".jpg"
+    },
+    {
+      "original": "moon_collage_cutout_frame.jpg",
+      "cleanPath": "/assets/moon-collage-cutout-frame.jpg",
+      "filename": "moon-collage-cutout-frame.jpg",
+      "size": 24340,
+      "ext": ".jpg"
+    },
+    {
+      "original": "personalized_eye_engraving_bracelet.jpg",
+      "cleanPath": "/assets/personalized-eye-engraving-bracelet.jpg",
+      "filename": "personalized-eye-engraving-bracelet.jpg",
+      "size": 14956,
+      "ext": ".jpg"
+    },
+    {
+      "original": "wooden_engraving_photo_frame.jpg",
+      "cleanPath": "/assets/wooden-engraving-photo-frame.jpg",
+      "filename": "wooden-engraving-photo-frame.jpg",
+      "size": 29629,
+      "ext": ".jpg"
+    }
+  ],
+  "other": [
+    {
+      "original": "Clear & Transparent Vinyl Graphics.avif",
+      "cleanPath": "/assets/clear-transparent-vinyl-graphics.avif",
+      "filename": "clear-transparent-vinyl-graphics.avif",
+      "size": 7320,
+      "ext": ".avif"
+    },
+    {
+      "original": "college_certificate.jfif",
+      "cleanPath": "/assets/college-certificate.jpg",
+      "filename": "college-certificate.jpg",
+      "size": 81960,
+      "ext": ".jpg"
+    },
+    {
+      "original": "cusion-couple.jpg",
+      "cleanPath": "/assets/cusion-couple.jpg",
+      "filename": "cusion-couple.jpg",
+      "size": 28661,
+      "ext": ".jpg"
+    },
+    {
+      "original": "customized_danglers.jfif",
+      "cleanPath": "/assets/customized-danglers.jpg",
+      "filename": "customized-danglers.jpg",
+      "size": 60291,
+      "ext": ".jpg"
+    },
+    {
+      "original": "customized_glowing_photo_plug_lamp.jpg",
+      "cleanPath": "/assets/customized-glowing-photo-plug-lamp.jpg",
+      "filename": "customized-glowing-photo-plug-lamp.jpg",
+      "size": 17010,
+      "ext": ".jpg"
+    },
+    {
+      "original": "customize_certificate (1).jfif",
+      "cleanPath": "/assets/customize-certificate-1.jpg",
+      "filename": "customize-certificate-1.jpg",
+      "size": 19815,
+      "ext": ".jpg"
+    },
+    {
+      "original": "custom_decorative__ugs.jfif",
+      "cleanPath": "/assets/custom-decorative-ugs.jpg",
+      "filename": "custom-decorative-ugs.jpg",
+      "size": 20226,
+      "ext": ".jpg"
+    },
+    {
+      "original": "custom_postcards.jfif",
+      "cleanPath": "/assets/custom-postcards.jpg",
+      "filename": "custom-postcards.jpg",
+      "size": 27229,
+      "ext": ".jpg"
+    },
+    {
+      "original": "double-side_photo_ferris_wheel.jpg",
+      "cleanPath": "/assets/double-side-photo-ferris-wheel.jpg",
+      "filename": "double-side-photo-ferris-wheel.jpg",
+      "size": 20800,
+      "ext": ".jpg"
+    },
+    {
+      "original": "Full Production Book Printing & Publication.jpg",
+      "cleanPath": "/assets/full-production-book-printing-publication.jpg",
+      "filename": "full-production-book-printing-publication.jpg",
+      "size": 45140,
+      "ext": ".jpg"
+    },
+    {
+      "original": "In-Shop & Retail Store Branding.jfif",
+      "cleanPath": "/assets/in-shop-retail-store-branding.jpg",
+      "filename": "in-shop-retail-store-branding.jpg",
+      "size": 42430,
+      "ext": ".jpg"
+    },
+    {
+      "original": "institue_id_cards.jfif",
+      "cleanPath": "/assets/institue-id-cards.jpg",
+      "filename": "institue-id-cards.jpg",
+      "size": 30797,
+      "ext": ".jpg"
+    },
+    {
+      "original": "matt_finish.jfif",
+      "cleanPath": "/assets/matt-finish.jpg",
+      "filename": "matt-finish.jpg",
+      "size": 27134,
+      "ext": ".jpg"
+    },
+    {
+      "original": "personalised_notebooks.jpg",
+      "cleanPath": "/assets/personalised-notebooks.jpg",
+      "filename": "personalised-notebooks.jpg",
+      "size": 21031,
+      "ext": ".jpg"
+    },
+    {
+      "original": "personalized_eye_ball_braclet.jpg",
+      "cleanPath": "/assets/personalized-eye-ball-braclet.jpg",
+      "filename": "personalized-eye-ball-braclet.jpg",
+      "size": 23797,
+      "ext": ".jpg"
+    },
+    {
+      "original": "photo-1497366216548-37526070297c.jfif",
+      "cleanPath": "/assets/photo-1497366216548-37526070297c.jpg",
+      "filename": "photo-1497366216548-37526070297c.jpg",
+      "size": 88388,
+      "ext": ".jpg"
+    },
+    {
+      "original": "photo_engraving_chain.jfif",
+      "cleanPath": "/assets/photo-engraving-chain.jpg",
+      "filename": "photo-engraving-chain.jpg",
+      "size": 27877,
+      "ext": ".jpg"
+    },
+    {
+      "original": "Precision Finishing Staple, Spiral & Wire-O Binding.jpg",
+      "cleanPath": "/assets/precision-finishing-staple-spiral-wire-o-binding.jpg",
+      "filename": "precision-finishing-staple-spiral-wire-o-binding.jpg",
+      "size": 116329,
+      "ext": ".jpg"
+    },
+    {
+      "original": "promotional_wrsitaband.jfif",
+      "cleanPath": "/assets/promotional-wrsitaband.jpg",
+      "filename": "promotional-wrsitaband.jpg",
+      "size": 26380,
+      "ext": ".jpg"
+    },
+    {
+      "original": "table_cloth.jfif",
+      "cleanPath": "/assets/table-cloth.jpg",
+      "filename": "table-cloth.jpg",
+      "size": 13276,
+      "ext": ".jpg"
+    },
+    {
+      "original": "wooden_heart_key_chain.jpg",
+      "cleanPath": "/assets/wooden-heart-key-chain.jpg",
+      "filename": "wooden-heart-key-chain.jpg",
+      "size": 19196,
+      "ext": ".jpg"
+    }
+  ]
+}

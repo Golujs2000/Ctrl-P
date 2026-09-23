@@ -7,7 +7,7 @@ const portfolioItems = [
     title: 'Tarapur Children Healthcare Patient File',
     category: 'Healthcare',
     client: 'Dr. Rakif Raza, Tarapur Children Healthcare',
-    image: '/assets/mockup-doctor-patient-file-folder-tarapur-healthcare.webp',
+    image: '/assets/mockup-doctor-patient-file-folder-tarapur-healthcare.png',
     tags: ['Patient Record Folder', 'Laminated Dual Pocket']
   },
   {
@@ -15,7 +15,7 @@ const portfolioItems = [
     title: 'SLC Partners & Associates Advocate Card',
     category: 'Business Cards',
     client: 'Basheer Advocate, Patna High Court',
-    image: '/assets/mockup-visiting-card-slc-partners-advocate-patna.webp',
+    image: '/assets/mockup-visiting-card-slc-partners-advocate-patna.png',
     tags: ['Prestige Cardstock', 'Gold Foil Embossed']
   },
   {
@@ -23,7 +23,7 @@ const portfolioItems = [
     title: 'Vedantu Learning Centre Patna Roll-Up Standee',
     category: 'Banners',
     client: 'Vedantu Patna Learning Centre',
-    image: '/assets/mockup-rollup-standee-vedantu-patna.webp',
+    image: '/assets/mockup-rollup-standee-vedantu-patna.png',
     tags: ['Non-Tearable PET', 'Aluminium Rollup Mechanism']
   },
   {
@@ -31,7 +31,7 @@ const portfolioItems = [
     title: 'Mild Care Zizz Guard Packaging Box',
     category: 'Packaging',
     client: 'Mild Care Healthcare Products',
-    image: '/assets/mockup-packaging-box-zizz-guard-foot-pads.webp',
+    image: '/assets/mockup-packaging-box-zizz-guard-foot-pads.png',
     tags: ['Mono Carton', 'Custom CAD Dieline']
   },
   {
@@ -39,7 +39,7 @@ const portfolioItems = [
     title: 'Full Production Book & Publication Printing',
     category: 'Booklets',
     client: 'Samaharnalay Darbhanga & Academic Publishers',
-    image: '/assets/service-book-printing-publishing.jpg',
+    image: '/assets/book-cover-darbhanga-disaster-management-2026.jpg',
     tags: ['Perfect Glue Bound', 'Heidelberg Offset']
   },
   {
@@ -47,7 +47,7 @@ const portfolioItems = [
     title: 'PUCA Higher Education Summit Certificate',
     category: 'Certificates',
     client: 'Punjab Unaided Colleges Association, Patna',
-    image: '/assets/certificate-of-appreciation-puca-bihar-summit.webp',
+    image: '/assets/certificate-of-appreciation-puca-bihar-summit.jpg',
     tags: ['Gold Foil Seal', 'Parchment Textured Board']
   },
   {
@@ -55,7 +55,7 @@ const portfolioItems = [
     title: 'Turnkey Commercial Storefront 3D Branding',
     category: 'Outdoor',
     client: 'Retail Showroom & Commercial Complex Patna',
-    image: '/assets/service-commercial-branding-fabrication.jpeg',
+    image: '/assets/ctrlp-storefront-board-front-view.jpg',
     tags: ['ACP 3D Letters', 'High-Lumen LED Glow']
   },
   {
@@ -63,7 +63,7 @@ const portfolioItems = [
     title: 'Jeevan Deep Public School Admission Prospectus',
     category: 'Brochures',
     client: 'Jeevan Deep Public School, Nawada',
-    image: '/assets/school-admission-prospectus-jeevan-deep-nawada.webp',
+    image: '/assets/school-admission-prospectus-jeevan-deep-nawada.jpg',
     tags: ['Multi-Page Saddle Stitched', 'Silk Matte Art Card']
   }
 ];

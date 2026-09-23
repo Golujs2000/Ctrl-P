@@ -10,7 +10,7 @@ const detailedWorks = [
     title: 'Tarapur Children Healthcare Doctor Patient File',
     category: 'Healthcare',
     client: 'Dr. Rakif Raza, Tarapur Children Healthcare',
-    image: '/assets/mockup-doctor-patient-file-folder-tarapur-healthcare.webp',
+    image: '/assets/mockup-doctor-patient-file-folder-tarapur-healthcare.png',
     specs: '350 GSM Laminated Cardstock, Dual Inside Medical Report Pockets, Clinic Creased Spine',
     description: 'Specialized heavy-duty medical case record file folder custom fabricated for pediatric clinics.'
   },
@@ -19,7 +19,7 @@ const detailedWorks = [
     title: 'SLC Partners & Associates Advocate Business Card',
     category: 'Business Cards',
     client: 'Basheer Advocate, Patna High Court, Fraser Road',
-    image: '/assets/mockup-visiting-card-slc-partners-advocate-patna.webp',
+    image: '/assets/mockup-visiting-card-slc-partners-advocate-patna.png',
     specs: '350 GSM Royal Matte Board, Gold Metallic Foiling, Double-Sided High Density Print',
     description: 'Luxury advocate visiting cards designed and printed for prestigious legal chambers in Patna.'
   },
@@ -28,7 +28,7 @@ const detailedWorks = [
     title: 'Vedantu Patna Learning Centre Roll-Up Standee',
     category: 'Banners',
     client: 'Vedantu Learning Centre, Anand Prakash Sir',
-    image: '/assets/mockup-rollup-standee-vedantu-patna.webp',
+    image: '/assets/mockup-rollup-standee-vedantu-patna.png',
     specs: '2.5 x 6 ft Non-Tearable Matte PET Film, Anodized Aluminum Mechanism with Transit Bag',
     description: 'High-visibility roll-up standee printed with vivid educational graphics for center reception.'
   },
@@ -37,7 +37,7 @@ const detailedWorks = [
     title: 'Mild Care Zizz Guard Packaging Box & Dieline',
     category: 'Packaging',
     client: 'Mild Care Natural Health Products',
-    image: '/assets/mockup-packaging-box-zizz-guard-foot-pads.webp',
+    image: '/assets/mockup-packaging-box-zizz-guard-foot-pads.png',
     specs: '350 GSM ITC Food-Grade Duplex Board, Matte Thermal Lamination, Precision Die-Cut Folding',
     description: 'Full packaging solution including structural CAD dieline, 3D mockup, and offset mono-carton production.'
   },
@@ -46,7 +46,7 @@ const detailedWorks = [
     title: 'Full Production Book & Publication Printing',
     category: 'Booklets',
     client: 'Samaharnalay Darbhanga & Academic Publishers',
-    image: '/assets/service-book-printing-publishing.jpg',
+    image: '/assets/book-cover-darbhanga-disaster-management-2026.jpg',
     specs: 'A4 Multi-Page Book, 300 GSM Laminated Cover, Automated Hot-Melt Perfect Glue Binding',
     description: 'Official district administrative disaster management resource manual and high-volume literature printing.'
   },
@@ -55,7 +55,7 @@ const detailedWorks = [
     title: 'Idara Sharia Patna Aaina Fatawa Sharia Hardcover',
     category: 'Urdu Publishing',
     client: 'Idara Sharia Sultanganj, Patna',
-    image: '/assets/mockup-urdu-book-fatawa-sharia-idara-sharia-patna.webp',
+    image: '/assets/mockup-urdu-book-fatawa-sharia-idara-sharia-patna.png',
     specs: 'Noori Nastaliq Typography, Hardbound Kappa Board with Embossed Gold Foil Spine',
     description: 'Master Islamic legal reference literature typeset in authentic Urdu Nastaliq and hardcover bound.'
   },
@@ -64,7 +64,7 @@ const detailedWorks = [
     title: 'PUCA Education Summit Certificate of Appreciation',
     category: 'Certificates',
     client: 'Punjab Unaided Colleges Association (Hotel Gargee Grand)',
-    image: '/assets/certificate-of-appreciation-puca-bihar-summit.webp',
+    image: '/assets/certificate-of-appreciation-puca-bihar-summit.jpg',
     specs: '300 GSM Natural Parchment Paper, Metallic Mirror Gold Foil Stamping, Anti-Counterfeit Border',
     description: 'Prestige recognition certificates presented to distinguished educationists across Bihar.'
   },
@@ -73,25 +73,25 @@ const detailedWorks = [
     title: 'Firstcry Intellitots Round Sunshade Umbrella',
     category: 'Outdoor Displays',
     client: 'Firstcry Intellitots Preschool & Daycare',
-    image: '/assets/promotional-sunshade-umbrella-firstcry-daycare.webp',
+    image: '/assets/promotional-sunshade-umbrella-firstcry-daycare.jpg',
     specs: '6 Ft Diameter, 8-Rib Powder Coated Steel Frame, Waterproof PU-Coated Oxford Canvas',
     description: 'Branded promotional garden sunshade umbrella with heavy water-fillable base for retail visibility.'
   },
   {
     id: 9,
-    title: 'Commercial Outdoor Promotional Canopy Tent',
+    title: '1st Lady Begusarai Outdoor Promotional Umbrella',
     category: 'Outdoor Displays',
-    client: 'Ctrl P Field Marketing Division',
-    image: '/assets/promotional-canopy-tent-outdoor-display.webp',
-    specs: '6x6 ft Pop-up Tent, Weatherproof 600D Canvas, Collapsible Hexagonal Steel Truss',
-    description: 'Instant pop-up promotional canopy for brand activations, registration desks, and outdoor expos.'
+    client: '1st Lady Women Brand Store, Begusarai',
+    image: '/assets/promotional-sunshade-umbrella-1st-lady-begusarai.jpg',
+    specs: '7 Ft Diameter, Heavy-Duty Windproof Pole, Sublimation Weather-Resistant Colors',
+    description: 'High-visibility retail outdoor promotional umbrella for retail storefront marketing.'
   },
   {
     id: 10,
     title: 'Jeevan Deep Public School Admission Prospectus',
     category: 'Brochures',
     client: 'Jeevan Deep Public School, Nawada',
-    image: '/assets/school-admission-prospectus-jeevan-deep-nawada.webp',
+    image: '/assets/school-admission-prospectus-jeevan-deep-nawada.jpg',
     specs: '250 GSM Silk Matte Cover, 130 GSM Inner Art Paper, Multi-Page Saddle Stitched',
     description: 'Comprehensive academic prospectus designed to showcase campus amenities and school curriculum.'
   },
@@ -100,7 +100,7 @@ const detailedWorks = [
     title: 'Nyaaya Legal Awareness April 2026 Wall Calendar',
     category: 'Calendars',
     client: 'Nyaaya Legal Initiative',
-    image: '/assets/wall-calendar-nyaaya-legal-awareness-april-2026.webp',
+    image: '/assets/mockup-wall-calendar-nyaaya-legal-2026.png',
     specs: '15 x 20 inch, 170 GSM Gloss Art Paper, Tin Metal Rimming Top & Bottom with Wire Hanger',
     description: 'Legal rights educational calendar with full monthly date matrix and civic awareness guides.'
   },
@@ -109,54 +109,54 @@ const detailedWorks = [
     title: 'Uru Marketing Corporate Tri-Fold Brochure',
     category: 'Brochures',
     client: 'Uru Marketing Pvt. Ltd., Patna',
-    image: '/assets/tri-fold-marketing-brochure-uru-marketing.webp',
+    image: '/assets/tri-fold-marketing-brochure-uru-marketing.jpg',
     specs: '300 GSM Imported Art Card, Soft Silk Lamination, Vibrant Process CMYK Color',
     description: 'Tri-fold marketing collateral for commercial agency client outreach and product showcases.'
   },
   {
     id: 13,
-    title: 'Turnkey Commercial Storefront 3D Branding',
+    title: 'Ctrl P Main Storefront Exterior Elevation',
     category: 'Outdoor Displays',
-    client: 'Retail Showroom & Commercial Complex Patna',
-    image: '/assets/service-commercial-branding-fabrication.jpeg',
-    specs: 'Router-Cut ACP Panel, 3D Acrylic Letters with Samsung Warm White LED Modules',
-    description: 'Complete architectural storefront elevation design, lighting installation, and structural fabrication.'
+    client: 'Ctrl P Kalyani Complex Storefront',
+    image: '/assets/ctrlp-storefront-board-front-view.jpg',
+    specs: 'Front Board View with Commercial Acrylic Display and Lighting',
+    description: 'Official storefront front-view board fabrication at Kalyani Complex, Langar Toli Chauraha.'
   },
   {
     id: 14,
-    title: 'Stainless Steel Architectural Outdoor Signboard',
+    title: 'Commercial Board Signage with Registered GSTIN',
     category: 'Outdoor Displays',
-    client: 'Corporate Head Office & Commercial Plaza',
-    image: '/assets/service-stainless-steel-sign-board.jpeg',
-    specs: '304 Grade Heavy Gauge Stainless Steel, Acid-Etched Enamel Infill, Mirror Finish',
-    description: 'Weatherproof prestige outdoor metal sign board designed for corporate entrances.'
+    client: 'Ctrl P Commercial Storefront',
+    image: '/assets/ctrlp-storefront-signage-with-gstin.jpg',
+    specs: 'High Contrast Heavy-Duty Signage with Official Tax & Registration Details',
+    description: 'Storefront commercial board displaying official GSTIN compliance and business credentials.'
   },
   {
     id: 15,
-    title: 'Corporate Premium Ceramic Coffee Mugs',
+    title: 'Custom Ceramic Photographic Coffee Mug',
     category: 'Corporate Gifts',
-    client: 'Tech Innovators & Corporate Welcome Kits',
-    image: '/assets/service-corporate-coffee-mug.jpg',
+    client: 'Promotional Drinkware & Corporate Gifts',
+    image: '/assets/custom-printed-ceramic-mug-love-life.jpg',
     specs: 'Grade AAA 11oz Ceramic Mug, High-Definition Sublimation Heat Transfer',
-    description: 'Custom branded coffee mugs supplied for employee welcome packs and brand promotions.'
+    description: 'Custom printed ceramic coffee mug with heat-set permanent vibrant artwork.'
   },
   {
     id: 16,
-    title: 'Custom DTF Bio-Washed Cotton T-Shirts',
+    title: 'DTF T-Shirt Heat Press Production Engine',
     category: 'Corporate Gifts',
-    client: 'Annual Sports Meet & Brand Field Teams',
-    image: '/assets/service-custom-t-shirt-printing.jpg',
-    specs: '210 GSM 100% Bio-Washed Combed Cotton, Stretch-Resistant DTF Full Color Print',
-    description: 'Corporate team t-shirts and promotional apparel printed with fade-resistant inks.'
+    client: 'Apparel Printing Department',
+    image: '/assets/machine-dtf-tshirt-heat-press.jpg',
+    specs: 'Direct-to-Film Industrial Pneumatic Heat Press, Stretch-Resistant Output',
+    description: 'In-house high-pressure apparel sublimation and DTF transfer press in operation.'
   },
   {
     id: 17,
-    title: 'Frontlit & Backlit Commercial Flex Banners',
+    title: 'Complete Commercial Printing Solutions Banner',
     category: 'Banners',
-    client: 'Retail Festival Campaign Patna',
-    image: '/assets/service-banner-flex-printing.jpg',
-    specs: '340 GSM Star Flex, Solvent High Chromatic Inks, Border Eyelets Reinforcement',
-    description: 'High-visibility outdoor hoardings and promotional flex banners for city campaigns.'
+    client: 'Ctrl P Marketing Campaign',
+    image: '/assets/ctrlp-marketing-banner-all-printing-solutions.jpg',
+    specs: 'Large Format Commercial Flex Banner, High Chromatic Saturation',
+    description: 'Outdoor marketing flex banner showcasing full-spectrum printing capabilities.'
   }
 ];
 

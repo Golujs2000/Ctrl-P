@@ -1,14 +1,17 @@
-// Full Services Master Catalog - Ctrl P Patna
-// Real asset paths reflecting exact image contents
+const fs = require('fs');
+const path = require('path');
+
+const updatedServicesData = `// Full Services Master Catalog - Ctrl P Patna
+// Genuine asset paths mapped strictly to real files in E:\\NirviAi Client Projects\\Ctrl P\\Assets
 
 export const servicesList = [
-  // 1. DOCTOR & HEALTHCARE PRINTING (Todo #1)
+  // 1. DOCTOR & HEALTHCARE PRINTING
   {
     slug: 'doctor-healthcare-printing',
     title: 'Doctor & Healthcare Printing',
     category: 'Healthcare',
     shortDesc: 'Patient file folders, medical record files, clinic prescription boards, and doctor letter pads.',
-    heroImage: '/assets/mockup-doctor-patient-file-folder-tarapur-healthcare.webp',
+    heroImage: '/assets/mockup-doctor-patient-file-folder-tarapur-healthcare.png',
     badge: 'Specialized Medical',
     overview: 'Complete printing and fabrication solutions for hospitals, clinics, diagnostic centers, and private practitioners across Bihar. We produce high-durability laminated patient file folders with inner pockets, prescription letter pads with anti-smudge paper, clinic acrylic prescription boards, and medical staff ID cards.',
     materials: [
@@ -37,22 +40,20 @@ export const servicesList = [
       }
     ],
     gallery: [
-      '/assets/mockup-doctor-patient-file-folder-tarapur-healthcare.webp',
-      '/assets/doctor-patient-medical-record-file-tarapur-healthcare.webp',
-      '/assets/service-hospital-patient-folder.jpg',
-      '/assets/service-presentation-folders.jpg',
-      '/assets/doctor-prescription-letterpad-aruj-clinic-kankarbagh.webp',
-      '/assets/doctor-clinic-id-card-lanyard-ejaz-clinic.webp'
+      '/assets/mockup-doctor-patient-file-folder-tarapur-healthcare.png',
+      '/assets/doctor-patient-medical-record-file-tarapur-healthcare.jpg',
+      '/assets/doctor-prescription-letterpad-aruj-clinic-kankarbagh.jpg',
+      '/assets/healthcare-academy-admission-poster-gd-goenka-patna.jpg'
     ]
   },
 
-  // 2. LOGO DESIGN & VECTOR IDENTITY (Todo #2)
+  // 2. LOGO DESIGN & VECTOR IDENTITY
   {
     slug: 'logo-design-services',
     title: 'Logo Design & Brand Identity',
     category: 'Design Studio',
     shortDesc: 'Custom vector logo creation, corporate brand identity guidelines, and vectorization services.',
-    heroImage: '/assets/service-logo-design-brand-identity.jpg',
+    heroImage: '/assets/ctrlp-brand-identity-guidelines.png',
     badge: 'Creative Studio',
     overview: 'Our senior in-house graphic design studio at Kalyani Complex creates distinctive, memorable visual identities. From corporate emblem redraws to modern minimalist startup logos, complete brand guideline kits, stationery design, and high-resolution vector assets (AI, EPS, SVG, PDF, PNG).',
     materials: [
@@ -77,20 +78,21 @@ export const servicesList = [
       }
     ],
     gallery: [
-      '/assets/service-logo-design-brand-identity.jpg',
-      '/assets/logo-vector-india-meteorological-department-imd.webp',
-      '/assets/ctrlp-brand-identity-guidelines.webp',
-      '/assets/ctrlp-official-brand-logo.webp'
+      '/assets/ctrlp-brand-identity-guidelines.png',
+      '/assets/ctrlp-official-brand-logo.png',
+      '/assets/poster-creative-brand-typography-art.png',
+      '/assets/poster-creative-visual-branding-concept.png',
+      '/assets/poster-creative-corporate-branding-kit-design.jpg'
     ]
   },
 
-  // 3. INTERNATIONAL ORDERS & WORLDWIDE SHIPPING (Todo #3)
+  // 3. INTERNATIONAL ORDERS & WORLDWIDE SHIPPING
   {
     slug: 'international-printing-orders',
     title: 'International Orders & Global Shipping',
     category: 'Corporate',
     shortDesc: 'Worldwide door delivery for overseas alumni, NRIs, international corporations, and exhibitions.',
-    heroImage: '/assets/corporate-envelope-letterhead-aakash-institute-bihar.webp',
+    heroImage: '/assets/branded-paper-carry-bag-ctrlp.jpg',
     badge: 'Worldwide Delivery',
     overview: 'Ctrl P delivers premium commercial printing to international clients worldwide. Whether you need books, anniversary souvenirs, corporate stationery, school alumni magazines, or packaging exported, we handle multi-currency payments, international customs documentation, and expedited air courier via DHL, FedEx, and Aramex.',
     materials: [
@@ -115,20 +117,19 @@ export const servicesList = [
       }
     ],
     gallery: [
-      '/assets/corporate-envelope-letterhead-aakash-institute-bihar.webp',
-      '/assets/mockup-envelope-letterhead-aakash-institute.webp',
-      '/assets/service-custom-envelopes.jpg',
-      '/assets/mockup-visiting-card-slc-partners-advocate-patna.webp'
+      '/assets/branded-paper-carry-bag-ctrlp.jpg',
+      '/assets/ctrlp-storefront-signage-with-gstin.jpg',
+      '/assets/ctrlp-storefront-board-front-view.jpg'
     ]
   },
 
-  // 4. STAPLE & SPIRAL BINDING (Todo #4)
+  // 4. STAPLE & SPIRAL BINDING
   {
     slug: 'spiral-staple-binding',
     title: 'Staple, Spiral & Wire-O Binding',
     category: 'Binding & Finishing',
     shortDesc: 'Center staple saddle stitch, twin-loop Wire-O, plastic spiral coil, and thermal perfect glue binding.',
-    heroImage: '/assets/service-staple-spiral-wire-o-binding.jpg',
+    heroImage: '/assets/machine-perfect-glue-book-binding.jpg',
     badge: 'Precision Finishing',
     overview: 'State-of-the-art document binding services for school magazines, training manuals, annual reports, calendars, project reports, and legal dossiers. We operate heavy-duty multi-head saddle stitchers, automatic spiral punchers, double-loop Wire-O closers, and automated hot-melt EVA perfect book binders.',
     materials: [
@@ -151,20 +152,19 @@ export const servicesList = [
       }
     ],
     gallery: [
-      '/assets/service-staple-spiral-wire-o-binding.jpg',
-      '/assets/service-book-printing-publishing.jpg',
-      '/assets/school-magazine-navodaya-darpan-jnv-gaya.webp',
-      '/assets/machine-perfect-glue-book-binding.webp'
+      '/assets/machine-perfect-glue-book-binding.jpg',
+      '/assets/school-magazine-navodaya-darpan-jnv-gaya.jpg',
+      '/assets/book-cover-darbhanga-disaster-management-2026.jpg'
     ]
   },
 
-  // 5. BOOK PRINTING & PUBLISHING (Todo #6)
+  // 5. BOOK PRINTING & PUBLISHING
   {
     slug: 'book-printing-publishing',
     title: 'Book Printing & Publication',
     category: 'Publishing',
     shortDesc: 'Hardcover & paperback book production, school magazines, literature, and government disaster manuals.',
-    heroImage: '/assets/service-book-printing-publishing.jpg',
+    heroImage: '/assets/book-cover-darbhanga-disaster-management-2026.jpg',
     badge: 'Full Production',
     overview: 'Ctrl P is one of Bihar leading book production printers. From district disaster management manuals (like Darbhanga Samaharnalay 2026) to Jawahar Navodaya Vidyalaya school magazines and private author poetry/novels, we offer complete prepress, CTP plate output, Heidelberg offset presswork, and automated perfect glue binding.',
     materials: [
@@ -188,21 +188,21 @@ export const servicesList = [
       }
     ],
     gallery: [
-      '/assets/book-cover-darbhanga-disaster-management-2026.webp',
-      '/assets/mockup-school-magazine-navodaya-darpan-jnv-gaya.webp',
-      '/assets/school-magazine-navodaya-darpan-jnv-gaya.webp',
-      '/assets/school-admission-prospectus-jeevan-deep-nawada.webp',
-      '/assets/machine-perfect-glue-book-binding.webp'
+      '/assets/book-cover-darbhanga-disaster-management-2026.jpg',
+      '/assets/mockup-school-magazine-navodaya-darpan-jnv-gaya.png',
+      '/assets/school-magazine-navodaya-darpan-jnv-gaya.jpg',
+      '/assets/school-admission-prospectus-jeevan-deep-nawada.jpg',
+      '/assets/machine-perfect-glue-book-binding.jpg'
     ]
   },
 
-  // 6. URDU DESIGN WORK & CALLIGRAPHY (Todo #8)
+  // 6. URDU DESIGN WORK & CALLIGRAPHY
   {
     slug: 'urdu-design-calligraphy-print',
     title: 'Urdu Design & Calligraphy Work',
     category: 'Specialty Publishing',
     shortDesc: 'Authentic Nastaliq typesetting, Islamic literature, Fatawa books, Madarsa publications, and poetic Divans.',
-    heroImage: '/assets/mockup-urdu-book-fatawa-sharia-idara-sharia-patna.webp',
+    heroImage: '/assets/mockup-urdu-book-fatawa-sharia-idara-sharia-patna.png',
     badge: 'Master Calligraphy',
     overview: 'Specialized Urdu, Arabic, and Persian typesetting and book publishing studio in Patna. Featuring works like Idara Sharia Sultanganj Patna "Aaina Fatawa Sharia", we provide authentic Noori Nastaliq typography, intricate Quranic border borders, Nikahnama certificates, Madarsa curriculum books, and Mushaira posters.',
     materials: [
@@ -226,18 +226,18 @@ export const servicesList = [
       }
     ],
     gallery: [
-      '/assets/mockup-urdu-book-fatawa-sharia-idara-sharia-patna.webp',
-      '/assets/book-cover-fatawa-sharia-idara-sharia-patna.webp'
+      '/assets/mockup-urdu-book-fatawa-sharia-idara-sharia-patna.png',
+      '/assets/book-cover-fatawa-sharia-idara-sharia-patna.jpg'
     ]
   },
 
-  // 7. LETTERHEAD & LETTER PAD PRINTING (Todo #9)
+  // 7. LETTERHEAD & LETTER PAD PRINTING
   {
     slug: 'letterhead-letterpad-printing',
     title: 'Letter Pad & Corporate Letterheads',
     category: 'Stationery',
     shortDesc: 'Executive letter pads, doctor prescription pads, corporate stationery, and bond paper letterheads.',
-    heroImage: '/assets/service-corporate-letterheads.jpg',
+    heroImage: '/assets/mockup-envelope-letterhead-aakash-institute.png',
     badge: 'Corporate Essential',
     overview: 'Make every official communication authoritative with crisp letterheads and padded stationery. We serve prominent doctors (e.g. Aruj Clinic Kankarbagh Patna), corporate institutes (like Aakash Institute), advocate chambers, and government suppliers with watermark bond papers, foil logos, and glue-padded sheets.',
     materials: [
@@ -262,21 +262,19 @@ export const servicesList = [
       }
     ],
     gallery: [
-      '/assets/service-corporate-letterheads.jpg',
-      '/assets/service-stationery-banner.jpg',
-      '/assets/doctor-prescription-letterpad-aruj-clinic-kankarbagh.webp',
-      '/assets/service-custom-envelopes.jpg',
-      '/assets/corporate-envelope-letterhead-aakash-institute-bihar.webp'
+      '/assets/mockup-envelope-letterhead-aakash-institute.png',
+      '/assets/corporate-envelope-letterhead-aakash-institute-bihar.jpg',
+      '/assets/doctor-prescription-letterpad-aruj-clinic-kankarbagh.jpg'
     ]
   },
 
-  // 8. STANDEE & ROLL-UP DISPLAYS (Todo #10)
+  // 8. STANDEE & ROLL-UP DISPLAYS
   {
     slug: 'standee-rollup-display-printing',
     title: 'Roll-Up Standee & Display Banners',
     category: 'Signage',
     shortDesc: 'Portable aluminum roll-up standees, luxury broad-base stands, and non-tearable matte satin display prints.',
-    heroImage: '/assets/mockup-rollup-standee-vedantu-patna.webp',
+    heroImage: '/assets/mockup-rollup-standee-vedantu-patna.png',
     badge: 'Events & Expos',
     overview: 'High-visibility portable roll-up standees trusted by top educational brands like Vedantu Patna and corporate expos. Printed on anti-glare, non-tearable PVC vinyl or satin canvas and mounted on rugged aluminum rollup cassettes with carrying bags for effortless transport and instant setup.',
     materials: [
@@ -301,20 +299,18 @@ export const servicesList = [
       }
     ],
     gallery: [
-      '/assets/mockup-rollup-standee-vedantu-patna.webp',
-      '/assets/service-exhibition-rollup-standee.jpg',
-      '/assets/service-standees-display.jpg',
-      '/assets/service-standing-banner.jpg'
+      '/assets/mockup-rollup-standee-vedantu-patna.png',
+      '/assets/ctrlp-marketing-banner-all-printing-solutions.jpg'
     ]
   },
 
-  // 9. PROMOTIONAL CANOPY TENTS (Todo #11)
+  // 9. PROMOTIONAL CANOPY TENTS
   {
     slug: 'canopy-tent-promotional-outdoor',
     title: 'Promotional Canopy Tents',
     category: 'Outdoor Advertising',
     shortDesc: 'Custom printed pop-up canopy tents, outdoor marketing kiosks, and exhibition promotion booths.',
-    heroImage: '/assets/promotional-canopy-tent-outdoor-display.webp',
+    heroImage: '/assets/ctrlp-marketing-banner-all-printing-solutions.jpg',
     badge: 'Field Marketing',
     overview: 'Drive unstoppable brand visibility in public plazas, rural outreach camps, roadshows, and trade fairs. Our heavy-duty collapsible pop-up canopies feature full-color waterproof roof canopies, side walls, backdrops, and reinforced rust-proof steel or aluminum hexagonal frames that assemble in 60 seconds.',
     materials: [
@@ -338,19 +334,18 @@ export const servicesList = [
       }
     ],
     gallery: [
-      '/assets/promotional-canopy-tent-outdoor-display.webp',
-      '/assets/service-standing-banner.jpg',
-      '/assets/promotional-sunshade-umbrella-firstcry-daycare.webp'
+      '/assets/ctrlp-marketing-banner-all-printing-solutions.jpg',
+      '/assets/promotional-sunshade-umbrella-firstcry-daycare.jpg'
     ]
   },
 
-  // 10. PROMOTIONAL SUNSHADE UMBRELLAS (Todo #12)
+  // 10. PROMOTIONAL SUNSHADE UMBRELLAS
   {
     slug: 'promotional-umbrella-sunshade',
     title: 'Promotional Sunshade Umbrellas',
     category: 'Outdoor Advertising',
     shortDesc: 'Branded garden sunshade umbrellas for vendor kiosks, preschools, retail stores, and rural marketing.',
-    heroImage: '/assets/promotional-sunshade-umbrella-firstcry-daycare.webp',
+    heroImage: '/assets/promotional-sunshade-umbrella-firstcry-daycare.jpg',
     badge: 'High Visibility',
     overview: 'High-impact outdoor branding for street retailers, authorized dealers, school promotions (like Firstcry Intellitots), and apparel brands (such as 1st Lady Begusarai). We manufacture 6-foot to 8-foot round sunshade umbrellas with 8-rib powder-coated metal frames and heavy-duty water-fillable bases.',
     materials: [
@@ -373,19 +368,18 @@ export const servicesList = [
       }
     ],
     gallery: [
-      '/assets/promotional-sunshade-umbrella-firstcry-daycare.webp',
-      '/assets/service-promotional-umbrella.jpg',
-      '/assets/promotional-sunshade-umbrella-1st-lady-begusarai.webp'
+      '/assets/promotional-sunshade-umbrella-firstcry-daycare.jpg',
+      '/assets/promotional-sunshade-umbrella-1st-lady-begusarai.jpg'
     ]
   },
 
-  // 11. PACKAGING BOXES & DIELINE DESIGN (Todo #13)
+  // 11. PACKAGING BOXES & DIELINE DESIGN
   {
     slug: 'packaging-box-dieline-printing',
     title: 'Packaging Box Design & Dielines',
     category: 'Packaging',
     shortDesc: 'Custom mono-cartons, tea packaging boxes, herbal cosmetic boxes, and confectionery packaging.',
-    heroImage: '/assets/service-packaging-boxes-banner.jpg',
+    heroImage: '/assets/mockup-packaging-box-zizz-guard-foot-pads.png',
     badge: 'Custom Dieline',
     overview: 'Transform retail products with professional packaging engineered to sell. Proven through designs like Mild Care Zizz Guard Foot Pads and L.R.C. Bahubali Special Tea, we handle vector dieline creation, structural packaging prototyping, CMYK offset printing, food-grade coatings, gold foiling, and precision die-cutting.',
     materials: [
@@ -407,23 +401,23 @@ export const servicesList = [
       }
     ],
     gallery: [
-      '/assets/service-packaging-boxes-banner.jpg',
-      '/assets/mockup-packaging-box-zizz-guard-foot-pads.webp',
-      '/assets/service-product-packaging-box.jpg',
-      '/assets/service-dry-fruit-box.jpg',
-      '/assets/service-ecommerce-box.jpg',
-      '/assets/service-food-packaging-box.jpg',
-      '/assets/service-wedding-luxury-box.jpg'
+      '/assets/mockup-packaging-box-zizz-guard-foot-pads.png',
+      '/assets/packaging-box-dieline-zizz-guard-foot-pads.jpg',
+      '/assets/packaging-box-artwork-lrc-bahubali-tea.jpg',
+      '/assets/packaging-box-confectionery-pk-sweets-candy.jpg',
+      '/assets/branded-paper-carry-bag-ctrlp.jpg',
+      '/assets/candy-wrapper-packaging-vikram-pulse-kachha-aam.jpg',
+      '/assets/candy-wrapper-packaging-vikram-orange-candy.jpg'
     ]
   },
 
-  // 12. CERTIFICATES & AWARD PRINTING (Todo #14)
+  // 12. CERTIFICATES & AWARD PRINTING
   {
     slug: 'certificate-award-printing',
     title: 'Certificate & Award Printing',
     category: 'Corporate',
     shortDesc: 'Gold foil certificates of appreciation, university diplomas, summit recognitions, and school awards.',
-    heroImage: '/assets/certificate-of-appreciation-puca-bihar-summit.webp',
+    heroImage: '/assets/certificate-of-appreciation-puca-bihar-summit.jpg',
     badge: 'Prestige Grade',
     overview: 'Celebrate milestones with award-winning certificates that recipients cherish for a lifetime. As demonstrated in the PUCA (Punjab Unaided Colleges Association) Education Summit at Hotel Gargee Grand Patna, we print on imported parchment cardstock with metallic gold foil borders, security anti-counterfeiting guilloche lines, and variable data personalization.',
     materials: [
@@ -447,10 +441,7 @@ export const servicesList = [
       }
     ],
     gallery: [
-      '/assets/certificate-of-appreciation-puca-bihar-summit.webp',
-      '/assets/service-custom-certificate.jpg',
-      '/assets/service-college-certificate.jpg',
-      '/assets/visiting-card-aryabhatta-knowledge-university-patna.webp'
+      '/assets/certificate-of-appreciation-puca-bihar-summit.jpg'
     ]
   },
 
@@ -460,7 +451,7 @@ export const servicesList = [
     title: 'Business Card Printing',
     category: 'Stationery',
     shortDesc: 'Premium visiting cards that create memorable first impressions for your business.',
-    heroImage: '/assets/service-standard-visiting-cards.png',
+    heroImage: '/assets/mockup-visiting-card-slc-partners-advocate-patna.png',
     badge: 'Most Popular',
     overview: 'Make an unforgettable impression with high-grade visiting cards printed at Ctrl P in Patna. We offer a full spectrum of materials ranging from 300 GSM art board to premium velvet touch, matte lamination, metallic spot UV, and gold foil stamping.',
     materials: [
@@ -486,12 +477,11 @@ export const servicesList = [
       }
     ],
     gallery: [
-      '/assets/service-standard-visiting-cards.png',
-      '/assets/service-visiting-cards-banner.jpg',
-      '/assets/service-visiting-cards-stack.jpg',
-      '/assets/mockup-visiting-card-slc-partners-advocate-patna.webp',
-      '/assets/service-textured-visiting-card.jpg',
-      '/assets/service-velvet-visiting-card.jpg'
+      '/assets/mockup-visiting-card-slc-partners-advocate-patna.png',
+      '/assets/visiting-card-laxmi-diagnostic-centre-patna.jpg',
+      '/assets/visiting-card-manoj-mobile-communication-patna.jpg',
+      '/assets/visiting-card-radhika-transport-boring-road-patna.jpg',
+      '/assets/poster-visiting-card-rupesh-kumar-real-estate.png'
     ]
   },
 
@@ -501,7 +491,7 @@ export const servicesList = [
     title: 'Brochure & Prospectus Printing',
     category: 'Marketing',
     shortDesc: 'Multi-fold brochures and school admission prospectuses printed with vivid color fidelity.',
-    heroImage: '/assets/school-admission-prospectus-jeevan-deep-nawada.webp',
+    heroImage: '/assets/school-admission-prospectus-jeevan-deep-nawada.jpg',
     badge: 'High Impact',
     overview: 'Elevate your marketing campaigns with high-impact corporate brochures and educational prospectuses (such as Jeevan Deep Public School Nawada). Ideal for real estate developments, educational institutes, medical diagnostics, and corporate profiles across Bihar.',
     materials: [
@@ -525,10 +515,9 @@ export const servicesList = [
       }
     ],
     gallery: [
-      '/assets/school-admission-prospectus-jeevan-deep-nawada.webp',
-      '/assets/service-customized-brochure.jpg',
-      '/assets/service-marketing-booklets.jpg',
-      '/assets/tri-fold-marketing-brochure-uru-marketing.webp'
+      '/assets/school-admission-prospectus-jeevan-deep-nawada.jpg',
+      '/assets/tri-fold-marketing-brochure-uru-marketing.jpg',
+      '/assets/poster-creative-brochure-catalog-print-design.jpg'
     ]
   },
 
@@ -538,7 +527,7 @@ export const servicesList = [
     title: 'Flyer & Leaflet Printing',
     category: 'Marketing',
     shortDesc: 'Cost-effective leaflets for mass distribution, promotional events, and retail sales.',
-    heroImage: '/assets/service-flyers-leaflets-printing.jpg',
+    heroImage: '/assets/poster-creative-flyer-pamphlet-print-design.jpg',
     badge: 'Value Pack',
     overview: 'High-speed, high-volume flyer printing engineered for maximum reach across Patna. Perfect for coaching institutes, showroom launches, food delivery menus, and festival sales promotions.',
     materials: ['90 GSM Maplitho Paper', '130 GSM Gloss Art Paper', '170 GSM Premium Art Paper'],
@@ -552,11 +541,11 @@ export const servicesList = [
       }
     ],
     gallery: [
-      '/assets/service-flyers-leaflets-printing.jpg',
-      '/assets/service-event-flyers.jpg',
-      '/assets/service-real-estate-flyers.jpg',
-      '/assets/service-startup-flyers.jpg',
-      '/assets/healthcare-academy-admission-poster-gd-goenka-patna.webp'
+      '/assets/poster-creative-flyer-pamphlet-print-design.jpg',
+      '/assets/poster-admission-cbse-public-school-bihar.jpg',
+      '/assets/poster-admission-engineering-college-bihar.jpg',
+      '/assets/poster-admission-larme-academy-beautify-future.jpg',
+      '/assets/healthcare-academy-admission-poster-gd-goenka-patna.jpg'
     ]
   },
 
@@ -566,7 +555,7 @@ export const servicesList = [
     title: 'Poster & Creative Festival Printing',
     category: 'Marketing',
     shortDesc: 'Vibrant promotional posters, festival greetings, and exhibition prints with rich color saturation.',
-    heroImage: '/assets/poster-creative-cricket-world-cup-diwali.webp',
+    heroImage: '/assets/poster-creative-digital-print-spotlight.png',
     badge: 'Vivid Colors',
     overview: 'Capture attention instantly with high-definition posters. Whether you need educational posters, festival creatives (Diwali, Dussehra, Eid, Chhath Puja), or event notices, our Konica Minolta digital presses deliver razor-sharp clarity and deep color depth.',
     materials: ['170 GSM Gloss Art Paper', '250 GSM Matte Art Card', '300 GSM Heavy Poster Board', 'Synthetic Non-Tearable Media'],
@@ -580,11 +569,12 @@ export const servicesList = [
       }
     ],
     gallery: [
-      '/assets/poster-creative-cricket-world-cup-diwali.webp',
-      '/assets/service-bulk-posters.jpg',
-      '/assets/service-event-posters.jpg',
-      '/assets/poster-festival-dhanteras-shubh-labh.webp',
-      '/assets/poster-celebration-bihar-diwas-pride-of-bihar.webp'
+      '/assets/poster-creative-digital-print-spotlight.png',
+      '/assets/poster-festival-dhanteras-shubh-labh.jpg',
+      '/assets/poster-celebration-bihar-diwas-pride-of-bihar.png',
+      '/assets/poster-creative-cricket-world-cup-diwali.jpg',
+      '/assets/poster-celebration-india-independence-day-15-august.jpg',
+      '/assets/poster-festival-eid-al-fitr-celebration-mubarak.jpg'
     ]
   },
 
@@ -594,7 +584,7 @@ export const servicesList = [
     title: 'Banner & Flex Printing',
     category: 'Outdoor Advertising',
     shortDesc: 'Heavy-duty flex banners, star flex, backlits, and hoardings with weather-resistant solvent inks.',
-    heroImage: '/assets/service-banner-flex-printing.jpg',
+    heroImage: '/assets/ctrlp-marketing-banner-all-printing-solutions.jpg',
     badge: 'Weatherproof',
     overview: 'Dominate the streetscape with industrial-grade flex banners printed on our Gethray 10-foot eco-solvent flex press in Kalyani Complex. We print regular flex, blackback star flex, and translucent backlit flex for shop boards and political rallies.',
     materials: ['260 GSM Standard Flex', '340 GSM Heavy Normal Flex', 'Star Black-Back Flex (Zero Ghosting)', 'Backlit Vinyl Flex for Glow Signs'],
@@ -608,10 +598,9 @@ export const servicesList = [
       }
     ],
     gallery: [
-      '/assets/service-banner-flex-printing.jpg',
-      '/assets/service-banner-iron-frame.jpg',
-      '/assets/service-flex-hoardings-billboards.jpg',
-      '/assets/machine-gethray-large-format-eco-solvent-printer.webp'
+      '/assets/ctrlp-marketing-banner-all-printing-solutions.jpg',
+      '/assets/poster-creative-digital-banner-printing-artwork.jpg',
+      '/assets/machine-gethray-large-format-eco-solvent-printer.jpg'
     ]
   },
 
@@ -621,7 +610,7 @@ export const servicesList = [
     title: 'Wall & Desk Calendar Printing',
     category: 'Stationery',
     shortDesc: 'Custom wall calendars, school academic calendars, and corporate executive desk planners.',
-    heroImage: '/assets/wall-calendar-nyaaya-legal-awareness-april-2026.webp',
+    heroImage: '/assets/mockup-wall-calendar-nyaaya-legal-2026.png',
     badge: 'Year-Round Impact',
     overview: 'Keep your brand visible on clients walls 365 days a year. As seen in the Nyaaya Legal Awareness 2026 calendar and Holy Kids International Chapra school calendar, we produce custom multi-leaf wall calendars with tin mounting and Wire-O desk planners.',
     materials: ['130-170 GSM Gloss Art Paper for Leaves', 'Tin Metal Rimming Top & Bottom', 'Twin-Loop Wire-O with Wall Hangers', 'Rigid Kappa Board Triangular Stands for Desk Calendars'],
@@ -635,10 +624,9 @@ export const servicesList = [
       }
     ],
     gallery: [
-      '/assets/wall-calendar-nyaaya-legal-awareness-april-2026.webp',
-      '/assets/mockup-wall-calendar-nyaaya-legal-2026.webp',
-      '/assets/school-calendar-holy-kids-international-chapra-2024.webp',
-      '/assets/school-calendar-new-st-johns-madhepura-2025.webp'
+      '/assets/mockup-wall-calendar-nyaaya-legal-2026.png',
+      '/assets/school-calendar-new-st-johns-madhepura-2025.jpg',
+      '/assets/school-calendar-holy-kids-international-chapra-2024.jpg'
     ]
   },
 
@@ -648,9 +636,9 @@ export const servicesList = [
     title: 'PVC ID Card & Lanyard Printing',
     category: 'Corporate',
     shortDesc: 'High-gloss PVC identity cards, RFID smart cards, custom satin printed lanyards, and card holders.',
-    heroImage: '/assets/doctor-clinic-id-card-lanyard-ejaz-clinic.webp',
+    heroImage: '/assets/corporate-id-card-lanyard-holder-etscab.jpg',
     badge: 'High Security',
-    overview: 'Complete employee and student identification systems for schools, universities (like North St. Williams Academy), hospitals (Dr. Ejaz Clinic), and corporate offices. Printed using high-resolution thermal re-transfer technology that will never peel or fade.',
+    overview: 'Complete employee and student identification systems for schools, universities (like North St. Williams Academy), hospitals, and corporate offices. Printed using high-resolution thermal re-transfer technology that will never peel or fade.',
     materials: ['Cr-80 30 Mil (0.76mm) Pure PVC Card', 'Satin Smooth Neck Lanyards with Breakaway Clips', 'Transparent Hard Acrylic & Silicone Card Holders', 'RFID & Mifare Proximity Smart Cards'],
     sizes: ['Standard CR-80: 85.6 x 54 mm (3.375 x 2.125 inch)'],
     pricing: 'Starts at ₹35/card with custom printed lanyard',
@@ -662,10 +650,8 @@ export const servicesList = [
       }
     ],
     gallery: [
-      '/assets/doctor-clinic-id-card-lanyard-ejaz-clinic.webp',
-      '/assets/service-institute-id-cards.jpg',
-      '/assets/service-custom-lanyards.jpg',
-      '/assets/student-pvc-id-card-north-st-williams-academy.webp'
+      '/assets/corporate-id-card-lanyard-holder-etscab.jpg',
+      '/assets/student-pvc-id-card-north-st-williams-academy.jpg'
     ]
   },
 
@@ -675,7 +661,7 @@ export const servicesList = [
     title: 'Custom Ceramic Mug & Gift Printing',
     category: 'Promotional Gifts',
     shortDesc: 'Sublimation ceramic coffee mugs, personalized magic mugs, and corporate promotional drinkware.',
-    heroImage: '/assets/service-corporate-coffee-mug.jpg',
+    heroImage: '/assets/custom-printed-ceramic-mug-love-life.jpg',
     badge: 'Personalized Gifts',
     overview: 'Turn high-grade ceramic drinkware into treasured personalized gifts and corporate brand ambassadors. Utilizing dye-sublimation heat transfer, we produce full-wrap photographic prints on 11oz mugs with dishwasher-safe durability.',
     materials: ['Grade AAA Ceramic 11oz & 15oz Mugs', 'Heat-Activated Color Changing Magic Mugs', 'Dual-Tone Inside-Color Coffee Mugs', 'Individual White Window Gift Packaging'],
@@ -689,13 +675,7 @@ export const servicesList = [
       }
     ],
     gallery: [
-      '/assets/service-corporate-coffee-mug.jpg',
-      '/assets/custom-printed-ceramic-mug-love-life.webp',
-      '/assets/service-custom-birthday-mug.jpg',
-      '/assets/service-personalised-heart-mug.jpg',
-      '/assets/service-matka-coffee-mug.jpg',
-      '/assets/service-promotional-merchandise-keychains.jpg',
-      '/assets/service-custom-printed-pens.jpg'
+      '/assets/custom-printed-ceramic-mug-love-life.jpg'
     ]
   },
 
@@ -705,7 +685,7 @@ export const servicesList = [
     title: 'Custom T-Shirt Printing',
     category: 'Corporate Gifts',
     shortDesc: 'Direct-to-Film (DTF) and screen-printed corporate polo shirts, event tees, and sports jerseys.',
-    heroImage: '/assets/service-custom-t-shirt-printing.jpg',
+    heroImage: '/assets/machine-dtf-tshirt-heat-press.jpg',
     badge: 'Apparel Press',
     overview: 'Outfitting corporate teams, college festival committees, and delivery fleets across Patna. Equipped with modern DTF (Direct-to-Film) printers and industrial pneumatic heat presses, we produce vibrant, stretch-resistant apparel prints.',
     materials: ['100% Combed Cotton Bio-Washed 180-220 GSM', 'Dry-Fit Breathable Sports Polyester', 'Matty Cotton Polo Collared T-Shirts', 'High-Elasticity DTF Polyurethane Inks'],
@@ -719,12 +699,7 @@ export const servicesList = [
       }
     ],
     gallery: [
-      '/assets/service-custom-t-shirt-printing.jpg',
-      '/assets/service-custom-polo-tshirt.jpg',
-      '/assets/service-women-custom-tshirt.jpg',
-      '/assets/service-kids-custom-tshirt.jpg',
-      '/assets/service-custom-hoodie.jpg',
-      '/assets/machine-dtf-tshirt-heat-press.webp'
+      '/assets/machine-dtf-tshirt-heat-press.jpg'
     ]
   },
 
@@ -734,7 +709,7 @@ export const servicesList = [
     title: 'High-Volume Offset Printing',
     category: 'Commercial Printing',
     shortDesc: 'Multi-color Heidelberg offset presswork for large-scale book runs, bill books, and packaging.',
-    heroImage: '/assets/machine-heidelberg-speedmaster-offset-press.webp',
+    heroImage: '/assets/machine-heidelberg-speedmaster-offset-press.jpg',
     badge: 'Maximum Economy',
     overview: 'When quantities scale into thousands and tens of thousands, nothing matches the cost-efficiency and chromatic perfection of Heidelberg offset printing. We run automated 4-color press lines with CTP laser plate imaging for flawless registration.',
     materials: ['54 GSM to 400 GSM Paper and Paperboards', 'Soy-Based Eco-Friendly Process Inks', 'In-line Aqueous Varnish Coating'],
@@ -748,9 +723,9 @@ export const servicesList = [
       }
     ],
     gallery: [
-      '/assets/machine-heidelberg-speedmaster-offset-press.webp',
-      '/assets/service-book-printing-publishing.jpg',
-      '/assets/service-visiting-cards-stack.jpg'
+      '/assets/machine-heidelberg-speedmaster-offset-press.jpg',
+      '/assets/book-cover-darbhanga-disaster-management-2026.jpg',
+      '/assets/school-magazine-navodaya-darpan-jnv-gaya.jpg'
     ]
   },
 
@@ -760,7 +735,7 @@ export const servicesList = [
     title: 'High-Speed Digital Color Press',
     category: 'Commercial Printing',
     shortDesc: 'Production digital color printing on Konica Minolta bizhub press with same-day delivery.',
-    heroImage: '/assets/machine-konica-minolta-bizhub-c251i-digital-press.webp',
+    heroImage: '/assets/machine-konica-minolta-bizhub-c251i-digital-press.jpg',
     badge: 'Same Day Express',
     overview: 'Need 50 brochures or 200 certificates in an hour? Our Konica Minolta bizhub C251i digital press lines deliver instantaneous turnaround with offset-matching 2400 x 1200 DPI resolution, true CMYK color profiles, and automated duplex registration.',
     materials: ['75 GSM Bond to 350 GSM Heavy Art Card', 'Synthetic Non-Tearable Polyester Films', 'Self-Adhesive Sticker Sheets (Gloss/Matte)'],
@@ -774,9 +749,9 @@ export const servicesList = [
       }
     ],
     gallery: [
-      '/assets/machine-konica-minolta-bizhub-c251i-digital-press.webp',
-      '/assets/service-standard-visiting-cards.png',
-      '/assets/service-flyers-leaflets-printing.jpg'
+      '/assets/machine-konica-minolta-bizhub-c251i-digital-press.jpg',
+      '/assets/mockup-visiting-card-slc-partners-advocate-patna.png',
+      '/assets/tri-fold-marketing-brochure-uru-marketing.jpg'
     ]
   },
 
@@ -786,7 +761,7 @@ export const servicesList = [
     title: 'Signage & Storefront 3D Branding',
     category: 'Signage',
     shortDesc: 'ACP 3D LED glow sign boards, acrylic letters, neon signs, and commercial shop front displays.',
-    heroImage: '/assets/service-commercial-branding-fabrication.jpeg',
+    heroImage: '/assets/ctrlp-storefront-board-front-view.jpg',
     badge: 'Storefronts',
     overview: 'Transform your storefront into an illuminated landmark. We engineer ACP (Aluminium Composite Panel) router-cut signboards, 3D acrylic LED channel letters, neon flex, and showroom vinyl branding with licensed electrical safety.',
     materials: ['Aluminium Composite Panels (ACP)', 'Cast Acrylic Sheets (3mm - 12mm)', 'High-Lumen Samsung LED Modules', 'Flexible Silicon Neon Lights'],
@@ -800,14 +775,12 @@ export const servicesList = [
       }
     ],
     gallery: [
-      '/assets/service-commercial-branding-fabrication.jpeg',
-      '/assets/service-stainless-steel-sign-board.jpeg',
-      '/assets/service-acrylic-3d-led-letters.jpg',
-      '/assets/service-led-glow-sign-board.avif',
-      '/assets/service-led-slim-lightbox-panels.jpg',
-      '/assets/ctrlp-storefront-signage-with-gstin.webp',
-      '/assets/service-oneway-vision-frosted-film.jpg',
-      '/assets/service-vinyl-wall-wraps.jpg'
+      '/assets/ctrlp-storefront-board-front-view.jpg',
+      '/assets/ctrlp-storefront-signage-with-gstin.jpg',
+      '/assets/ctrlp-storefront-outdoor-signage-daytime.jpg',
+      '/assets/mockup-outdoor-signage-gurukul-coaching-patna.png',
+      '/assets/ctrlp-storefront-glass-window-quote-vinyl.jpg',
+      '/assets/ctrlp-storefront-kalyani-complex-plaza-view.jpg'
     ]
   }
 ];
@@ -815,3 +788,7 @@ export const servicesList = [
 export const getServiceBySlug = (slug) => {
   return servicesList.find((s) => s.slug === slug);
 };
+`;
+
+fs.writeFileSync(path.resolve('client/src/data/servicesData.js'), updatedServicesData, 'utf-8');
+console.log('Successfully wrote updated servicesData.js');

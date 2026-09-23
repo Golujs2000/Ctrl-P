@@ -10,7 +10,7 @@ export default function MachinesPage({ onOpenQuote }) {
       "@context": "https://schema.org",
       "@type": "AboutPage",
       "name": "Printing Machinery & Technology in Patna | Ctrl P",
-      "description": "Tour our in-house commercial press equipment: Heidelberg offset press, Gethray 10.5ft eco-solvent flex printer, Konica Minolta bizhub digital press, and perfect book binding.",
+      "description": "Tour our in-house commercial press equipment: Heidelberg offset press, Gethray 10.5ft eco-solvent flex printer, Konica Minolta bizhub digital press, DTF t-shirt heat press, and perfect book binding.",
       "url": "https://ctrlppatna.in/machines"
     },
     {
@@ -27,8 +27,8 @@ export default function MachinesPage({ onOpenQuote }) {
     <div className="bg-white min-h-screen">
       <SEOHead
         title="Printing Press Machinery & Production Technology in Patna | Ctrl P"
-        description="Explore our in-house industrial printing press machinery: Heidelberg offset, Gethray 10.5ft flex printer, Konica Minolta digital press, and automated book binding in Patna."
-        keywords="printing machine Patna, Heidelberg offset press Bihar, eco flex printer Gethray, digital printing machine Konica Minolta, book binding machine Patna"
+        description="Explore our in-house industrial printing press machinery: Heidelberg offset, Gethray 10.5ft flex printer, Konica Minolta digital press, DTF t-shirt printing machine, and automated book binding in Patna."
+        keywords="printing machine Patna, Heidelberg offset press Bihar, eco flex printer Gethray, digital printing machine Konica Minolta, DTF t-shirt printing machine Patna, heat press Bihar, book binding machine Patna"
         canonicalPath="/machines"
         schema={machinesSchema}
       />
@@ -64,7 +64,7 @@ export default function MachinesPage({ onOpenQuote }) {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-center">
           <div className="lg:col-span-6 rounded-3xl overflow-hidden bg-zinc-100 border-2 border-zinc-200 shadow-xl aspect-[4/3]">
             <img decoding="async" loading="lazy"
-              src="/assets/machine-gethray-large-format-eco-solvent-printer.webp"
+              src="/assets/machine-gethray-large-format-eco-solvent-printer.jpg"
               alt="Gethray Eco Flex Machine Ctrl P"
               className="w-full h-full object-cover"
             />
@@ -116,7 +116,7 @@ export default function MachinesPage({ onOpenQuote }) {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-center">
           <div className="lg:col-span-6 lg:order-2 rounded-3xl overflow-hidden bg-zinc-100 border-2 border-zinc-200 shadow-xl aspect-[4/3]">
             <img decoding="async" loading="lazy"
-              src="/assets/machine-heidelberg-speedmaster-offset-press.webp"
+              src="/assets/machine-heidelberg-speedmaster-offset-press.jpg"
               alt="Offset Printing Machine Room"
               className="w-full h-full object-cover"
             />
@@ -168,7 +168,7 @@ export default function MachinesPage({ onOpenQuote }) {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-center">
           <div className="lg:col-span-6 rounded-3xl overflow-hidden bg-zinc-100 border-2 border-zinc-200 shadow-xl aspect-[4/3]">
             <img decoding="async" loading="lazy"
-              src="/assets/machine-industrial-large-format-cold-laminator.webp"
+              src="/assets/machine-industrial-large-format-cold-laminator.jpg"
               alt="Large Format Laminator Machine"
               className="w-full h-full object-cover"
             />
@@ -200,7 +200,7 @@ export default function MachinesPage({ onOpenQuote }) {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-center">
           <div className="lg:col-span-6 lg:order-2 rounded-3xl overflow-hidden bg-zinc-100 border-2 border-zinc-200 shadow-xl aspect-[4/3]">
             <img decoding="async" loading="lazy"
-              src="/assets/machine-konica-minolta-bizhub-c251i-digital-press.webp"
+              src="/assets/machine-konica-minolta-bizhub-c251i-digital-press.jpg"
               alt="Konica Minolta bizhub Production Color Press"
               className="w-full h-full object-cover"
             />
@@ -252,7 +252,7 @@ export default function MachinesPage({ onOpenQuote }) {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-center">
           <div className="lg:col-span-6 rounded-3xl overflow-hidden bg-zinc-100 border-2 border-zinc-200 shadow-xl aspect-[4/3]">
             <img decoding="async" loading="lazy"
-              src="/assets/machine-perfect-glue-book-binding.webp"
+              src="/assets/machine-perfect-glue-book-binding.jpg"
               alt="Automated Perfect Glue Book Binding Machine"
               className="w-full h-full object-cover"
             />
@@ -289,75 +289,58 @@ export default function MachinesPage({ onOpenQuote }) {
           </div>
         </div>
 
-      </section>
-
-      {/* Video Demonstrations from Assets */}
-      <section className="py-16 bg-zinc-50 border-t border-zinc-200">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-8">
-          <div className="text-center space-y-2">
-            <span className="text-xs font-black uppercase tracking-wider text-[#E31B23]">Video Tour</span>
-            <h2 className="text-3xl sm:text-4xl font-black text-black">Watch Our Machines in Action</h2>
-            <p className="text-sm text-zinc-600 font-medium">Real live footage from our shop floor in Kalyani Complex, Patna.</p>
+        {/* Machine 6: DTF T-Shirt Printing Machine & Heat Press */}
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-center">
+          <div className="lg:col-span-6 lg:order-2 rounded-3xl overflow-hidden bg-zinc-100 border-2 border-zinc-200 shadow-xl aspect-[4/3] flex items-center justify-center p-2 bg-white">
+            <img decoding="async" loading="lazy"
+              src="/assets/machine-dtf-tshirt-heat-press.jpg"
+              alt="Industrial DTF T-Shirt Heat Press Machine"
+              className="w-full h-full object-contain"
+            />
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            <div className="bg-white rounded-2xl p-3 border border-zinc-200 shadow-md space-y-2.5">
-              <div className="aspect-video rounded-xl overflow-hidden bg-black">
-                <video
-                  controls
-                  className="w-full h-full object-cover"
-                  src="/assets/video-gethray-large-format-flex-printing.mp4"
-                />
+          <div className="lg:col-span-6 lg:order-1 space-y-5 text-left">
+            <div className="flex items-center gap-2">
+              <span className="w-2.5 h-2.5 rounded-full bg-[#E31B23]"></span>
+              <span className="text-xs font-black uppercase tracking-wider text-zinc-500">Apparel Printing Engine</span>
+            </div>
+
+            <h2 className="text-3xl sm:text-4xl font-black text-black tracking-tight">
+              Industrial DTF T-Shirt Printing & Heat Press Machine
+            </h2>
+
+            <p className="text-sm sm:text-base text-zinc-700 leading-relaxed font-normal">
+              Our dedicated apparel printing station features high-resolution Direct-to-Film (DTF) transfer technology paired with an industrial pneumatic heat press. Delivers vibrant full-color artwork on dark and light fabrics with ultra-high stretchability and zero peeling.
+            </p>
+
+            <div className="grid grid-cols-2 gap-3 pt-2">
+              <div className="p-3.5 rounded-xl bg-zinc-50 border border-zinc-200">
+                <div className="text-[11px] font-bold text-zinc-500 uppercase">Print Technology</div>
+                <div className="text-sm font-black text-black">DTF Polyurethane Elastic Inks</div>
               </div>
-              <div className="p-1">
-                <h4 className="text-xs font-extrabold text-black line-clamp-1">Gethray Large Format Flex</h4>
-                <p className="text-[11px] text-zinc-500 font-medium">High speed flex with drying system</p>
+              <div className="p-3.5 rounded-xl bg-zinc-50 border border-zinc-200">
+                <div className="text-[11px] font-bold text-zinc-500 uppercase">Wash Fastness</div>
+                <div className="text-sm font-black text-black">50+ Machine Wash Cycles</div>
               </div>
             </div>
 
-            <div className="bg-white rounded-2xl p-3 border border-zinc-200 shadow-md space-y-2.5">
-              <div className="aspect-video rounded-xl overflow-hidden bg-black">
-                <video
-                  controls
-                  className="w-full h-full object-cover"
-                  src="/assets/video-continuous-high-speed-roll-printing.mp4"
-                />
-              </div>
-              <div className="p-1">
-                <h4 className="text-xs font-extrabold text-black line-clamp-1">High-Speed Roll Production</h4>
-                <p className="text-[11px] text-zinc-500 font-medium">Color calibration & printhead pass</p>
-              </div>
-            </div>
+            <ul className="space-y-2 pt-2 text-xs sm:text-sm font-bold text-zinc-800">
+              <li className="flex items-center gap-2"><CheckCircle2 className="w-4 h-4 text-[#E31B23]" /> Ideal for 100% bio-washed cotton, dry-fit sports polyester, polo collars, and hoodies</li>
+              <li className="flex items-center gap-2"><CheckCircle2 className="w-4 h-4 text-[#E31B23]" /> High precision temperature and pneumatic pressure control prevents fabric scorch</li>
+              <li className="flex items-center gap-2"><CheckCircle2 className="w-4 h-4 text-[#E31B23]" /> Fast turnarounds for corporate teamwear, event volunteer tees, and school sports kits</li>
+            </ul>
 
-            <div className="bg-white rounded-2xl p-3 border border-zinc-200 shadow-md space-y-2.5">
-              <div className="aspect-video rounded-xl overflow-hidden bg-black">
-                <video
-                  controls
-                  className="w-full h-full object-cover"
-                  src="/assets/video-industrial-flex-banner-printing-demo.mp4"
-                />
-              </div>
-              <div className="p-1">
-                <h4 className="text-xs font-extrabold text-black line-clamp-1">Industrial Flex Banner Demo</h4>
-                <p className="text-[11px] text-zinc-500 font-medium">Weatherproof Star Flex printing</p>
-              </div>
-            </div>
-
-            <div className="bg-white rounded-2xl p-3 border border-zinc-200 shadow-md space-y-2.5">
-              <div className="aspect-video rounded-xl overflow-hidden bg-black">
-                <video
-                  controls
-                  className="w-full h-full object-cover"
-                  src="/assets/video-precision-cutting-and-finishing-demo.mp4"
-                />
-              </div>
-              <div className="p-1">
-                <h4 className="text-xs font-extrabold text-black line-clamp-1">Precision Cutting & Trimming</h4>
-                <p className="text-[11px] text-zinc-500 font-medium">Hydraulic guillotine post-press</p>
-              </div>
+            <div className="pt-2">
+              <button
+                onClick={() => onOpenQuote('Custom T-Shirt Printing')}
+                className="px-6 py-3.5 rounded-xl bg-black text-white font-extrabold text-xs uppercase tracking-wider shadow-md hover:bg-zinc-800 transition-all"
+              >
+                Quote for Custom T-Shirts
+              </button>
             </div>
           </div>
         </div>
+
       </section>
 
       <CtaBanner onOpenQuote={onOpenQuote} />

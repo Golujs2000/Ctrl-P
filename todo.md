@@ -32,5 +32,5 @@
 - [x] **Flyers & Leaflets**: Replaced school admission poster with real promotional flyers `service-flyers-leaflets-printing.jpg`.
 - [x] **Corporate Mugs & Gifts**: Upgraded with corporate coffee mugs and personalized mugs from `E:\Print shop assets`.
 - [x] **Signage & Storefront Branding**: Enriched with commercial 3D storefront fabrication, outdoor stainless steel signboards, and 3D acrylic LED letters.
-- [x] **Machines Page & Video Suite**: Expanded with Konica Minolta bizhub digital press, automated hot-melt book binder, and 4 in-house production video walkthroughs.
-
+- [x] **Machines Page**: Expanded with Konica Minolta bizhub digital press, automated hot-melt book binder, and **Industrial DTF T-Shirt Printing & Heat Press Machine** (`/assets/machine-dtf-tshirt-heat-press.webp`). (Video Tour removed per request).
+- [x] **Mobile Hero Section**: Unified mobile hero layout so the background image sits seamlessly behind the text headline, pill, badges, and CTA buttons with a high-contrast gradient overlay instead of a detached separated box.
