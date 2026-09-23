@@ -61,18 +61,18 @@ export default function Services({ onOpenQuote }) {
               to={`/services/${service.slug}`}
               className="bg-white rounded-2xl p-4 sm:p-5 border border-zinc-200/80 shadow-sm hover:shadow-lg hover:border-[#E31B23]/50 transition-all duration-300 flex flex-col items-center text-center group transform hover:-translate-y-1 block"
             >
-              {/* Image Preview Thumbnail */}
-              <div className="w-full aspect-[4/3] rounded-xl overflow-hidden bg-zinc-50 mb-3 flex items-center justify-center p-2 relative">
+              {/* Image Preview Thumbnail - Full Height & Width without cropping */}
+              <div className="w-full h-44 sm:h-48 md:h-52 rounded-xl overflow-hidden bg-zinc-50/80 border border-zinc-100 mb-3 flex items-center justify-center p-2 relative">
                 <img decoding="async" loading="lazy"
                   src={service.heroImage}
                   alt={service.title}
-                  className="w-full h-full object-cover rounded-lg group-hover:scale-105 transition-transform duration-500"
+                  className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
                   onError={(e) => {
                     e.target.src = '/assets/brand-favicon.png';
                   }}
                 />
                 {service.badge && (
-                  <span className="absolute top-3 right-3 bg-[#FFED00] text-black text-[10px] font-black px-2.5 py-0.5 rounded-md shadow-xs border border-amber-300">
+                  <span className="absolute top-2.5 right-2.5 bg-[#FFED00] text-black text-[10px] font-black px-2 py-0.5 rounded-md shadow-xs border border-amber-300">
                     {service.badge}
                   </span>
                 )}

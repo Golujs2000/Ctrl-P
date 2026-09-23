@@ -17,9 +17,9 @@ export default function Navbar({ onOpenQuote }) {
 
   return (
     <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-zinc-100 transition-all">
-      {/* International Shipping & Local Announcement Strip */}
-      <div className="bg-zinc-900 text-white text-[11px] font-bold py-1.5 px-4 tracking-wide flex items-center justify-between">
-        <div className="hidden sm:flex items-center gap-2 text-zinc-400">
+      {/* International Shipping & Local Announcement Strip (Hidden on Mobile View) */}
+      <div className="hidden sm:flex bg-zinc-900 text-white text-[11px] font-bold py-1.5 px-4 tracking-wide items-center justify-between">
+        <div className="flex items-center gap-2 text-zinc-400">
           <span>📍 Kalyani Complex, Langar Toli, Patna</span>
         </div>
         <div className="flex items-center justify-center gap-2 mx-auto sm:mx-0">

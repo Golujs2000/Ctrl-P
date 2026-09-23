@@ -136,13 +136,13 @@ export default function ServiceDetailPage({ onOpenQuote }) {
           
           {/* Left Column: Image Showcase */}
           <div className="lg:col-span-6 space-y-4">
-            <div className="relative aspect-[4/3] rounded-3xl overflow-hidden bg-zinc-50 border-2 border-zinc-200/80 shadow-lg p-2 flex items-center justify-center">
+            <div className="relative min-h-[300px] sm:min-h-[420px] aspect-[4/3] rounded-3xl overflow-hidden bg-zinc-50/80 border-2 border-zinc-200/80 shadow-lg p-3 sm:p-5 flex items-center justify-center">
               <img decoding="async" loading="lazy"
                 src={service.heroImage}
                 alt={service.title}
-                className="w-full h-full object-cover rounded-2xl"
+                className="w-full h-full max-h-[460px] object-contain rounded-2xl"
                 onError={(e) => {
-                  e.target.src = '/assets/brand-favicon.webp';
+                  e.target.src = '/assets/brand-favicon.png';
                 }}
               />
               <span className="absolute top-5 left-5 bg-black/85 backdrop-blur-sm text-white text-[11px] font-extrabold px-3 py-1 rounded-full uppercase tracking-wider">
@@ -299,13 +299,13 @@ export default function ServiceDetailPage({ onOpenQuote }) {
 
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
               {service.gallery.map((imgSrc, i) => (
-                <div key={i} className="aspect-[4/3] rounded-2xl overflow-hidden bg-zinc-100 border border-zinc-200/80 shadow-xs hover:shadow-md transition-shadow group">
+                <div key={i} className="aspect-[4/3] rounded-2xl overflow-hidden bg-white border border-zinc-200/80 shadow-xs hover:shadow-md transition-shadow group flex items-center justify-center p-2">
                   <img decoding="async" loading="lazy"
                     src={imgSrc}
                     alt={`${service.title} sample ${i + 1}`}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
                     onError={(e) => {
-                      e.target.src = '/assets/brand-favicon.webp';
+                      e.target.src = '/assets/brand-favicon.png';
                     }}
                   />
                 </div>

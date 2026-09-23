@@ -128,18 +128,18 @@ export default function ServicesPage({ onOpenQuote }) {
               to={`/services/${service.slug}`}
               className="group bg-white rounded-2xl border border-zinc-200/90 shadow-sm hover:shadow-xl hover:border-[#E31B23]/50 transition-all duration-300 flex flex-col overflow-hidden transform hover:-translate-y-1"
             >
-              {/* Image Preview */}
-              <div className="relative aspect-[4/3] bg-zinc-50 overflow-hidden p-3 flex items-center justify-center">
+              {/* Image Preview - Full Height and Width uncropped */}
+              <div className="relative h-48 sm:h-52 bg-zinc-50 overflow-hidden p-3 flex items-center justify-center">
                 <img decoding="async" loading="lazy"
                   src={service.heroImage}
                   alt={service.title}
-                  className="w-full h-full object-cover rounded-xl group-hover:scale-105 transition-transform duration-500"
+                  className="w-full h-full object-contain rounded-xl group-hover:scale-105 transition-transform duration-300"
                   onError={(e) => {
-                    e.target.src = '/assets/brand-favicon.webp';
+                    e.target.src = '/assets/brand-favicon.png';
                   }}
                 />
                 {service.badge && (
-                  <span className="absolute top-5 right-5 bg-[#FFED00] text-black text-[10px] font-black px-2.5 py-0.5 rounded-md shadow-xs border border-amber-300">
+                  <span className="absolute top-4 right-4 bg-[#FFED00] text-black text-[10px] font-black px-2.5 py-0.5 rounded-md shadow-xs border border-amber-300">
                     {service.badge}
                   </span>
                 )}

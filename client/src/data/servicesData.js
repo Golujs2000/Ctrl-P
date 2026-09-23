@@ -1,9 +1,3 @@
-const fs = require('fs');
-const path = require('path');
-
-const updatedServicesData = `// Full Services Master Catalog - Ctrl P Patna
-// Genuine asset paths mapped strictly to real files in E:\\NirviAi Client Projects\\Ctrl P\\Assets
-
 export const servicesList = [
   // 1. DOCTOR & HEALTHCARE PRINTING
   {
@@ -221,8 +215,8 @@ export const servicesList = [
     turnaround: 'Typesetting in 2-4 days | Printing & hardcover binding in 5-8 days',
     faqs: [
       {
-        q: 'Do you support authentic Nastaliq fonts and Arabic I`rab (diacritics)?',
-        a: 'Yes! Our native Urdu typographers have decades of expertise in InPage, Illustrator Urdu typography, diacritics, and Quranic calligraphy styles.'
+        q: "Do you support authentic Nastaliq fonts and Arabic I'rab (diacritics)?",
+        a: "Yes! Our native Urdu typographers have decades of expertise in InPage, Illustrator Urdu typography, diacritics, and Quranic calligraphy styles."
       }
     ],
     gallery: [
@@ -788,7 +782,3 @@ export const servicesList = [
 export const getServiceBySlug = (slug) => {
   return servicesList.find((s) => s.slug === slug);
 };
-`;
-
-fs.writeFileSync(path.resolve('client/src/data/servicesData.js'), updatedServicesData, 'utf-8');
-console.log('Successfully wrote updated servicesData.js');
