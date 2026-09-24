@@ -135,7 +135,7 @@ export default function ServicesPage({ onOpenQuote }) {
                   alt={service.title}
                   className="w-full h-full object-contain rounded-xl group-hover:scale-105 transition-transform duration-300"
                   onError={(e) => {
-                    e.target.src = '/assets/brand-favicon.png';
+                    e.target.src = '/assets/brand-favicon.jpg';
                   }}
                 />
                 {service.badge && (

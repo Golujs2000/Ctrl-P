@@ -6,7 +6,7 @@ export default function SEOHead({
   description,
   keywords,
   canonicalPath,
-  ogImage = 'https://ctrlppatna.in/assets/ctrlp-hero-brand-background-banner.png',
+  ogImage = 'https://ctrlppatna.in/assets/ctrlp-hero-brand-background-banner.jpg',
   ogType = 'website',
   schema
 }) {

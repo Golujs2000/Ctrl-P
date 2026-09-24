@@ -68,7 +68,7 @@ export default function Services({ onOpenQuote }) {
                   alt={service.title}
                   className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
                   onError={(e) => {
-                    e.target.src = '/assets/brand-favicon.png';
+                    e.target.src = '/assets/brand-favicon.jpg';
                   }}
                 />
                 {service.badge && (

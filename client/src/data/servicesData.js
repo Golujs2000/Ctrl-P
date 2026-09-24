@@ -5,7 +5,7 @@ export const servicesList = [
     title: 'Doctor & Healthcare Printing',
     category: 'Healthcare',
     shortDesc: 'Patient file folders, medical record files, clinic prescription boards, and doctor letter pads.',
-    heroImage: '/assets/mockup-doctor-patient-file-folder-tarapur-healthcare.png',
+    heroImage: '/assets/mockup-doctor-patient-file-folder-tarapur-healthcare.jpg',
     badge: 'Specialized Medical',
     overview: 'Complete printing and fabrication solutions for hospitals, clinics, diagnostic centers, and private practitioners across Bihar. We produce high-durability laminated patient file folders with inner pockets, prescription letter pads with anti-smudge paper, clinic acrylic prescription boards, and medical staff ID cards.',
     materials: [
@@ -34,7 +34,7 @@ export const servicesList = [
       }
     ],
     gallery: [
-      '/assets/mockup-doctor-patient-file-folder-tarapur-healthcare.png',
+      '/assets/mockup-doctor-patient-file-folder-tarapur-healthcare.jpg',
       '/assets/doctor-patient-medical-record-file-tarapur-healthcare.jpg',
       '/assets/doctor-prescription-letterpad-aruj-clinic-kankarbagh.jpg',
       '/assets/healthcare-academy-admission-poster-gd-goenka-patna.jpg'
@@ -47,7 +47,7 @@ export const servicesList = [
     title: 'Logo Design & Brand Identity',
     category: 'Design Studio',
     shortDesc: 'Custom vector logo creation, corporate brand identity guidelines, and vectorization services.',
-    heroImage: '/assets/ctrlp-brand-identity-guidelines.png',
+    heroImage: '/assets/ctrlp-brand-identity-guidelines.jpg',
     badge: 'Creative Studio',
     overview: 'Our senior in-house graphic design studio at Kalyani Complex creates distinctive, memorable visual identities. From corporate emblem redraws to modern minimalist startup logos, complete brand guideline kits, stationery design, and high-resolution vector assets (AI, EPS, SVG, PDF, PNG).',
     materials: [
@@ -72,11 +72,11 @@ export const servicesList = [
       }
     ],
     gallery: [
-      '/assets/ctrlp-brand-identity-guidelines.png',
-      '/assets/ctrlp-official-brand-logo.png',
-      '/assets/poster-creative-brand-typography-art.png',
-      '/assets/poster-creative-visual-branding-concept.png',
-      '/assets/poster-creative-corporate-branding-kit-design.jpg'
+      '/assets/ctrlp-brand-identity-guidelines.jpg',
+      '/assets/ctrlp-official-brand-logo.jpg',
+      '/assets/mockup-wall-calendar-islamic-darul-uloom-gharib-nawaz.jpg',
+      '/assets/mockup-rigid-box-packaging-shahzada-lungi-textile.jpg',
+      '/assets/ctrlp-storefront-grand-opening-front-glowsign-board-alt1.jpg'
     ]
   },
 
@@ -183,7 +183,7 @@ export const servicesList = [
     ],
     gallery: [
       '/assets/book-cover-darbhanga-disaster-management-2026.jpg',
-      '/assets/mockup-school-magazine-navodaya-darpan-jnv-gaya.png',
+      '/assets/mockup-school-magazine-navodaya-darpan-jnv-gaya.jpg',
       '/assets/school-magazine-navodaya-darpan-jnv-gaya.jpg',
       '/assets/school-admission-prospectus-jeevan-deep-nawada.jpg',
       '/assets/machine-perfect-glue-book-binding.jpg'
@@ -196,7 +196,7 @@ export const servicesList = [
     title: 'Urdu Design & Calligraphy Work',
     category: 'Specialty Publishing',
     shortDesc: 'Authentic Nastaliq typesetting, Islamic literature, Fatawa books, Madarsa publications, and poetic Divans.',
-    heroImage: '/assets/mockup-urdu-book-fatawa-sharia-idara-sharia-patna.png',
+    heroImage: '/assets/mockup-urdu-book-fatawa-sharia-idara-sharia-patna.jpg',
     badge: 'Master Calligraphy',
     overview: 'Specialized Urdu, Arabic, and Persian typesetting and book publishing studio in Patna. Featuring works like Idara Sharia Sultanganj Patna "Aaina Fatawa Sharia", we provide authentic Noori Nastaliq typography, intricate Quranic border borders, Nikahnama certificates, Madarsa curriculum books, and Mushaira posters.',
     materials: [
@@ -220,7 +220,7 @@ export const servicesList = [
       }
     ],
     gallery: [
-      '/assets/mockup-urdu-book-fatawa-sharia-idara-sharia-patna.png',
+      '/assets/mockup-urdu-book-fatawa-sharia-idara-sharia-patna.jpg',
       '/assets/book-cover-fatawa-sharia-idara-sharia-patna.jpg'
     ]
   },
@@ -231,7 +231,7 @@ export const servicesList = [
     title: 'Letter Pad & Corporate Letterheads',
     category: 'Stationery',
     shortDesc: 'Executive letter pads, doctor prescription pads, corporate stationery, and bond paper letterheads.',
-    heroImage: '/assets/mockup-envelope-letterhead-aakash-institute.png',
+    heroImage: '/assets/mockup-envelope-letterhead-aakash-institute.jpg',
     badge: 'Corporate Essential',
     overview: 'Make every official communication authoritative with crisp letterheads and padded stationery. We serve prominent doctors (e.g. Aruj Clinic Kankarbagh Patna), corporate institutes (like Aakash Institute), advocate chambers, and government suppliers with watermark bond papers, foil logos, and glue-padded sheets.',
     materials: [
@@ -256,7 +256,7 @@ export const servicesList = [
       }
     ],
     gallery: [
-      '/assets/mockup-envelope-letterhead-aakash-institute.png',
+      '/assets/mockup-envelope-letterhead-aakash-institute.jpg',
       '/assets/corporate-envelope-letterhead-aakash-institute-bihar.jpg',
       '/assets/doctor-prescription-letterpad-aruj-clinic-kankarbagh.jpg'
     ]
@@ -268,7 +268,7 @@ export const servicesList = [
     title: 'Roll-Up Standee & Display Banners',
     category: 'Signage',
     shortDesc: 'Portable aluminum roll-up standees, luxury broad-base stands, and non-tearable matte satin display prints.',
-    heroImage: '/assets/mockup-rollup-standee-vedantu-patna.png',
+    heroImage: '/assets/mockup-rollup-standee-vedantu-patna.jpg',
     badge: 'Events & Expos',
     overview: 'High-visibility portable roll-up standees trusted by top educational brands like Vedantu Patna and corporate expos. Printed on anti-glare, non-tearable PVC vinyl or satin canvas and mounted on rugged aluminum rollup cassettes with carrying bags for effortless transport and instant setup.',
     materials: [
@@ -293,7 +293,7 @@ export const servicesList = [
       }
     ],
     gallery: [
-      '/assets/mockup-rollup-standee-vedantu-patna.png',
+      '/assets/mockup-rollup-standee-vedantu-patna.jpg',
       '/assets/ctrlp-marketing-banner-all-printing-solutions.jpg'
     ]
   },
@@ -373,7 +373,7 @@ export const servicesList = [
     title: 'Packaging Box Design & Dielines',
     category: 'Packaging',
     shortDesc: 'Custom mono-cartons, tea packaging boxes, herbal cosmetic boxes, and confectionery packaging.',
-    heroImage: '/assets/mockup-packaging-box-zizz-guard-foot-pads.png',
+    heroImage: '/assets/mockup-packaging-box-zizz-guard-foot-pads.jpg',
     badge: 'Custom Dieline',
     overview: 'Transform retail products with professional packaging engineered to sell. Proven through designs like Mild Care Zizz Guard Foot Pads and L.R.C. Bahubali Special Tea, we handle vector dieline creation, structural packaging prototyping, CMYK offset printing, food-grade coatings, gold foiling, and precision die-cutting.',
     materials: [
@@ -395,7 +395,7 @@ export const servicesList = [
       }
     ],
     gallery: [
-      '/assets/mockup-packaging-box-zizz-guard-foot-pads.png',
+      '/assets/mockup-packaging-box-zizz-guard-foot-pads.jpg',
       '/assets/packaging-box-dieline-zizz-guard-foot-pads.jpg',
       '/assets/packaging-box-artwork-lrc-bahubali-tea.jpg',
       '/assets/packaging-box-confectionery-pk-sweets-candy.jpg',
@@ -445,7 +445,7 @@ export const servicesList = [
     title: 'Business Card Printing',
     category: 'Stationery',
     shortDesc: 'Premium visiting cards that create memorable first impressions for your business.',
-    heroImage: '/assets/mockup-visiting-card-slc-partners-advocate-patna.png',
+    heroImage: '/assets/mockup-visiting-card-rupesh-kumar-advocate-high-court.jpg',
     badge: 'Most Popular',
     overview: 'Make an unforgettable impression with high-grade visiting cards printed at Ctrl P in Patna. We offer a full spectrum of materials ranging from 300 GSM art board to premium velvet touch, matte lamination, metallic spot UV, and gold foil stamping.',
     materials: [
@@ -471,11 +471,11 @@ export const servicesList = [
       }
     ],
     gallery: [
-      '/assets/mockup-visiting-card-slc-partners-advocate-patna.png',
-      '/assets/visiting-card-laxmi-diagnostic-centre-patna.jpg',
-      '/assets/visiting-card-manoj-mobile-communication-patna.jpg',
-      '/assets/visiting-card-radhika-transport-boring-road-patna.jpg',
-      '/assets/poster-visiting-card-rupesh-kumar-real-estate.png'
+      '/assets/mockup-visiting-card-rupesh-kumar-advocate-high-court.jpg',
+      '/assets/mockup-visiting-card-glowmax-hospital-patna.jpg',
+      '/assets/mockup-visiting-card-riya-mobile-communication-punpun.jpg',
+      '/assets/mockup-visiting-card-ganga-enterprises-sanitary-punpun.jpg',
+      '/assets/mockup-visiting-card-rupesh-kumar-advocate-high-court.jpg'
     ]
   },
 
@@ -510,8 +510,8 @@ export const servicesList = [
     ],
     gallery: [
       '/assets/school-admission-prospectus-jeevan-deep-nawada.jpg',
-      '/assets/tri-fold-marketing-brochure-uru-marketing.jpg',
-      '/assets/poster-creative-brochure-catalog-print-design.jpg'
+      '/assets/mockup-trifold-brochure-geospatial-analytics-aryabhatta.jpg',
+      '/assets/mockup-bifold-brochure-mbbs-russia-admission.jpg'
     ]
   },
 
@@ -521,7 +521,7 @@ export const servicesList = [
     title: 'Flyer & Leaflet Printing',
     category: 'Marketing',
     shortDesc: 'Cost-effective leaflets for mass distribution, promotional events, and retail sales.',
-    heroImage: '/assets/poster-creative-flyer-pamphlet-print-design.jpg',
+    heroImage: '/assets/ctrlp-storefront-exterior-stairs-entrance-alt1.jpg',
     badge: 'Value Pack',
     overview: 'High-speed, high-volume flyer printing engineered for maximum reach across Patna. Perfect for coaching institutes, showroom launches, food delivery menus, and festival sales promotions.',
     materials: ['90 GSM Maplitho Paper', '130 GSM Gloss Art Paper', '170 GSM Premium Art Paper'],
@@ -535,10 +535,10 @@ export const servicesList = [
       }
     ],
     gallery: [
-      '/assets/poster-creative-flyer-pamphlet-print-design.jpg',
-      '/assets/poster-admission-cbse-public-school-bihar.jpg',
-      '/assets/poster-admission-engineering-college-bihar.jpg',
-      '/assets/poster-admission-larme-academy-beautify-future.jpg',
+      '/assets/ctrlp-storefront-exterior-stairs-entrance-alt1.jpg',
+      '/assets/school-wall-calendar-new-st-johns-madhepura-2025-overview.jpg',
+      '/assets/illuminated-lightbox-3d-standee-mako-robotic-surgery.jpg',
+      '/assets/poster-admission-lakme-academy-muzaffarpur-beautify-future.jpg',
       '/assets/healthcare-academy-admission-poster-gd-goenka-patna.jpg'
     ]
   },
@@ -549,7 +549,7 @@ export const servicesList = [
     title: 'Poster & Creative Festival Printing',
     category: 'Marketing',
     shortDesc: 'Vibrant promotional posters, festival greetings, and exhibition prints with rich color saturation.',
-    heroImage: '/assets/poster-creative-digital-print-spotlight.png',
+    heroImage: '/assets/mockup-invitation-card-islamic-dawat-nama-bahar-e-madina.jpg',
     badge: 'Vivid Colors',
     overview: 'Capture attention instantly with high-definition posters. Whether you need educational posters, festival creatives (Diwali, Dussehra, Eid, Chhath Puja), or event notices, our Konica Minolta digital presses deliver razor-sharp clarity and deep color depth.',
     materials: ['170 GSM Gloss Art Paper', '250 GSM Matte Art Card', '300 GSM Heavy Poster Board', 'Synthetic Non-Tearable Media'],
@@ -563,9 +563,9 @@ export const servicesList = [
       }
     ],
     gallery: [
-      '/assets/poster-creative-digital-print-spotlight.png',
+      '/assets/mockup-invitation-card-islamic-dawat-nama-bahar-e-madina.jpg',
       '/assets/poster-festival-dhanteras-shubh-labh.jpg',
-      '/assets/poster-celebration-bihar-diwas-pride-of-bihar.png',
+      '/assets/poster-celebration-bihar-diwas-pride-of-bihar.jpg',
       '/assets/poster-creative-cricket-world-cup-diwali.jpg',
       '/assets/poster-celebration-india-independence-day-15-august.jpg',
       '/assets/poster-festival-eid-al-fitr-celebration-mubarak.jpg'
@@ -593,7 +593,7 @@ export const servicesList = [
     ],
     gallery: [
       '/assets/ctrlp-marketing-banner-all-printing-solutions.jpg',
-      '/assets/poster-creative-digital-banner-printing-artwork.jpg',
+      '/assets/ctrlp-storefront-grand-opening-front-glowsign-board-alt3.jpg',
       '/assets/machine-gethray-large-format-eco-solvent-printer.jpg'
     ]
   },
@@ -604,7 +604,7 @@ export const servicesList = [
     title: 'Wall & Desk Calendar Printing',
     category: 'Stationery',
     shortDesc: 'Custom wall calendars, school academic calendars, and corporate executive desk planners.',
-    heroImage: '/assets/mockup-wall-calendar-nyaaya-legal-2026.png',
+    heroImage: '/assets/mockup-wall-calendar-nyaaya-legal-2026.jpg',
     badge: 'Year-Round Impact',
     overview: 'Keep your brand visible on clients walls 365 days a year. As seen in the Nyaaya Legal Awareness 2026 calendar and Holy Kids International Chapra school calendar, we produce custom multi-leaf wall calendars with tin mounting and Wire-O desk planners.',
     materials: ['130-170 GSM Gloss Art Paper for Leaves', 'Tin Metal Rimming Top & Bottom', 'Twin-Loop Wire-O with Wall Hangers', 'Rigid Kappa Board Triangular Stands for Desk Calendars'],
@@ -618,7 +618,7 @@ export const servicesList = [
       }
     ],
     gallery: [
-      '/assets/mockup-wall-calendar-nyaaya-legal-2026.png',
+      '/assets/mockup-wall-calendar-nyaaya-legal-2026.jpg',
       '/assets/school-calendar-new-st-johns-madhepura-2025.jpg',
       '/assets/school-calendar-holy-kids-international-chapra-2024.jpg'
     ]
@@ -744,8 +744,8 @@ export const servicesList = [
     ],
     gallery: [
       '/assets/machine-konica-minolta-bizhub-c251i-digital-press.jpg',
-      '/assets/mockup-visiting-card-slc-partners-advocate-patna.png',
-      '/assets/tri-fold-marketing-brochure-uru-marketing.jpg'
+      '/assets/mockup-visiting-card-rupesh-kumar-advocate-high-court.jpg',
+      '/assets/mockup-trifold-brochure-geospatial-analytics-aryabhatta.jpg'
     ]
   },
 
@@ -772,7 +772,7 @@ export const servicesList = [
       '/assets/ctrlp-storefront-board-front-view.jpg',
       '/assets/ctrlp-storefront-signage-with-gstin.jpg',
       '/assets/ctrlp-storefront-outdoor-signage-daytime.jpg',
-      '/assets/mockup-outdoor-signage-gurukul-coaching-patna.png',
+      '/assets/mockup-outdoor-signage-gurukul-coaching-patna.jpg',
       '/assets/ctrlp-storefront-glass-window-quote-vinyl.jpg',
       '/assets/ctrlp-storefront-kalyani-complex-plaza-view.jpg'
     ]

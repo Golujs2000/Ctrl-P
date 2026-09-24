@@ -7,7 +7,7 @@ const portfolioItems = [
     title: 'Tarapur Children Healthcare Patient File',
     category: 'Healthcare',
     client: 'Dr. Rakif Raza, Tarapur Children Healthcare',
-    image: '/assets/mockup-doctor-patient-file-folder-tarapur-healthcare.png',
+    image: '/assets/mockup-doctor-patient-file-folder-tarapur-healthcare.jpg',
     tags: ['Patient Record Folder', 'Laminated Dual Pocket']
   },
   {
@@ -15,7 +15,7 @@ const portfolioItems = [
     title: 'SLC Partners & Associates Advocate Card',
     category: 'Business Cards',
     client: 'Basheer Advocate, Patna High Court',
-    image: '/assets/mockup-visiting-card-slc-partners-advocate-patna.png',
+    image: '/assets/mockup-visiting-card-rupesh-kumar-advocate-high-court.jpg',
     tags: ['Prestige Cardstock', 'Gold Foil Embossed']
   },
   {
@@ -23,7 +23,7 @@ const portfolioItems = [
     title: 'Vedantu Learning Centre Patna Roll-Up Standee',
     category: 'Banners',
     client: 'Vedantu Patna Learning Centre',
-    image: '/assets/mockup-rollup-standee-vedantu-patna.png',
+    image: '/assets/mockup-rollup-standee-vedantu-patna.jpg',
     tags: ['Non-Tearable PET', 'Aluminium Rollup Mechanism']
   },
   {
@@ -31,7 +31,7 @@ const portfolioItems = [
     title: 'Mild Care Zizz Guard Packaging Box',
     category: 'Packaging',
     client: 'Mild Care Healthcare Products',
-    image: '/assets/mockup-packaging-box-zizz-guard-foot-pads.png',
+    image: '/assets/mockup-packaging-box-zizz-guard-foot-pads.jpg',
     tags: ['Mono Carton', 'Custom CAD Dieline']
   },
   {

@@ -142,7 +142,7 @@ export default function ServiceDetailPage({ onOpenQuote }) {
                 alt={service.title}
                 className="w-full h-full max-h-[460px] object-contain rounded-2xl"
                 onError={(e) => {
-                  e.target.src = '/assets/brand-favicon.png';
+                  e.target.src = '/assets/brand-favicon.jpg';
                 }}
               />
               <span className="absolute top-5 left-5 bg-black/85 backdrop-blur-sm text-white text-[11px] font-extrabold px-3 py-1 rounded-full uppercase tracking-wider">
@@ -305,7 +305,7 @@ export default function ServiceDetailPage({ onOpenQuote }) {
                     alt={`${service.title} sample ${i + 1}`}
                     className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
                     onError={(e) => {
-                      e.target.src = '/assets/brand-favicon.png';
+                      e.target.src = '/assets/brand-favicon.jpg';
                     }}
                   />
                 </div>

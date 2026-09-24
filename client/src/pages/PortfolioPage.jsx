@@ -10,7 +10,7 @@ const detailedWorks = [
     title: 'Tarapur Children Healthcare Doctor Patient File',
     category: 'Healthcare',
     client: 'Dr. Rakif Raza, Tarapur Children Healthcare',
-    image: '/assets/mockup-doctor-patient-file-folder-tarapur-healthcare.png',
+    image: '/assets/mockup-doctor-patient-file-folder-tarapur-healthcare.jpg',
     specs: '350 GSM Laminated Cardstock, Dual Inside Medical Report Pockets, Clinic Creased Spine',
     description: 'Specialized heavy-duty medical case record file folder custom fabricated for pediatric clinics.'
   },
@@ -19,7 +19,7 @@ const detailedWorks = [
     title: 'SLC Partners & Associates Advocate Business Card',
     category: 'Business Cards',
     client: 'Basheer Advocate, Patna High Court, Fraser Road',
-    image: '/assets/mockup-visiting-card-slc-partners-advocate-patna.png',
+    image: '/assets/mockup-visiting-card-rupesh-kumar-advocate-high-court.jpg',
     specs: '350 GSM Royal Matte Board, Gold Metallic Foiling, Double-Sided High Density Print',
     description: 'Luxury advocate visiting cards designed and printed for prestigious legal chambers in Patna.'
   },
@@ -28,7 +28,7 @@ const detailedWorks = [
     title: 'Vedantu Patna Learning Centre Roll-Up Standee',
     category: 'Banners',
     client: 'Vedantu Learning Centre, Anand Prakash Sir',
-    image: '/assets/mockup-rollup-standee-vedantu-patna.png',
+    image: '/assets/mockup-rollup-standee-vedantu-patna.jpg',
     specs: '2.5 x 6 ft Non-Tearable Matte PET Film, Anodized Aluminum Mechanism with Transit Bag',
     description: 'High-visibility roll-up standee printed with vivid educational graphics for center reception.'
   },
@@ -37,7 +37,7 @@ const detailedWorks = [
     title: 'Mild Care Zizz Guard Packaging Box & Dieline',
     category: 'Packaging',
     client: 'Mild Care Natural Health Products',
-    image: '/assets/mockup-packaging-box-zizz-guard-foot-pads.png',
+    image: '/assets/mockup-packaging-box-zizz-guard-foot-pads.jpg',
     specs: '350 GSM ITC Food-Grade Duplex Board, Matte Thermal Lamination, Precision Die-Cut Folding',
     description: 'Full packaging solution including structural CAD dieline, 3D mockup, and offset mono-carton production.'
   },
@@ -55,7 +55,7 @@ const detailedWorks = [
     title: 'Idara Sharia Patna Aaina Fatawa Sharia Hardcover',
     category: 'Urdu Publishing',
     client: 'Idara Sharia Sultanganj, Patna',
-    image: '/assets/mockup-urdu-book-fatawa-sharia-idara-sharia-patna.png',
+    image: '/assets/mockup-urdu-book-fatawa-sharia-idara-sharia-patna.jpg',
     specs: 'Noori Nastaliq Typography, Hardbound Kappa Board with Embossed Gold Foil Spine',
     description: 'Master Islamic legal reference literature typeset in authentic Urdu Nastaliq and hardcover bound.'
   },
@@ -100,7 +100,7 @@ const detailedWorks = [
     title: 'Nyaaya Legal Awareness April 2026 Wall Calendar',
     category: 'Calendars',
     client: 'Nyaaya Legal Initiative',
-    image: '/assets/mockup-wall-calendar-nyaaya-legal-2026.png',
+    image: '/assets/mockup-wall-calendar-nyaaya-legal-2026.jpg',
     specs: '15 x 20 inch, 170 GSM Gloss Art Paper, Tin Metal Rimming Top & Bottom with Wire Hanger',
     description: 'Legal rights educational calendar with full monthly date matrix and civic awareness guides.'
   },
@@ -109,7 +109,7 @@ const detailedWorks = [
     title: 'Uru Marketing Corporate Tri-Fold Brochure',
     category: 'Brochures',
     client: 'Uru Marketing Pvt. Ltd., Patna',
-    image: '/assets/tri-fold-marketing-brochure-uru-marketing.jpg',
+    image: '/assets/mockup-trifold-brochure-geospatial-analytics-aryabhatta.jpg',
     specs: '300 GSM Imported Art Card, Soft Silk Lamination, Vibrant Process CMYK Color',
     description: 'Tri-fold marketing collateral for commercial agency client outreach and product showcases.'
   },
