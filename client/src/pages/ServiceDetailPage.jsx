@@ -156,14 +156,11 @@ export default function ServiceDetailPage({ onOpenQuote }) {
             </div>
 
             {/* Direct Factory Guarantee Strip with Yellow Accent */}
-            <div className="p-3.5 rounded-2xl bg-gradient-to-r from-amber-50/80 via-white to-zinc-50 border border-amber-200/80 flex items-center justify-between text-xs shadow-xs">
+            <div className="p-3.5 rounded-2xl bg-gradient-to-r from-amber-50/80 via-white to-zinc-50 border border-amber-200/80 flex items-center text-xs shadow-xs">
               <div className="flex items-center gap-2 font-bold text-zinc-900">
                 <span className="w-2.5 h-2.5 rounded-full bg-[#FFED00] border border-amber-400" />
                 <span>Direct Factory Rate • No Middlemen</span>
               </div>
-              <span className="text-amber-900 font-extrabold text-[11px] bg-[#FFED00]/60 border border-amber-300/80 px-2.5 py-0.5 rounded-md">
-                Langar Toli Studio
-              </span>
             </div>
           </div>
 

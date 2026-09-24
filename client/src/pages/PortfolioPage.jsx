@@ -124,12 +124,12 @@ const detailedWorks = [
   },
   {
     id: 14,
-    title: 'Commercial Board Signage with Registered GSTIN',
+    title: 'ICL Fincorp Gold Loan Promotional Kiosk Booth',
     category: 'Outdoor Displays',
-    client: 'Ctrl P Commercial Storefront',
-    image: '/assets/ctrlp-storefront-signage-with-gstin.jpg',
-    specs: 'High Contrast Heavy-Duty Signage with Official Tax & Registration Details',
-    description: 'Storefront commercial board displaying official GSTIN compliance and business credentials.'
+    client: 'ICL Fincorp Gold Loan, Patna',
+    image: '/assets/mockup-promotional-kiosk-booth-icl-fincorp-gold-loan.jpg',
+    specs: 'Commercial Grade Hexagonal Collapsible Frame, Waterproof 600D Oxford Fabric',
+    description: 'Custom pop-up outdoor marketing promotional kiosk booth engineered for field activations and financial roadshows.'
   },
   {
     id: 15,

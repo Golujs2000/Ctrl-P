@@ -185,7 +185,7 @@ export default function QuoteModal({ isOpen, onClose, initialService }) {
               {/* International Destination Field */}
               {isInternational && (
                 <div className="animate-in fade-in slide-in-from-top-2 duration-200">
-                  <label className="block text-xs font-extrabold uppercase tracking-wider text-zinc-700 mb-1.5">
+                  <label className="block text-xs font-extrabold uppercase tracking-wider text-zinc-700 mb-1">
                     Destination Country & City *
                   </label>
                   <input
@@ -194,15 +194,15 @@ export default function QuoteModal({ isOpen, onClose, initialService }) {
                     placeholder="e.g. United States (California), UAE (Dubai)"
                     value={country}
                     onChange={(e) => setCountry(e.target.value)}
-                    className="w-full px-3.5 py-2.5 sm:px-4 sm:py-3 rounded-xl bg-amber-50/50 border border-amber-300 text-xs sm:text-sm font-semibold text-black focus:outline-none focus:ring-2 focus:ring-[#E31B23] transition-all"
+                    className="w-full px-3 py-2 sm:px-4 sm:py-3 rounded-xl bg-amber-50/50 border border-amber-300 text-base sm:text-sm font-semibold text-black focus:outline-none focus:ring-2 focus:ring-[#E31B23] transition-all"
                   />
                 </div>
               )}
 
               {/* Name & Phone */}
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5 sm:gap-4">
                 <div>
-                  <label className="block text-xs font-extrabold uppercase tracking-wider text-zinc-700 mb-1.5">
+                  <label className="block text-xs font-extrabold uppercase tracking-wider text-zinc-700 mb-1">
                     Your Name *
                   </label>
                   <input
@@ -211,12 +211,12 @@ export default function QuoteModal({ isOpen, onClose, initialService }) {
                     placeholder="e.g. Rahul Sharma"
                     value={name}
                     onChange={(e) => setName(e.target.value)}
-                    className="w-full px-3.5 py-2.5 sm:px-4 sm:py-3 rounded-xl bg-zinc-50 border border-zinc-200 text-xs sm:text-sm font-semibold text-black focus:outline-none focus:ring-2 focus:ring-[#E31B23] focus:bg-white transition-all"
+                    className="w-full px-3 py-2 sm:px-4 sm:py-3 rounded-xl bg-zinc-50 border border-zinc-200 text-base sm:text-sm font-semibold text-black focus:outline-none focus:ring-2 focus:ring-[#E31B23] focus:bg-white transition-all"
                   />
                 </div>
 
                 <div>
-                  <label className="block text-xs font-extrabold uppercase tracking-wider text-zinc-700 mb-1.5">
+                  <label className="block text-xs font-extrabold uppercase tracking-wider text-zinc-700 mb-1">
                     Phone / WhatsApp *
                   </label>
                   <input
@@ -225,14 +225,14 @@ export default function QuoteModal({ isOpen, onClose, initialService }) {
                     placeholder="e.g. 9304085366"
                     value={phone}
                     onChange={(e) => setPhone(e.target.value)}
-                    className="w-full px-3.5 py-2.5 sm:px-4 sm:py-3 rounded-xl bg-zinc-50 border border-zinc-200 text-xs sm:text-sm font-semibold text-black focus:outline-none focus:ring-2 focus:ring-[#E31B23] focus:bg-white transition-all"
+                    className="w-full px-3 py-2 sm:px-4 sm:py-3 rounded-xl bg-zinc-50 border border-zinc-200 text-base sm:text-sm font-semibold text-black focus:outline-none focus:ring-2 focus:ring-[#E31B23] focus:bg-white transition-all"
                   />
                 </div>
               </div>
 
               {/* Quantity */}
               <div>
-                <label className="block text-xs font-extrabold uppercase tracking-wider text-zinc-700 mb-1.5">
+                <label className="block text-xs font-extrabold uppercase tracking-wider text-zinc-700 mb-1">
                   Quantity / Size Estimate
                 </label>
                 <input
@@ -240,13 +240,13 @@ export default function QuoteModal({ isOpen, onClose, initialService }) {
                   placeholder="e.g. 500 pcs or 10x4 ft banner"
                   value={quantity}
                   onChange={(e) => setQuantity(e.target.value)}
-                  className="w-full px-3.5 py-2.5 sm:px-4 sm:py-3 rounded-xl bg-zinc-50 border border-zinc-200 text-xs sm:text-sm font-semibold text-black focus:outline-none focus:ring-2 focus:ring-[#E31B23] focus:bg-white transition-all"
+                  className="w-full px-3 py-2 sm:px-4 sm:py-3 rounded-xl bg-zinc-50 border border-zinc-200 text-base sm:text-sm font-semibold text-black focus:outline-none focus:ring-2 focus:ring-[#E31B23] focus:bg-white transition-all"
                 />
               </div>
 
               {/* Additional notes */}
               <div>
-                <label className="block text-xs font-extrabold uppercase tracking-wider text-zinc-700 mb-1.5">
+                <label className="block text-xs font-extrabold uppercase tracking-wider text-zinc-700 mb-1">
                   Specifications (Paper GSM, Lamination, Urgent Date)
                 </label>
                 <textarea
@@ -254,7 +254,7 @@ export default function QuoteModal({ isOpen, onClose, initialService }) {
                   placeholder="e.g. Matte finish, need by tomorrow evening in Patna"
                   value={notes}
                   onChange={(e) => setNotes(e.target.value)}
-                  className="w-full px-3.5 py-2 rounded-xl bg-zinc-50 border border-zinc-200 text-xs sm:text-sm font-semibold text-black focus:outline-none focus:ring-2 focus:ring-[#E31B23] focus:bg-white transition-all resize-none"
+                  className="w-full px-3 py-2 rounded-xl bg-zinc-50 border border-zinc-200 text-base sm:text-sm font-semibold text-black focus:outline-none focus:ring-2 focus:ring-[#E31B23] focus:bg-white transition-all resize-none"
                 />
               </div>
 

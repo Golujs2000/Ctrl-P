@@ -304,7 +304,7 @@ export const servicesList = [
     title: 'Promotional Canopy Tents',
     category: 'Outdoor Advertising',
     shortDesc: 'Custom printed pop-up canopy tents, outdoor marketing kiosks, and exhibition promotion booths.',
-    heroImage: '/assets/ctrlp-marketing-banner-all-printing-solutions.jpg',
+    heroImage: '/assets/mockup-promotional-kiosk-booth-icl-fincorp-gold-loan.jpg',
     badge: 'Field Marketing',
     overview: 'Drive unstoppable brand visibility in public plazas, rural outreach camps, roadshows, and trade fairs. Our heavy-duty collapsible pop-up canopies feature full-color waterproof roof canopies, side walls, backdrops, and reinforced rust-proof steel or aluminum hexagonal frames that assemble in 60 seconds.',
     materials: [
@@ -328,6 +328,7 @@ export const servicesList = [
       }
     ],
     gallery: [
+      '/assets/mockup-promotional-kiosk-booth-icl-fincorp-gold-loan.jpg',
       '/assets/ctrlp-marketing-banner-all-printing-solutions.jpg',
       '/assets/promotional-sunshade-umbrella-firstcry-daycare.jpg'
     ]
@@ -755,7 +756,7 @@ export const servicesList = [
     title: 'Signage & Storefront 3D Branding',
     category: 'Signage',
     shortDesc: 'ACP 3D LED glow sign boards, acrylic letters, neon signs, and commercial shop front displays.',
-    heroImage: '/assets/ctrlp-storefront-board-front-view.jpg',
+    heroImage: '/assets/mockup-outdoor-signage-gurukul-coaching-patna.jpg',
     badge: 'Storefronts',
     overview: 'Transform your storefront into an illuminated landmark. We engineer ACP (Aluminium Composite Panel) router-cut signboards, 3D acrylic LED channel letters, neon flex, and showroom vinyl branding with licensed electrical safety.',
     materials: ['Aluminium Composite Panels (ACP)', 'Cast Acrylic Sheets (3mm - 12mm)', 'High-Lumen Samsung LED Modules', 'Flexible Silicon Neon Lights'],
@@ -769,10 +770,10 @@ export const servicesList = [
       }
     ],
     gallery: [
+      '/assets/mockup-outdoor-signage-gurukul-coaching-patna.jpg',
       '/assets/ctrlp-storefront-board-front-view.jpg',
       '/assets/ctrlp-storefront-signage-with-gstin.jpg',
       '/assets/ctrlp-storefront-outdoor-signage-daytime.jpg',
-      '/assets/mockup-outdoor-signage-gurukul-coaching-patna.jpg',
       '/assets/ctrlp-storefront-glass-window-quote-vinyl.jpg',
       '/assets/ctrlp-storefront-kalyani-complex-plaza-view.jpg'
     ]
