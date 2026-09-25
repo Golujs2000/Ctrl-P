@@ -76,8 +76,6 @@ export const servicesList = [
       '/assets/logo-02.jpg',
       '/assets/logo-03.jpg',
       '/assets/logo-04.jpg',
-      '/assets/ctrlp-official-brand-logo.jpg',
-      '/assets/ctrlp-brand-identity-guidelines.jpg'
     ]
   },
 
@@ -124,7 +122,7 @@ export const servicesList = [
     title: 'Staple, Spiral & Wire-O Binding',
     category: 'Binding & Finishing',
     shortDesc: 'Center staple saddle stitch, twin-loop Wire-O, plastic spiral coil, and thermal perfect glue binding.',
-    heroImage: '/assets/machine-perfect-glue-book-binding.jpg',
+    heroImage: '/assets/booklet-staple-spiral-binding.jpg',
     badge: 'Precision Finishing',
     overview: 'State-of-the-art document binding services for school magazines, training manuals, annual reports, calendars, project reports, and legal dossiers. We operate heavy-duty multi-head saddle stitchers, automatic spiral punchers, double-loop Wire-O closers, and automated hot-melt EVA perfect book binders.',
     materials: [
@@ -147,9 +145,7 @@ export const servicesList = [
       }
     ],
     gallery: [
-      '/assets/machine-perfect-glue-book-binding.jpg',
-      '/assets/school-magazine-navodaya-darpan-jnv-gaya.jpg',
-      '/assets/book-cover-darbhanga-disaster-management-2026.jpg'
+      '/assets/booklet-staple-spiral-binding.jpg',
     ]
   },
 
@@ -187,7 +183,6 @@ export const servicesList = [
       '/assets/mockup-school-magazine-navodaya-darpan-jnv-gaya.jpg',
       '/assets/school-magazine-navodaya-darpan-jnv-gaya.jpg',
       '/assets/school-admission-prospectus-jeevan-deep-nawada.jpg',
-      '/assets/machine-perfect-glue-book-binding.jpg'
     ]
   },
 
@@ -232,7 +227,7 @@ export const servicesList = [
     title: 'Letter Pad & Corporate Letterheads',
     category: 'Stationery',
     shortDesc: 'Executive letter pads, doctor prescription pads, corporate stationery, and bond paper letterheads.',
-    heroImage: '/assets/mockup-envelope-letterhead-aakash-institute.jpg',
+    heroImage: '/assets/doctor-prescription-letterpad-aruj-clinic-kankarbagh.jpg',
     badge: 'Corporate Essential',
     overview: 'Make every official communication authoritative with crisp letterheads and padded stationery. We serve prominent doctors (e.g. Aruj Clinic Kankarbagh Patna), corporate institutes (like Aakash Institute), advocate chambers, and government suppliers with watermark bond papers, foil logos, and glue-padded sheets.',
     materials: [
@@ -257,7 +252,6 @@ export const servicesList = [
       }
     ],
     gallery: [
-      '/assets/mockup-envelope-letterhead-aakash-institute.jpg',
       '/assets/corporate-envelope-letterhead-aakash-institute-bihar.jpg',
       '/assets/doctor-prescription-letterpad-aruj-clinic-kankarbagh.jpg'
     ]
@@ -330,8 +324,6 @@ export const servicesList = [
     ],
     gallery: [
       '/assets/mockup-promotional-kiosk-booth-icl-fincorp-gold-loan.jpg',
-      '/assets/ctrlp-marketing-banner-all-printing-solutions.jpg',
-      '/assets/promotional-sunshade-umbrella-firstcry-daycare.jpg'
     ]
   },
 
@@ -341,7 +333,7 @@ export const servicesList = [
     title: 'Promotional Sunshade Umbrellas',
     category: 'Outdoor Advertising',
     shortDesc: 'Branded garden sunshade umbrellas for vendor kiosks, preschools, retail stores, and rural marketing.',
-    heroImage: '/assets/promotional-sunshade-umbrella-firstcry-daycare.jpg',
+    heroImage: '/assets/customized_umbrella.png',
     badge: 'High Visibility',
     overview: 'High-impact outdoor branding for street retailers, authorized dealers, school promotions (like Firstcry Intellitots), and apparel brands (such as 1st Lady Begusarai). We manufacture 6-foot to 8-foot round sunshade umbrellas with 8-rib powder-coated metal frames and heavy-duty water-fillable bases.',
     materials: [
@@ -364,8 +356,7 @@ export const servicesList = [
       }
     ],
     gallery: [
-      '/assets/promotional-sunshade-umbrella-firstcry-daycare.jpg',
-      '/assets/promotional-sunshade-umbrella-1st-lady-begusarai.jpg'
+      '/assets/customized_umbrella.png',
     ]
   },
 
@@ -447,7 +438,7 @@ export const servicesList = [
     title: 'Business Card Printing',
     category: 'Stationery',
     shortDesc: 'Premium visiting cards that create memorable first impressions for your business.',
-    heroImage: '/assets/mockup-visiting-card-rupesh-kumar-advocate-high-court.jpg',
+    heroImage: '/assets/mockup-visiting-card-glowmax-hospital-patna.jpg',
     badge: 'Most Popular',
     overview: 'Make an unforgettable impression with high-grade visiting cards printed at Ctrl P in Patna. We offer a full spectrum of materials ranging from 300 GSM art board to premium velvet touch, matte lamination, metallic spot UV, and gold foil stamping.',
     materials: [
@@ -473,7 +464,6 @@ export const servicesList = [
       }
     ],
     gallery: [
-      '/assets/mockup-visiting-card-rupesh-kumar-advocate-high-court.jpg',
       '/assets/mockup-visiting-card-glowmax-hospital-patna.jpg',
       '/assets/mockup-visiting-card-riya-mobile-communication-punpun.jpg',
       '/assets/mockup-visiting-card-ganga-enterprises-sanitary-punpun.jpg',
@@ -487,7 +477,7 @@ export const servicesList = [
     title: 'Brochure & Prospectus Printing',
     category: 'Marketing',
     shortDesc: 'Multi-fold brochures and school admission prospectuses printed with vivid color fidelity.',
-    heroImage: '/assets/school-admission-prospectus-jeevan-deep-nawada.jpg',
+    heroImage: '/assets/mockup-trifold-brochure-geospatial-analytics-aryabhatta.jpg',
     badge: 'High Impact',
     overview: 'Elevate your marketing campaigns with high-impact corporate brochures and educational prospectuses (such as Jeevan Deep Public School Nawada). Ideal for real estate developments, educational institutes, medical diagnostics, and corporate profiles across Bihar.',
     materials: [
@@ -523,7 +513,7 @@ export const servicesList = [
     title: 'Flyer & Leaflet Printing',
     category: 'Marketing',
     shortDesc: 'Cost-effective leaflets for mass distribution, promotional events, and retail sales.',
-    heroImage: '/assets/flyer-pamphlet-01.jpg',
+    heroImage: '/assets/mockup-flyer-shemford-schools-jee-neet-clat-admission.jpg',
     badge: 'Value Pack',
     overview: 'High-speed, high-volume flyer printing engineered for maximum reach across Patna. Perfect for coaching institutes, showroom launches, food delivery menus, and festival sales promotions.',
     materials: ['90 GSM Maplitho Paper', '130 GSM Gloss Art Paper', '170 GSM Premium Art Paper'],
@@ -581,7 +571,7 @@ export const servicesList = [
     title: 'Banner & Flex Printing',
     category: 'Outdoor Advertising',
     shortDesc: 'Heavy-duty flex banners, star flex, backlits, and hoardings with weather-resistant solvent inks.',
-    heroImage: '/assets/ctrlp-marketing-banner-all-printing-solutions.jpg',
+    heroImage: '/assets/banners.png',
     badge: 'Weatherproof',
     overview: 'Dominate the streetscape with industrial-grade flex banners printed on our Gethray 10-foot eco-solvent flex press in Kalyani Complex. We print regular flex, blackback star flex, and translucent backlit flex for shop boards and political rallies.',
     materials: ['260 GSM Standard Flex', '340 GSM Heavy Normal Flex', 'Star Black-Back Flex (Zero Ghosting)', 'Backlit Vinyl Flex for Glow Signs'],
@@ -595,6 +585,7 @@ export const servicesList = [
       }
     ],
     gallery: [
+      '/assets/banners.png',
       '/assets/ctrlp-marketing-banner-all-printing-solutions.jpg',
       '/assets/ctrlp-storefront-grand-opening-front-glowsign-board-alt3.jpg',
       '/assets/machine-gethray-large-format-eco-solvent-printer.jpg'

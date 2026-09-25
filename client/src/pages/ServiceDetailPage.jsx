@@ -154,14 +154,6 @@ export default function ServiceDetailPage({ onOpenQuote }) {
                 </span>
               )}
             </div>
-
-            {/* Direct Factory Guarantee Strip with Yellow Accent */}
-            <div className="p-3.5 rounded-2xl bg-gradient-to-r from-amber-50/80 via-white to-zinc-50 border border-amber-200/80 flex items-center text-xs shadow-xs">
-              <div className="flex items-center gap-2 font-bold text-zinc-900">
-                <span className="w-2.5 h-2.5 rounded-full bg-[#FFED00] border border-amber-400" />
-                <span>Direct Factory Rate • No Middlemen</span>
-              </div>
-            </div>
           </div>
 
           {/* Right Column: Service Description & Action CTAs */}

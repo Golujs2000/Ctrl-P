@@ -19,16 +19,12 @@ export default function Hero({ onOpenQuote }) {
           <div className="max-w-7xl 2xl:max-w-[1550px] mx-auto px-4 sm:px-6 lg:px-8 2xl:px-12 w-full">
             <div className="max-w-[46%] lg:max-w-[44%] xl:max-w-[42%] 2xl:max-w-[40%] space-y-4 lg:space-y-6 2xl:space-y-7 text-left">
               
-              {/* Top Announcement Pill & GST Badge */}
-              <div className="flex flex-wrap items-center gap-2">
-                <div className="inline-flex items-center gap-2 px-3 py-1 2xl:px-4 2xl:py-1.5 rounded-full bg-[#FFED00] text-black font-black text-[11px] lg:text-xs 2xl:text-sm shadow-xs border border-amber-300">
-                  <span className="w-2 h-2 2xl:w-2.5 2xl:h-2.5 rounded-full bg-[#E31B23]" />
-                  <span>Patna's Direct Offset & Digital Press</span>
-                </div>
-                <div className="inline-flex items-center gap-1.5 px-2.5 py-1 2xl:px-3 2xl:py-1.5 rounded-full bg-zinc-900 text-white font-bold text-[10px] lg:text-[11px] 2xl:text-xs shadow-xs border border-zinc-700">
-                  <ShieldCheck className="w-3.5 h-3.5 2xl:w-4 2xl:h-4 text-emerald-400 shrink-0" />
-                  <span>GSTIN: <span className="font-mono font-extrabold text-amber-300">10AAIPQ8193J1ZD</span></span>
-                </div>
+              {/* Top GSTIN & Verified Govt Registered Badge */}
+              <div className="inline-flex items-center gap-2 px-3.5 py-1 2xl:px-4 2xl:py-1.5 rounded-full bg-zinc-900 text-white font-bold text-[11px] lg:text-xs 2xl:text-sm shadow-xs border border-zinc-700">
+                <ShieldCheck className="w-3.5 h-3.5 2xl:w-4 2xl:h-4 text-emerald-400 shrink-0" />
+                <span>GSTIN: <span className="font-mono font-extrabold text-amber-300">10AAIPQ8193J1ZD</span></span>
+                <span className="text-zinc-500">•</span>
+                <span className="text-[10px] lg:text-[11px] 2xl:text-xs text-zinc-300 font-semibold">MSME Registered Press</span>
               </div>
 
               {/* Main Headline */}
@@ -92,10 +88,16 @@ export default function Hero({ onOpenQuote }) {
                 </a>
               </div>
 
-              {/* Tax Invoice Reassurance */}
-              <div className="flex items-center gap-1.5 text-[10px] lg:text-[11px] 2xl:text-xs text-zinc-600 font-semibold pt-0.5">
-                <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 shrink-0" />
-                <span>100% Tax Compliant GST Invoices Provided for Corporate & Bulk Orders</span>
+              {/* Below Hero CTA: Patna's Direct Offset & Digital Press */}
+              <div className="flex flex-wrap items-center gap-2.5 pt-1">
+                <div className="inline-flex items-center gap-2 px-3 py-1 2xl:px-3.5 2xl:py-1.5 rounded-full bg-[#FFED00] text-black font-extrabold text-[11px] lg:text-xs 2xl:text-sm shadow-xs border border-amber-300">
+                  <span className="w-2 h-2 2xl:w-2.5 2xl:h-2.5 rounded-full bg-[#E31B23]" />
+                  <span>Patna's Direct Offset & Digital Press • No Middlemen</span>
+                </div>
+                <div className="flex items-center gap-1.5 text-[10px] lg:text-[11px] 2xl:text-xs text-zinc-600 font-semibold">
+                  <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 shrink-0" />
+                  <span>100% Tax Invoices Provided</span>
+                </div>
               </div>
 
             </div>
@@ -118,17 +120,13 @@ export default function Hero({ onOpenQuote }) {
         {/* Content Layer on top of Background */}
         <div className="relative z-10 space-y-5">
           
-          {/* Mobile Headline with Yellow Pill & GST Badge */}
+          {/* Mobile Headline with GST Badge */}
           <div className="space-y-3">
-            <div className="flex flex-wrap items-center gap-1.5">
-              <div className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-[#FFED00] text-black font-black text-[11px] shadow-xs border border-amber-300">
-                <span className="w-2 h-2 rounded-full bg-[#E31B23]" />
-                <span>Direct Offset & Digital Press</span>
-              </div>
-              <div className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-zinc-900 text-white font-bold text-[10px] shadow-xs border border-zinc-700">
-                <ShieldCheck className="w-3 h-3 text-emerald-400 shrink-0" />
-                <span>GST: <span className="font-mono font-extrabold text-amber-300">10AAIPQ8193J1ZD</span></span>
-              </div>
+            <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-zinc-900 text-white font-bold text-[11px] shadow-xs border border-zinc-700">
+              <ShieldCheck className="w-3.5 h-3.5 text-emerald-400 shrink-0" />
+              <span>GSTIN: <span className="font-mono font-extrabold text-amber-300">10AAIPQ8193J1ZD</span></span>
+              <span className="text-zinc-500">•</span>
+              <span className="text-[10px] text-zinc-300">MSME Registered</span>
             </div>
 
             <h1 className="text-4xl font-black text-black tracking-tight leading-[1.08]">
@@ -189,10 +187,16 @@ export default function Hero({ onOpenQuote }) {
             </a>
           </div>
 
-          {/* Mobile Tax Reassurance */}
-          <div className="flex items-center justify-center gap-1.5 text-[10px] text-zinc-500 font-semibold pt-0.5">
-            <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 shrink-0" />
-            <span>GST Registered Business • Official Invoices Provided</span>
+          {/* Mobile Below CTA: Patna's Direct Offset & Digital Press */}
+          <div className="flex flex-col items-center justify-center gap-1.5 pt-1 text-center">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#FFED00] text-black font-extrabold text-xs shadow-xs border border-amber-300">
+              <span className="w-2 h-2 rounded-full bg-[#E31B23]" />
+              <span>Patna's Direct Offset & Digital Press</span>
+            </div>
+            <div className="flex items-center justify-center gap-1.5 text-[10px] text-zinc-500 font-semibold">
+              <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 shrink-0" />
+              <span>100% Tax Invoices Provided for Corporate Orders</span>
+            </div>
           </div>
 
         </div>

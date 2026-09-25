@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { CheckCircle2, ShieldCheck, Award, MapPin, Phone, Users, Clock, Printer } from 'lucide-react';
+import { CheckCircle2, ShieldCheck, Award, MapPin, Phone, Users, Clock, Printer, Mail } from 'lucide-react';
 import CtaBanner from '../components/CtaBanner';
 import SEOHead from '../components/SEOHead';
 
@@ -55,11 +55,19 @@ export default function AboutPage({ onOpenQuote }) {
             Ctrl P provides professional printing, advertising and event printing solutions for businesses, organizations and individuals in Patna.
           </p>
 
-          <div className="pt-4 flex flex-wrap items-center justify-center gap-4 text-xs font-bold text-zinc-700">
+          <div className="pt-4 flex flex-wrap items-center justify-center gap-3 text-xs font-bold text-zinc-700">
             <span className="flex items-center gap-1.5 bg-white px-3.5 py-1.5 rounded-full border border-zinc-200 shadow-xs">
-              <ShieldCheck className="w-4 h-4 text-[#E31B23]" />
+              <ShieldCheck className="w-4 h-4 text-emerald-600" />
               <span>GSTIN: 10AAIPQ8193J1ZD</span>
             </span>
+            <span className="flex items-center gap-1.5 bg-white px-3.5 py-1.5 rounded-full border border-zinc-200 shadow-xs">
+              <span className="w-2 h-2 rounded-full bg-blue-600 shrink-0" />
+              <span>MSME: UDYAM-BR-26-0144129</span>
+            </span>
+            <a href="mailto:ctrlppatna@gmail.com" className="flex items-center gap-1.5 bg-white px-3.5 py-1.5 rounded-full border border-zinc-200 shadow-xs hover:text-[#E31B23] transition-colors">
+              <Mail className="w-4 h-4 text-[#E31B23]" />
+              <span>ctrlppatna@gmail.com</span>
+            </a>
             <span className="flex items-center gap-1.5 bg-white px-3.5 py-1.5 rounded-full border border-zinc-200 shadow-xs">
               <MapPin className="w-4 h-4 text-[#E31B23]" />
               <span>Langar Toli Chauraha, Patna</span>
