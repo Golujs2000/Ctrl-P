@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { MapPin, Phone, Clock, ExternalLink, Navigation, MessageSquare, Map } from 'lucide-react';
+import { MapPin, Phone, Mail, Clock, ExternalLink, Navigation, MessageSquare, Map, ShieldCheck } from 'lucide-react';
 
 export default function Location() {
   const mapDirectionsUrl = "https://www.google.com/maps/search/?api=1&query=Kalyani+Complex+Langar+Toli+Chauraha+Patna";
@@ -56,6 +56,20 @@ export default function Location() {
                 </div>
               </div>
 
+              {/* Email Item */}
+              <div className="flex items-start gap-4">
+                <div className="w-10 h-10 rounded-xl bg-red-50 text-[#E31B23] flex items-center justify-center shrink-0 border border-red-100 mt-1">
+                  <Mail className="w-5 h-5" />
+                </div>
+                <div className="space-y-1">
+                  <h4 className="text-sm font-bold text-zinc-500 uppercase tracking-wider">Official Email</h4>
+                  <a href="mailto:ctrlppatna@gmail.com" className="text-base font-black text-black hover:text-[#E31B23] transition-colors break-all">
+                    ctrlppatna@gmail.com
+                  </a>
+                  <p className="text-xs text-zinc-500 font-medium">Send design artwork, orders & quotes</p>
+                </div>
+              </div>
+
               {/* Hours Item */}
               <div className="flex items-start gap-4">
                 <div className="w-10 h-10 rounded-xl bg-red-50 text-[#E31B23] flex items-center justify-center shrink-0 border border-red-100 mt-1">
@@ -69,6 +83,21 @@ export default function Location() {
                   <p className="text-xs font-semibold text-zinc-500">
                     [ Sunday by appointment ]
                   </p>
+                </div>
+              </div>
+
+              {/* Government Registrations */}
+              <div className="p-3.5 rounded-xl bg-zinc-50 border border-zinc-200 space-y-1.5 text-xs">
+                <div className="flex items-center justify-between">
+                  <span className="font-extrabold text-zinc-900 flex items-center gap-1.5">
+                    <ShieldCheck className="w-4 h-4 text-emerald-600" />
+                    Government Registered Enterprise
+                  </span>
+                  <span className="text-[10px] font-bold text-emerald-700 bg-emerald-100 px-2 py-0.5 rounded-full">MSME Micro</span>
+                </div>
+                <div className="flex flex-wrap items-center gap-x-4 gap-y-1 text-zinc-600 font-medium pt-0.5">
+                  <span>GSTIN: <strong className="font-mono text-zinc-900 font-bold">10AAIPQ8193J1ZD</strong></span>
+                  <span>Udyam: <strong className="font-mono text-zinc-900 font-bold">UDYAM-BR-26-0144129</strong></span>
                 </div>
               </div>
 

@@ -47,7 +47,7 @@ export const servicesList = [
     title: 'Logo Design & Brand Identity',
     category: 'Design Studio',
     shortDesc: 'Custom vector logo creation, corporate brand identity guidelines, and vectorization services.',
-    heroImage: '/assets/ctrlp-brand-identity-guidelines.jpg',
+    heroImage: '/assets/logo-01.jpg',
     badge: 'Creative Studio',
     overview: 'Our senior in-house graphic design studio at Kalyani Complex creates distinctive, memorable visual identities. From corporate emblem redraws to modern minimalist startup logos, complete brand guideline kits, stationery design, and high-resolution vector assets (AI, EPS, SVG, PDF, PNG).',
     materials: [
@@ -72,11 +72,12 @@ export const servicesList = [
       }
     ],
     gallery: [
-      '/assets/ctrlp-brand-identity-guidelines.jpg',
+      '/assets/logo-01.jpg',
+      '/assets/logo-02.jpg',
+      '/assets/logo-03.jpg',
+      '/assets/logo-04.jpg',
       '/assets/ctrlp-official-brand-logo.jpg',
-      '/assets/mockup-wall-calendar-islamic-darul-uloom-gharib-nawaz.jpg',
-      '/assets/mockup-rigid-box-packaging-shahzada-lungi-textile.jpg',
-      '/assets/ctrlp-storefront-grand-opening-front-glowsign-board-alt1.jpg'
+      '/assets/ctrlp-brand-identity-guidelines.jpg'
     ]
   },
 
@@ -522,7 +523,7 @@ export const servicesList = [
     title: 'Flyer & Leaflet Printing',
     category: 'Marketing',
     shortDesc: 'Cost-effective leaflets for mass distribution, promotional events, and retail sales.',
-    heroImage: '/assets/ctrlp-storefront-exterior-stairs-entrance-alt1.jpg',
+    heroImage: '/assets/flyer-pamphlet-01.jpg',
     badge: 'Value Pack',
     overview: 'High-speed, high-volume flyer printing engineered for maximum reach across Patna. Perfect for coaching institutes, showroom launches, food delivery menus, and festival sales promotions.',
     materials: ['90 GSM Maplitho Paper', '130 GSM Gloss Art Paper', '170 GSM Premium Art Paper'],
@@ -536,11 +537,12 @@ export const servicesList = [
       }
     ],
     gallery: [
-      '/assets/ctrlp-storefront-exterior-stairs-entrance-alt1.jpg',
-      '/assets/school-wall-calendar-new-st-johns-madhepura-2025-overview.jpg',
-      '/assets/illuminated-lightbox-3d-standee-mako-robotic-surgery.jpg',
-      '/assets/poster-admission-lakme-academy-muzaffarpur-beautify-future.jpg',
-      '/assets/healthcare-academy-admission-poster-gd-goenka-patna.jpg'
+      '/assets/flyer-pamphlet-01.jpg',
+      '/assets/flyer-pamphlet-02.jpg',
+      '/assets/flyer-pamphlet-03.jpg',
+      '/assets/flyer-pamphlet-04.jpg',
+      '/assets/mockup-flyer-shemford-schools-jee-neet-clat-admission.jpg',
+      '/assets/mockup-flyer-ramadan-monthly-dhamaka-millat-mart.jpg'
     ]
   },
 
@@ -680,7 +682,7 @@ export const servicesList = [
     title: 'Custom T-Shirt Printing',
     category: 'Corporate Gifts',
     shortDesc: 'Direct-to-Film (DTF) and screen-printed corporate polo shirts, event tees, and sports jerseys.',
-    heroImage: '/assets/machine-dtf-tshirt-heat-press.jpg',
+    heroImage: '/assets/custom-t-shirt.jpg',
     badge: 'Apparel Press',
     overview: 'Outfitting corporate teams, college festival committees, and delivery fleets across Patna. Equipped with modern DTF (Direct-to-Film) printers and industrial pneumatic heat presses, we produce vibrant, stretch-resistant apparel prints.',
     materials: ['100% Combed Cotton Bio-Washed 180-220 GSM', 'Dry-Fit Breathable Sports Polyester', 'Matty Cotton Polo Collared T-Shirts', 'High-Elasticity DTF Polyurethane Inks'],
@@ -694,6 +696,7 @@ export const servicesList = [
       }
     ],
     gallery: [
+      '/assets/custom-t-shirt.jpg',
       '/assets/machine-dtf-tshirt-heat-press.jpg'
     ]
   },

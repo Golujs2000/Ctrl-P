@@ -281,7 +281,7 @@ export default function QuoteModal({ isOpen, onClose, initialService }) {
 
               <div className="text-center pt-1 pb-1">
                 <span className="text-[11px] text-zinc-400 font-medium">
-                  Or call directly: <a href="tel:9304085366" className="text-black font-bold hover:underline">9304085366</a>
+                  Or call directly: <a href="tel:9304085366" className="text-black font-bold hover:underline">9304085366</a> • <a href="mailto:ctrlppatna@gmail.com" className="text-black font-bold hover:underline">ctrlppatna@gmail.com</a>
                 </span>
               </div>
 

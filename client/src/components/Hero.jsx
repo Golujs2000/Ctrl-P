@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight, Award, Clock, IndianRupee, MapPin } from 'lucide-react';
+import { ArrowRight, Award, Clock, IndianRupee, MapPin, ShieldCheck } from 'lucide-react';
 
 export default function Hero({ onOpenQuote }) {
   return (
@@ -19,10 +19,16 @@ export default function Hero({ onOpenQuote }) {
           <div className="max-w-7xl 2xl:max-w-[1550px] mx-auto px-4 sm:px-6 lg:px-8 2xl:px-12 w-full">
             <div className="max-w-[46%] lg:max-w-[44%] xl:max-w-[42%] 2xl:max-w-[40%] space-y-4 lg:space-y-6 2xl:space-y-7 text-left">
               
-              {/* Top Yellow Announcement Pill */}
-              <div className="inline-flex items-center gap-2 px-3 py-1 2xl:px-4 2xl:py-1.5 rounded-full bg-[#FFED00] text-black font-black text-[11px] lg:text-xs 2xl:text-sm shadow-xs border border-amber-300">
-                <span className="w-2 h-2 2xl:w-2.5 2xl:h-2.5 rounded-full bg-[#E31B23]" />
-                <span>Patna's Direct Offset & Digital Press • No Middlemen</span>
+              {/* Top Announcement Pill & GST Badge */}
+              <div className="flex flex-wrap items-center gap-2">
+                <div className="inline-flex items-center gap-2 px-3 py-1 2xl:px-4 2xl:py-1.5 rounded-full bg-[#FFED00] text-black font-black text-[11px] lg:text-xs 2xl:text-sm shadow-xs border border-amber-300">
+                  <span className="w-2 h-2 2xl:w-2.5 2xl:h-2.5 rounded-full bg-[#E31B23]" />
+                  <span>Patna's Direct Offset & Digital Press</span>
+                </div>
+                <div className="inline-flex items-center gap-1.5 px-2.5 py-1 2xl:px-3 2xl:py-1.5 rounded-full bg-zinc-900 text-white font-bold text-[10px] lg:text-[11px] 2xl:text-xs shadow-xs border border-zinc-700">
+                  <ShieldCheck className="w-3.5 h-3.5 2xl:w-4 2xl:h-4 text-emerald-400 shrink-0" />
+                  <span>GSTIN: <span className="font-mono font-extrabold text-amber-300">10AAIPQ8193J1ZD</span></span>
+                </div>
               </div>
 
               {/* Main Headline */}
@@ -86,6 +92,12 @@ export default function Hero({ onOpenQuote }) {
                 </a>
               </div>
 
+              {/* Tax Invoice Reassurance */}
+              <div className="flex items-center gap-1.5 text-[10px] lg:text-[11px] 2xl:text-xs text-zinc-600 font-semibold pt-0.5">
+                <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 shrink-0" />
+                <span>100% Tax Compliant GST Invoices Provided for Corporate & Bulk Orders</span>
+              </div>
+
             </div>
           </div>
         </div>
@@ -106,11 +118,17 @@ export default function Hero({ onOpenQuote }) {
         {/* Content Layer on top of Background */}
         <div className="relative z-10 space-y-5">
           
-          {/* Mobile Headline with Yellow Pill */}
+          {/* Mobile Headline with Yellow Pill & GST Badge */}
           <div className="space-y-3">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#FFED00] text-black font-black text-xs shadow-xs border border-amber-300">
-              <span className="w-2 h-2 rounded-full bg-[#E31B23]" />
-              <span>Patna's Direct Offset & Digital Press</span>
+            <div className="flex flex-wrap items-center gap-1.5">
+              <div className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-[#FFED00] text-black font-black text-[11px] shadow-xs border border-amber-300">
+                <span className="w-2 h-2 rounded-full bg-[#E31B23]" />
+                <span>Direct Offset & Digital Press</span>
+              </div>
+              <div className="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-zinc-900 text-white font-bold text-[10px] shadow-xs border border-zinc-700">
+                <ShieldCheck className="w-3 h-3 text-emerald-400 shrink-0" />
+                <span>GST: <span className="font-mono font-extrabold text-amber-300">10AAIPQ8193J1ZD</span></span>
+              </div>
             </div>
 
             <h1 className="text-4xl font-black text-black tracking-tight leading-[1.08]">
@@ -169,6 +187,12 @@ export default function Hero({ onOpenQuote }) {
             >
               Call 9304085366
             </a>
+          </div>
+
+          {/* Mobile Tax Reassurance */}
+          <div className="flex items-center justify-center gap-1.5 text-[10px] text-zinc-500 font-semibold pt-0.5">
+            <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 shrink-0" />
+            <span>GST Registered Business • Official Invoices Provided</span>
           </div>
 
         </div>

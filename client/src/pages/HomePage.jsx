@@ -27,6 +27,7 @@ export default function HomePage({ onOpenQuote }) {
       "name": "Ctrl P — A Design & Print Shop",
       "image": "https://ctrlppatna.in/assets/ctrlp-official-brand-logo.webp",
       "telephone": "+919304085366",
+      "email": "ctrlppatna@gmail.com",
       "priceRange": "₹₹",
       "address": {
         "@type": "PostalAddress",

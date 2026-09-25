@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight, Check, Award, Layers, Sparkles, Building, Palette, IndianRupee, MapPin, Headphones } from 'lucide-react';
+import { ArrowRight, Check, Award, Layers, Sparkles, Building, Palette, IndianRupee, MapPin, Headphones, ShieldCheck, Mail } from 'lucide-react';
 
 export default function AboutWhy({ onOpenQuote }) {
   const whyPoints = [
@@ -70,14 +70,28 @@ export default function AboutWhy({ onOpenQuote }) {
             </p>
 
             {/* Business Verification Badge */}
-            <div className="p-4 rounded-xl bg-zinc-50 border border-zinc-200 flex items-center justify-between">
-              <div className="space-y-0.5">
-                <div className="text-[11px] font-bold text-zinc-500 uppercase tracking-wider">Registered Business GSTIN</div>
-                <div className="text-sm font-extrabold text-black font-mono">10AAIPQ8193J1ZD</div>
+            <div className="p-4 rounded-2xl bg-zinc-50 border border-zinc-200 space-y-3">
+              <div className="flex items-center justify-between">
+                <span className="text-xs font-extrabold text-emerald-800 bg-emerald-100 px-3 py-1 rounded-full flex items-center gap-1.5">
+                  <ShieldCheck className="w-3.5 h-3.5 text-emerald-600" />
+                  Verified Govt Registered Enterprise
+                </span>
+                <span className="text-xs font-bold text-zinc-500">Est. Aug 2022</span>
               </div>
-              <span className="text-xs font-bold text-emerald-700 bg-emerald-100 px-2.5 py-1 rounded-full">
-                Verified Press
-              </span>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-1 border-t border-zinc-200/60">
+                <div className="space-y-0.5">
+                  <div className="text-[10px] font-bold text-zinc-500 uppercase tracking-wider">GSTIN Number</div>
+                  <div className="text-sm font-extrabold text-black font-mono">10AAIPQ8193J1ZD</div>
+                </div>
+                <div className="space-y-0.5">
+                  <div className="text-[10px] font-bold text-zinc-500 uppercase tracking-wider">MSME Udyam Reg.</div>
+                  <div className="text-sm font-extrabold text-black font-mono">UDYAM-BR-26-0144129</div>
+                </div>
+              </div>
+              <div className="flex items-center gap-1.5 pt-1 border-t border-zinc-200/60 text-xs text-zinc-600 font-semibold">
+                <Mail className="w-3.5 h-3.5 text-[#E31B23] shrink-0" />
+                <span>Official Email: <a href="mailto:ctrlppatna@gmail.com" className="font-extrabold text-black hover:text-[#E31B23] underline">ctrlppatna@gmail.com</a></span>
+              </div>
             </div>
 
             <div className="pt-2">

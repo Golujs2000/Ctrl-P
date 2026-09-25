@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { MapPin, Phone, Mail, Clock, Send, MessageSquare, ExternalLink, Navigation, CheckCircle2 } from 'lucide-react';
+import { MapPin, Phone, Mail, Clock, Send, MessageSquare, ExternalLink, Navigation, CheckCircle2, ShieldCheck } from 'lucide-react';
 import SEOHead from '../components/SEOHead';
 
 export default function ContactPage() {
@@ -34,11 +34,12 @@ export default function ContactPage() {
       "@context": "https://schema.org",
       "@type": "ContactPage",
       "name": "Contact Ctrl P | Printing Press in Langar Toli, Patna",
-      "description": "Contact Ctrl P in Kalyani Complex, Langar Toli Chauraha, Patna. Phone: +91 9304085366, +91 9304323888. Open Monday to Saturday 10:00 AM - 9:00 PM.",
+      "description": "Contact Ctrl P in Kalyani Complex, Langar Toli Chauraha, Patna. Phone: +91 9304085366, +91 9304323888. Email: ctrlppatna@gmail.com. Open Monday to Saturday 10:00 AM - 9:00 PM.",
       "url": "https://ctrlppatna.in/contact",
       "mainEntity": {
         "@type": "LocalBusiness",
         "name": "Ctrl P — A Design & Print Shop",
+        "email": "ctrlppatna@gmail.com",
         "address": {
           "@type": "PostalAddress",
           "streetAddress": "Shop No. 1 & 2, Kalyani Complex, Bari Path, Langar Toli Chauraha",
@@ -140,6 +141,20 @@ export default function ContactPage() {
                 </div>
               </div>
 
+              {/* Email */}
+              <div className="flex items-start gap-4">
+                <div className="w-12 h-12 rounded-2xl bg-red-50 text-[#E31B23] flex items-center justify-center shrink-0 border border-red-100 mt-1">
+                  <Mail className="w-6 h-6" />
+                </div>
+                <div className="space-y-1">
+                  <h4 className="text-xs font-black uppercase tracking-wider text-zinc-500">Official Business Email</h4>
+                  <a href="mailto:ctrlppatna@gmail.com" className="text-lg font-black text-black hover:text-[#E31B23] transition-colors break-all">
+                    ctrlppatna@gmail.com
+                  </a>
+                  <p className="text-xs text-zinc-500 font-medium">Send high-res designs, artwork & corporate quote RFQs</p>
+                </div>
+              </div>
+
               {/* Hours */}
               <div className="flex items-start gap-4">
                 <div className="w-12 h-12 rounded-2xl bg-red-50 text-[#E31B23] flex items-center justify-center shrink-0 border border-red-100 mt-1">
@@ -153,6 +168,27 @@ export default function ContactPage() {
                   <p className="text-xs font-semibold text-zinc-500">
                     Sunday: By appointment for bulk event printing
                   </p>
+                </div>
+              </div>
+
+              {/* Government Registrations */}
+              <div className="p-4 rounded-2xl bg-zinc-50 border border-zinc-200 space-y-2 text-xs">
+                <div className="flex items-center justify-between">
+                  <span className="font-extrabold text-zinc-900 flex items-center gap-1.5">
+                    <ShieldCheck className="w-4 h-4 text-emerald-600" />
+                    Government Registered Enterprise
+                  </span>
+                  <span className="text-[10px] font-bold text-emerald-700 bg-emerald-100 px-2.5 py-0.5 rounded-full">MSME Micro</span>
+                </div>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-zinc-600 font-medium pt-1 border-t border-zinc-200/60">
+                  <div>
+                    <span className="text-[10px] uppercase font-bold text-zinc-400 block">GSTIN</span>
+                    <strong className="font-mono text-zinc-900 font-bold text-sm">10AAIPQ8193J1ZD</strong>
+                  </div>
+                  <div>
+                    <span className="text-[10px] uppercase font-bold text-zinc-400 block">MSME Udyam</span>
+                    <strong className="font-mono text-zinc-900 font-bold text-sm">UDYAM-BR-26-0144129</strong>
+                  </div>
                 </div>
               </div>
 
