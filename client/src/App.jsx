@@ -11,6 +11,7 @@ import ServiceDetailPage from './pages/ServiceDetailPage';
 import MachinesPage from './pages/MachinesPage';
 import PortfolioPage from './pages/PortfolioPage';
 import ContactPage from './pages/ContactPage';
+import NfcCardPage from './pages/NfcCardPage';
 import { MessageCircle } from 'lucide-react';
 
 export default function App() {
@@ -42,6 +43,10 @@ export default function App() {
             <Route path="/machines" element={<MachinesPage onOpenQuote={handleOpenQuote} />} />
             <Route path="/our-work" element={<PortfolioPage onOpenQuote={handleOpenQuote} />} />
             <Route path="/contact" element={<ContactPage onOpenQuote={handleOpenQuote} />} />
+            <Route path="/nfc" element={<NfcCardPage onOpenQuote={handleOpenQuote} />} />
+            <Route path="/nfc-card" element={<NfcCardPage onOpenQuote={handleOpenQuote} />} />
+            <Route path="/card" element={<NfcCardPage onOpenQuote={handleOpenQuote} />} />
+            <Route path="/intekhab" element={<NfcCardPage onOpenQuote={handleOpenQuote} />} />
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
         </main>
