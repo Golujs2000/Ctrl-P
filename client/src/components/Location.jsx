@@ -49,8 +49,8 @@ export default function Location() {
                     <a href="tel:9304085366" className="text-lg font-black text-black hover:text-[#E31B23] transition-colors">
                       +91 9304085366
                     </a>
-                    <a href="tel:9304323888" className="text-sm font-bold text-zinc-700 hover:text-[#E31B23] transition-colors">
-                      +91 9304323888
+                    <a href="tel:7544095366" className="text-sm font-bold text-zinc-700 hover:text-[#E31B23] transition-colors">
+                      +91 7544095366
                     </a>
                   </div>
                 </div>

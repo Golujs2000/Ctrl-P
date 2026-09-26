@@ -34,7 +34,7 @@ export default function ContactPage() {
       "@context": "https://schema.org",
       "@type": "ContactPage",
       "name": "Contact Ctrl P | Printing Press in Langar Toli, Patna",
-      "description": "Contact Ctrl P in Kalyani Complex, Langar Toli Chauraha, Patna. Phone: +91 9304085366, +91 9304323888. Email: ctrlppatna@gmail.com. Open Monday to Saturday 10:00 AM - 9:00 PM.",
+      "description": "Contact Ctrl P in Kalyani Complex, Langar Toli Chauraha, Patna. Phone: +91 9304085366, +91 7544095366. Email: ctrlppatna@gmail.com. Open Monday to Saturday 10:00 AM - 9:00 PM.",
       "url": "https://ctrlppatna.in/contact",
       "mainEntity": {
         "@type": "LocalBusiness",
@@ -53,7 +53,7 @@ export default function ContactPage() {
           "latitude": 25.6162456,
           "longitude": 85.158286
         },
-        "telephone": ["+919304085366", "+919304323888"],
+        "telephone": ["+919304085366", "+917544095366"],
         "hasMap": "https://maps.google.com/?q=25.6162456,85.158286"
       }
     },
@@ -134,8 +134,8 @@ export default function ContactPage() {
                     <a href="tel:9304085366" className="text-xl font-black text-black hover:text-[#E31B23] transition-colors">
                       +91 9304085366
                     </a>
-                    <a href="tel:9304323888" className="text-sm font-bold text-zinc-700 hover:text-[#E31B23] transition-colors">
-                      +91 9304323888
+                    <a href="tel:7544095366" className="text-sm font-bold text-zinc-700 hover:text-[#E31B23] transition-colors">
+                      +91 7544095366
                     </a>
                   </div>
                 </div>

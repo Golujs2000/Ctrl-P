@@ -137,8 +137,8 @@ export default function Footer({ onOpenQuote }) {
                   <a href="tel:9304085366" className="hover:text-[#E31B23] transition-colors">
                     +91 9304085366
                   </a>
-                  <a href="tel:9304323888" className="hover:text-[#E31B23] transition-colors">
-                    +91 9304323888
+                  <a href="tel:7544095366" className="hover:text-[#E31B23] transition-colors">
+                    +91 7544095366
                   </a>
                 </div>
                 <p className="text-[11px] text-zinc-500 font-medium">Mon–Sat: 9:00 AM – 8:00 PM</p>

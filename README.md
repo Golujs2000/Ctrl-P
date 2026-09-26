@@ -2,7 +2,7 @@
 
 > **Ctrl P — Printing • Advertising • Event**  
 > Kalyani Complex, Bari Path, Langar Toli Chauraha, Patna, Bihar  
-> Contact: +91 9304085366 / +91 9304323888 • GSTIN: 10AAIPQ8193J1ZD  
+> Contact: +91 9304085366 / +91 7544095366 • GSTIN: 10AAIPQ8193J1ZD  
 
 Professional printing, advertising, and event solutions web application built with **React**, **Express.js**, **Tailwind CSS**, and **Lucide Icons**, configured for **Firebase Hosting**.
 
